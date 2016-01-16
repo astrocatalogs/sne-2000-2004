@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07500/07529.html#Item1'>IAUC 7529</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "15",
+        "discoverer": "Nearby Galaxy Supernova Search",
+        "discovermonth": "11",
+        "discoveryear": "2000",
+        "galdec": "-032318",
+        "galra": "040617",
+        "host": "A040617-0323",
+        "hvel": "22200",
+        "lumdist": "360",
+        "maxabsmag": "-19",
+        "maxappmag": "18.77",
+        "maxday": "27",
+        "maxmonth": "11",
+        "maxyear": "2000",
+        "redshift": "0.077",
+        "sndec": "-03:23:18.2",
+        "snra": "04:06:17.87",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "51863.5",
+                "band": "",
+                "abmag": "19.7",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "51875.35",
@@ -56,33 +91,7 @@
                 "band": "V",
                 "abmag": "19.84",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51863.5",
-                "band": "",
-                "abmag": "19.7",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2000",
-        "discoverday": "15",
-        "discovermonth": "11",
-        "host": "A040617-0323",
-        "claimedtype": "II",
-        "hvel": "22200",
-        "galra": "040617",
-        "galdec": "-032318",
-        "snra": "04:06:17.87",
-        "sndec": "-03:23:18.2",
-        "discoverer": "Nearby Galaxy Supernova Search",
-        "redshift": "0.07701",
-        "maxyear": "2000",
-        "maxmonth": "11",
-        "maxday": "27",
-        "maxappmag": "18.77",
-        "lumdist": "360.4",
-        "maxabsmag": "-19.01"
+        ]
     }
 }

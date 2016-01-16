@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07900/07973.html#Item1'>IAUC 7973</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "13",
+        "discoverer": "Berto Monard",
+        "discovermonth": "9",
+        "discoveryear": "2002",
+        "galdec": "-040719",
+        "galra": "084044",
+        "host": "NGC 2642",
+        "hvel": "4406",
+        "lumdist": "66.285",
+        "maxabsmag": "-18.607",
+        "maxappmag": "15.5",
+        "maxday": "13",
+        "maxmonth": "9",
+        "maxyear": "2002",
+        "redshift": "0.01481",
+        "sndec": "-04:07:38.5",
+        "snra": "08:40:45.10",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "52530.5",
+                "band": "",
+                "abmag": "15.5",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "52536.11",
@@ -84,33 +119,7 @@
                 "band": "R",
                 "abmag": "16.5",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52530.5",
-                "band": "",
-                "abmag": "15.5",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2002",
-        "discoverday": "13",
-        "discovermonth": "9",
-        "host": "NGC 2642",
-        "claimedtype": "IIn",
-        "hvel": "4406",
-        "galra": "084044",
-        "galdec": "-040719",
-        "snra": "08:40:45.10",
-        "sndec": "-04:07:38.5",
-        "discoverer": "Berto Monard",
-        "maxyear": "2002",
-        "maxmonth": "9",
-        "maxday": "13",
-        "maxappmag": "15.5",
-        "redshift": "0.01481",
-        "lumdist": "66.29",
-        "maxabsmag": "-18.61"
+        ]
     }
 }

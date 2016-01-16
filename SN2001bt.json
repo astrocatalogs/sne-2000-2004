@@ -19,19 +19,47 @@
                 "alias": "3"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07600/07633.html#Item1'>IAUC 7633</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "4"
+            }
+        ],
+        "discoverday": "24",
+        "discoverer": "Robin Chassagne",
+        "discovermonth": "5",
+        "discoveryear": "2001",
+        "galdec": "-591740",
+        "galra": "191349",
+        "host": "IC 4830",
+        "hvel": "4441",
+        "lumdist": "66.783",
+        "maxabsmag": "-19.423",
+        "maxappmag": "14.7",
+        "maxday": "2",
+        "maxmonth": "6",
+        "maxyear": "2001",
+        "redshift": "0.01492",
+        "sndec": "-59:17:22.8",
+        "snra": "19:13:46.75",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -137,6 +165,13 @@
                 "band": "V",
                 "abmag": "15.41",
                 "source": "1,3"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "52061.5",
+                "band": "",
+                "abmag": "14.7",
+                "source": "6,5"
             },
             {
                 "timeunit": "MJD",
@@ -711,33 +746,7 @@
                 "band": "V",
                 "abmag": "18.05",
                 "source": "1,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52061.5",
-                "band": "",
-                "abmag": "14.7",
-                "source": "5,4"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2001",
-        "maxday": "2",
-        "maxmonth": "6",
-        "host": "IC 4830",
-        "claimedtype": "Ia",
-        "hvel": "4441",
-        "galra": "191349",
-        "galdec": "-591740",
-        "snra": "19:13:46.75",
-        "sndec": "-59:17:22.8",
-        "discoverer": "Robin Chassagne",
-        "discoverday": "24",
-        "discovermonth": "5",
-        "maxyear": "2001",
-        "maxappmag": "14.7",
-        "redshift": "0.01492",
-        "lumdist": "66.78",
-        "maxabsmag": "-19.42"
+        ]
     }
 }

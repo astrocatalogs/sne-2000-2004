@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07800/07885.html#Item2'>IAUC 7885</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "6",
+        "discoverer": "G. Altavilla, et. el.",
+        "discovermonth": "4",
+        "discoveryear": "2002",
+        "galdec": "-114525",
+        "galra": "141053",
+        "host": "A141053-1145",
+        "hvel": "80700",
+        "lumdist": "1710",
+        "maxabsmag": "-18.6",
+        "maxappmag": "22.6",
+        "maxday": "6",
+        "maxmonth": "4",
+        "maxyear": "2002",
+        "redshift": "0.318",
+        "sndec": "-11:45:25.0",
+        "snra": "14:10:53.04",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "52370.5",
                 "band": "",
                 "abmag": "22.6",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2002",
-        "discoverday": "6",
-        "discovermonth": "4",
-        "host": "A141053-1145",
-        "claimedtype": "II",
-        "redshift": "0.318",
-        "galra": "141053",
-        "galdec": "-114525",
-        "snra": "14:10:53.04",
-        "sndec": "-11:45:25.0",
-        "discoverer": "G. Altavilla, et. el.",
-        "maxyear": "2002",
-        "maxmonth": "4",
-        "maxday": "6",
-        "maxappmag": "22.6",
-        "hvel": "80740",
-        "lumdist": "1713",
-        "maxabsmag": "-18.57"
+        ]
     }
 }

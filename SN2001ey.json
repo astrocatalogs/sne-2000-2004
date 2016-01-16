@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07700/07735.html#Item2'>IAUC 7735</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "15",
+        "discoverer": "Tim Puckett et al.",
+        "discovermonth": "10",
+        "discoveryear": "2001",
+        "galdec": "-062339",
+        "galra": "222630",
+        "host": "MCG -1-57-10",
+        "hvel": "7558",
+        "lumdist": "115.23",
+        "maxabsmag": "-17.808",
+        "maxappmag": "17.5",
+        "maxday": "20",
+        "maxmonth": "10",
+        "maxyear": "2001",
+        "redshift": "0.02554",
+        "sndec": "-06:23:28.6",
+        "snra": "22:26:30.77",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "52197.5",
+                "band": "",
+                "abmag": "17.6",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "52198.17",
@@ -49,33 +84,7 @@
                 "band": "C",
                 "abmag": "17.8",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52197.5",
-                "band": "",
-                "abmag": "17.6",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2001",
-        "discoverday": "15",
-        "discovermonth": "10",
-        "host": "MCG -1-57-10",
-        "claimedtype": "IIn",
-        "hvel": "7558",
-        "galra": "222630",
-        "galdec": "-062339",
-        "snra": "22:26:30.77",
-        "sndec": "-06:23:28.6",
-        "discoverer": "Tim Puckett et al.",
-        "maxyear": "2001",
-        "maxmonth": "10",
-        "maxday": "20",
-        "maxappmag": "17.5",
-        "redshift": "0.02554",
-        "lumdist": "115.2",
-        "maxabsmag": "-17.81"
+        ]
     }
 }

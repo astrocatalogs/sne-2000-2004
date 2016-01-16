@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08100/08129.html#Item1'>IAUC 8129</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIb",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "15",
+        "discoverer": "Koichi Itagaki",
+        "discovermonth": "5",
+        "discoveryear": "2003",
+        "galdec": "+381818",
+        "galra": "134745",
+        "host": "NGC 5303",
+        "hvel": "1348",
+        "lumdist": "20.0153",
+        "maxabsmag": "-16.5068",
+        "maxappmag": "15",
+        "maxday": "15",
+        "maxmonth": "5",
+        "maxyear": "2003",
+        "redshift": "0.004507",
+        "sndec": "+38:18:21.09",
+        "snra": "13:47:45.398",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "52774.5",
                 "band": "",
                 "abmag": "15.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2003",
-        "discoverday": "15",
-        "discovermonth": "5",
-        "host": "NGC 5303",
-        "claimedtype": "IIb",
-        "hvel": "1348",
-        "galra": "134745",
-        "galdec": "+381818",
-        "snra": "13:47:45.398",
-        "sndec": "+38:18:21.09",
-        "discoverer": "Koichi Itagaki",
-        "maxyear": "2003",
-        "maxmonth": "5",
-        "maxday": "15",
-        "maxappmag": "15",
-        "redshift": "0.004507",
-        "lumdist": "20.02",
-        "maxabsmag": "-16.51"
+        ]
     }
 }

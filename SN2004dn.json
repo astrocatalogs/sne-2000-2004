@@ -6,26 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08300/08381.html#Item1'>IAUC 8381</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ic",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "1",
+        "discoverer": "LOSS",
+        "discovermonth": "8",
+        "discoveryear": "2004",
+        "galdec": "+373820",
+        "galra": "023537",
+        "host": "UGC 2069",
+        "hvel": "3709",
+        "lumdist": "55.624",
+        "maxabsmag": "-16.326",
+        "maxappmag": "17.4",
+        "maxday": "1",
+        "maxmonth": "8",
+        "maxyear": "2004",
+        "redshift": "0.01245",
+        "sndec": "+37:37:54.2",
+        "snra": "02:35:37.30",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53218.5",
                 "band": "",
                 "abmag": "17.4",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -10738,7 +10771,8 @@
                         "7410.7800",
                         "0.087960474"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -21461,7 +21495,8 @@
                         "7410.1900",
                         "0.075460404"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -32160,7 +32195,8 @@
                         "7411.3700",
                         "0.039318613"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -42871,26 +42907,9 @@
                         "7410.7800",
                         "0.077670805"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "2004",
-        "maxday": "1",
-        "maxmonth": "8",
-        "host": "UGC 2069",
-        "claimedtype": "Ic",
-        "hvel": "3709",
-        "galra": "023537",
-        "galdec": "+373820",
-        "snra": "02:35:37.30",
-        "sndec": "+37:37:54.2",
-        "discoverer": "LOSS",
-        "discoverday": "1",
-        "discovermonth": "8",
-        "redshift": "0.01245",
-        "maxyear": "2004",
-        "maxappmag": "17.4",
-        "lumdist": "55.62",
-        "maxabsmag": "-16.33"
+        ]
     }
 }

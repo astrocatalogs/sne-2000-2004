@@ -6,26 +6,63 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08425.html#Item1'>IAUC 8425</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIb",
+                "source": "1"
+            },
+            {
+                "type": "Ic",
+                "source": "2"
+            }
+        ],
+        "discoverday": "29",
+        "discoverer": "LOSS",
+        "discovermonth": "10",
+        "discoveryear": "2004",
+        "galdec": "-213407",
+        "galra": "045847",
+        "host": "ESO 552-G40",
+        "hvel": "6818",
+        "lumdist": "103.62",
+        "maxabsmag": "-17.077",
+        "maxappmag": "18",
+        "maxday": "29",
+        "maxmonth": "10",
+        "maxyear": "2004",
+        "redshift": "0.02301",
+        "sndec": "-21:34:12.0",
+        "snra": "04:58:46.19",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53307.5",
                 "band": "",
                 "abmag": "18.0",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -5394,26 +5431,9 @@
                         "9100.00",
                         "0.0854869"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "2004",
-        "maxday": "29",
-        "maxmonth": "10",
-        "host": "ESO 552-G40",
-        "claimedtype": "Ic",
-        "hvel": "6818",
-        "galra": "045847",
-        "galdec": "-213407",
-        "snra": "04:58:46.19",
-        "sndec": "-21:34:12.0",
-        "discoverer": "LOSS",
-        "discoverday": "29",
-        "discovermonth": "10",
-        "maxyear": "2004",
-        "maxappmag": "18",
-        "redshift": "0.02301",
-        "lumdist": "103.6",
-        "maxabsmag": "-17.08"
+        ]
     }
 }

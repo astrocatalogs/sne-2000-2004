@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07900/07921.html#Item1'>IAUC 7921</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "3",
+        "discoverer": "Ella Sanders",
+        "discovermonth": "5",
+        "discoveryear": "2002",
+        "galdec": "-573519",
+        "galra": "203204",
+        "host": "IC 5017",
+        "hvel": "7547",
+        "lumdist": "115",
+        "maxabsmag": "-16.3",
+        "maxappmag": "19",
+        "maxday": "13",
+        "maxmonth": "5",
+        "maxyear": "2002",
+        "redshift": "0.0255",
+        "sndec": "-57:35:03.4",
+        "snra": "20:32:07.3",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "52397.5",
+                "band": "",
+                "abmag": "19.6",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "52407.69",
@@ -56,33 +91,7 @@
                 "band": "V",
                 "abmag": "19.6",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52397.5",
-                "band": "",
-                "abmag": "19.6",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2002",
-        "discoverday": "3",
-        "discovermonth": "5",
-        "host": "IC 5017",
-        "claimedtype": "Ia",
-        "hvel": "7547",
-        "galra": "203204",
-        "galdec": "-573519",
-        "snra": "20:32:07.3",
-        "sndec": "-57:35:03.4",
-        "discoverer": "Ella Sanders",
-        "maxyear": "2002",
-        "maxmonth": "5",
-        "maxday": "13",
-        "maxappmag": "19",
-        "redshift": "0.0255",
-        "lumdist": "115",
-        "maxabsmag": "-16.3"
+        ]
     }
 }

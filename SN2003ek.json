@@ -6,26 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08100/08134.html#Item1'>IAUC 8134</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "19",
+        "discoverer": "LOTOSS",
+        "discovermonth": "5",
+        "discoveryear": "2003",
+        "galdec": "+414000",
+        "galra": "171832",
+        "host": "FGC 2126",
+        "hvel": "10800",
+        "lumdist": "166.995",
+        "maxabsmag": "-17.9135",
+        "maxappmag": "18.2",
+        "maxday": "19",
+        "maxmonth": "5",
+        "maxyear": "2003",
+        "redshift": "0.03671",
+        "sndec": "+41:40:00.89",
+        "snra": "17:18:32.508",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "52778.5",
                 "band": "",
                 "abmag": "18.2",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -12779,7 +12812,8 @@
                         "1.7262300e-16",
                         "2.0559377e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -25531,7 +25565,8 @@
                         "3.1160399e-16",
                         "4.5883230e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -38283,7 +38318,8 @@
                         "1.9898700e-16",
                         "1.6284835e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -51035,7 +51071,8 @@
                         "1.6016100e-16",
                         "1.9227915e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -63787,7 +63824,8 @@
                         "2.6161600e-16",
                         "3.6511286e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -76539,7 +76577,8 @@
                         "1.6099100e-16",
                         "2.1860657e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -82476,7 +82515,8 @@
                         "3.6634800e-17",
                         "3.7624215e-18"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -94993,26 +95033,9 @@
                         "8.8030599e-17",
                         "1.3987995e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "2003",
-        "discoverday": "19",
-        "discovermonth": "5",
-        "host": "FGC 2126",
-        "claimedtype": "Ia",
-        "hvel": "10800",
-        "galra": "171832",
-        "galdec": "+414000",
-        "snra": "17:18:32.508",
-        "sndec": "+41:40:00.89",
-        "discoverer": "LOTOSS",
-        "redshift": "0.03671",
-        "maxyear": "2003",
-        "maxmonth": "5",
-        "maxday": "19",
-        "maxappmag": "18.2",
-        "lumdist": "167",
-        "maxabsmag": "-17.91"
+        ]
     }
 }

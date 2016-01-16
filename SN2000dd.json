@@ -15,19 +15,43 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07400/07477.html#Item1'>IAUC 7477</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "3",
+        "discoverer": "LOSS",
+        "discovermonth": "8",
+        "discoveryear": "2000",
+        "galdec": "-230555",
+        "galra": "203500",
+        "host": "A203500-2305",
+        "maxappmag": "17.3",
+        "maxday": "23",
+        "maxmonth": "9",
+        "maxyear": "2000",
+        "sndec": "-23:05:55.2",
+        "snra": "20:35:00.10",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -35,6 +59,13 @@
                 "band": "C",
                 "abmag": "18",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51765.5",
+                "band": "",
+                "abmag": "17.3",
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",
@@ -63,29 +94,7 @@
                 "band": "R",
                 "abmag": "17.3",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51765.5",
-                "band": "",
-                "abmag": "17.3",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2000",
-        "discoverday": "3",
-        "discovermonth": "8",
-        "host": "A203500-2305",
-        "claimedtype": "Ia",
-        "galra": "203500",
-        "galdec": "-230555",
-        "snra": "20:35:00.10",
-        "sndec": "-23:05:55.2",
-        "discoverer": "LOSS",
-        "maxyear": "2000",
-        "maxmonth": "9",
-        "maxday": "23",
-        "maxappmag": "17.3"
+        ]
     }
 }

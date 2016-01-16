@@ -19,19 +19,52 @@
                 "alias": "3"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07300/07351.html#Item1'>IAUC 7351</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "8",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "17",
+        "discoverer": "Teramo Observatory",
+        "discovermonth": "1",
+        "discoveryear": "2000",
+        "galdec": "+660620",
+        "galra": "203714",
+        "host": "NGC 6951",
+        "hvel": "1331",
+        "lumdist": "19.761",
+        "maxabsmag": "-17.969",
+        "maxappmag": "13.51",
+        "maxday": "31",
+        "maxmonth": "1",
+        "maxyear": "2000",
+        "redshift": "0.00445",
+        "sndec": "+66:05:50.2",
+        "snra": "20:37:13.77",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -445,6 +478,13 @@
                 "band": "V",
                 "abmag": "13.95",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51584.5",
+                "band": "",
+                "abmag": "13.6",
+                "source": "6,5"
             },
             {
                 "timeunit": "MJD",
@@ -977,13 +1017,6 @@
                 "band": "V",
                 "abmag": "19.71",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51584.5",
-                "band": "",
-                "abmag": "13.6",
-                "source": "5,4"
             }
         ],
         "spectra": [
@@ -13672,7 +13705,8 @@
                         "5.9741796e-17",
                         "1.2589229e-17"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -26424,26 +26458,9 @@
                         "6.9407600e-17",
                         "1.5898865e-17"
                     ]
-                ]
+                ],
+                "source": "8"
             }
-        ],
-        "discoveryear": "2000",
-        "maxday": "31",
-        "maxmonth": "1",
-        "host": "NGC 6951",
-        "claimedtype": "Ia",
-        "hvel": "1331",
-        "galra": "203714",
-        "galdec": "+660620",
-        "snra": "20:37:13.77",
-        "sndec": "+66:05:50.2",
-        "discoverer": "Teramo Observatory",
-        "discoverday": "17",
-        "discovermonth": "1",
-        "maxyear": "2000",
-        "maxappmag": "13.51",
-        "redshift": "0.00445",
-        "lumdist": "19.76",
-        "maxabsmag": "-17.97"
+        ]
     }
 }

@@ -6,26 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08300/08315.html#Item1'>IAUC 8315</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "31",
+        "discoverer": "Federico Manzini",
+        "discovermonth": "3",
+        "discoveryear": "2004",
+        "galdec": "+751129",
+        "galra": "105931",
+        "host": "NGC 3465",
+        "hvel": "7170",
+        "lumdist": "109.1",
+        "maxabsmag": "-18.19",
+        "maxappmag": "17",
+        "maxday": "31",
+        "maxmonth": "3",
+        "maxyear": "2004",
+        "redshift": "0.0242",
+        "sndec": "+75:11:28.9",
+        "snra": "10:59:31.41",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53095.5",
                 "band": "",
                 "abmag": "17.0",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -12779,26 +12812,9 @@
                         "9.8338746e-16",
                         "3.6126002e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "2004",
-        "discoverday": "31",
-        "discovermonth": "3",
-        "host": "NGC 3465",
-        "claimedtype": "Ia",
-        "hvel": "7170",
-        "galra": "105931",
-        "galdec": "+751129",
-        "snra": "10:59:31.41",
-        "sndec": "+75:11:28.9",
-        "discoverer": "Federico Manzini",
-        "redshift": "0.02421",
-        "maxyear": "2004",
-        "maxmonth": "3",
-        "maxday": "31",
-        "maxappmag": "17",
-        "lumdist": "109.1",
-        "maxabsmag": "-18.19"
+        ]
     }
 }

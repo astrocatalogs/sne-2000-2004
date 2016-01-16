@@ -10,19 +10,47 @@
                 "alias": "1"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "3",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08300/08344.html#Item2'>IAUC 8344</a>",
-                "alias": "3"
+                "alias": "4"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "2,3"
+            }
+        ],
+        "discoverday": "26",
+        "discoverer": "Reiki Kushida",
+        "discovermonth": "5",
+        "discoveryear": "2004",
+        "galdec": "-244830",
+        "galra": "202507",
+        "host": "NGC 6907",
+        "hvel": "3162",
+        "lumdist": "47.29",
+        "maxabsmag": "-19.47",
+        "maxappmag": "13.9",
+        "maxday": "3",
+        "maxmonth": "6",
+        "maxyear": "2004",
+        "redshift": "0.0106",
+        "sndec": "-24:48:53.7",
+        "snra": "19:25:06.34",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -275,6 +303,13 @@
                 "instrument": "kait3",
                 "aberr": "0.01400",
                 "source": "1"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "53159.5",
+                "band": "",
+                "abmag": "13.9",
+                "source": "4,3"
             },
             {
                 "timeunit": "MJD",
@@ -1193,33 +1228,7 @@
                 "instrument": "kait3",
                 "aberr": "0.03900",
                 "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "53159.5",
-                "band": "",
-                "abmag": "13.9",
-                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2004",
-        "discoverday": "26",
-        "discovermonth": "5",
-        "host": "NGC 6907",
-        "claimedtype": "Ia",
-        "hvel": "3162",
-        "galra": "202507",
-        "galdec": "-244830",
-        "snra": "19:25:06.34",
-        "sndec": "-24:48:53.7",
-        "discoverer": "Reiki Kushida",
-        "maxyear": "2004",
-        "maxmonth": "6",
-        "maxday": "3",
-        "maxappmag": "13.9",
-        "redshift": "0.0106",
-        "lumdist": "47.29",
-        "maxabsmag": "-19.47"
+        ]
     }
 }

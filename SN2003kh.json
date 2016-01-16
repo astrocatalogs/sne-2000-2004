@@ -6,26 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08200/08245.html#Item1'>IAUC 8245</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "26",
+        "discoverer": "Mark Armstrong",
+        "discovermonth": "11",
+        "discoveryear": "2003",
+        "galdec": "+585840",
+        "galra": "195219",
+        "host": "UGC 11491",
+        "hvel": "7495",
+        "lumdist": "114.22",
+        "maxabsmag": "-17.789",
+        "maxappmag": "17.5",
+        "maxday": "26",
+        "maxmonth": "11",
+        "maxyear": "2003",
+        "redshift": "0.02532",
+        "sndec": "+58:58:52.5",
+        "snra": "19:52:17.93",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "52969.5",
                 "band": "",
                 "abmag": "17.5",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -12779,7 +12812,8 @@
                         "2.0706700e-16",
                         "2.4302965e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -25531,26 +25565,9 @@
                         "2.3779301e-16",
                         "1.3076532e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "2003",
-        "discoverday": "26",
-        "discovermonth": "11",
-        "host": "UGC 11491",
-        "claimedtype": "Ia",
-        "hvel": "7495",
-        "galra": "195219",
-        "galdec": "+585840",
-        "snra": "19:52:17.93",
-        "sndec": "+58:58:52.5",
-        "discoverer": "Mark Armstrong",
-        "redshift": "0.02532",
-        "maxyear": "2003",
-        "maxmonth": "11",
-        "maxday": "26",
-        "maxappmag": "17.5",
-        "lumdist": "114.2",
-        "maxabsmag": "-17.79"
+        ]
     }
 }

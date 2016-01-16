@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07500/07546.html#Item2'>IAUC 7546</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ib",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "18",
+        "discoverer": "B. Holmes",
+        "discovermonth": "11",
+        "discoveryear": "2000",
+        "galdec": "+080014",
+        "galra": "080659",
+        "host": "NGC 2526",
+        "hvel": "4669",
+        "lumdist": "70.32",
+        "maxabsmag": "-16.24",
+        "maxappmag": "18",
+        "maxday": "27",
+        "maxmonth": "11",
+        "maxyear": "2000",
+        "redshift": "0.0157",
+        "sndec": "+08:00:19.3",
+        "snra": "08:06:57.79",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "51866.5",
+                "band": "",
+                "abmag": "18.8",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "51875.2",
@@ -42,33 +77,7 @@
                 "band": "C",
                 "abmag": "18.8",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51866.5",
-                "band": "",
-                "abmag": "18.8",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2000",
-        "discoverday": "18",
-        "discovermonth": "11",
-        "host": "NGC 2526",
-        "claimedtype": "Ib",
-        "hvel": "4669",
-        "galra": "080659",
-        "galdec": "+080014",
-        "snra": "08:06:57.79",
-        "sndec": "+08:00:19.3",
-        "discoverer": "B. Holmes",
-        "maxyear": "2000",
-        "maxmonth": "11",
-        "maxday": "27",
-        "maxappmag": "18",
-        "redshift": "0.0157",
-        "lumdist": "70.32",
-        "maxabsmag": "-16.24"
+        ]
     }
 }

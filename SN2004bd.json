@@ -10,20 +10,60 @@
                 "alias": "1"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "3",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08300/08316.html#Item1'>IAUC 8316</a>",
-                "alias": "3"
+                "alias": "4"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "6",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "2,3"
+            }
+        ],
+        "discoverday": "6",
+        "discoverer": "Mark Armstrong",
+        "discovermonth": "4",
+        "discoveryear": "2004",
+        "galdec": "+315435",
+        "galra": "113942",
+        "host": "NGC 3786",
+        "hvel": "2722",
+        "lumdist": "40.6481",
+        "maxabsmag": "-18.7452",
+        "maxappmag": "14.3",
+        "maxday": "6",
+        "maxmonth": "4",
+        "maxyear": "2004",
+        "redshift": "0.009121",
+        "sndec": "+31:54:31.8",
+        "snra": "11:39:42.18",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "53101.5",
+                "band": "",
+                "abmag": "14.3",
+                "source": "4,3"
+            },
             {
                 "timeunit": "MJD",
                 "time": "53104.23",
@@ -725,13 +765,6 @@
                 "instrument": "kait3",
                 "aberr": "0.07400",
                 "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "53101.5",
-                "band": "",
-                "abmag": "14.3",
-                "source": "3,2"
             }
         ],
         "spectra": [
@@ -13485,7 +13518,8 @@
                         "5.1924634e-16",
                         "3.0152311e-17"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -26237,7 +26271,8 @@
                         "1.4547672e-15",
                         "2.4374406e-17"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -38989,7 +39024,8 @@
                         "2.0288531e-15",
                         "3.2529123e-17"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -51676,7 +51712,8 @@
                         "3.8878563e-16",
                         "2.7130772e-17"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -64363,26 +64400,9 @@
                         "1.1391858e-15",
                         "4.0234561e-17"
                     ]
-                ]
+                ],
+                "source": "6"
             }
-        ],
-        "discoveryear": "2004",
-        "discoverday": "6",
-        "discovermonth": "4",
-        "host": "NGC 3786",
-        "claimedtype": "Ia",
-        "hvel": "2722",
-        "galra": "113942",
-        "galdec": "+315435",
-        "snra": "11:39:42.18",
-        "sndec": "+31:54:31.8",
-        "discoverer": "Mark Armstrong",
-        "maxyear": "2004",
-        "maxmonth": "4",
-        "maxday": "6",
-        "maxappmag": "14.3",
-        "redshift": "0.009121",
-        "lumdist": "40.65",
-        "maxabsmag": "-18.75"
+        ]
     }
 }

@@ -19,20 +19,74 @@
                 "alias": "3"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07700/07735.html#Item1'>IAUC 7735</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "8",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "15",
+        "discoverer": "Tom Boles",
+        "discovermonth": "10",
+        "discoveryear": "2001",
+        "galdec": "+552402",
+        "galra": "065601",
+        "host": "UGC 3595",
+        "hvel": "7917",
+        "lumdist": "120.89",
+        "maxabsmag": "-18.412",
+        "maxappmag": "17",
+        "maxday": "22",
+        "maxmonth": "10",
+        "maxyear": "2001",
+        "redshift": "0.02677",
+        "sndec": "+55:24:03.0",
+        "snra": "06:55:59.89",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "52197.5",
+                "band": "",
+                "abmag": "17.0",
+                "source": "6,5"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "52198.19",
+                "band": "C",
+                "abmag": "17.2",
+                "source": "2,3"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "52199.09",
+                "band": "C",
+                "abmag": "17.1",
+                "source": "2,3"
+            },
             {
                 "timeunit": "MJD",
                 "time": "52202.55",
@@ -95,6 +149,13 @@
                 "instrument": "kait3",
                 "aberr": "0.03100",
                 "source": "1"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "52204.13",
+                "band": "C",
+                "abmag": "17",
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
@@ -248,34 +309,6 @@
                 "instrument": "kait3",
                 "aberr": "0.17700",
                 "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52198.19",
-                "band": "C",
-                "abmag": "17.2",
-                "source": "2,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52199.09",
-                "band": "C",
-                "abmag": "17.1",
-                "source": "2,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52204.13",
-                "band": "C",
-                "abmag": "17",
-                "source": "2,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52197.5",
-                "band": "",
-                "abmag": "17.0",
-                "source": "5,4"
             }
         ],
         "spectra": [
@@ -13029,26 +13062,9 @@
                         "1.0865600e-16",
                         "1.7296078e-17"
                     ]
-                ]
+                ],
+                "source": "8"
             }
-        ],
-        "discoveryear": "2001",
-        "discoverday": "15",
-        "discovermonth": "10",
-        "host": "UGC 3595",
-        "claimedtype": "Ia",
-        "hvel": "7917",
-        "galra": "065601",
-        "galdec": "+552402",
-        "snra": "06:55:59.89",
-        "sndec": "+55:24:03.0",
-        "discoverer": "Tom Boles",
-        "redshift": "0.02677",
-        "maxyear": "2001",
-        "maxmonth": "10",
-        "maxday": "22",
-        "maxappmag": "17",
-        "lumdist": "120.9",
-        "maxabsmag": "-18.41"
+        ]
     }
 }

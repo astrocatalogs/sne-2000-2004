@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08100/08179.html#Item2'>IAUC 8179</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "8",
+        "discoverer": "LOTOSS",
+        "discovermonth": "8",
+        "discoveryear": "2003",
+        "galdec": "-215426",
+        "galra": "014947",
+        "host": "MCG -4-5-10",
+        "hvel": "11800",
+        "lumdist": "183.14",
+        "maxabsmag": "-19.014",
+        "maxappmag": "17.3",
+        "maxday": "8",
+        "maxmonth": "8",
+        "maxyear": "2003",
+        "redshift": "0.04016",
+        "sndec": "-21:54:37.89",
+        "snra": "01:49:46.318",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "52859.5",
                 "band": "",
                 "abmag": "17.3",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2003",
-        "discoverday": "8",
-        "discovermonth": "8",
-        "host": "MCG -4-5-10",
-        "claimedtype": "II",
-        "hvel": "11800",
-        "galra": "014947",
-        "galdec": "-215426",
-        "snra": "01:49:46.318",
-        "sndec": "-21:54:37.89",
-        "discoverer": "LOTOSS",
-        "maxyear": "2003",
-        "maxmonth": "8",
-        "maxday": "8",
-        "maxappmag": "17.3",
-        "redshift": "0.04016",
-        "lumdist": "183.1",
-        "maxabsmag": "-19.01"
+        ]
     }
 }

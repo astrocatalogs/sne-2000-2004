@@ -15,19 +15,47 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08000/08088.html#Item2'>IAUC 8088</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "22",
+        "discoverer": "Nearby Supernova Factory",
+        "discovermonth": "2",
+        "discoveryear": "2003",
+        "galdec": "-211054",
+        "galra": "100235",
+        "host": "A100235-2110",
+        "hvel": "3800",
+        "lumdist": "58.1",
+        "maxabsmag": "-17.1",
+        "maxappmag": "16.7",
+        "maxday": "27",
+        "maxmonth": "2",
+        "maxyear": "2003",
+        "redshift": "0.013",
+        "sndec": "-21:10:54.59",
+        "snra": "10:02:35.518",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -35,6 +63,13 @@
                 "band": "C",
                 "abmag": "20.2",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "52696.5",
+                "band": "",
+                "abmag": "16.7",
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",
@@ -56,33 +91,7 @@
                 "band": "V",
                 "abmag": "16.7",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52696.5",
-                "band": "",
-                "abmag": "16.7",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2003",
-        "discoverday": "22",
-        "discovermonth": "2",
-        "host": "A100235-2110",
-        "claimedtype": "II",
-        "hvel": "3800",
-        "galra": "100235",
-        "galdec": "-211054",
-        "snra": "10:02:35.518",
-        "sndec": "-21:10:54.59",
-        "discoverer": "Nearby Supernova Factory",
-        "redshift": "0.01276",
-        "maxyear": "2003",
-        "maxmonth": "2",
-        "maxday": "27",
-        "maxappmag": "16.7",
-        "lumdist": "57.02",
-        "maxabsmag": "-17.08"
+        ]
     }
 }

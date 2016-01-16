@@ -7,46 +7,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08100/08114.html#Item1'>IAUC 8114</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ic P",
+                "source": "1"
+            },
+            {
+                "type": "Ic",
+                "source": "2"
+            }
+        ],
+        "discoverday": "27",
+        "discoverer": "HETE Science team",
+        "discovermonth": "3",
+        "discoveryear": "2003",
+        "galdec": "+213117",
+        "galra": "104450",
+        "host": "A104450+2131",
+        "hvel": "46400",
+        "lumdist": "839",
+        "maxabsmag": "-23.4",
+        "maxappmag": "16.2",
+        "maxday": "27",
+        "maxmonth": "3",
+        "maxyear": "2003",
+        "redshift": "0.169",
+        "sndec": "+21:31:17.89",
+        "snra": "10:44:50.018",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "52725.5",
                 "band": "",
                 "abmag": "16.2",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2003",
-        "discoverday": "27",
-        "discovermonth": "3",
-        "host": "A104450+2131",
-        "claimedtype": "Ic",
-        "galra": "104450",
-        "galdec": "+213117",
-        "snra": "10:44:50.018",
-        "sndec": "+21:31:17.89",
-        "discoverer": "HETE Science team",
-        "redshift": "0.169",
-        "maxyear": "2003",
-        "maxmonth": "3",
-        "maxday": "27",
-        "maxappmag": "16.2",
-        "hvel": "46440",
-        "lumdist": "839.2",
-        "maxabsmag": "-23.42"
+        ]
     }
 }

@@ -15,20 +15,56 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07900/07963.html#Item1'>IAUC 7963</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "7",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "16",
+        "discoverer": "LOTOSS",
+        "discovermonth": "8",
+        "discoveryear": "2002",
+        "galdec": "+073259",
+        "galra": "231012",
+        "host": "A231012+0732",
+        "maxappmag": "17.7",
+        "maxday": "3",
+        "maxmonth": "9",
+        "maxyear": "2002",
+        "sndec": "+07:32:59.9",
+        "snra": "23:10:12.33",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "52502.5",
+                "band": "",
+                "abmag": "17.7",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "52520.3",
@@ -42,13 +78,6 @@
                 "band": "C",
                 "abmag": "17.7",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52502.5",
-                "band": "",
-                "abmag": "17.7",
-                "source": "4,3"
             }
         ],
         "spectra": [
@@ -12802,7 +12831,8 @@
                         "1.2814900e-16",
                         "2.0004561e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -25554,7 +25584,8 @@
                         "8.6104605e-17",
                         "2.0098236e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -38306,7 +38337,8 @@
                         "7.5480105e-17",
                         "1.3991401e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -52668,22 +52700,9 @@
                         "6.0515799e-17",
                         "4.4548695e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             }
-        ],
-        "discoveryear": "2002",
-        "discoverday": "16",
-        "discovermonth": "8",
-        "host": "A231012+0732",
-        "claimedtype": "Ia",
-        "galra": "231012",
-        "galdec": "+073259",
-        "snra": "23:10:12.33",
-        "sndec": "+07:32:59.9",
-        "discoverer": "LOTOSS",
-        "maxyear": "2002",
-        "maxmonth": "9",
-        "maxday": "3",
-        "maxappmag": "17.7"
+        ]
     }
 }

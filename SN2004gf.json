@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08444.html#Item1'>IAUC 8444</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "19",
+        "discoverer": "Tom Boles",
+        "discovermonth": "11",
+        "discoveryear": "2004",
+        "galdec": "+421822",
+        "galra": "215755",
+        "host": "UGC 11864",
+        "hvel": "4322",
+        "lumdist": "64.973",
+        "maxabsmag": "-16.864",
+        "maxappmag": "17.2",
+        "maxday": "19",
+        "maxmonth": "11",
+        "maxyear": "2004",
+        "redshift": "0.01452",
+        "sndec": "+42:18:57.8",
+        "snra": "21:57:52.39",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53328.5",
                 "band": "",
                 "abmag": "17.2",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2004",
-        "discoverday": "19",
-        "discovermonth": "11",
-        "host": "UGC 11864",
-        "claimedtype": "II",
-        "hvel": "4322",
-        "galra": "215755",
-        "galdec": "+421822",
-        "snra": "21:57:52.39",
-        "sndec": "+42:18:57.8",
-        "discoverer": "Tom Boles",
-        "maxyear": "2004",
-        "maxmonth": "11",
-        "maxday": "19",
-        "maxappmag": "17.2",
-        "redshift": "0.01452",
-        "lumdist": "64.97",
-        "maxabsmag": "-16.86"
+        ]
     }
 }

@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07700/07710.html#Item1'>IAUC 7710</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ic",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "8",
+        "discoverer": "Mark Armstrong",
+        "discovermonth": "9",
+        "discoveryear": "2001",
+        "galdec": "+753826",
+        "galra": "044429",
+        "host": "IC 381",
+        "hvel": "2480",
+        "lumdist": "37.011",
+        "maxabsmag": "-16.842",
+        "maxappmag": "16",
+        "maxday": "9",
+        "maxmonth": "9",
+        "maxyear": "2001",
+        "redshift": "0.00831",
+        "sndec": "+75:38:30.3",
+        "snra": "04:44:28.56",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "52160.5",
+                "band": "",
+                "abmag": "16.0",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "52161.06",
@@ -56,33 +91,7 @@
                 "band": "R",
                 "abmag": "16.7",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52160.5",
-                "band": "",
-                "abmag": "16.0",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2001",
-        "discoverday": "8",
-        "discovermonth": "9",
-        "host": "IC 381",
-        "claimedtype": "Ic",
-        "hvel": "2480",
-        "galra": "044429",
-        "galdec": "+753826",
-        "snra": "04:44:28.56",
-        "sndec": "+75:38:30.3",
-        "discoverer": "Mark Armstrong",
-        "redshift": "0.008307",
-        "maxyear": "2001",
-        "maxmonth": "9",
-        "maxday": "9",
-        "maxappmag": "16",
-        "lumdist": "37",
-        "maxabsmag": "-16.84"
+        ]
     }
 }

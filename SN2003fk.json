@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08100/08147.html#Item2'>IAUC 8147</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "23",
+        "discoverer": "Legacy Survey Supernova Project",
+        "discovermonth": "5",
+        "discoveryear": "2003",
+        "galdec": "+530550",
+        "galra": "141955",
+        "host": "A141955+5305",
+        "hvel": "88400",
+        "lumdist": "1950",
+        "maxabsmag": "-19",
+        "maxappmag": "22.4",
+        "maxday": "23",
+        "maxmonth": "5",
+        "maxyear": "2003",
+        "redshift": "0.355",
+        "sndec": "+53:05:50.99",
+        "snra": "14:19:55.848",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "52782.5",
                 "band": "",
                 "abmag": "22.4",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2003",
-        "discoverday": "23",
-        "discovermonth": "5",
-        "host": "A141955+5305",
-        "claimedtype": "Ia",
-        "redshift": "0.355",
-        "galra": "141955",
-        "galdec": "+530550",
-        "snra": "14:19:55.848",
-        "sndec": "+53:05:50.99",
-        "discoverer": "Legacy Survey Supernova Project",
-        "maxyear": "2003",
-        "maxmonth": "5",
-        "maxday": "23",
-        "maxappmag": "22.4",
-        "hvel": "88380",
-        "lumdist": "1947",
-        "maxabsmag": "-19.05"
+        ]
     }
 }

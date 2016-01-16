@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08300/08357.html#Item1'>IAUC 8357</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "15",
+        "discoverer": "Mark Armstrong",
+        "discovermonth": "6",
+        "discoveryear": "2004",
+        "galdec": "+154715",
+        "galra": "154130",
+        "host": "NGC 5980",
+        "hvel": "4130",
+        "lumdist": "62.17",
+        "maxabsmag": "-17.67",
+        "maxappmag": "16.3",
+        "maxday": "15",
+        "maxmonth": "6",
+        "maxyear": "2004",
+        "redshift": "0.0139",
+        "sndec": "+15:47:13.1",
+        "snra": "15:41:29.83",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53171.5",
                 "band": "",
                 "abmag": "16.3",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2004",
-        "discoverday": "15",
-        "discovermonth": "6",
-        "host": "NGC 5980",
-        "claimedtype": "II",
-        "hvel": "4130",
-        "galra": "154130",
-        "galdec": "+154715",
-        "snra": "15:41:29.83",
-        "sndec": "+15:47:13.1",
-        "discoverer": "Mark Armstrong",
-        "redshift": "0.01387",
-        "maxyear": "2004",
-        "maxmonth": "6",
-        "maxday": "15",
-        "maxappmag": "16.3",
-        "lumdist": "62.03",
-        "maxabsmag": "-17.66"
+        ]
     }
 }

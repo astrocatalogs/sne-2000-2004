@@ -15,19 +15,52 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08428.html#Item2'>IAUC 8428</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "7",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "11",
+        "discoverer": "Ron Arbour",
+        "discovermonth": "11",
+        "discoveryear": "2004",
+        "galdec": "+644810",
+        "galra": "203507",
+        "host": "NGC 6949",
+        "hvel": "2752",
+        "lumdist": "41.1014",
+        "maxabsmag": "-17.6693",
+        "maxappmag": "15.4",
+        "maxday": "16",
+        "maxmonth": "11",
+        "maxyear": "2004",
+        "redshift": "0.009222",
+        "sndec": "+64:48:26.5",
+        "snra": "20:35:11.62",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -60,6 +93,13 @@
                 "abmag": "15.998",
                 "aberr": "0.084",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "53325.5",
+                "band": "",
+                "abmag": "15.4",
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",
@@ -188,13 +228,6 @@
                 "abmag": "21.947",
                 "aberr": "0.382",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "53325.5",
-                "band": "",
-                "abmag": "15.4",
-                "source": "4,3"
             }
         ],
         "spectra": [
@@ -13583,7 +13616,8 @@
                         "7.6689272e-16",
                         "2.4630978e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -26970,7 +27004,8 @@
                         "9.5267299e-16",
                         "2.9900403e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -40337,7 +40372,8 @@
                         "6.1558199e-16",
                         "3.5371407e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -53724,7 +53760,8 @@
                         "7.7460533e-16",
                         "3.0330470e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -67096,7 +67133,8 @@
                         "4.3957651e-16",
                         "5.1989065e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -80463,7 +80501,8 @@
                         "3.3353836e-16",
                         "6.5157157e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -93860,7 +93899,8 @@
                         "2.8077939e-15",
                         "5.9991491e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -107242,7 +107282,8 @@
                         "7.7655329e-16",
                         "2.5480108e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -120624,26 +120665,9 @@
                         "4.2505916e-16",
                         "1.5689127e-17"
                     ]
-                ]
+                ],
+                "source": "7"
             }
-        ],
-        "discoveryear": "2004",
-        "maxday": "16",
-        "maxmonth": "11",
-        "host": "NGC 6949",
-        "claimedtype": "Ia",
-        "hvel": "2752",
-        "galra": "203507",
-        "galdec": "+644810",
-        "snra": "20:35:11.62",
-        "sndec": "+64:48:26.5",
-        "discoverer": "Ron Arbour",
-        "discoverday": "11",
-        "discovermonth": "11",
-        "redshift": "0.009222",
-        "maxyear": "2004",
-        "maxappmag": "15.4",
-        "lumdist": "41.1",
-        "maxabsmag": "-17.67"
+        ]
     }
 }

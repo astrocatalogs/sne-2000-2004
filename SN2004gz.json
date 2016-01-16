@@ -6,26 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08460.html#Item1'>IAUC 8460</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "27",
+        "discoverer": "Tim Puckett et al.",
+        "discovermonth": "12",
+        "discoveryear": "2004",
+        "galdec": "+610119",
+        "galra": "161345",
+        "host": "MCG +10-23-45",
+        "maxappmag": "16.3",
+        "maxday": "27",
+        "maxmonth": "12",
+        "maxyear": "2004",
+        "sndec": "+61:01:25.9",
+        "snra": "16:13:45.71",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53366.5",
                 "band": "",
                 "abmag": "16.3",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -13409,22 +13438,9 @@
                         "5.0889210e-16",
                         "3.0316204e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "2004",
-        "discoverday": "27",
-        "discovermonth": "12",
-        "host": "MCG +10-23-45",
-        "claimedtype": "Ia",
-        "galra": "161345",
-        "galdec": "+610119",
-        "snra": "16:13:45.71",
-        "sndec": "+61:01:25.9",
-        "discoverer": "Tim Puckett et al.",
-        "maxyear": "2004",
-        "maxmonth": "12",
-        "maxday": "27",
-        "maxappmag": "16.3"
+        ]
     }
 }

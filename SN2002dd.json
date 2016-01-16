@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07900/07912.html#Item1'>IAUC 7912</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "10",
+        "discoverer": "HST",
+        "discovermonth": "5",
+        "discoveryear": "2002",
+        "galdec": "+621246",
+        "galra": "123655",
+        "host": "A123655+6212",
+        "hvel": "170000",
+        "lumdist": "6400",
+        "maxabsmag": "-20",
+        "maxappmag": "24",
+        "maxday": "10",
+        "maxmonth": "5",
+        "maxyear": "2002",
+        "redshift": "0.95",
+        "sndec": "+62:12:46.1",
+        "snra": "12:36:55.35",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "52404.5",
                 "band": "",
                 "abmag": "24.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2002",
-        "discoverday": "10",
-        "discovermonth": "5",
-        "host": "A123655+6212",
-        "claimedtype": "Ia",
-        "redshift": "0.95",
-        "galra": "123655",
-        "galdec": "+621246",
-        "snra": "12:36:55.35",
-        "sndec": "+62:12:46.1",
-        "discoverer": "HST",
-        "maxyear": "2002",
-        "maxmonth": "5",
-        "maxday": "10",
-        "maxappmag": "24",
-        "hvel": "174900",
-        "lumdist": "6376",
-        "maxabsmag": "-20.02"
+        ]
     }
 }

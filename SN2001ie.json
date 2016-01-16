@@ -19,19 +19,52 @@
                 "alias": "3"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07700/07771.html#Item1'>IAUC 7771</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "8",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "9",
+        "discoverer": "Angelo Bincoletto",
+        "discovermonth": "12",
+        "discoveryear": "2001",
+        "galdec": "+601705",
+        "galra": "101653",
+        "host": "UGC 5542",
+        "hvel": "9230",
+        "lumdist": "141.8",
+        "maxabsmag": "-19.66",
+        "maxappmag": "16.1",
+        "maxday": "10",
+        "maxmonth": "12",
+        "maxyear": "2001",
+        "redshift": "0.0313",
+        "sndec": "+60:16:44.5",
+        "snra": "10:16:50.70",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -39,6 +72,13 @@
                 "band": "C",
                 "abmag": "16.5",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "52252.5",
+                "band": "",
+                "abmag": "16.1",
+                "source": "6,5"
             },
             {
                 "timeunit": "MJD",
@@ -304,13 +344,6 @@
                 "abmag": "18.408",
                 "aberr": "0.359",
                 "source": "1,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52252.5",
-                "band": "",
-                "abmag": "16.1",
-                "source": "5,4"
             }
         ],
         "spectra": [
@@ -13064,7 +13097,8 @@
                         "1.1031300e-16",
                         "2.8569312e-17"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -25816,7 +25850,8 @@
                         "1.5840399e-16",
                         "1.6292591e-17"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -38568,7 +38603,8 @@
                         "2.1388000e-16",
                         "2.7206840e-17"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -51320,7 +51356,8 @@
                         "9.8868802e-17",
                         "2.3463066e-17"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -64072,7 +64109,8 @@
                         "1.3679799e-16",
                         "1.9737129e-17"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -76824,7 +76862,8 @@
                         "1.4275700e-16",
                         "2.3240617e-17"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -89576,7 +89615,8 @@
                         "1.1688400e-16",
                         "2.2611816e-17"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -102328,26 +102368,9 @@
                         "1.3829700e-17",
                         "4.0442839e-17"
                     ]
-                ]
+                ],
+                "source": "8"
             }
-        ],
-        "discoveryear": "2001",
-        "discoverday": "9",
-        "discovermonth": "12",
-        "host": "UGC 5542",
-        "claimedtype": "Ia",
-        "hvel": "9230",
-        "galra": "101653",
-        "galdec": "+601705",
-        "snra": "10:16:50.70",
-        "sndec": "+60:16:44.5",
-        "discoverer": "Angelo Bincoletto",
-        "redshift": "0.03128",
-        "maxyear": "2001",
-        "maxmonth": "12",
-        "maxday": "10",
-        "maxappmag": "16.1",
-        "lumdist": "141.7",
-        "maxabsmag": "-19.66"
+        ]
     }
 }

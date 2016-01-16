@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07700/07740.html#Item1'>IAUC 7740</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "9",
+        "discoverer": "SDSS",
+        "discovermonth": "10",
+        "discoveryear": "2001",
+        "galdec": "-002618",
+        "galra": "001006",
+        "host": "A001006-0026",
+        "hvel": "9450",
+        "lumdist": "145",
+        "maxabsmag": "-16.8",
+        "maxappmag": "19",
+        "maxday": "9",
+        "maxmonth": "10",
+        "maxyear": "2001",
+        "redshift": "0.032",
+        "sndec": "-00:26:18.2",
+        "snra": "00:10:06.15",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "52191.5",
                 "band": "",
                 "abmag": "19.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2001",
-        "discoverday": "9",
-        "discovermonth": "10",
-        "host": "A001006-0026",
-        "claimedtype": "II",
-        "hvel": "9450",
-        "galra": "001006",
-        "galdec": "-002618",
-        "snra": "00:10:06.15",
-        "sndec": "-00:26:18.2",
-        "discoverer": "SDSS",
-        "redshift": "0.03203",
-        "maxyear": "2001",
-        "maxmonth": "10",
-        "maxday": "9",
-        "maxappmag": "19",
-        "lumdist": "145.2",
-        "maxabsmag": "-16.81"
+        ]
     }
 }

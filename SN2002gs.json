@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07900/07994.html#Item1'>IAUC 7994</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "9",
+        "discoverer": "HST GOODS team",
+        "discovermonth": "10",
+        "discoveryear": "2002",
+        "galdec": "-004501",
+        "galra": "013956",
+        "host": "A013956-0045",
+        "hvel": "83000",
+        "lumdist": "1800",
+        "maxabsmag": "-20",
+        "maxappmag": "21.4",
+        "maxday": "9",
+        "maxmonth": "10",
+        "maxyear": "2002",
+        "redshift": "0.33",
+        "sndec": "-00:45:01.2",
+        "snra": "01:39:56.44",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "52556.5",
                 "band": "",
                 "abmag": "21.4",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2002",
-        "discoverday": "9",
-        "discovermonth": "10",
-        "host": "A013956-0045",
-        "claimedtype": "Ia",
-        "redshift": "0.33",
-        "galra": "013956",
-        "galdec": "-004501",
-        "snra": "01:39:56.44",
-        "sndec": "-00:45:01.2",
-        "discoverer": "HST GOODS team",
-        "maxyear": "2002",
-        "maxmonth": "10",
-        "maxday": "9",
-        "maxappmag": "21.4",
-        "hvel": "83250",
-        "lumdist": "1788",
-        "maxabsmag": "-19.86"
+        ]
     }
 }

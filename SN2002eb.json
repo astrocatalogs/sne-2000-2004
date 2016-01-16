@@ -19,20 +19,69 @@
                 "alias": "3"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07900/07937.html#Item1'>IAUC 7937</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "21",
+        "discoverer": "LOTOSS",
+        "discovermonth": "7",
+        "discoveryear": "2002",
+        "galdec": "+243553",
+        "galra": "221906",
+        "host": "CGCG 473-11",
+        "hvel": "8290",
+        "lumdist": "127",
+        "maxabsmag": "-19.4",
+        "maxappmag": "16.11",
+        "maxday": "10",
+        "maxmonth": "8",
+        "maxyear": "2002",
+        "redshift": "0.028",
+        "sndec": "+24:35:39.8",
+        "snra": "22:19:05.24",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "52476.5",
+                "band": "",
+                "abmag": "17.6",
+                "source": "6,5"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "52477.4",
+                "band": "C",
+                "abmag": "18.5",
+                "source": "2,3"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "52478.4",
+                "band": "C",
+                "abmag": "18.2",
+                "source": "2,3"
+            },
             {
                 "timeunit": "MJD",
                 "time": "52479.36",
@@ -1223,6 +1272,13 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "52530.18",
+                "band": "C",
+                "abmag": "17.6",
+                "source": "2,3"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "52534.25",
                 "band": "I",
                 "abmag": "17.30200",
@@ -1382,54 +1438,7 @@
                 "instrument": "nickel",
                 "aberr": "0.05200",
                 "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52477.4",
-                "band": "C",
-                "abmag": "18.5",
-                "source": "2,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52478.4",
-                "band": "C",
-                "abmag": "18.2",
-                "source": "2,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52530.18",
-                "band": "C",
-                "abmag": "17.6",
-                "source": "2,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52476.5",
-                "band": "",
-                "abmag": "17.6",
-                "source": "5,4"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2002",
-        "discoverday": "21",
-        "discovermonth": "7",
-        "host": "CGCG 473-11",
-        "claimedtype": "Ia",
-        "hvel": "8290",
-        "galra": "221906",
-        "galdec": "+243553",
-        "snra": "22:19:05.24",
-        "sndec": "+24:35:39.8",
-        "discoverer": "LOTOSS",
-        "maxyear": "2002",
-        "maxmonth": "8",
-        "maxday": "10",
-        "maxappmag": "16.11",
-        "redshift": "0.02805",
-        "lumdist": "126.8",
-        "maxabsmag": "-19.41"
+        ]
     }
 }

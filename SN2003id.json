@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08200/08201.html#Item1'>IAUC 8201</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ic P",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "20",
+        "discoverer": "LOTOSS",
+        "discovermonth": "9",
+        "discoveryear": "2003",
+        "galdec": "-053118",
+        "galra": "022137",
+        "host": "NGC 895",
+        "hvel": "2344",
+        "lumdist": "34.95",
+        "maxabsmag": "-16.417",
+        "maxappmag": "16.3",
+        "maxday": "20",
+        "maxmonth": "9",
+        "maxyear": "2003",
+        "redshift": "0.00785",
+        "sndec": "-05:31:51.0",
+        "snra": "02:21:35.70",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "52902.5",
                 "band": "",
                 "abmag": "16.3",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2003",
-        "discoverday": "20",
-        "discovermonth": "9",
-        "host": "NGC 895",
-        "claimedtype": "Ic-pec",
-        "hvel": "2344",
-        "galra": "022137",
-        "galdec": "-053118",
-        "snra": "02:21:35.70",
-        "sndec": "-05:31:51.0",
-        "discoverer": "LOTOSS",
-        "redshift": "0.00785",
-        "maxyear": "2003",
-        "maxmonth": "9",
-        "maxday": "20",
-        "maxappmag": "16.3",
-        "lumdist": "34.95",
-        "maxabsmag": "-16.42"
+        ]
     }
 }

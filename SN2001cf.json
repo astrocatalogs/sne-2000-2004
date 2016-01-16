@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07600/07636.html#Item1'>IAUC 7636</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIb",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "25",
+        "discoverer": "G. Sala",
+        "discovermonth": "5",
+        "discoveryear": "2001",
+        "galdec": "+410315",
+        "galra": "120237",
+        "host": "UGC 7020",
+        "hvel": "6137",
+        "lumdist": "92.965",
+        "maxabsmag": "-16.842",
+        "maxappmag": "18",
+        "maxday": "2",
+        "maxmonth": "6",
+        "maxyear": "2001",
+        "redshift": "0.02068",
+        "sndec": "+41:02:58.9",
+        "snra": "12:02:31.64",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "52054.5",
+                "band": "",
+                "abmag": "18.0",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "52055.87",
@@ -49,33 +84,7 @@
                 "band": "C",
                 "abmag": "18",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52054.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2001",
-        "discoverday": "25",
-        "discovermonth": "5",
-        "host": "UGC 7020",
-        "claimedtype": "IIb",
-        "hvel": "6137",
-        "galra": "120237",
-        "galdec": "+410315",
-        "snra": "12:02:31.64",
-        "sndec": "+41:02:58.9",
-        "discoverer": "G. Sala",
-        "redshift": "0.02068",
-        "maxyear": "2001",
-        "maxmonth": "6",
-        "maxday": "2",
-        "maxappmag": "18",
-        "lumdist": "92.97",
-        "maxabsmag": "-16.84"
+        ]
     }
 }

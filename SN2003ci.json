@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08000/08097.html#Item1'>IAUC 8097</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "20",
+        "discoverer": "LOTOSS",
+        "discovermonth": "3",
+        "discoveryear": "2003",
+        "galdec": "+044948",
+        "galra": "111024",
+        "host": "UGC 6212",
+        "hvel": "9119",
+        "lumdist": "139.92",
+        "maxabsmag": "-18.229",
+        "maxappmag": "17.5",
+        "maxday": "21",
+        "maxmonth": "3",
+        "maxyear": "2003",
+        "redshift": "0.03089",
+        "sndec": "+04:49:35.99",
+        "snra": "11:10:23.838",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "52718.5",
+                "band": "",
+                "abmag": "17.5",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "52719.4",
@@ -42,33 +77,7 @@
                 "band": "C",
                 "abmag": "17.5",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "52718.5",
-                "band": "",
-                "abmag": "17.5",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2003",
-        "discoverday": "20",
-        "discovermonth": "3",
-        "host": "UGC 6212",
-        "claimedtype": "II",
-        "hvel": "9119",
-        "galra": "111024",
-        "galdec": "+044948",
-        "snra": "11:10:23.838",
-        "sndec": "+04:49:35.99",
-        "discoverer": "LOTOSS",
-        "maxyear": "2003",
-        "maxmonth": "3",
-        "maxday": "21",
-        "maxappmag": "17.5",
-        "redshift": "0.03089",
-        "lumdist": "139.9",
-        "maxabsmag": "-18.23"
+        ]
     }
 }

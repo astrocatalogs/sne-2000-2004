@@ -6,26 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08400/08417.html#Item1'>IAUC 8417</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ic",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "5",
+        "discoverer": "Tom Boles",
+        "discovermonth": "10",
+        "discoveryear": "2004",
+        "galdec": "+413426",
+        "galra": "022035",
+        "host": "MCG +7-5-39",
+        "hvel": "6494",
+        "lumdist": "98.54",
+        "maxabsmag": "-17.87",
+        "maxappmag": "17.1",
+        "maxday": "5",
+        "maxmonth": "10",
+        "maxyear": "2004",
+        "redshift": "0.0219",
+        "sndec": "+41:34:18.5",
+        "snra": "02:20:34.86",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "53283.5",
                 "band": "",
                 "abmag": "17.1",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -10738,7 +10771,8 @@
                         "7420.7800",
                         "0.25611782"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -21437,7 +21471,8 @@
                         "7411.3700",
                         "0.061171457"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -32148,7 +32183,8 @@
                         "7420.7800",
                         "0.17175929"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -42859,7 +42895,8 @@
                         "7420.7800",
                         "0.092795808"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -53534,7 +53571,8 @@
                         "7397.5500",
                         "0.53224373"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -64213,26 +64251,9 @@
                         "7409.0200",
                         "0.096282222"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "2004",
-        "discoverday": "5",
-        "discovermonth": "10",
-        "host": "MCG +7-5-39",
-        "claimedtype": "Ic",
-        "hvel": "6494",
-        "galra": "022035",
-        "galdec": "+413426",
-        "snra": "02:20:34.86",
-        "sndec": "+41:34:18.5",
-        "discoverer": "Tom Boles",
-        "maxyear": "2004",
-        "maxmonth": "10",
-        "maxday": "5",
-        "maxappmag": "17.1",
-        "redshift": "0.0219",
-        "lumdist": "98.54",
-        "maxabsmag": "-17.87"
+        ]
     }
 }

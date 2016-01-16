@@ -15,19 +15,47 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07500/07529.html#Item2'>IAUC 7529</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "27",
+        "discoverer": "Federico Manzini",
+        "discovermonth": "11",
+        "discoveryear": "2000",
+        "galdec": "+840946",
+        "galra": "064756",
+        "host": "UGC 3500",
+        "hvel": "4388",
+        "lumdist": "66.014",
+        "maxabsmag": "-18.098",
+        "maxappmag": "16",
+        "maxday": "14",
+        "maxmonth": "12",
+        "maxyear": "2000",
+        "redshift": "0.01475",
+        "sndec": "+84:10:02.2",
+        "snra": "06:47:52.0",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -35,6 +63,13 @@
                 "band": "C",
                 "abmag": "16.5",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51875.5",
+                "band": "",
+                "abmag": "16.3",
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",
@@ -119,33 +154,7 @@
                 "band": "R",
                 "abmag": "17.6",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51875.5",
-                "band": "",
-                "abmag": "16.3",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "2000",
-        "discoverday": "27",
-        "discovermonth": "11",
-        "host": "UGC 3500",
-        "claimedtype": "IIn",
-        "hvel": "4388",
-        "galra": "064756",
-        "galdec": "+840946",
-        "snra": "06:47:52.0",
-        "sndec": "+84:10:02.2",
-        "discoverer": "Federico Manzini",
-        "maxyear": "2000",
-        "maxmonth": "12",
-        "maxday": "14",
-        "maxappmag": "16",
-        "redshift": "0.01475",
-        "lumdist": "66.01",
-        "maxabsmag": "-18.1"
+        ]
     }
 }
