@@ -6,24 +6,24 @@
         ],
         "sources": [
             {
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
+            },
+            {
                 "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
                 "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
+                "alias": "2",
                 "secondary": true
             },
             {
                 "name": "VSNET Oct2003",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "Asiago Supernova Catalogue",
                 "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "4",
                 "secondary": true
             },
@@ -32,49 +32,80 @@
                 "alias": "5"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
+                "alias": "7"
             },
             {
                 "name": "2008MNRAS.384..107E",
                 "url": "http://adsabs.harvard.edu/abs/2008MNRAS.384..107E",
                 "bibcode": "2008MNRAS.384..107E",
-                "alias": "7"
+                "alias": "8"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "8",
+                "alias": "9",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "3"
+                "value": "Ia",
+                "source": "4"
             },
             {
-                "type": "Ia P",
-                "source": "4,7,8,7,8"
+                "value": "Ia P",
+                "source": "5,6,8,9,8,9"
             }
         ],
         "discoverday": "8",
         "discoverer": "Campo Imperatore Observatory",
         "discovermonth": "5",
         "discoveryear": "2002",
+        "ebv": [
+            {
+                "value": "0.024",
+                "source": "1"
+            }
+        ],
         "galdec": "+214959",
         "galra": "101806",
-        "host": "NGC 3190",
-        "hvel": "1289",
-        "lumdist": "19.1331",
-        "maxabsmag": "-14.8089",
+        "host": [
+            {
+                "value": "NGC 3190",
+                "source": "1,4,5,6"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "1271",
+                "source": "1"
+            },
+            {
+                "value": "1289",
+                "source": "4"
+            }
+        ],
+        "lumdist": "18.87",
+        "maxabsmag": "-14.78",
         "maxappmag": "16.6",
         "maxday": "15",
         "maxmonth": "5",
         "maxyear": "2002",
-        "redshift": "0.004309",
+        "redshift": [
+            {
+                "value": "0.004249",
+                "source": "D"
+            }
+        ],
         "sndec": "+21:50:06.2",
         "snra": "10:18:03.68",
         "photometry": [
@@ -83,49 +114,49 @@
                 "time": "52402.5",
                 "band": "",
                 "abmag": "17.2",
-                "source": "5,4"
+                "source": "5,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "52408.0",
                 "band": "I",
                 "abmag": "18.5",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52408.0",
                 "band": "I",
                 "abmag": "17.7",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52409.2",
                 "band": "I",
                 "abmag": "16.6",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52409.2",
                 "band": "R",
                 "abmag": "19",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52409.23",
                 "band": "I",
                 "abmag": "17.2",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52409.23",
                 "band": "R",
                 "abmag": "20.3",
-                "source": "1,2"
+                "source": "2,3"
             }
         ],
         "spectra": [
@@ -14346,7 +14377,7 @@
                         "0.939422"
                     ]
                 ],
-                "source": "7"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -28501,7 +28532,7 @@
                         "0.0842739"
                     ]
                 ],
-                "source": "7"
+                "source": "8"
             }
         ]
     }

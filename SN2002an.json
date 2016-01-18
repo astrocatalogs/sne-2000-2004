@@ -28,14 +28,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "5",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07800/07805.html#Item1'>IAUC 7805</a>",
+                "alias": "5"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07800/07805.html#Item1'>IAUC 7805</a>",
-                "alias": "6"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "6",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -52,30 +52,50 @@
         ],
         "claimedtype": [
             {
-                "type": "II",
+                "value": "II",
                 "source": "4,1,8,1,8,1,8,1,8"
             },
             {
-                "type": "IIn",
-                "source": "5"
+                "value": "IIn",
+                "source": "5,6"
             }
         ],
         "discoverday": "22",
         "discoverer": "Yasuo Sano",
         "discovermonth": "1",
         "discoveryear": "2002",
-        "ebv": "0.0348",
+        "ebv": [
+            {
+                "value": "0.0348",
+                "source": "1"
+            }
+        ],
         "galdec": "+241753",
         "galra": "082245",
-        "host": "NGC 2575",
-        "hvel": "3870",
-        "lumdist": "58.1",
+        "host": [
+            {
+                "value": "NGC 2575",
+                "source": "4,5,6"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "3870",
+                "source": "4"
+            }
+        ],
+        "lumdist": "57.7",
         "maxabsmag": "-18.3",
         "maxappmag": "15.5",
         "maxday": "25",
         "maxmonth": "1",
         "maxyear": "2002",
-        "redshift": "0.013",
+        "redshift": [
+            {
+                "value": "0.0129",
+                "source": "1"
+            }
+        ],
         "sndec": "+24:17:41.7",
         "snra": "08:22:47.76",
         "photometry": [
@@ -98,7 +118,7 @@
                 "time": "52298.5",
                 "band": "",
                 "abmag": "15.5",
-                "source": "6,5"
+                "source": "5,6"
             },
             {
                 "timeunit": "MJD",

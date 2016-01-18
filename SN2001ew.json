@@ -6,24 +6,24 @@
         ],
         "sources": [
             {
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
+            },
+            {
                 "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
                 "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
+                "alias": "2",
                 "secondary": true
             },
             {
                 "name": "VSNET Oct2003",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "Asiago Supernova Catalogue",
                 "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "4",
                 "secondary": true
             },
@@ -32,15 +32,15 @@
                 "alias": "5"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "7"
             },
             {
@@ -52,21 +52,50 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "3,4,7,8"
+                "value": "Ia",
+                "source": "4,5,6,1,8"
             }
         ],
         "discoverday": "8",
         "discoverer": "Tom Boles",
         "discovermonth": "10",
         "discoveryear": "2001",
+        "ebv": [
+            {
+                "value": "0.188",
+                "source": "1"
+            }
+        ],
         "galdec": "+422615",
         "galra": "031306",
-        "host": "A031306+4226",
+        "host": [
+            {
+                "value": "2MASX J03125120+4122342",
+                "source": "1"
+            },
+            {
+                "value": "A031306+4226",
+                "source": "4"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "9294",
+                "source": "1"
+            }
+        ],
+        "lumdist": "143",
+        "maxabsmag": "-18.8",
         "maxappmag": "17",
         "maxday": "9",
         "maxmonth": "10",
         "maxyear": "2001",
+        "redshift": [
+            {
+                "value": "0.0315",
+                "source": "D"
+            }
+        ],
         "sndec": "+42:26:16",
         "snra": "03:13:07.4",
         "photometry": [
@@ -75,14 +104,14 @@
                 "time": "52190.5",
                 "band": "",
                 "abmag": "17.0",
-                "source": "5,4"
+                "source": "5,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "52191.13",
                 "band": "C",
                 "abmag": "17",
-                "source": "1,2"
+                "source": "2,3"
             }
         ],
         "spectra": [
@@ -14303,7 +14332,7 @@
                         "0.00231907"
                     ]
                 ],
-                "source": "7"
+                "source": "1"
             }
         ]
     }

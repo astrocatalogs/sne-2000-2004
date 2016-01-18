@@ -6,24 +6,24 @@
         ],
         "sources": [
             {
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
+            },
+            {
                 "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
                 "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
+                "alias": "2",
                 "secondary": true
             },
             {
                 "name": "VSNET 2001",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "Asiago Supernova Catalogue",
                 "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "4",
                 "secondary": true
             },
@@ -32,15 +32,15 @@
                 "alias": "5"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "7"
             },
             {
@@ -52,25 +52,50 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "3,4,7,8"
+                "value": "Ia",
+                "source": "4,5,6,1,8"
             }
         ],
         "discoverday": "7",
         "discoverer": "LOTOSS",
         "discovermonth": "8",
         "discoveryear": "2001",
+        "ebv": [
+            {
+                "value": "0.017",
+                "source": "1"
+            }
+        ],
         "galdec": "-295520",
         "galra": "015541",
-        "host": "NGC 749",
-        "hvel": "4394",
-        "lumdist": "66.104",
-        "maxabsmag": "-18.701",
+        "host": [
+            {
+                "value": "NGC 749",
+                "source": "1,4,5,6"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "4362",
+                "source": "1"
+            },
+            {
+                "value": "4394",
+                "source": "4"
+            }
+        ],
+        "lumdist": "65.61",
+        "maxabsmag": "-18.68",
         "maxappmag": "15.4",
         "maxday": "7",
         "maxmonth": "8",
         "maxyear": "2001",
-        "redshift": "0.01477",
+        "redshift": [
+            {
+                "value": "0.01466",
+                "source": "D"
+            }
+        ],
         "sndec": "-29:55:20.7",
         "snra": "01:55:40.55",
         "photometry": [
@@ -79,28 +104,28 @@
                 "time": "52128.5",
                 "band": "C",
                 "abmag": "15.4",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52128.5",
                 "band": "",
                 "abmag": "15.4",
-                "source": "5,4"
+                "source": "5,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "52129.5",
                 "band": "C",
                 "abmag": "15.4",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52140.6",
                 "band": "R",
                 "abmag": "15.7",
-                "source": "1,2"
+                "source": "2,3"
             }
         ],
         "spectra": [
@@ -13505,7 +13530,7 @@
                         "0.209946"
                     ]
                 ],
-                "source": "7"
+                "source": "1"
             }
         ]
     }

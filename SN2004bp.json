@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
@@ -22,22 +22,22 @@
                 "alias": "3"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "5",
+                "alias": "6",
                 "secondary": true
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
-                "alias": "6"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
@@ -48,25 +48,58 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2,6,7"
+                "value": "Ia",
+                "source": "2,3,4,1,7"
             }
         ],
         "discoverday": "2",
         "discoverer": "Mark Armstrong",
         "discovermonth": "5",
         "discoveryear": "2004",
+        "ebv": [
+            {
+                "value": "0.011",
+                "source": "1"
+            }
+        ],
         "galdec": "+370007",
         "galra": "110952",
-        "host": "MCG +6-25-14",
-        "hvel": "8982",
-        "lumdist": "137.74",
-        "maxabsmag": "-17.695",
+        "host": [
+            {
+                "value": "MCG +06-25-14",
+                "source": "1"
+            },
+            {
+                "value": "M+06-25-14",
+                "source": "2"
+            },
+            {
+                "value": "MCG +6-25-14",
+                "source": "3,4"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "8913",
+                "source": "1"
+            },
+            {
+                "value": "8982",
+                "source": "2"
+            }
+        ],
+        "lumdist": "136.7",
+        "maxabsmag": "-17.68",
         "maxappmag": "18",
         "maxday": "2",
         "maxmonth": "5",
         "maxyear": "2004",
-        "redshift": "0.03042",
+        "redshift": [
+            {
+                "value": "0.03019",
+                "source": "D"
+            }
+        ],
         "sndec": "+37:00:06.4",
         "snra": "11:09:53.25",
         "photometry": [
@@ -75,7 +108,7 @@
                 "time": "53127.5",
                 "band": "",
                 "abmag": "18.0",
-                "source": "3,2"
+                "source": "3,4"
             }
         ],
         "spectra": [
@@ -13095,7 +13128,7 @@
                         "1.9237408e-17"
                     ]
                 ],
-                "source": "5"
+                "source": "6"
             }
         ]
     }

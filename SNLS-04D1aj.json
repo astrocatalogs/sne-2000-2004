@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "1",
-                "secondary": true
+                "name": "<a href='http://www.aanda.org/index.php?option=com_article&amp;access=standard&amp;Itemid=129&amp;url2004/01/01'>Paper</a>",
+                "alias": "1"
             },
             {
-                "name": "<a href='http://www.aanda.org/index.php?option=com_article&amp;access=standard&amp;Itemid=129&amp;url2004/01/01'>Paper</a>",
-                "alias": "2"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "2",
+                "secondary": true
             },
             {
                 "name": "2009A&A...507...85B",
@@ -24,22 +24,32 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1"
+                "value": "Ia",
+                "source": "1,2"
             }
         ],
         "discoverday": "31",
         "discoverer": "Supernova Legacy Project",
         "discovermonth": "12",
         "discoveryear": "2004",
-        "hvel": "148000",
+        "hvel": [
+            {
+                "value": "148000",
+                "source": "D"
+            }
+        ],
         "lumdist": "4540",
         "maxabsmag": "-18.3",
         "maxappmag": "25",
         "maxday": "31",
         "maxmonth": "12",
         "maxyear": "2003",
-        "redshift": "0.721",
+        "redshift": [
+            {
+                "value": "0.721",
+                "source": "3,3"
+            }
+        ],
         "sndec": "-04:59:40.50",
         "snra": "02:25:53.982",
         "photometry": [
@@ -48,7 +58,7 @@
                 "time": "53004.5",
                 "band": "",
                 "abmag": "25.0",
-                "source": "2,1"
+                "source": "1,2"
             }
         ],
         "spectra": [

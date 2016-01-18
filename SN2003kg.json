@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
@@ -22,22 +22,22 @@
                 "alias": "3"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "5",
+                "alias": "6",
                 "secondary": true
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
-                "alias": "6"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
@@ -48,25 +48,50 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2,6,7"
+                "value": "Ia",
+                "source": "2,3,4,1,7"
             }
         ],
         "discoverday": "27",
         "discoverer": "Mark Armstrong",
         "discovermonth": "11",
         "discoveryear": "2003",
+        "ebv": [
+            {
+                "value": "0.044",
+                "source": "1"
+            }
+        ],
         "galdec": "+150625",
         "galra": "220335",
-        "host": "IC 1427",
-        "hvel": "7794",
-        "lumdist": "118.91",
-        "maxabsmag": "-18.776",
+        "host": [
+            {
+                "value": "IC 1427",
+                "source": "1,2,3,4"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "7804",
+                "source": "1"
+            },
+            {
+                "value": "7794",
+                "source": "2"
+            }
+        ],
+        "lumdist": "119.1",
+        "maxabsmag": "-18.78",
         "maxappmag": "16.6",
         "maxday": "27",
         "maxmonth": "11",
         "maxyear": "2003",
-        "redshift": "0.02634",
+        "redshift": [
+            {
+                "value": "0.02638",
+                "source": "D"
+            }
+        ],
         "sndec": "+15:06:10.6",
         "snra": "22:03:34.64",
         "photometry": [
@@ -75,7 +100,7 @@
                 "time": "52970.5",
                 "band": "",
                 "abmag": "16.6",
-                "source": "3,2"
+                "source": "3,4"
             }
         ],
         "spectra": [
@@ -12804,7 +12829,7 @@
                         "0.231352"
                     ]
                 ],
-                "source": "6"
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -25557,7 +25582,7 @@
                         "2.5101533e-17"
                     ]
                 ],
-                "source": "5"
+                "source": "6"
             }
         ]
     }

@@ -7,34 +7,44 @@
         ],
         "sources": [
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "1",
-                "secondary": true
+                "name": "<a href='http://arxiv.org/pdf/astro-ph/0611572.pdf'>Paper</a>",
+                "alias": "1"
             },
             {
-                "name": "<a href='http://arxiv.org/pdf/astro-ph/0611572.pdf'>Paper</a>",
-                "alias": "2"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "2",
+                "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1"
+                "value": "Ia",
+                "source": "1,2"
             }
         ],
         "discoverday": "19",
         "discoverer": "HST",
         "discovermonth": "5",
         "discoveryear": "2004",
-        "hvel": "110000",
+        "hvel": [
+            {
+                "value": "110000",
+                "source": "D"
+            }
+        ],
         "lumdist": "2600",
         "maxabsmag": "-20",
         "maxappmag": "22.5",
         "maxday": "19",
         "maxmonth": "5",
         "maxyear": "2004",
-        "redshift": "0.46",
+        "redshift": [
+            {
+                "value": "0.460000",
+                "source": "1,2"
+            }
+        ],
         "sndec": "+62:12:13.0",
         "snra": "12:36:34.33",
         "photometry": [
@@ -43,7 +53,7 @@
                 "time": "53144.5",
                 "band": "",
                 "abmag": "22.5",
-                "source": "2,1"
+                "source": "1,2"
             }
         ]
     }

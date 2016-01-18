@@ -6,24 +6,24 @@
         ],
         "sources": [
             {
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
+            },
+            {
                 "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
                 "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
+                "alias": "2",
                 "secondary": true
             },
             {
                 "name": "VSNET Oct2003",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "Asiago Supernova Catalogue",
                 "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "4",
                 "secondary": true
             },
@@ -32,22 +32,22 @@
                 "alias": "5"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
+                "alias": "7"
             },
             {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "7",
+                "alias": "8",
                 "secondary": true
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
-                "alias": "8"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
@@ -58,25 +58,50 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "3,4,8,9"
+                "value": "Ia",
+                "source": "4,5,6,1,9"
             }
         ],
         "discoverday": "18",
         "discoverer": "LOTOSS",
         "discovermonth": "5",
         "discoveryear": "2002",
+        "ebv": [
+            {
+                "value": "0.03",
+                "source": "1"
+            }
+        ],
         "galdec": "+483943",
         "galra": "143452",
-        "host": "NGC 5683",
-        "hvel": "10730",
-        "lumdist": "165.828",
-        "maxabsmag": "-20.5983",
+        "host": [
+            {
+                "value": "NGC 5683",
+                "source": "1,4,5,6"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "10858",
+                "source": "1"
+            },
+            {
+                "value": "10732",
+                "source": "4"
+            }
+        ],
+        "lumdist": "160",
+        "maxabsmag": "-21",
         "maxappmag": "15.5",
         "maxday": "9",
         "maxmonth": "6",
         "maxyear": "2002",
-        "redshift": "0.03646",
+        "redshift": [
+            {
+                "value": "0.036000",
+                "source": "5,6"
+            }
+        ],
         "sndec": "+48:39:52.9",
         "snra": "14:34:51.63",
         "photometry": [
@@ -85,98 +110,98 @@
                 "time": "52412.3",
                 "band": "C",
                 "abmag": "17.6",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52418.72",
                 "band": "C",
                 "abmag": "16.9",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52419.91",
                 "band": "R",
                 "abmag": "16.2",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52419.95",
                 "band": "R",
                 "abmag": "16.8",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52424.9",
                 "band": "C",
                 "abmag": "16.2",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52425.94",
                 "band": "R",
                 "abmag": "16.1",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52425.95",
                 "band": "R",
                 "abmag": "16.5",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52433.5",
                 "band": "",
                 "abmag": "15.5",
-                "source": "5,4"
+                "source": "5,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "52434.21",
                 "band": "C",
                 "abmag": "15.5",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52435.87",
                 "band": "R",
                 "abmag": "17",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52436.86",
                 "band": "R",
                 "abmag": "17",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52436.9",
                 "band": "R",
                 "abmag": "16.3",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52437.91",
                 "band": "R",
                 "abmag": "16.6",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52439.04",
                 "band": "C",
                 "abmag": "16.8",
-                "source": "1,2"
+                "source": "2,3"
             }
         ],
         "spectra": [
@@ -12931,7 +12956,7 @@
                         "1.8969506e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -27430,7 +27455,7 @@
                         "0.220578"
                     ]
                 ],
-                "source": "8"
+                "source": "1"
             }
         ]
     }

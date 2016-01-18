@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08300/08371.html#Item2'>IAUC 8371</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08300/08371.html#Item2'>IAUC 8371</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -34,15 +34,34 @@
         "discoveryear": "2003",
         "galdec": "-293718",
         "galra": "071626",
-        "host": "ESO 428-G13",
-        "hvel": "7993",
-        "lumdist": "122.08",
-        "maxabsmag": "-18.933",
+        "host": [
+            {
+                "value": "E428-G13",
+                "source": "1"
+            },
+            {
+                "value": "ESO 428-G13",
+                "source": "2,3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "7993",
+                "source": "1"
+            }
+        ],
+        "lumdist": "122.1",
+        "maxabsmag": "-18.93",
         "maxappmag": "16.5",
         "maxday": "5",
         "maxmonth": "11",
         "maxyear": "2003",
-        "redshift": "0.02703",
+        "redshift": [
+            {
+                "value": "0.02703",
+                "source": "D"
+            }
+        ],
         "sndec": "-29:37:04.5",
         "snra": "07:16:25.24",
         "photometry": [
@@ -51,7 +70,7 @@
                 "time": "52948.5",
                 "band": "",
                 "abmag": "16.5",
-                "source": "3,2"
+                "source": "2,3"
             }
         ]
     }

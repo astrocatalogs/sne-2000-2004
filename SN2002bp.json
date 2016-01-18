@@ -6,24 +6,24 @@
         ],
         "sources": [
             {
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
+            },
+            {
                 "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
                 "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
+                "alias": "2",
                 "secondary": true
             },
             {
                 "name": "VSNET Oct2003",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "Asiago Supernova Catalogue",
                 "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "4",
                 "secondary": true
             },
@@ -32,15 +32,15 @@
                 "alias": "5"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "7"
             },
             {
@@ -52,25 +52,50 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia P",
-                "source": "7,8"
+                "value": "Ia P",
+                "source": "1,8"
             }
         ],
         "discoverday": "7",
         "discoverer": "Tim Puckett et al.",
         "discovermonth": "3",
         "discoveryear": "2002",
+        "ebv": [
+            {
+                "value": "0.017",
+                "source": "1"
+            }
+        ],
         "galdec": "+204848",
         "galra": "111917",
-        "host": "UGC 6332",
-        "hvel": "6245",
-        "lumdist": "94.655",
-        "maxabsmag": "-16.481",
+        "host": [
+            {
+                "value": "UGC 6332",
+                "source": "1,4,5,6"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "6227",
+                "source": "1"
+            },
+            {
+                "value": "6245",
+                "source": "4"
+            }
+        ],
+        "lumdist": "94.38",
+        "maxabsmag": "-16.47",
         "maxappmag": "18.4",
         "maxday": "23",
         "maxmonth": "3",
         "maxyear": "2002",
-        "redshift": "0.02105",
+        "redshift": [
+            {
+                "value": "0.02099",
+                "source": "D"
+            }
+        ],
         "sndec": "+20:48:23.1",
         "snra": "11:19:18.20",
         "photometry": [
@@ -79,21 +104,21 @@
                 "time": "52340.5",
                 "band": "",
                 "abmag": "18.6",
-                "source": "5,4"
+                "source": "5,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "52341.16",
                 "band": "C",
                 "abmag": "18.6",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52356.93",
                 "band": "R",
                 "abmag": "18.4",
-                "source": "1,2"
+                "source": "2,3"
             }
         ],
         "spectra": [
@@ -14038,7 +14063,7 @@
                         "0.0399009"
                     ]
                 ],
-                "source": "7"
+                "source": "1"
             }
         ]
     }

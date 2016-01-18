@@ -6,34 +6,44 @@
         ],
         "sources": [
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "1",
-                "secondary": true
+                "name": "<a href='http://www.aanda.org/index.php?option=com_article&amp;access=standard&amp;Itemid=129&amp;url2003/10/24'>Paper</a>",
+                "alias": "1"
             },
             {
-                "name": "<a href='http://www.aanda.org/index.php?option=com_article&amp;access=standard&amp;Itemid=129&amp;url2003/10/24'>Paper</a>",
-                "alias": "2"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "2",
+                "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1"
+                "value": "Ia",
+                "source": "1,2"
             }
         ],
         "discoverday": "23",
         "discoverer": "Supernova Legacy Project",
         "discovermonth": "10",
         "discoveryear": "2003",
-        "hvel": "157000",
+        "hvel": [
+            {
+                "value": "157000",
+                "source": "D"
+            }
+        ],
         "lumdist": "5090",
         "maxabsmag": "-18.5",
         "maxappmag": "25",
         "maxday": "23",
         "maxmonth": "10",
         "maxyear": "2003",
-        "redshift": "0.791",
+        "redshift": [
+            {
+                "value": "0.791000",
+                "source": "1,2"
+            }
+        ],
         "sndec": "-17:23:44.33",
         "snra": "22:16:14.462",
         "photometry": [
@@ -42,7 +52,7 @@
                 "time": "52935.5",
                 "band": "",
                 "abmag": "25.0",
-                "source": "2,1"
+                "source": "1,2"
             }
         ]
     }

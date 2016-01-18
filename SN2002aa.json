@@ -24,14 +24,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "4",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07800/07802.html#Item1'>IAUC 7802</a>",
+                "alias": "4"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07800/07802.html#Item1'>IAUC 7802</a>",
-                "alias": "5"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "5",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -46,15 +46,34 @@
         "discoveryear": "2001",
         "galdec": "+101800",
         "galra": "074845",
-        "host": "A074845+1018",
-        "hvel": "170000",
+        "host": [
+            {
+                "value": "A074845+1018",
+                "source": "3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "170000",
+                "source": "D"
+            }
+        ],
         "lumdist": "6400",
         "maxabsmag": "-22",
         "maxappmag": "21.76",
         "maxday": "19",
         "maxmonth": "12",
         "maxyear": "2001",
-        "redshift": "0.95",
+        "redshift": [
+            {
+                "value": "0.95",
+                "source": "3"
+            },
+            {
+                "value": "0.950000",
+                "source": "4,5"
+            }
+        ],
         "sndec": "+10:18:00.8",
         "snra": "07:48:45.28",
         "photometry": [
@@ -84,7 +103,7 @@
                 "time": "52282.5",
                 "band": "",
                 "abmag": "24.3",
-                "source": "5,4"
+                "source": "4,5"
             },
             {
                 "timeunit": "MJD",

@@ -6,24 +6,24 @@
         ],
         "sources": [
             {
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
+            },
+            {
                 "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
                 "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
+                "alias": "2",
                 "secondary": true
             },
             {
                 "name": "VSNET Oct2003",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "Asiago Supernova Catalogue",
                 "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "4",
                 "secondary": true
             },
@@ -32,15 +32,15 @@
                 "alias": "5"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "7"
             },
             {
@@ -52,25 +52,50 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "3,4,7,8"
+                "value": "Ia",
+                "source": "4,5,6,1,8"
             }
         ],
         "discoverday": "7",
         "discoverer": "LOTOSS",
         "discovermonth": "7",
         "discoveryear": "2002",
+        "ebv": [
+            {
+                "value": "0.053",
+                "source": "1"
+            }
+        ],
         "galdec": "+295022",
         "galra": "235707",
-        "host": "UGC 12861",
-        "hvel": "7064",
-        "lumdist": "107.47",
-        "maxabsmag": "-16.356",
+        "host": [
+            {
+                "value": "UGC 12861",
+                "source": "1,4,5,6"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "7099",
+                "source": "1"
+            },
+            {
+                "value": "7064",
+                "source": "4"
+            }
+        ],
+        "lumdist": "108",
+        "maxabsmag": "-16.37",
         "maxappmag": "18.8",
         "maxday": "8",
         "maxmonth": "7",
         "maxyear": "2002",
-        "redshift": "0.02385",
+        "redshift": [
+            {
+                "value": "0.02397",
+                "source": "D"
+            }
+        ],
         "sndec": "+29:50:15.5",
         "snra": "23:57:06.73",
         "photometry": [
@@ -79,21 +104,21 @@
                 "time": "52462.5",
                 "band": "",
                 "abmag": "18.9",
-                "source": "5,4"
+                "source": "5,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "52463.5",
                 "band": "C",
                 "abmag": "18.8",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "52464.5",
                 "band": "C",
                 "abmag": "18.9",
-                "source": "1,2"
+                "source": "2,3"
             }
         ],
         "spectra": [
@@ -14510,7 +14535,7 @@
                         "0.0506684"
                     ]
                 ],
-                "source": "7"
+                "source": "1"
             }
         ]
     }

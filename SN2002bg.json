@@ -6,24 +6,24 @@
         ],
         "sources": [
             {
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
+            },
+            {
                 "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
                 "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
+                "alias": "2",
                 "secondary": true
             },
             {
                 "name": "VSNET Oct2003",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "Asiago Supernova Catalogue",
                 "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "4",
                 "secondary": true
             },
@@ -32,22 +32,22 @@
                 "alias": "5"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
+                "alias": "7"
             },
             {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "7",
+                "alias": "8",
                 "secondary": true
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
-                "alias": "8"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
@@ -58,25 +58,58 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "3,4,8,9"
+                "value": "Ia",
+                "source": "4,5,6,1,9"
             }
         ],
         "discoverday": "22",
         "discoverer": "Tim Puckett et al.",
         "discovermonth": "2",
         "discoveryear": "2002",
+        "ebv": [
+            {
+                "value": "0.028",
+                "source": "1"
+            }
+        ],
         "galdec": "+131255",
         "galra": "145938",
-        "host": "MCG +2-38-31",
-        "hvel": "12840",
-        "lumdist": "200.153",
-        "maxabsmag": "-19.6068",
+        "host": [
+            {
+                "value": "MCG +02-38-31",
+                "source": "1"
+            },
+            {
+                "value": "M+02-38-31",
+                "source": "4"
+            },
+            {
+                "value": "MCG +2-38-31",
+                "source": "5,6"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "12813",
+                "source": "1"
+            },
+            {
+                "value": "12837",
+                "source": "4"
+            }
+        ],
+        "lumdist": "199.76",
+        "maxabsmag": "-19.603",
         "maxappmag": "16.9",
         "maxday": "23",
         "maxmonth": "2",
         "maxyear": "2002",
-        "redshift": "0.04378",
+        "redshift": [
+            {
+                "value": "0.043693",
+                "source": "D"
+            }
+        ],
         "sndec": "+13:12:44.5",
         "snra": "14:59:39.23",
         "photometry": [
@@ -85,14 +118,14 @@
                 "time": "52327.5",
                 "band": "",
                 "abmag": "16.9",
-                "source": "5,4"
+                "source": "5,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "52328.39",
                 "band": "C",
                 "abmag": "16.9",
-                "source": "1,2"
+                "source": "2,3"
             }
         ],
         "spectra": [
@@ -12782,7 +12815,7 @@
                         "1.9292634e-17"
                     ]
                 ],
-                "source": "7"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -22601,7 +22634,7 @@
                         "0.0824096"
                     ]
                 ],
-                "source": "8"
+                "source": "1"
             }
         ]
     }

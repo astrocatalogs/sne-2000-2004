@@ -22,14 +22,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "4",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07500/07518.html#Item1'>IAUC 7518</a>",
+                "alias": "4"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07500/07518.html#Item1'>IAUC 7518</a>",
-                "alias": "5"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "5",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -44,15 +44,34 @@
         "discoveryear": "2000",
         "galdec": "-535012",
         "galra": "021032",
-        "host": "ESO 153-G27",
-        "hvel": "5704",
-        "lumdist": "86.262",
-        "maxabsmag": "-17.679",
+        "host": [
+            {
+                "value": "E153-G27",
+                "source": "3"
+            },
+            {
+                "value": "ESO 153-G27",
+                "source": "4,5"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "5704",
+                "source": "3"
+            }
+        ],
+        "lumdist": "86.26",
+        "maxabsmag": "-17.68",
         "maxappmag": "17",
         "maxday": "7",
         "maxmonth": "11",
         "maxyear": "2000",
-        "redshift": "0.01921",
+        "redshift": [
+            {
+                "value": "0.01921",
+                "source": "D"
+            }
+        ],
         "sndec": "-53:49:28.0",
         "snra": "02:10:30.04",
         "photometry": [
@@ -61,7 +80,7 @@
                 "time": "51854.5",
                 "band": "",
                 "abmag": "17.0",
-                "source": "5,4"
+                "source": "4,5"
             },
             {
                 "timeunit": "MJD",

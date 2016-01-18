@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "1",
-                "secondary": true
+                "name": "<a href='http://www.aanda.org/index.php?option=com_article&amp;access=standard&amp;Itemid=129&amp;url2003/09/02'>Paper</a>",
+                "alias": "1"
             },
             {
-                "name": "<a href='http://www.aanda.org/index.php?option=com_article&amp;access=standard&amp;Itemid=129&amp;url2003/09/02'>Paper</a>",
-                "alias": "2"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "2",
+                "secondary": true
             },
             {
                 "name": "2009A&A...507...85B",
@@ -24,22 +24,36 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1"
+                "value": "Ia",
+                "source": "1,2"
             }
         ],
         "discoverday": "1",
         "discoverer": "Supernova Legacy Project",
         "discovermonth": "9",
         "discoveryear": "2003",
-        "hvel": "170000",
-        "lumdist": "5960",
+        "hvel": [
+            {
+                "value": "170000",
+                "source": "D"
+            }
+        ],
+        "lumdist": "6010",
         "maxabsmag": "-18.9",
         "maxappmag": "25",
         "maxday": "1",
         "maxmonth": "9",
         "maxyear": "2003",
-        "redshift": "0.899",
+        "redshift": [
+            {
+                "value": "0.905000",
+                "source": "1,2"
+            },
+            {
+                "value": "0.899",
+                "source": "3,3"
+            }
+        ],
         "sndec": "-17:30:24.18",
         "snra": "22:14:10.249",
         "photometry": [
@@ -48,7 +62,7 @@
                 "time": "52883.5",
                 "band": "",
                 "abmag": "25.0",
-                "source": "2,1"
+                "source": "1,2"
             }
         ],
         "spectra": [
