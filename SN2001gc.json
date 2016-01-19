@@ -51,22 +51,34 @@
                 "alias": "8"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "9",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "10"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "9",
+                "alias": "11",
                 "secondary": true
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "10",
+                "alias": "12",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "5,6,7,1,10"
+                "source": "5,6,7,1,12"
             }
         ],
         "discoverday": "17",
@@ -93,8 +105,14 @@
                 "source": "1,5"
             }
         ],
-        "lumdist": "85",
-        "maxabsmag": "-19",
+        "lumdist": [
+            {
+                "value": "48.7",
+                "error": "5.3",
+                "source": "10,9"
+            }
+        ],
+        "maxabsmag": "-18.1",
         "maxappmag": "15.3",
         "maxday": "24",
         "maxmonth": "11",
@@ -13190,7 +13208,7 @@
                         "2.2286215e-17"
                     ]
                 ],
-                "source": "9"
+                "source": "11"
             },
             {
                 "deredshifted": false,
@@ -25943,7 +25961,7 @@
                         "2.9584459e-17"
                     ]
                 ],
-                "source": "9"
+                "source": "11"
             },
             {
                 "deredshifted": false,
@@ -38696,7 +38714,7 @@
                         "2.8338982e-17"
                     ]
                 ],
-                "source": "9"
+                "source": "11"
             },
             {
                 "deredshifted": false,
@@ -51449,7 +51467,7 @@
                         "5.8398017e-17"
                     ]
                 ],
-                "source": "9"
+                "source": "11"
             },
             {
                 "deredshifted": false,
@@ -64202,7 +64220,7 @@
                         "8.5183469e-17"
                     ]
                 ],
-                "source": "9"
+                "source": "11"
             },
             {
                 "deredshifted": false,
@@ -76955,7 +76973,7 @@
                         "2.3082425e-17"
                     ]
                 ],
-                "source": "9"
+                "source": "11"
             },
             {
                 "deredshifted": false,
@@ -89708,7 +89726,7 @@
                         "2.6471817e-17"
                     ]
                 ],
-                "source": "9"
+                "source": "11"
             },
             {
                 "deredshifted": false,
@@ -102461,7 +102479,7 @@
                         "2.4729783e-17"
                     ]
                 ],
-                "source": "9"
+                "source": "11"
             },
             {
                 "deredshifted": false,
@@ -115214,7 +115232,7 @@
                         "4.3453898e-17"
                     ]
                 ],
-                "source": "9"
+                "source": "11"
             },
             {
                 "deredshifted": true,

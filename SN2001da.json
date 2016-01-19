@@ -57,9 +57,39 @@
                 "alias": "9"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "10",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "11"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "12"
+            },
+            {
+                "name": "2009ApJ...700.1097H",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+                "bibcode": "2009ApJ...700.1097H",
+                "alias": "13"
+            },
+            {
+                "name": "2011ApJS..192....1C",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJS..192....1C",
+                "bibcode": "2011ApJS..192....1C",
+                "alias": "14"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "10",
+                "alias": "15",
                 "secondary": true
             }
         ],
@@ -97,8 +127,14 @@
                 "source": "6"
             }
         ],
-        "lumdist": "81",
-        "maxabsmag": "-19",
+        "lumdist": [
+            {
+                "value": "109",
+                "error": "4",
+                "source": "14,10"
+            }
+        ],
+        "maxabsmag": "-20",
         "maxappmag": "15.14",
         "maxday": "18",
         "maxmonth": "7",
@@ -11653,7 +11689,7 @@
                         "7.0864804e-16"
                     ]
                 ],
-                "source": "10"
+                "source": "15"
             },
             {
                 "deredshifted": false,
@@ -23837,7 +23873,7 @@
                         "5.6978800e-16"
                     ]
                 ],
-                "source": "10"
+                "source": "15"
             },
             {
                 "deredshifted": true,
@@ -50808,7 +50844,7 @@
                         "2.3600404e-17"
                     ]
                 ],
-                "source": "10"
+                "source": "15"
             },
             {
                 "deredshifted": false,
@@ -61012,7 +61048,7 @@
                         "7.5350304e-16"
                     ]
                 ],
-                "source": "10"
+                "source": "15"
             },
             {
                 "deredshifted": false,
@@ -71216,7 +71252,7 @@
                         "1.0757299e-15"
                     ]
                 ],
-                "source": "10"
+                "source": "15"
             },
             {
                 "deredshifted": false,
@@ -83969,7 +84005,7 @@
                         "1.9107970e-17"
                     ]
                 ],
-                "source": "10"
+                "source": "15"
             },
             {
                 "deredshifted": true,
@@ -110940,7 +110976,7 @@
                         "1.6020829e-17"
                     ]
                 ],
-                "source": "10"
+                "source": "15"
             }
         ]
     }

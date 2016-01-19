@@ -57,9 +57,27 @@
                 "alias": "9"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "10",
+                "secondary": true
+            },
+            {
+                "name": "2009ApJ...700.1097H",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+                "bibcode": "2009ApJ...700.1097H",
+                "alias": "11"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "12"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "10",
+                "alias": "13",
                 "secondary": true
             }
         ],
@@ -113,8 +131,14 @@
                 "source": "6"
             }
         ],
-        "lumdist": "99",
-        "maxabsmag": "-18",
+        "lumdist": [
+            {
+                "value": "100",
+                "error": "8.9",
+                "source": "12,10"
+            }
+        ],
+        "maxabsmag": "-20",
         "maxappmag": "16.95",
         "maxday": "9",
         "maxmonth": "1",
@@ -26157,7 +26181,7 @@
                         "2.6225609e-17"
                     ]
                 ],
-                "source": "10"
+                "source": "13"
             },
             {
                 "deredshifted": false,
@@ -40175,7 +40199,7 @@
                         "6.8128907e-18"
                     ]
                 ],
-                "source": "10"
+                "source": "13"
             },
             {
                 "deredshifted": false,
@@ -52928,7 +52952,7 @@
                         "2.6871712e-17"
                     ]
                 ],
-                "source": "10"
+                "source": "13"
             },
             {
                 "deredshifted": true,

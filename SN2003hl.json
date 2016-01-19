@@ -35,16 +35,46 @@
                 "alias": "5"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "6",
+                "secondary": true
+            },
+            {
+                "name": "2009ApJ...696.1176J",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...696.1176J",
+                "bibcode": "2009ApJ...696.1176J",
+                "alias": "7"
+            },
+            {
+                "name": "2009ApJ...694.1067P",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...694.1067P",
+                "bibcode": "2009ApJ...694.1067P",
+                "alias": "8"
+            },
+            {
+                "name": "2010ApJ...715..833O",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...715..833O",
+                "bibcode": "2010ApJ...715..833O",
+                "alias": "9"
+            },
+            {
+                "name": "2014AJ....148..107R",
+                "url": "http://adsabs.harvard.edu/abs/2014AJ....148..107R",
+                "bibcode": "2014AJ....148..107R",
+                "alias": "10"
+            },
+            {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "6",
+                "alias": "11",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "II",
-                "source": "2,3,4,1,6,1,6,1,6,1,6,1,6"
+                "source": "2,3,4,1,11,1,11,1,11,1,11,1,11"
             }
         ],
         "discoverday": "21",
@@ -71,8 +101,14 @@
                 "source": "2"
             }
         ],
-        "lumdist": "37",
-        "maxabsmag": "-17",
+        "lumdist": [
+            {
+                "value": "30.5",
+                "error": "1.6",
+                "source": "10,6"
+            }
+        ],
+        "maxabsmag": "-16.9",
         "maxappmag": "15.51",
         "maxday": "17",
         "maxmonth": "10",

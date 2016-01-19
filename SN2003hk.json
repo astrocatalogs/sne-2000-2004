@@ -29,22 +29,40 @@
                 "alias": "4"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "5",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...715..833O",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...715..833O",
+                "bibcode": "2010ApJ...715..833O",
+                "alias": "6"
+            },
+            {
+                "name": "2014AJ....148..107R",
+                "url": "http://adsabs.harvard.edu/abs/2014AJ....148..107R",
+                "bibcode": "2014AJ....148..107R",
+                "alias": "7"
+            },
+            {
                 "name": "2014MNRAS.445..554F",
                 "url": "http://adsabs.harvard.edu/abs/2014MNRAS.445..554F",
                 "bibcode": "2014MNRAS.445..554F",
-                "alias": "5"
+                "alias": "8"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "6",
+                "alias": "9",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "II",
-                "source": "1,2,3,5,6"
+                "source": "1,2,3,8,9"
             }
         ],
         "discoverday": "20",
@@ -65,8 +83,14 @@
                 "source": "1"
             }
         ],
-        "lumdist": "100",
-        "maxabsmag": "-19",
+        "lumdist": [
+            {
+                "value": "90.8",
+                "error": "3",
+                "source": "7,5"
+            }
+        ],
+        "maxabsmag": "-18.8",
         "maxappmag": "16",
         "maxday": "20",
         "maxmonth": "8",
@@ -12605,7 +12629,7 @@
                         "0.144809"
                     ]
                 ],
-                "source": "5"
+                "source": "8"
             }
         ]
     }

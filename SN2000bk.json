@@ -51,22 +51,100 @@
                 "alias": "8"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "9",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "10"
+            },
+            {
+                "name": "2008MNRAS.389.1577T",
+                "url": "http://adsabs.harvard.edu/abs/2008MNRAS.389.1577T",
+                "bibcode": "2008MNRAS.389.1577T",
+                "alias": "11"
+            },
+            {
+                "name": "2006ApJ...647..501P",
+                "url": "http://adsabs.harvard.edu/abs/2006ApJ...647..501P",
+                "bibcode": "2006ApJ...647..501P",
+                "alias": "12"
+            },
+            {
+                "name": "2011ApJ...731..120M",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJ...731..120M",
+                "bibcode": "2011ApJ...731..120M",
+                "alias": "13"
+            },
+            {
+                "name": "2009ApJ...704..629M",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...704..629M",
+                "bibcode": "2009ApJ...704..629M",
+                "alias": "14"
+            },
+            {
+                "name": "2007ApJ...659..122J",
+                "url": "http://adsabs.harvard.edu/abs/2007ApJ...659..122J",
+                "bibcode": "2007ApJ...659..122J",
+                "alias": "15"
+            },
+            {
+                "name": "2004ApJ...607..665R",
+                "url": "http://adsabs.harvard.edu/abs/2004ApJ...607..665R",
+                "bibcode": "2004ApJ...607..665R",
+                "alias": "16"
+            },
+            {
+                "name": "2008ApJ...689..377W",
+                "url": "http://adsabs.harvard.edu/abs/2008ApJ...689..377W",
+                "bibcode": "2008ApJ...689..377W",
+                "alias": "17"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "18"
+            },
+            {
+                "name": "2008ApJ...686..749K",
+                "url": "http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
+                "bibcode": "2008ApJ...686..749K",
+                "alias": "19"
+            },
+            {
+                "name": "2014ApJ...784..105W",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...784..105W",
+                "bibcode": "2014ApJ...784..105W",
+                "alias": "20"
+            },
+            {
+                "name": "2005ApJ...624..532R",
+                "url": "http://adsabs.harvard.edu/abs/2005ApJ...624..532R",
+                "bibcode": "2005ApJ...624..532R",
+                "alias": "21"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "9",
+                "alias": "22",
                 "secondary": true
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "10",
+                "alias": "23",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "5,6,7,1,10"
+                "source": "5,6,7,1,23"
             }
         ],
         "discoverday": "6",
@@ -97,7 +175,13 @@
                 "source": "5"
             }
         ],
-        "lumdist": "110",
+        "lumdist": [
+            {
+                "value": "110",
+                "error": "3",
+                "source": "12,9"
+            }
+        ],
         "maxabsmag": "-18",
         "maxappmag": "17",
         "maxday": "7",
@@ -10701,7 +10785,7 @@
                         "1.0844100e-16"
                     ]
                 ],
-                "source": "9"
+                "source": "22"
             },
             {
                 "deredshifted": true,
@@ -35023,7 +35107,7 @@
                         "1.2835200e-16"
                     ]
                 ],
-                "source": "9"
+                "source": "22"
             },
             {
                 "deredshifted": false,
@@ -45227,7 +45311,7 @@
                         "7.0182999e-17"
                     ]
                 ],
-                "source": "9"
+                "source": "22"
             }
         ]
     }

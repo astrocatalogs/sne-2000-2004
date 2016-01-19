@@ -17,10 +17,34 @@
                 "secondary": true
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "3",
+                "secondary": true
+            },
+            {
+                "name": "2011ApJS..192....1C",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJS..192....1C",
+                "bibcode": "2011ApJS..192....1C",
+                "alias": "4"
+            },
+            {
+                "name": "2012ApJ...748..127F",
+                "url": "http://adsabs.harvard.edu/abs/2012ApJ...748..127F",
+                "bibcode": "2012ApJ...748..127F",
+                "alias": "5"
+            },
+            {
+                "name": "2009ApJ...704.1036F",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...704.1036F",
+                "bibcode": "2009ApJ...704.1036F",
+                "alias": "6"
+            },
+            {
                 "name": "2009A&A...507...85B",
                 "url": "http://adsabs.harvard.edu/abs/2009A&A...507...85B",
                 "bibcode": "2009A&A...507...85B",
-                "alias": "3"
+                "alias": "7"
             }
         ],
         "claimedtype": [
@@ -39,8 +63,14 @@
                 "source": "D"
             }
         ],
-        "lumdist": "3800",
-        "maxabsmag": "-18",
+        "lumdist": [
+            {
+                "value": "2200",
+                "error": "80",
+                "source": "4,3"
+            }
+        ],
+        "maxabsmag": "-17",
         "maxappmag": "25",
         "maxday": "31",
         "maxmonth": "12",
@@ -48,7 +78,7 @@
         "redshift": [
             {
                 "value": "0.62",
-                "source": "1,2,3"
+                "source": "1,2,7"
             }
         ],
         "sndec": "+02:02:28.73",
@@ -1313,7 +1343,7 @@
                         "-4.4e-20"
                     ]
                 ],
-                "source": "3"
+                "source": "7"
             },
             {
                 "instrument": "VLT",
@@ -2365,7 +2395,7 @@
                         "7.21e-19"
                     ]
                 ],
-                "source": "3"
+                "source": "7"
             }
         ]
     }
