@@ -6,16 +6,16 @@
 		],
 		"sources":[
 			{
-				"name":"NED-D",
-				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"1",
-				"secondary":true
-			},
-			{
 				"name":"2010A&A...523A...7G",
 				"url":"http://adsabs.harvard.edu/abs/2010A&A...523A...7G",
 				"bibcode":"2010A&A...523A...7G",
-				"alias":"2"
+				"alias":"1"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"2",
+				"secondary":true
 			},
 			{
 				"name":"2009A&A...507...85B",
@@ -24,7 +24,21 @@
 				"alias":"3"
 			}
 		],
+		"claimedtype":[
+			{
+				"value":"Ia?",
+				"source":"1"
+			}
+		],
+		"discoverday":"22",
+		"discovermonth":"3",
 		"discoveryear":"2004",
+		"ebv":[
+			{
+				"value":"0.02",
+				"source":"1"
+			}
+		],
 		"hvel":[
 			{
 				"value":"163000",
@@ -35,13 +49,208 @@
 			{
 				"value":"3360",
 				"error":"440",
-				"source":"2,1"
+				"source":"1,2"
 			}
 		],
+		"maxabsmag":"-19.5",
+		"maxappmag":"23.15",
+		"maxday":"16",
+		"maxmonth":"3",
+		"maxyear":"2004",
 		"redshift":[
 			{
 				"value":"0.838",
-				"source":"3"
+				"source":"1,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+02:16:14.530",
+				"source":"1"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:58:44.692",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"53026.47",
+				"band":"i",
+				"abmag":"26.862",
+				"aberr":"0.7141",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53031.57",
+				"band":"i",
+				"abmag":"26.32",
+				"aberr":"0.6939",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53080.45",
+				"band":"i",
+				"abmag":"23.153",
+				"aberr":"0.050976",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53081.36",
+				"band":"r",
+				"abmag":"24.42",
+				"aberr":"0.083876",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53083.39",
+				"band":"i",
+				"abmag":"23.328",
+				"aberr":"0.053303",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53084.44",
+				"band":"r",
+				"abmag":"24.54",
+				"aberr":"0.11283",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53084.46",
+				"band":"g",
+				"abmag":"27.134",
+				"aberr":"0.59458",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53093.37",
+				"band":"i",
+				"abmag":"23.689",
+				"aberr":"0.078378",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53093.42",
+				"band":"r",
+				"abmag":"24.771",
+				"aberr":"0.22737",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53094.42",
+				"band":"z",
+				"abmag":"23.504",
+				"aberr":"0.13659",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53105.32",
+				"band":"i",
+				"abmag":"24.594",
+				"aberr":"0.17028",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53105.35",
+				"band":"r",
+				"abmag":"25.778",
+				"aberr":"0.44109",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53114.26",
+				"band":"i",
+				"abmag":"24.93",
+				"aberr":"0.29275",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53118.35",
+				"band":"i",
+				"abmag":"25.005",
+				"aberr":"0.25502",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53120.35",
+				"band":"r",
+				"abmag":"26.81",
+				"aberr":"0.6278",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53136.27",
+				"band":"i",
+				"abmag":"26.377",
+				"aberr":"0.53729",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53136.33",
+				"band":"g",
+				"abmag":"26.648",
+				"aberr":"0.43685",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53151.26",
+				"band":"z",
+				"abmag":"24.578",
+				"aberr":"0.39706",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53352.54",
+				"band":"i",
+				"abmag":"26.76",
+				"aberr":"0.71649",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53374.65",
+				"band":"r",
+				"abmag":"25.894",
+				"aberr":"0.56952",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53390.51",
+				"band":"z",
+				"abmag":"25.803",
+				"aberr":"0.72834",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53411.52",
+				"band":"r",
+				"abmag":"26.745",
+				"aberr":"0.49103",
+				"source":"1"
 			}
 		],
 		"spectra":[
