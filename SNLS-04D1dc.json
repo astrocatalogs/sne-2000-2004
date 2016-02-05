@@ -48,9 +48,24 @@
 				"source":"1"
 			}
 		],
-		"discoverday":"10",
-		"discovermonth":"8",
-		"discoveryear":"2004",
+		"discoverday":[
+			{
+				"value":"10",
+				"source":"1"
+			}
+		],
+		"discovermonth":[
+			{
+				"value":"8",
+				"source":"1"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"2004",
+				"source":"1,6"
+			}
+		],
 		"ebv":[
 			{
 				"value":"0.025",
@@ -70,11 +85,36 @@
 				"source":"5,2"
 			}
 		],
-		"maxabsmag":"-19.5",
-		"maxappmag":"20.65",
-		"maxday":"14",
-		"maxmonth":"8",
-		"maxyear":"2004",
+		"maxabsmag":[
+			{
+				"value":"-19.5",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"20.65",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"14",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"8",
+				"source":"D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"2004",
+				"source":"D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.211",
@@ -770,6 +810,8 @@
 		"spectra":[
 			{
 				"instrument":"VLT",
+				"timeunit":"MJD",
+				"time":"53229.0",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[

@@ -77,15 +77,34 @@
 				"source":"1,2,3"
 			}
 		],
-		"discoverday":"1",
+		"discoverday":[
+			{
+				"value":"17",
+				"source":"1"
+			},
+			{
+				"value":"1",
+				"source":"2,3"
+			}
+		],
 		"discoverer":[
 			{
 				"value":"Supernova Legacy Project",
 				"source":"2,3"
 			}
 		],
-		"discovermonth":"1",
-		"discoveryear":"2004",
+		"discovermonth":[
+			{
+				"value":"1",
+				"source":"1,2,3"
+			}
+		],
+		"discoveryear":[
+			{
+				"value":"2004",
+				"source":"1,2,3,11"
+			}
+		],
 		"ebv":[
 			{
 				"value":"0.025",
@@ -105,11 +124,36 @@
 				"source":"7,4,8"
 			}
 		],
-		"maxabsmag":"-19.3",
-		"maxappmag":"22.25",
-		"maxday":"14",
-		"maxmonth":"1",
-		"maxyear":"2004",
+		"maxabsmag":[
+			{
+				"value":"-19.3",
+				"source":"D"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"22.25",
+				"source":"D"
+			}
+		],
+		"maxday":[
+			{
+				"value":"14",
+				"source":"D"
+			}
+		],
+		"maxmonth":[
+			{
+				"value":"1",
+				"source":"D"
+			}
+		],
+		"maxyear":[
+			{
+				"value":"2004",
+				"source":"D"
+			}
+		],
 		"redshift":[
 			{
 				"value":"0.557",
@@ -579,6 +623,8 @@
 		"spectra":[
 			{
 				"instrument":"VLT",
+				"timeunit":"MJD",
+				"time":"53023.0",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
