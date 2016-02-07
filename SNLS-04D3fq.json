@@ -89,6 +89,22 @@
 				"source":"1,2,3"
 			}
 		],
+		"dec":[
+			{
+				"value":"+52:22:46.100",
+				"source":"1"
+			},
+			{
+				"value":"+52:22:46.46",
+				"source":"2,3"
+			}
+		],
+		"discoverdate":[
+			{
+				"value":"2004/04/26",
+				"source":"D"
+			}
+		],
 		"discoverday":[
 			{
 				"value":"26",
@@ -148,6 +164,12 @@
 				"source":"D"
 			}
 		],
+		"maxdate":[
+			{
+				"value":"2004/04/22",
+				"source":"D"
+			}
+		],
 		"maxday":[
 			{
 				"value":"22",
@@ -166,23 +188,7 @@
 				"source":"D"
 			}
 		],
-		"redshift":[
-			{
-				"value":"0.742",
-				"source":"1"
-			}
-		],
-		"sndec":[
-			{
-				"value":"+52:22:46.100",
-				"source":"1"
-			},
-			{
-				"value":"+52:22:46.46",
-				"source":"2,3"
-			}
-		],
-		"snra":[
+		"ra":[
 			{
 				"value":"14:16:57.885",
 				"source":"1"
@@ -192,13 +198,19 @@
 				"source":"2,3"
 			}
 		],
+		"redshift":[
+			{
+				"value":"0.742",
+				"source":"1"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",
 				"time":"53094.61",
 				"band":"z",
 				"magnitude":"24.33",
-				"error":"0.4742",
+				"e_magnitude":"0.4742",
 				"source":"1"
 			},
 			{
@@ -206,7 +218,7 @@
 				"time":"53109.48",
 				"band":"i",
 				"magnitude":"23.459",
-				"error":"0.081415",
+				"e_magnitude":"0.081415",
 				"source":"1"
 			},
 			{
@@ -214,7 +226,7 @@
 				"time":"53109.54",
 				"band":"r",
 				"magnitude":"23.826",
-				"error":"0.077036",
+				"e_magnitude":"0.077036",
 				"source":"1"
 			},
 			{
@@ -222,7 +234,7 @@
 				"time":"53109.57",
 				"band":"g",
 				"magnitude":"25.321",
-				"error":"0.19864",
+				"e_magnitude":"0.19864",
 				"source":"1"
 			},
 			{
@@ -230,7 +242,7 @@
 				"time":"53112.53",
 				"band":"i",
 				"magnitude":"23.18",
-				"error":"0.06809",
+				"e_magnitude":"0.06809",
 				"source":"1"
 			},
 			{
@@ -238,7 +250,7 @@
 				"time":"53116.50",
 				"band":"i",
 				"magnitude":"23.104",
-				"error":"0.05641",
+				"e_magnitude":"0.05641",
 				"source":"1"
 			},
 			{
@@ -246,7 +258,7 @@
 				"time":"53117.44",
 				"band":"i",
 				"magnitude":"22.916",
-				"error":"0.080099",
+				"e_magnitude":"0.080099",
 				"source":"1"
 			},
 			{
@@ -254,7 +266,7 @@
 				"time":"53117.46",
 				"band":"r",
 				"magnitude":"23.693",
-				"error":"0.056974",
+				"e_magnitude":"0.056974",
 				"source":"1"
 			},
 			{
@@ -262,7 +274,7 @@
 				"time":"53117.48",
 				"band":"g",
 				"magnitude":"25.5",
-				"error":"0.115",
+				"e_magnitude":"0.115",
 				"source":"1"
 			},
 			{
@@ -270,7 +282,7 @@
 				"time":"53121.40",
 				"band":"r",
 				"magnitude":"23.862",
-				"error":"0.05864",
+				"e_magnitude":"0.05864",
 				"source":"1"
 			},
 			{
@@ -278,7 +290,7 @@
 				"time":"53121.49",
 				"band":"i",
 				"magnitude":"23",
-				"error":"0.0532",
+				"e_magnitude":"0.0532",
 				"source":"1"
 			},
 			{
@@ -292,7 +304,7 @@
 				"time":"53121.51",
 				"band":"g",
 				"magnitude":"25.797",
-				"error":"0.18766",
+				"e_magnitude":"0.18766",
 				"source":"1"
 			},
 			{
@@ -300,7 +312,7 @@
 				"time":"53123.41",
 				"band":"i",
 				"magnitude":"23.012",
-				"error":"0.055968",
+				"e_magnitude":"0.055968",
 				"source":"1"
 			},
 			{
@@ -308,7 +320,7 @@
 				"time":"53123.45",
 				"band":"r",
 				"magnitude":"23.956",
-				"error":"0.075321",
+				"e_magnitude":"0.075321",
 				"source":"1"
 			},
 			{
@@ -316,7 +328,7 @@
 				"time":"53123.49",
 				"band":"z",
 				"magnitude":"23.022",
-				"error":"0.11096",
+				"e_magnitude":"0.11096",
 				"source":"1"
 			},
 			{
@@ -324,7 +336,7 @@
 				"time":"53134.28",
 				"band":"i",
 				"magnitude":"23.547",
-				"error":"0.084552",
+				"e_magnitude":"0.084552",
 				"source":"1"
 			},
 			{
@@ -332,7 +344,7 @@
 				"time":"53134.33",
 				"band":"r",
 				"magnitude":"24.589",
-				"error":"0.1859",
+				"e_magnitude":"0.1859",
 				"source":"1"
 			},
 			{
@@ -340,7 +352,7 @@
 				"time":"53134.39",
 				"band":"z",
 				"magnitude":"23.4",
-				"error":"0.22423",
+				"e_magnitude":"0.22423",
 				"source":"1"
 			},
 			{
@@ -348,7 +360,7 @@
 				"time":"53138.41",
 				"band":"i",
 				"magnitude":"24.078",
-				"error":"0.26576",
+				"e_magnitude":"0.26576",
 				"source":"1"
 			},
 			{
@@ -356,7 +368,7 @@
 				"time":"53138.43",
 				"band":"r",
 				"magnitude":"24.891",
-				"error":"0.19718",
+				"e_magnitude":"0.19718",
 				"source":"1"
 			},
 			{
@@ -364,7 +376,7 @@
 				"time":"53138.46",
 				"band":"g",
 				"magnitude":"26.125",
-				"error":"0.31767",
+				"e_magnitude":"0.31767",
 				"source":"1"
 			},
 			{
@@ -372,7 +384,7 @@
 				"time":"53146.43",
 				"band":"i",
 				"magnitude":"24.044",
-				"error":"0.15165",
+				"e_magnitude":"0.15165",
 				"source":"1"
 			},
 			{
@@ -380,7 +392,7 @@
 				"time":"53146.46",
 				"band":"r",
 				"magnitude":"25.86",
-				"error":"0.4298",
+				"e_magnitude":"0.4298",
 				"source":"1"
 			},
 			{
@@ -388,7 +400,7 @@
 				"time":"53146.49",
 				"band":"g",
 				"magnitude":"27.295",
-				"error":"0.6275",
+				"e_magnitude":"0.6275",
 				"source":"1"
 			},
 			{
@@ -396,7 +408,7 @@
 				"time":"53149.32",
 				"band":"r",
 				"magnitude":"25.484",
-				"error":"0.2316",
+				"e_magnitude":"0.2316",
 				"source":"1"
 			},
 			{
@@ -404,7 +416,7 @@
 				"time":"53151.33",
 				"band":"z",
 				"magnitude":"23.94",
-				"error":"0.2868",
+				"e_magnitude":"0.2868",
 				"source":"1"
 			},
 			{
@@ -412,7 +424,7 @@
 				"time":"53151.38",
 				"band":"i",
 				"magnitude":"24.19",
-				"error":"0.22753",
+				"e_magnitude":"0.22753",
 				"source":"1"
 			},
 			{
@@ -420,7 +432,7 @@
 				"time":"53151.45",
 				"band":"r",
 				"magnitude":"25.757",
-				"error":"0.54107",
+				"e_magnitude":"0.54107",
 				"source":"1"
 			},
 			{
@@ -428,7 +440,7 @@
 				"time":"53165.33",
 				"band":"i",
 				"magnitude":"25.05",
-				"error":"0.2447",
+				"e_magnitude":"0.2447",
 				"source":"1"
 			},
 			{
@@ -436,7 +448,7 @@
 				"time":"53165.39",
 				"band":"r",
 				"magnitude":"26.338",
-				"error":"0.40331",
+				"e_magnitude":"0.40331",
 				"source":"1"
 			},
 			{
@@ -444,7 +456,7 @@
 				"time":"53169.43",
 				"band":"z",
 				"magnitude":"23.809",
-				"error":"0.31092",
+				"e_magnitude":"0.31092",
 				"source":"1"
 			},
 			{
@@ -452,7 +464,7 @@
 				"time":"53175.33",
 				"band":"i",
 				"magnitude":"25.627",
-				"error":"0.48013",
+				"e_magnitude":"0.48013",
 				"source":"1"
 			},
 			{
@@ -460,7 +472,7 @@
 				"time":"53175.36",
 				"band":"r",
 				"magnitude":"26.639",
-				"error":"0.65326",
+				"e_magnitude":"0.65326",
 				"source":"1"
 			},
 			{
@@ -468,7 +480,7 @@
 				"time":"53177.38",
 				"band":"z",
 				"magnitude":"24.51",
-				"error":"0.29582",
+				"e_magnitude":"0.29582",
 				"source":"1"
 			},
 			{
@@ -476,7 +488,7 @@
 				"time":"53178.31",
 				"band":"i",
 				"magnitude":"25.227",
-				"error":"0.3333",
+				"e_magnitude":"0.3333",
 				"source":"1"
 			},
 			{
@@ -484,7 +496,7 @@
 				"time":"53178.35",
 				"band":"r",
 				"magnitude":"26.8",
-				"error":"0.57472",
+				"e_magnitude":"0.57472",
 				"source":"1"
 			},
 			{
@@ -492,7 +504,7 @@
 				"time":"53178.37",
 				"band":"g",
 				"magnitude":"27.696",
-				"error":"0.74773",
+				"e_magnitude":"0.74773",
 				"source":"1"
 			},
 			{
@@ -500,7 +512,7 @@
 				"time":"53182.32",
 				"band":"r",
 				"magnitude":"25.489",
-				"error":"0.33767",
+				"e_magnitude":"0.33767",
 				"source":"1"
 			},
 			{
@@ -508,7 +520,7 @@
 				"time":"53182.36",
 				"band":"z",
 				"magnitude":"25.24",
-				"error":"0.5889",
+				"e_magnitude":"0.5889",
 				"source":"1"
 			},
 			{
@@ -516,7 +528,7 @@
 				"time":"53193.38",
 				"band":"r",
 				"magnitude":"25.669",
-				"error":"0.59588",
+				"e_magnitude":"0.59588",
 				"source":"1"
 			},
 			{
@@ -524,7 +536,7 @@
 				"time":"53197.33",
 				"band":"r",
 				"magnitude":"26.029",
-				"error":"0.547",
+				"e_magnitude":"0.547",
 				"source":"1"
 			},
 			{
@@ -532,7 +544,7 @@
 				"time":"53198.31",
 				"band":"r",
 				"magnitude":"25.436",
-				"error":"0.37745",
+				"e_magnitude":"0.37745",
 				"source":"1"
 			},
 			{
@@ -540,7 +552,7 @@
 				"time":"53204.34",
 				"band":"r",
 				"magnitude":"26.224",
-				"error":"0.66167",
+				"e_magnitude":"0.66167",
 				"source":"1"
 			},
 			{
@@ -548,7 +560,7 @@
 				"time":"53226.27",
 				"band":"i",
 				"magnitude":"25.523",
-				"error":"0.49054",
+				"e_magnitude":"0.49054",
 				"source":"1"
 			},
 			{
@@ -556,7 +568,7 @@
 				"time":"53227.27",
 				"band":"i",
 				"magnitude":"24.981",
-				"error":"0.46975",
+				"e_magnitude":"0.46975",
 				"source":"1"
 			},
 			{
@@ -564,7 +576,7 @@
 				"time":"53228.25",
 				"band":"r",
 				"magnitude":"26.389",
-				"error":"0.62521",
+				"e_magnitude":"0.62521",
 				"source":"1"
 			},
 			{
@@ -572,7 +584,7 @@
 				"time":"53446.56",
 				"band":"z",
 				"magnitude":"25.591",
-				"error":"0.60542",
+				"e_magnitude":"0.60542",
 				"source":"1"
 			},
 			{
@@ -580,7 +592,7 @@
 				"time":"53461.54",
 				"band":"r",
 				"magnitude":"25.491",
-				"error":"0.51586",
+				"e_magnitude":"0.51586",
 				"source":"1"
 			},
 			{
@@ -588,7 +600,7 @@
 				"time":"53466.55",
 				"band":"i",
 				"magnitude":"25.743",
-				"error":"0.55716",
+				"e_magnitude":"0.55716",
 				"source":"1"
 			}
 		]
