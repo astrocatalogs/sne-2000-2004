@@ -41,8 +41,8 @@
 				"alias":"6"
 			},
 			{
-				"name":"CfA Supernova Archive",
-				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"name":"WISeREP",
+				"url":"http://wiserep.weizmann.ac.il/",
 				"alias":"7",
 				"secondary":true
 			},
@@ -51,17 +51,33 @@
 				"url":"http://adsabs.harvard.edu/abs/2006AJ....132..189J",
 				"bibcode":"2006AJ....132..189J",
 				"alias":"8"
+			},
+			{
+				"name":"2012AJ....143..126B",
+				"url":"http://adsabs.harvard.edu/abs/2012AJ....143..126B",
+				"bibcode":"2012AJ....143..126B",
+				"alias":"9"
+			},
+			{
+				"name":"CfA Supernova Archive",
+				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
+				"alias":"10",
+				"secondary":true
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia P",
 				"source":"3,4,5,8,2"
+			},
+			{
+				"value":"Ia",
+				"source":"8,7,9"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"110",
+				"value":"94.2",
 				"source":"D"
 			}
 		],
@@ -163,12 +179,8 @@
 		],
 		"redshift":[
 			{
-				"value":"0.026",
-				"source":"4,5"
-			},
-			{
-				"value":"0.021",
-				"source":"6"
+				"value":"0.0214",
+				"source":"8,7,9"
 			}
 		],
 		"photometry":[
@@ -27841,7 +27853,7 @@
 						"2.1706725e-17"
 					]
 				],
-				"source":"7"
+				"source":"10"
 			},
 			{
 				"instrument":"LRIS",
