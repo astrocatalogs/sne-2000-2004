@@ -12,31 +12,31 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 8281",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08200/08281.html#Item3",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"dec":[
 			{
 				"value":"-27:55:53.1",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"-27:55:53.19",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -47,8 +47,8 @@
 		],
 		"discoverdate":[
 			{
-				"value":"2003/08/30",
-				"source":"2,3"
+				"value":"2003/09/01",
+				"source":"2"
 			}
 		],
 		"discoverer":[
@@ -58,19 +58,27 @@
 			},
 			{
 				"value":"HST",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-27:55:53",
 				"source":"1"
+			},
+			{
+				"value":"-27:55:53.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"03:32:42",
 				"source":"1"
+			},
+			{
+				"value":"03:32:42.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -81,24 +89,24 @@
 		],
 		"maxappmag":[
 			{
-				"value":"26.2",
+				"value":"26",
 				"source":"D"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2003/08/29",
+				"value":"2003/09/01",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"03:32:42.81",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"03:32:42.818",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -106,7 +114,14 @@
 				"timeunit":"MJD",
 				"time":"52880.5",
 				"magnitude":"26.2",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"52883.0",
+				"band":"z",
+				"magnitude":"26.0",
+				"source":"2"
 			}
 		]
 	}

@@ -12,27 +12,31 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 8130",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08100/08130.html#Item1",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"IIn",
-				"source":"1,2,3"
+				"source":"1,3,4"
+			},
+			{
+				"value":"II",
+				"source":"2"
 			}
 		],
 		"comovingdist":[
@@ -44,11 +48,11 @@
 		"dec":[
 			{
 				"value":"-09:59:26.4",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"-09:59:26.49",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -59,8 +63,8 @@
 		],
 		"discoverdate":[
 			{
-				"value":"2003/04/05",
-				"source":"2,3"
+				"value":"2003/03/28",
+				"source":"2"
 			}
 		],
 		"discoverer":[
@@ -70,19 +74,27 @@
 			},
 			{
 				"value":"Nearby Supernova Factory",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-09:59:26",
 				"source":"1"
+			},
+			{
+				"value":"-09:59:26.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"11:33:24",
 				"source":"1"
+			},
+			{
+				"value":"11:33:24.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -111,24 +123,24 @@
 		],
 		"maxappmag":[
 			{
-				"value":"16.6",
+				"value":"16.5",
 				"source":"D"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2003/04/04",
+				"value":"2003/03/28",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"11:33:24.50",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"11:33:24.508",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
@@ -140,9 +152,15 @@
 		"photometry":[
 			{
 				"timeunit":"MJD",
+				"time":"52726.0",
+				"magnitude":"16.5",
+				"source":"2"
+			},
+			{
+				"timeunit":"MJD",
 				"time":"52733.5",
 				"magnitude":"16.6",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		]
 	}

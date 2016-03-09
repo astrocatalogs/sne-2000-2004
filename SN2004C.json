@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 8269",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08200/08269.html#Item1",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -44,7 +44,7 @@
 		"dec":[
 			{
 				"value":"+56:52:48.2",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"discover":[
@@ -66,19 +66,27 @@
 			},
 			{
 				"value":"US Naval observatory",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+56:52:43",
 				"source":"1"
+			},
+			{
+				"value":"+56:52:37.4",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"11:27:32",
 				"source":"1"
+			},
+			{
+				"value":"11:27:31.82",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -96,45 +104,53 @@
 		"lumdist":[
 			{
 				"value":"35",
-				"source":"4"
+				"error":"6",
+				"source":"2"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-17",
+				"value":"-19",
 				"source":"D"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"15.4",
+				"value":"14",
 				"source":"D"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2004/01/16",
+				"value":"2004/01/12",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"11:27:29.72",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0057",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
 			{
 				"timeunit":"MJD",
+				"time":"53016.0",
+				"band":"K",
+				"magnitude":"14.0",
+				"source":"2"
+			},
+			{
+				"timeunit":"MJD",
 				"time":"53020.5",
 				"magnitude":"15.4",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		]
 	}

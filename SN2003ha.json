@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 8178",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08100/08178.html#Item2",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"NED-D",
@@ -148,11 +148,11 @@
 		"dec":[
 			{
 				"value":"-17:44:22.9",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"-17:44:22.99",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -174,19 +174,27 @@
 			},
 			{
 				"value":"Legacy Survey Supernova Project",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-17:44:22",
 				"source":"1"
+			},
+			{
+				"value":"-17:44:22.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"22:14:45",
 				"source":"1"
+			},
+			{
+				"value":"22:14:45.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -196,7 +204,7 @@
 			},
 			{
 				"value":"APMUKS(BJ) B221202.39-175918.2",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"hvel":[
@@ -225,24 +233,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"2003/06/21",
+				"value":"2003/06/22",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"22:14:45.80",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"22:14:45.808",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.285",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -250,7 +258,14 @@
 				"timeunit":"MJD",
 				"time":"52811.5",
 				"magnitude":"22.9",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"52812.0",
+				"band":"i",
+				"magnitude":"22.9",
+				"source":"2"
 			}
 		]
 	}

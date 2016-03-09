@@ -12,37 +12,37 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 8362",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08300/08362.html#Item2",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"dec":[
 			{
 				"value":"+10:11:38.1",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"+10:11:38.19",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -64,19 +64,27 @@
 			},
 			{
 				"value":"SDSS",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+10:11:38",
 				"source":"1"
+			},
+			{
+				"value":"+10:11:38.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"09:37:49",
 				"source":"1"
+			},
+			{
+				"value":"09:37:49.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -86,7 +94,7 @@
 			},
 			{
 				"value":"SDSS J093749.93+101138.1",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"maxappmag":[
@@ -97,18 +105,18 @@
 		],
 		"maxdate":[
 			{
-				"value":"2003/12/19",
+				"value":"2003/12/20",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"09:37:49.93",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"09:37:49.938",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"photometry":[
@@ -116,7 +124,14 @@
 				"timeunit":"MJD",
 				"time":"52992.5",
 				"magnitude":"20.4",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"52993.0",
+				"band":"r",
+				"magnitude":"20.4",
+				"source":"2"
 			}
 		]
 	}

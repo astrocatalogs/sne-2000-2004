@@ -12,27 +12,27 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 8362",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08300/08362.html#Item2",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -44,11 +44,11 @@
 		"dec":[
 			{
 				"value":"+41:05:23.6",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"+41:05:23.69",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -70,19 +70,27 @@
 			},
 			{
 				"value":"SDSS",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+41:05:23",
 				"source":"1"
+			},
+			{
+				"value":"+41:05:23.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"16:19:21",
 				"source":"1"
+			},
+			{
+				"value":"16:19:21.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -92,7 +100,7 @@
 			},
 			{
 				"value":"PGC 2175550",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"hvel":[
@@ -121,24 +129,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"2003/04/23",
+				"value":"2003/04/24",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:19:21.66",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"16:19:21.668",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.038",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"photometry":[
@@ -146,7 +154,14 @@
 				"timeunit":"MJD",
 				"time":"52752.5",
 				"magnitude":"18.5",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"52753.0",
+				"band":"r",
+				"magnitude":"18.5",
+				"source":"2"
 			}
 		]
 	}

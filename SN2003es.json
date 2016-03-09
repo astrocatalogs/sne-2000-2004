@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 8140",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08100/08140.html#Item1",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"NED-D",
@@ -74,7 +74,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1"
+				"source":"1,2"
 			}
 		],
 		"comovingdist":[
@@ -114,11 +114,11 @@
 		"dec":[
 			{
 				"value":"+62:13:11.9",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"+62:13:11.99",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -140,19 +140,27 @@
 			},
 			{
 				"value":"HST",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+62:13:11",
 				"source":"1"
+			},
+			{
+				"value":"+62:13:11.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"12:36:55",
 				"source":"1"
+			},
+			{
+				"value":"12:36:55.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -187,18 +195,18 @@
 		],
 		"maxdate":[
 			{
-				"value":"2003/05/24",
+				"value":"2003/05/25",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:36:55.39",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"12:36:55.398",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
@@ -212,7 +220,14 @@
 				"timeunit":"MJD",
 				"time":"52783.5",
 				"magnitude":"23.8",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"52784.0",
+				"band":"z",
+				"magnitude":"23.8",
+				"source":"2"
 			}
 		]
 	}

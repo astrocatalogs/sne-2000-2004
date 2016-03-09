@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 8140",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08100/08140.html#Item1",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"NED-D",
@@ -92,7 +92,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1"
+				"source":"1,2"
 			}
 		],
 		"comovingdist":[
@@ -140,11 +140,11 @@
 		"dec":[
 			{
 				"value":"+62:13:35.3",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"+62:13:35.39",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -166,19 +166,27 @@
 			},
 			{
 				"value":"HST",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+62:13:35",
 				"source":"1"
+			},
+			{
+				"value":"+62:13:35.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"12:37:48",
 				"source":"1"
+			},
+			{
+				"value":"12:37:48.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -213,24 +221,24 @@
 		],
 		"maxdate":[
 			{
-				"value":"2003/05/23",
+				"value":"2003/05/24",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:37:48.34",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"12:37:48.348",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.84",
-				"source":"1,4"
+				"source":"1,2"
 			}
 		],
 		"photometry":[
@@ -238,7 +246,14 @@
 				"timeunit":"MJD",
 				"time":"52782.5",
 				"magnitude":"23.2",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"52783.0",
+				"band":"z",
+				"magnitude":"23.2",
+				"source":"2"
 			}
 		]
 	}

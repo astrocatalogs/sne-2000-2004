@@ -12,21 +12,21 @@
 				"secondary":true
 			},
 			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 8237",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08200/08237.html#Item2",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
-			},
-			{
-				"name":"2012A&A...538A.120L",
-				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
 			},
 			{
 				"name":"NED-D",
@@ -68,7 +68,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"comovingdist":[
@@ -104,11 +104,11 @@
 		"dec":[
 			{
 				"value":"-09:02:15.6",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"+09:02:15.69",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"discover":[
@@ -130,19 +130,27 @@
 			},
 			{
 				"value":"ESSENCE project",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-09:02:15",
 				"source":"1"
+			},
+			{
+				"value":"-09:02:15.0",
+				"source":"2"
 			}
 		],
 		"galra":[
 			{
 				"value":"02:29:21",
 				"source":"1"
+			},
+			{
+				"value":"02:29:21.00",
+				"source":"2"
 			}
 		],
 		"host":[
@@ -178,17 +186,17 @@
 		"maxdate":[
 			{
 				"value":"2003/10/25",
-				"source":"4"
+				"source":"2"
 			}
 		],
 		"ra":[
 			{
 				"value":"02:29:21.21",
-				"source":"1"
+				"source":"1,2"
 			},
 			{
 				"value":"02:29:21.218",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"redshift":[
@@ -202,7 +210,14 @@
 				"timeunit":"MJD",
 				"time":"52933.5",
 				"magnitude":"20.8",
-				"source":"2,3"
+				"source":"3,4"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"52934.0",
+				"band":"R",
+				"magnitude":"20.8",
+				"source":"2"
 			}
 		]
 	}
