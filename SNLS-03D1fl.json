@@ -138,11 +138,13 @@
 		"dec":[
 			{
 				"value":"-04:07:44.030",
-				"source":"1"
+				"source":"1",
+				"unit":"degrees"
 			},
 			{
 				"value":"-04:07:44.17",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -163,16 +165,11 @@
 				"source":"1"
 			}
 		],
-		"hvel":[
-			{
-				"value":"144000",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"4280",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -196,21 +193,32 @@
 		"ra":[
 			{
 				"value":"02:25:58.298",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			},
 			{
 				"value":"02:25:58.329",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.687",
-				"source":"1,12,13"
+				"source":"1,12,13",
+				"kind":"heliocentric"
 			},
 			{
 				"value":"0.688",
 				"source":"2,3"
+			}
+		],
+		"velocity":[
+			{
+				"value":"144000",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -223,7 +231,7 @@
 		],
 		"spectra":[
 			{
-				"instrument":"VLT",
+				"telescope":"VLT",
 				"timeunit":"MJD",
 				"time":"52995.0",
 				"filename":"snonly_03D1fl_355_Balland_etal_09.dat",

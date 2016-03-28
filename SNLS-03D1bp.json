@@ -170,11 +170,13 @@
 		"dec":[
 			{
 				"value":"-04:50:19.610",
-				"source":"1"
+				"source":"1",
+				"unit":"degrees"
 			},
 			{
 				"value":"-04:50:19.55",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -195,16 +197,11 @@
 				"source":"1"
 			}
 		],
-		"hvel":[
-			{
-				"value":"86800",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"1900",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -234,21 +231,32 @@
 		"ra":[
 			{
 				"value":"02:26:37.736",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			},
 			{
 				"value":"02:26:37.714",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.347",
-				"source":"1,14,15"
+				"source":"1,14,15",
+				"kind":"heliocentric"
 			},
 			{
 				"value":"0.346",
 				"source":"2,3"
+			}
+		],
+		"velocity":[
+			{
+				"value":"86800",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -693,7 +701,7 @@
 		],
 		"spectra":[
 			{
-				"instrument":"VLT",
+				"telescope":"VLT",
 				"timeunit":"MJD",
 				"time":"52910.0",
 				"filename":"snonly_03D1bp_270_Balland_etal_09.dat",

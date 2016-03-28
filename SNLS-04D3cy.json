@@ -150,11 +150,13 @@
 		"dec":[
 			{
 				"value":"+52:39:29.990",
-				"source":"1"
+				"source":"1",
+				"unit":"degrees"
 			},
 			{
 				"value":"+52:39:30.40",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -175,16 +177,11 @@
 				"source":"1"
 			}
 		],
-		"hvel":[
-			{
-				"value":"138000",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"3950",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -214,17 +211,28 @@
 		"ra":[
 			{
 				"value":"14:18:12.434",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			},
 			{
 				"value":"14:18:12.452",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.643",
-				"source":"1,2,3"
+				"source":"1,2,3",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"138000",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[

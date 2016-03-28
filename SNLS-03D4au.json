@@ -134,11 +134,13 @@
 		"dec":[
 			{
 				"value":"-18:04:39.320",
-				"source":"1"
+				"source":"1",
+				"unit":"degrees"
 			},
 			{
 				"value":"-18:04:39.19",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -159,16 +161,11 @@
 				"source":"1"
 			}
 		],
-		"hvel":[
-			{
-				"value":"110000",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"2700",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -198,17 +195,28 @@
 		"ra":[
 			{
 				"value":"22:16:09.928",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			},
 			{
 				"value":"22:16:09.917",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.468",
-				"source":"1,2,3,12,13"
+				"source":"1,2,3,12,13",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"110000",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -373,7 +381,7 @@
 		],
 		"spectra":[
 			{
-				"instrument":"VLT",
+				"telescope":"VLT",
 				"timeunit":"MJD",
 				"time":"52826.0",
 				"filename":"snonly_03D4au_186_Balland_etal_09.dat",

@@ -162,11 +162,13 @@
 		"dec":[
 			{
 				"value":"-17:41:43.810",
-				"source":"1"
+				"source":"1",
+				"unit":"degrees"
 			},
 			{
 				"value":"-17:41:43.93",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -187,16 +189,11 @@
 				"source":"1"
 			}
 		],
-		"hvel":[
-			{
-				"value":"133000",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"3730",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -226,17 +223,28 @@
 		"ra":[
 			{
 				"value":"22:15:57.101",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			},
 			{
 				"value":"22:15:57.119",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.613",
-				"source":"1,2,3,14,15"
+				"source":"1,2,3,14,15",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"133000",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -473,7 +481,7 @@
 		],
 		"spectra":[
 			{
-				"instrument":"VLT",
+				"telescope":"VLT",
 				"timeunit":"MJD",
 				"time":"53198.0",
 				"filename":"snonly_04D4an_558_Balland_etal_09.dat",

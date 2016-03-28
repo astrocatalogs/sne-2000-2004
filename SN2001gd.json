@@ -65,12 +65,12 @@
 		],
 		"claimedtype":[
 			{
-				"value":"IIb",
-				"source":"4,6,7,8"
-			},
-			{
 				"value":"II",
 				"source":"5"
+			},
+			{
+				"value":"IIb",
+				"source":"4,6,7,8"
 			}
 		],
 		"comovingdist":[
@@ -82,11 +82,13 @@
 		"dec":[
 			{
 				"value":"+36:38:17.7",
-				"source":"4,5"
+				"source":"4,5",
+				"unit":"nospace"
 			},
 			{
 				"value":"+36:38:18.2",
-				"source":"6,7"
+				"source":"6,7",
+				"unit":"degrees"
 			}
 		],
 		"discover":[
@@ -114,7 +116,8 @@
 		"galdec":[
 			{
 				"value":"+36:35:38",
-				"source":"4"
+				"source":"4",
+				"unit":"nospace"
 			},
 			{
 				"value":"+36:35:37.6",
@@ -124,7 +127,8 @@
 		"galra":[
 			{
 				"value":"13:13:28",
-				"source":"4"
+				"source":"4",
+				"unit":"nospace"
 			},
 			{
 				"value":"13:13:27.53",
@@ -137,17 +141,12 @@
 				"source":"4,5,6,7"
 			}
 		],
-		"hvel":[
-			{
-				"value":"877",
-				"source":"4"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"22",
 				"error":"3",
-				"source":"5"
+				"source":"5",
+				"kind":"host"
 			}
 		],
 		"maxabsmag":[
@@ -177,17 +176,27 @@
 		"ra":[
 			{
 				"value":"13:13:23.89",
-				"source":"4,5"
+				"source":"4,5",
+				"unit":"nospace"
 			},
 			{
 				"value":"13:13:23.92",
-				"source":"6,7"
+				"source":"6,7",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.002919",
 				"source":"8"
+			}
+		],
+		"velocity":[
+			{
+				"value":"877",
+				"source":"4",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -266,7 +275,7 @@
 				"band":"B",
 				"system":"Standard",
 				"magnitude":"18.666",
-				"instrument":"CfA3_4SH",
+				"telescope":"CfA3_4SH",
 				"e_magnitude":"0.029",
 				"source":"1"
 			},
@@ -276,7 +285,7 @@
 				"band":"V",
 				"system":"Standard",
 				"magnitude":"17.781",
-				"instrument":"CfA3_4SH",
+				"telescope":"CfA3_4SH",
 				"e_magnitude":"0.027",
 				"source":"1"
 			},
@@ -286,7 +295,7 @@
 				"band":"R",
 				"system":"Standard",
 				"magnitude":"17.147",
-				"instrument":"CfA3_4SH",
+				"telescope":"CfA3_4SH",
 				"e_magnitude":"0.020",
 				"source":"1"
 			},
@@ -296,7 +305,7 @@
 				"band":"I",
 				"system":"Standard",
 				"magnitude":"16.485",
-				"instrument":"CfA3_4SH",
+				"telescope":"CfA3_4SH",
 				"e_magnitude":"0.024",
 				"source":"1"
 			},
@@ -320,7 +329,7 @@
 				"band":"U",
 				"system":"Standard",
 				"magnitude":"19.598",
-				"instrument":"CfA3_4SH",
+				"telescope":"CfA3_4SH",
 				"e_magnitude":"0.169",
 				"source":"1"
 			},
@@ -330,7 +339,7 @@
 				"band":"B",
 				"system":"Standard",
 				"magnitude":"19.582",
-				"instrument":"CfA3_4SH",
+				"telescope":"CfA3_4SH",
 				"e_magnitude":"0.060",
 				"source":"1"
 			},
@@ -340,7 +349,7 @@
 				"band":"V",
 				"system":"Standard",
 				"magnitude":"18.709",
-				"instrument":"CfA3_4SH",
+				"telescope":"CfA3_4SH",
 				"e_magnitude":"0.044",
 				"source":"1"
 			},
@@ -350,7 +359,7 @@
 				"band":"R",
 				"system":"Standard",
 				"magnitude":"18.080",
-				"instrument":"CfA3_4SH",
+				"telescope":"CfA3_4SH",
 				"e_magnitude":"0.024",
 				"source":"1"
 			},
@@ -360,7 +369,7 @@
 				"band":"I",
 				"system":"Standard",
 				"magnitude":"17.462",
-				"instrument":"CfA3_4SH",
+				"telescope":"CfA3_4SH",
 				"e_magnitude":"0.033",
 				"source":"1"
 			}

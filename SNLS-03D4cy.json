@@ -172,11 +172,13 @@
 		"dec":[
 			{
 				"value":"-17:40:53.910",
-				"source":"1"
+				"source":"1",
+				"unit":"degrees"
 			},
 			{
 				"value":"-17:40:54.12",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -197,16 +199,11 @@
 				"source":"1"
 			}
 		],
-		"hvel":[
-			{
-				"value":"173000",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"6190",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -236,17 +233,28 @@
 		"ra":[
 			{
 				"value":"22:13:40.415",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			},
 			{
 				"value":"22:13:40.441",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.927",
-				"source":"1,2,3,14,16"
+				"source":"1,2,3,14,16",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"173000",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -419,7 +427,7 @@
 		],
 		"spectra":[
 			{
-				"instrument":"VLT",
+				"telescope":"VLT",
 				"timeunit":"MJD",
 				"time":"52909.0",
 				"filename":"snonly_03D4cy_269_Balland_etal_09.dat",

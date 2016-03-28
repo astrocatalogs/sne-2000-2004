@@ -160,7 +160,8 @@
 		"dec":[
 			{
 				"value":"+21:20:23.4",
-				"source":"5,6,7,8"
+				"source":"5,6,7,8",
+				"unit":"nospace"
 			}
 		],
 		"discover":[
@@ -194,7 +195,8 @@
 		"galdec":[
 			{
 				"value":"+21:20:14",
-				"source":"5"
+				"source":"5",
+				"unit":"nospace"
 			},
 			{
 				"value":"+21:20:14.1",
@@ -204,7 +206,8 @@
 		"galra":[
 			{
 				"value":"11:21:00",
-				"source":"5"
+				"source":"5",
+				"unit":"nospace"
 			},
 			{
 				"value":"11:21:00.23",
@@ -217,21 +220,12 @@
 				"source":"1,5,6,7,8"
 			}
 		],
-		"hvel":[
-			{
-				"value":"6308",
-				"source":"1"
-			},
-			{
-				"value":"6244",
-				"source":"5"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"98",
 				"error":"10",
-				"source":"6"
+				"source":"6",
+				"kind":"host"
 			}
 		],
 		"maxabsmag":[
@@ -261,13 +255,23 @@
 		"ra":[
 			{
 				"value":"11:21:01.53",
-				"source":"5,6,7,8"
+				"source":"5,6,7,8",
+				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.0208",
-				"source":"16"
+				"value":"0.02104",
+				"source":"1",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"6244",
+				"source":"5",
+				"kind":"host",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -282,7 +286,7 @@
 				"time":"53108.26",
 				"band":"B",
 				"magnitude":"15.54800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02600",
 				"source":"2"
 			},
@@ -291,7 +295,7 @@
 				"time":"53108.26",
 				"band":"I",
 				"magnitude":"15.89700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02300",
 				"source":"2"
 			},
@@ -300,7 +304,7 @@
 				"time":"53108.26",
 				"band":"R",
 				"magnitude":"15.60100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01600",
 				"source":"2"
 			},
@@ -309,7 +313,7 @@
 				"time":"53108.26",
 				"band":"V",
 				"magnitude":"15.57000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01900",
 				"source":"2"
 			},
@@ -318,7 +322,7 @@
 				"time":"53109.28",
 				"band":"B",
 				"magnitude":"15.54600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01400",
 				"source":"2"
 			},
@@ -327,7 +331,7 @@
 				"time":"53109.28",
 				"band":"I",
 				"magnitude":"15.91400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02600",
 				"source":"2"
 			},
@@ -336,7 +340,7 @@
 				"time":"53109.28",
 				"band":"R",
 				"magnitude":"15.53500",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01800",
 				"source":"2"
 			},
@@ -345,7 +349,7 @@
 				"time":"53109.28",
 				"band":"V",
 				"magnitude":"15.56600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01900",
 				"source":"2"
 			},
@@ -354,7 +358,7 @@
 				"time":"53111.26",
 				"band":"B",
 				"magnitude":"15.61100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01600",
 				"source":"2"
 			},
@@ -363,7 +367,7 @@
 				"time":"53111.26",
 				"band":"I",
 				"magnitude":"16.04000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02500",
 				"source":"2"
 			},
@@ -372,7 +376,7 @@
 				"time":"53111.26",
 				"band":"R",
 				"magnitude":"15.56500",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02500",
 				"source":"2"
 			},
@@ -381,7 +385,7 @@
 				"time":"53111.26",
 				"band":"V",
 				"magnitude":"15.59300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02300",
 				"source":"2"
 			},
@@ -438,7 +442,7 @@
 				"time":"53116.24",
 				"band":"B",
 				"magnitude":"15.86700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03000",
 				"source":"2"
 			},
@@ -447,7 +451,7 @@
 				"time":"53116.24",
 				"band":"I",
 				"magnitude":"16.25200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03700",
 				"source":"2"
 			},
@@ -456,7 +460,7 @@
 				"time":"53116.24",
 				"band":"R",
 				"magnitude":"15.75200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02300",
 				"source":"2"
 			},
@@ -465,7 +469,7 @@
 				"time":"53116.24",
 				"band":"V",
 				"magnitude":"15.76400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02500",
 				"source":"2"
 			},
@@ -474,7 +478,7 @@
 				"time":"53117.24",
 				"band":"B",
 				"magnitude":"15.93100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01900",
 				"source":"2"
 			},
@@ -483,7 +487,7 @@
 				"time":"53117.24",
 				"band":"I",
 				"magnitude":"16.34600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02800",
 				"source":"2"
 			},
@@ -492,7 +496,7 @@
 				"time":"53117.24",
 				"band":"R",
 				"magnitude":"15.81200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01500",
 				"source":"2"
 			},
@@ -501,7 +505,7 @@
 				"time":"53117.24",
 				"band":"V",
 				"magnitude":"15.79500",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02000",
 				"source":"2"
 			},
@@ -510,7 +514,7 @@
 				"time":"53118.25",
 				"band":"B",
 				"magnitude":"16.03700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02100",
 				"source":"2"
 			},
@@ -519,7 +523,7 @@
 				"time":"53118.25",
 				"band":"I",
 				"magnitude":"16.50600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03200",
 				"source":"2"
 			},
@@ -528,7 +532,7 @@
 				"time":"53118.25",
 				"band":"R",
 				"magnitude":"15.90900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01900",
 				"source":"2"
 			},
@@ -537,7 +541,7 @@
 				"time":"53118.25",
 				"band":"V",
 				"magnitude":"15.84700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02200",
 				"source":"2"
 			},
@@ -578,7 +582,7 @@
 				"time":"53119.24",
 				"band":"B",
 				"magnitude":"16.06500",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02000",
 				"source":"2"
 			},
@@ -587,7 +591,7 @@
 				"time":"53119.24",
 				"band":"I",
 				"magnitude":"16.57900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03100",
 				"source":"2"
 			},
@@ -596,7 +600,7 @@
 				"time":"53119.24",
 				"band":"R",
 				"magnitude":"16.02400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01600",
 				"source":"2"
 			},
@@ -605,7 +609,7 @@
 				"time":"53119.24",
 				"band":"V",
 				"magnitude":"15.91500",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01900",
 				"source":"2"
 			},
@@ -614,7 +618,7 @@
 				"time":"53120.23",
 				"band":"B",
 				"magnitude":"16.15900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02500",
 				"source":"2"
 			},
@@ -623,7 +627,7 @@
 				"time":"53120.23",
 				"band":"I",
 				"magnitude":"16.58900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03200",
 				"source":"2"
 			},
@@ -632,7 +636,7 @@
 				"time":"53120.23",
 				"band":"R",
 				"magnitude":"16.06800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01600",
 				"source":"2"
 			},
@@ -641,7 +645,7 @@
 				"time":"53120.23",
 				"band":"V",
 				"magnitude":"15.95900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02400",
 				"source":"2"
 			},
@@ -650,7 +654,7 @@
 				"time":"53121.23",
 				"band":"B",
 				"magnitude":"16.24100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01900",
 				"source":"2"
 			},
@@ -659,7 +663,7 @@
 				"time":"53121.23",
 				"band":"I",
 				"magnitude":"16.69200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04300",
 				"source":"2"
 			},
@@ -668,7 +672,7 @@
 				"time":"53121.23",
 				"band":"R",
 				"magnitude":"16.18600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01300",
 				"source":"2"
 			},
@@ -677,7 +681,7 @@
 				"time":"53121.23",
 				"band":"V",
 				"magnitude":"16.03800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01300",
 				"source":"2"
 			},
@@ -718,7 +722,7 @@
 				"time":"53129.27",
 				"band":"B",
 				"magnitude":"17.05200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02600",
 				"source":"2"
 			},
@@ -727,7 +731,7 @@
 				"time":"53129.27",
 				"band":"I",
 				"magnitude":"16.73500",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04000",
 				"source":"2"
 			},
@@ -736,7 +740,7 @@
 				"time":"53129.27",
 				"band":"R",
 				"magnitude":"16.49300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01600",
 				"source":"2"
 			},
@@ -745,7 +749,7 @@
 				"time":"53129.27",
 				"band":"V",
 				"magnitude":"16.50600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02600",
 				"source":"2"
 			},
@@ -754,7 +758,7 @@
 				"time":"53131.19",
 				"band":"B",
 				"magnitude":"17.34000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02700",
 				"source":"2"
 			},
@@ -763,7 +767,7 @@
 				"time":"53131.19",
 				"band":"I",
 				"magnitude":"16.61500",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04300",
 				"source":"2"
 			},
@@ -772,7 +776,7 @@
 				"time":"53131.19",
 				"band":"R",
 				"magnitude":"16.45400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02400",
 				"source":"2"
 			},
@@ -781,7 +785,7 @@
 				"time":"53131.19",
 				"band":"V",
 				"magnitude":"16.61600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03800",
 				"source":"2"
 			},
@@ -846,7 +850,7 @@
 				"time":"53133.27",
 				"band":"B",
 				"magnitude":"17.55100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02700",
 				"source":"2"
 			},
@@ -855,7 +859,7 @@
 				"time":"53133.27",
 				"band":"I",
 				"magnitude":"16.60200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02200",
 				"source":"2"
 			},
@@ -864,7 +868,7 @@
 				"time":"53133.27",
 				"band":"R",
 				"magnitude":"16.45000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01600",
 				"source":"2"
 			},
@@ -873,7 +877,7 @@
 				"time":"53133.27",
 				"band":"V",
 				"magnitude":"16.68100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02300",
 				"source":"2"
 			},
@@ -954,7 +958,7 @@
 				"time":"53135.20",
 				"band":"B",
 				"magnitude":"17.69900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03100",
 				"source":"2"
 			},
@@ -963,7 +967,7 @@
 				"time":"53135.20",
 				"band":"I",
 				"magnitude":"16.50800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02400",
 				"source":"2"
 			},
@@ -972,7 +976,7 @@
 				"time":"53135.20",
 				"band":"R",
 				"magnitude":"16.50900",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01900",
 				"source":"2"
 			},
@@ -981,7 +985,7 @@
 				"time":"53135.20",
 				"band":"V",
 				"magnitude":"16.80200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02900",
 				"source":"2"
 			},
@@ -1014,7 +1018,7 @@
 				"time":"53137.19",
 				"band":"B",
 				"magnitude":"17.90400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03600",
 				"source":"2"
 			},
@@ -1023,7 +1027,7 @@
 				"time":"53137.19",
 				"band":"I",
 				"magnitude":"16.41400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02500",
 				"source":"2"
 			},
@@ -1032,7 +1036,7 @@
 				"time":"53137.19",
 				"band":"R",
 				"magnitude":"16.56500",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02100",
 				"source":"2"
 			},
@@ -1041,7 +1045,7 @@
 				"time":"53137.19",
 				"band":"V",
 				"magnitude":"16.95200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01900",
 				"source":"2"
 			},
@@ -1050,7 +1054,7 @@
 				"time":"53139.21",
 				"band":"B",
 				"magnitude":"18.05000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02600",
 				"source":"2"
 			},
@@ -1059,7 +1063,7 @@
 				"time":"53139.21",
 				"band":"I",
 				"magnitude":"16.49400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01700",
 				"source":"2"
 			},
@@ -1068,7 +1072,7 @@
 				"time":"53139.21",
 				"band":"R",
 				"magnitude":"16.65800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.01800",
 				"source":"2"
 			},
@@ -1077,7 +1081,7 @@
 				"time":"53139.21",
 				"band":"V",
 				"magnitude":"17.06700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02200",
 				"source":"2"
 			},
@@ -1142,7 +1146,7 @@
 				"time":"53145.21",
 				"band":"B",
 				"magnitude":"18.37100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02800",
 				"source":"2"
 			},
@@ -1151,7 +1155,7 @@
 				"time":"53145.21",
 				"band":"I",
 				"magnitude":"16.76600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02900",
 				"source":"2"
 			},
@@ -1160,7 +1164,7 @@
 				"time":"53145.21",
 				"band":"R",
 				"magnitude":"16.98000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02100",
 				"source":"2"
 			},
@@ -1169,7 +1173,7 @@
 				"time":"53145.21",
 				"band":"V",
 				"magnitude":"17.41500",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02400",
 				"source":"2"
 			},
@@ -1178,7 +1182,7 @@
 				"time":"53148.19",
 				"band":"B",
 				"magnitude":"18.51300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.05400",
 				"source":"2"
 			},
@@ -1187,7 +1191,7 @@
 				"time":"53148.19",
 				"band":"I",
 				"magnitude":"16.94700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02700",
 				"source":"2"
 			},
@@ -1196,7 +1200,7 @@
 				"time":"53148.19",
 				"band":"R",
 				"magnitude":"17.21400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02300",
 				"source":"2"
 			},
@@ -1205,7 +1209,7 @@
 				"time":"53148.19",
 				"band":"V",
 				"magnitude":"17.54700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04300",
 				"source":"2"
 			},
@@ -1214,7 +1218,7 @@
 				"time":"53151.23",
 				"band":"B",
 				"magnitude":"18.61700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.06000",
 				"source":"2"
 			},
@@ -1223,7 +1227,7 @@
 				"time":"53151.23",
 				"band":"I",
 				"magnitude":"17.18800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02500",
 				"source":"2"
 			},
@@ -1232,7 +1236,7 @@
 				"time":"53151.23",
 				"band":"R",
 				"magnitude":"17.30300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02800",
 				"source":"2"
 			},
@@ -1241,7 +1245,7 @@
 				"time":"53151.23",
 				"band":"V",
 				"magnitude":"17.71500",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03900",
 				"source":"2"
 			},
@@ -1250,7 +1254,7 @@
 				"time":"53157.19",
 				"band":"B",
 				"magnitude":"18.72600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.08200",
 				"source":"2"
 			},
@@ -1259,7 +1263,7 @@
 				"time":"53157.19",
 				"band":"I",
 				"magnitude":"17.46000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.05900",
 				"source":"2"
 			},
@@ -1268,7 +1272,7 @@
 				"time":"53157.19",
 				"band":"R",
 				"magnitude":"17.47600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04400",
 				"source":"2"
 			},
@@ -1277,7 +1281,7 @@
 				"time":"53157.19",
 				"band":"V",
 				"magnitude":"17.98200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.05000",
 				"source":"2"
 			},
@@ -1286,7 +1290,7 @@
 				"time":"53161.20",
 				"band":"B",
 				"magnitude":"18.91700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.06600",
 				"source":"2"
 			},
@@ -1295,7 +1299,7 @@
 				"time":"53161.20",
 				"band":"I",
 				"magnitude":"17.56000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04100",
 				"source":"2"
 			},
@@ -1304,7 +1308,7 @@
 				"time":"53161.20",
 				"band":"R",
 				"magnitude":"17.71400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.02900",
 				"source":"2"
 			},
@@ -1313,7 +1317,7 @@
 				"time":"53161.20",
 				"band":"V",
 				"magnitude":"17.97000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04300",
 				"source":"2"
 			},
@@ -1322,7 +1326,7 @@
 				"time":"53165.23",
 				"band":"B",
 				"magnitude":"19.04400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.09300",
 				"source":"2"
 			},
@@ -1331,7 +1335,7 @@
 				"time":"53165.23",
 				"band":"I",
 				"magnitude":"17.83300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03600",
 				"source":"2"
 			},
@@ -1340,7 +1344,7 @@
 				"time":"53165.23",
 				"band":"R",
 				"magnitude":"17.91800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04000",
 				"source":"2"
 			},
@@ -1349,7 +1353,7 @@
 				"time":"53165.23",
 				"band":"V",
 				"magnitude":"18.29100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.09200",
 				"source":"2"
 			},
@@ -1358,7 +1362,7 @@
 				"time":"53169.19",
 				"band":"B",
 				"magnitude":"19.08800",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.11800",
 				"source":"2"
 			},
@@ -1367,7 +1371,7 @@
 				"time":"53169.19",
 				"band":"I",
 				"magnitude":"17.99700",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03400",
 				"source":"2"
 			},
@@ -1376,7 +1380,7 @@
 				"time":"53169.19",
 				"band":"R",
 				"magnitude":"18.03400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03400",
 				"source":"2"
 			},
@@ -1385,7 +1389,7 @@
 				"time":"53169.19",
 				"band":"V",
 				"magnitude":"18.28200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.06300",
 				"source":"2"
 			},
@@ -1394,7 +1398,7 @@
 				"time":"53173.20",
 				"band":"B",
 				"magnitude":"19.12300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.12100",
 				"source":"2"
 			},
@@ -1403,7 +1407,7 @@
 				"time":"53173.20",
 				"band":"I",
 				"magnitude":"18.12200",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04400",
 				"source":"2"
 			},
@@ -1412,7 +1416,7 @@
 				"time":"53173.20",
 				"band":"R",
 				"magnitude":"18.06300",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.03600",
 				"source":"2"
 			},
@@ -1421,7 +1425,7 @@
 				"time":"53173.20",
 				"band":"V",
 				"magnitude":"18.31000",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.06800",
 				"source":"2"
 			},
@@ -1454,7 +1458,7 @@
 				"time":"53177.20",
 				"band":"B",
 				"magnitude":"19.24400",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.14100",
 				"source":"2"
 			},
@@ -1463,7 +1467,7 @@
 				"time":"53177.20",
 				"band":"I",
 				"magnitude":"18.55500",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.06000",
 				"source":"2"
 			},
@@ -1472,7 +1476,7 @@
 				"time":"53177.20",
 				"band":"R",
 				"magnitude":"18.31600",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.04300",
 				"source":"2"
 			},
@@ -1481,7 +1485,7 @@
 				"time":"53177.20",
 				"band":"V",
 				"magnitude":"18.60100",
-				"instrument":"kait3",
+				"telescope":"kait3",
 				"e_magnitude":"0.09700",
 				"source":"2"
 			},

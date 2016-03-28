@@ -172,11 +172,13 @@
 		"dec":[
 			{
 				"value":"+01:45:55.430",
-				"source":"1"
+				"source":"1",
+				"unit":"degrees"
 			},
 			{
 				"value":"+01:45:55.70",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -197,16 +199,11 @@
 				"source":"1"
 			}
 		],
-		"hvel":[
-			{
-				"value":"88800",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"1960",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -236,17 +233,28 @@
 		"ra":[
 			{
 				"value":"10:00:22.086",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			},
 			{
 				"value":"10:00:22.110",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.357",
-				"source":"1,2,3,15,16"
+				"source":"1,2,3,15,16",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"88800",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -459,7 +467,7 @@
 		],
 		"spectra":[
 			{
-				"instrument":"VLT",
+				"telescope":"VLT",
 				"timeunit":"MJD",
 				"time":"53110.0",
 				"filename":"snonly_04D2fs_470_Balland_etal_09.dat",

@@ -82,11 +82,13 @@
 		"dec":[
 			{
 				"value":"-04:03:08.430",
-				"source":"1"
+				"source":"1",
+				"unit":"degrees"
 			},
 			{
 				"value":"-04:03:08.51",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -107,16 +109,11 @@
 				"source":"1"
 			}
 		],
-		"hvel":[
-			{
-				"value":"133000",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"3720",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -146,17 +143,28 @@
 		"ra":[
 			{
 				"value":"02:26:31.192",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			},
 			{
 				"value":"02:26:31.200",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.612",
-				"source":"1,2,3,8,9"
+				"source":"1,2,3,8,9",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"133000",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -265,7 +273,7 @@
 		],
 		"spectra":[
 			{
-				"instrument":"VLT",
+				"telescope":"VLT",
 				"timeunit":"MJD",
 				"time":"52973.0",
 				"filename":"snonly_03D1dt_333_Balland_etal_09.dat",

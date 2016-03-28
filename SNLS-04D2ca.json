@@ -54,11 +54,13 @@
 		"dec":[
 			{
 				"value":"+02:20:21.680",
-				"source":"1"
+				"source":"1",
+				"unit":"degrees"
 			},
 			{
 				"value":"+02:20:21.76",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
@@ -79,16 +81,11 @@
 				"source":"1"
 			}
 		],
-		"hvel":[
-			{
-				"value":"163000",
-				"source":"D"
-			}
-		],
 		"lumdist":[
 			{
 				"value":"5440",
-				"source":"D"
+				"source":"D",
+				"kind":"heliocentric"
 			}
 		],
 		"maxabsmag":[
@@ -118,17 +115,28 @@
 		"ra":[
 			{
 				"value":"10:01:20.487",
-				"source":"1"
+				"source":"1",
+				"unit":"hours"
 			},
 			{
 				"value":"10:01:20.514",
-				"source":"2,3"
+				"source":"2,3",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.835",
-				"source":"1,4,5"
+				"source":"1,4,5",
+				"kind":"heliocentric"
+			}
+		],
+		"velocity":[
+			{
+				"value":"163000",
+				"source":"D",
+				"kind":"heliocentric",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -197,7 +205,7 @@
 		],
 		"spectra":[
 			{
-				"instrument":"VLT",
+				"telescope":"VLT",
 				"timeunit":"MJD",
 				"time":"53085.0",
 				"filename":"snonly_04D2ca_445_Balland_etal_09.dat",
@@ -1252,7 +1260,7 @@
 				"source":"5"
 			},
 			{
-				"instrument":"VLT",
+				"telescope":"VLT",
 				"timeunit":"MJD",
 				"time":"53085.0",
 				"filename":"snonly_04D2ca_447_Balland_etal_09.dat",
