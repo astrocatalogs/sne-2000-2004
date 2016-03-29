@@ -6,155 +6,169 @@
 		],
 		"sources":[
 			{
+				"name":"Anderson et al. (2014)",
+				"url":"http://adsabs.harvard.edu/abs/2014ApJ...786...67A",
+				"bibcode":"2014ApJ...786...67A",
+				"alias":"1"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true
 			},
 			{
 				"name":"Lennarz, Altmann, & Wiebusch (2012)",
 				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"IAUC 8117",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08100/08117.html#Item1",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3,4"
+				"source":"2,3,4,5"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"200",
-				"source":"D"
+				"source":"D",
+				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+15:26:49.4",
-				"source":"1,2",
+				"source":"2,3",
 				"unit":"nospace"
 			},
 			{
 				"value":"+15:26:49.49",
-				"source":"3,4",
+				"source":"4,5",
 				"unit":"degrees"
 			}
 		],
 		"discover":[
 			{
 				"value":"2003/4/10",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/04/10",
-				"source":"2,3,4"
+				"source":"3,4,5"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Wood-Vasey et al.",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"Nearby Supernova Factory",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"galdec":[
 			{
 				"value":"+15:26:49",
-				"source":"1",
+				"source":"2",
 				"unit":"nospace"
 			},
 			{
 				"value":"+15:26:49.0",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"galra":[
 			{
 				"value":"11:04:45",
-				"source":"1",
+				"source":"2",
 				"unit":"nospace"
 			},
 			{
 				"value":"11:04:45.00",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"host":[
 			{
 				"value":"A110445+1526",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"MAPS-NGPO_432_0786358",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"210",
 				"source":"D",
-				"kind":"host"
+				"kind":"host",
+				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-18",
+				"value":"-17",
 				"source":"D"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"18.9",
+				"value":"19.8",
+				"source":"D"
+			}
+		],
+		"maxband":[
+			{
+				"value":"V",
 				"source":"D"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2003/04/10",
+				"value":"2003/04/25",
 				"source":"D"
 			}
 		],
 		"ra":[
 			{
 				"value":"11:04:45.44",
-				"source":"1,2",
+				"source":"2,3",
 				"unit":"nospace"
 			},
 			{
 				"value":"11:04:45.448",
-				"source":"3,4",
+				"source":"4,5",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.046",
-				"source":"2,3,4",
+				"source":"3,4,5",
 				"kind":"host"
 			}
 		],
 		"velocity":[
 			{
 				"value":"13800",
-				"source":"1",
+				"source":"2",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -164,13 +178,52 @@
 				"timeunit":"MJD",
 				"time":"52738.5",
 				"magnitude":"18.9",
-				"source":"3,4"
+				"source":"4,5"
 			},
 			{
 				"timeunit":"MJD",
-				"time":"52739.0",
-				"magnitude":"18.9",
-				"source":"2"
+				"time":"52754.1",
+				"band":"V",
+				"system":"Swope",
+				"magnitude":"19.800",
+				"e_magnitude":"0.019",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"52764.1",
+				"band":"V",
+				"system":"Swope",
+				"magnitude":"20.241",
+				"e_magnitude":"0.036",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"52777.1",
+				"band":"V",
+				"system":"Swope",
+				"magnitude":"20.417",
+				"e_magnitude":"0.083",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"52789.1",
+				"band":"V",
+				"system":"Swope",
+				"magnitude":"20.645",
+				"e_magnitude":"0.087",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"52794.0",
+				"band":"V",
+				"system":"Swope",
+				"magnitude":"21.097",
+				"e_magnitude":"0.046",
+				"source":"1"
 			}
 		]
 	}

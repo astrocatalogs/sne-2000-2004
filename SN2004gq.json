@@ -6,139 +6,147 @@
 		],
 		"sources":[
 			{
+				"name":"Drout et al. (2011)",
+				"url":"http://adsabs.harvard.edu/abs/2011ApJ...741...97D",
+				"bibcode":"2011ApJ...741...97D",
+				"alias":"1"
+			},
+			{
 				"name":"Bianco et al. (2014)",
 				"url":"http://adsabs.harvard.edu/abs/2014ApJS..213...19B",
 				"bibcode":"2014ApJS..213...19B",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"2",
+				"alias":"3",
 				"secondary":true
 			},
 			{
 				"name":"Lennarz, Altmann, & Wiebusch (2012)",
 				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"IAUC 8452",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08400/08452.html#Item2",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
 			},
 			{
 				"name":"Modjaz et al. (2014)",
 				"url":"http://adsabs.harvard.edu/abs/2014AJ....147...99M",
 				"bibcode":"2014AJ....147...99M",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"Modjaz et al. (2008)",
 				"url":"http://adsabs.harvard.edu/abs/2008ApJ...687L...9M",
 				"bibcode":"2008ApJ...687L...9M",
-				"alias":"8"
+				"alias":"9"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"9",
+				"alias":"10",
 				"secondary":true
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ib",
-				"source":"2,3,4,5,6"
+				"source":"3,4,5,6,7"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"28.58",
-				"source":"D"
+				"source":"D",
+				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-15:40:54.2",
-				"source":"2,3",
+				"source":"3,4",
 				"unit":"nospace"
 			},
 			{
 				"value":"-15:40:53.65",
-				"source":"4,5",
+				"source":"5,6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2004/12/11",
-				"source":"3,4,5"
+				"source":"4,5,6"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Manzini, LOSS",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"value":"LOSS",
-				"source":"4,5"
+				"source":"5,6"
 			}
 		],
 		"galdec":[
 			{
 				"value":"-15:41:16",
-				"source":"2",
+				"source":"3",
 				"unit":"nospace"
 			},
 			{
 				"value":"-15:41:16.0",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"galra":[
 			{
 				"value":"05:12:03",
-				"source":"2",
+				"source":"3",
 				"unit":"nospace"
 			},
 			{
 				"value":"05:12:03.29",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 1832",
-				"source":"2,3,4,5"
+				"source":"3,4,5,6"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"16",
 				"error":"2",
-				"source":"3",
-				"kind":"host"
+				"source":"4",
+				"kind":"host",
+				"unit":"Mpc"
 			}
 		],
 		"max":[
 			{
 				"value":"2004/12/21",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"maxabsmag":[
@@ -162,31 +170,31 @@
 		"maxdate":[
 			{
 				"value":"2004/12/21",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"ra":[
 			{
 				"value":"05:12:04.81",
-				"source":"2,3",
+				"source":"3,4",
 				"unit":"nospace"
 			},
 			{
 				"value":"05:12:04.867",
-				"source":"4,5",
+				"source":"5,6",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.006468",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"velocity":[
 			{
 				"value":"1994",
-				"source":"2",
+				"source":"3",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -196,7 +204,23 @@
 				"timeunit":"MJD",
 				"time":"53350.5",
 				"magnitude":"15.4",
-				"source":"4,5"
+				"source":"5,6"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53352.3",
+				"band":"R",
+				"magnitude":"15.43",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53352.3",
+				"band":"V",
+				"magnitude":"15.67",
+				"e_magnitude":"0.02",
+				"source":"1"
 			},
 			{
 				"timeunit":"MJD",
@@ -206,7 +230,7 @@
 				"magnitude":"15.697",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.026",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -216,7 +240,7 @@
 				"magnitude":"16.160",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.024",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -226,7 +250,7 @@
 				"magnitude":"15.791",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.063",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -236,7 +260,7 @@
 				"magnitude":"15.665",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.028",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -246,7 +270,7 @@
 				"magnitude":"15.598",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.026",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -256,7 +280,7 @@
 				"magnitude":"16.138",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.022",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -266,6 +290,54 @@
 				"magnitude":"15.718",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.060",
+				"source":"2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53357.4",
+				"band":"R",
+				"magnitude":"15.03",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53358.4",
+				"band":"R",
+				"magnitude":"15.0",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53359.4",
+				"band":"R",
+				"magnitude":"14.97",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53359.4",
+				"band":"V",
+				"magnitude":"15.29",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53361.4",
+				"band":"R",
+				"magnitude":"14.97",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53361.4",
+				"band":"V",
+				"magnitude":"15.3",
+				"e_magnitude":"0.02",
 				"source":"1"
 			},
 			{
@@ -276,7 +348,7 @@
 				"magnitude":"16.484",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.021",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -286,7 +358,7 @@
 				"magnitude":"16.101",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.024",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -296,7 +368,7 @@
 				"magnitude":"15.752",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.026",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -306,7 +378,7 @@
 				"magnitude":"16.669",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.029",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -316,7 +388,7 @@
 				"magnitude":"16.200",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.023",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -326,7 +398,7 @@
 				"magnitude":"15.835",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.026",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -336,7 +408,7 @@
 				"magnitude":"18.002",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.028",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -346,7 +418,7 @@
 				"magnitude":"19.053",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.126",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -356,7 +428,7 @@
 				"magnitude":"16.666",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.020",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -366,7 +438,7 @@
 				"magnitude":"16.270",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.022",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -376,7 +448,7 @@
 				"magnitude":"15.888",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.024",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -386,7 +458,7 @@
 				"magnitude":"19.109",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.166",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -396,7 +468,7 @@
 				"magnitude":"16.826",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.026",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -406,7 +478,7 @@
 				"magnitude":"16.412",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.021",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -416,7 +488,7 @@
 				"magnitude":"16.059",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.025",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -426,7 +498,7 @@
 				"magnitude":"18.305",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.037",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -436,6 +508,38 @@
 				"magnitude":"19.140",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.134",
+				"source":"2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53386.2",
+				"band":"R",
+				"magnitude":"16.01",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53386.2",
+				"band":"V",
+				"magnitude":"16.7",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53387.3",
+				"band":"R",
+				"magnitude":"16.06",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53387.3",
+				"band":"V",
+				"magnitude":"16.74",
+				"e_magnitude":"0.02",
 				"source":"1"
 			},
 			{
@@ -446,7 +550,7 @@
 				"magnitude":"16.945",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.029",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -456,7 +560,7 @@
 				"magnitude":"16.903",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.023",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -466,7 +570,7 @@
 				"magnitude":"16.466",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.022",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -476,7 +580,7 @@
 				"magnitude":"16.096",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.025",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -486,6 +590,54 @@
 				"magnitude":"18.272",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.037",
+				"source":"2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53388.3",
+				"band":"R",
+				"magnitude":"16.08",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53388.3",
+				"band":"V",
+				"magnitude":"16.78",
+				"e_magnitude":"0.04",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53390.3",
+				"band":"R",
+				"magnitude":"16.13",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53390.3",
+				"band":"V",
+				"magnitude":"16.81",
+				"e_magnitude":"0.03",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53392.3",
+				"band":"R",
+				"magnitude":"16.19",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53392.3",
+				"band":"V",
+				"magnitude":"16.86",
+				"e_magnitude":"0.03",
 				"source":"1"
 			},
 			{
@@ -496,7 +648,7 @@
 				"magnitude":"17.159",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.024",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -506,7 +658,7 @@
 				"magnitude":"16.760",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.023",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -516,7 +668,7 @@
 				"magnitude":"16.432",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.024",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -526,7 +678,7 @@
 				"magnitude":"18.497",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.034",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -536,7 +688,7 @@
 				"magnitude":"19.303",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.160",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -546,7 +698,7 @@
 				"magnitude":"17.147",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.023",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -556,7 +708,7 @@
 				"magnitude":"16.765",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.023",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -566,7 +718,7 @@
 				"magnitude":"16.427",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.025",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -576,7 +728,7 @@
 				"magnitude":"18.470",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.036",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -586,6 +738,22 @@
 				"magnitude":"19.293",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.155",
+				"source":"2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53401.3",
+				"band":"R",
+				"magnitude":"16.42",
+				"e_magnitude":"0.02",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53401.3",
+				"band":"V",
+				"magnitude":"17.07",
+				"e_magnitude":"0.04",
 				"source":"1"
 			},
 			{
@@ -596,7 +764,7 @@
 				"magnitude":"17.232",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.028",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -606,7 +774,7 @@
 				"magnitude":"16.820",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.021",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -616,7 +784,7 @@
 				"magnitude":"16.448",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.022",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -626,7 +794,7 @@
 				"magnitude":"17.083",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.036",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -636,7 +804,7 @@
 				"magnitude":"16.810",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.029",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -646,7 +814,7 @@
 				"magnitude":"17.727",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.027",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -656,7 +824,7 @@
 				"magnitude":"17.487",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.025",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -666,7 +834,7 @@
 				"magnitude":"17.234",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.028",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -676,7 +844,7 @@
 				"magnitude":"18.722",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.038",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -686,7 +854,7 @@
 				"magnitude":"19.547",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.143",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -696,7 +864,7 @@
 				"magnitude":"17.838",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.032",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -706,7 +874,7 @@
 				"magnitude":"17.497",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.027",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -716,7 +884,7 @@
 				"magnitude":"17.253",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.036",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -726,7 +894,7 @@
 				"magnitude":"18.782",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.047",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -736,6 +904,46 @@
 				"magnitude":"19.789",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.207",
+				"source":"2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53440.2",
+				"band":"R",
+				"magnitude":"17.06",
+				"e_magnitude":"0.03",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53440.2",
+				"band":"V",
+				"magnitude":"17.66",
+				"e_magnitude":"0.04",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53443.2",
+				"band":"R",
+				"magnitude":"17.07",
+				"e_magnitude":"0.05",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53445.2",
+				"band":"R",
+				"magnitude":"17.15",
+				"e_magnitude":"0.03",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53445.2",
+				"band":"V",
+				"magnitude":"17.71",
+				"e_magnitude":"0.06",
 				"source":"1"
 			},
 			{
@@ -746,7 +954,7 @@
 				"magnitude":"17.940",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.029",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -756,7 +964,7 @@
 				"magnitude":"17.683",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.030",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -766,7 +974,7 @@
 				"magnitude":"17.262",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.031",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -776,6 +984,14 @@
 				"magnitude":"19.739",
 				"telescope":"CfA3_MINI",
 				"e_magnitude":"0.341",
+				"source":"2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"53467.1",
+				"band":"R",
+				"magnitude":"17.5",
+				"e_magnitude":"0.05",
 				"source":"1"
 			},
 			{
@@ -786,7 +1002,7 @@
 				"magnitude":"17.095",
 				"telescope":"PAIRITEL",
 				"e_magnitude":"0.214",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -796,7 +1012,7 @@
 				"magnitude":"17.861",
 				"telescope":"PAIRITEL",
 				"e_magnitude":"0.259",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"timeunit":"MJD",
@@ -806,7 +1022,7 @@
 				"magnitude":"17.010",
 				"telescope":"PAIRITEL",
 				"e_magnitude":"0.313",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"spectra":[
@@ -11508,7 +11724,7 @@
 						"0.76544988"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -22204,7 +22420,7 @@
 						"0.93056852"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -32900,7 +33116,7 @@
 						"1.2390836"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -43596,7 +43812,7 @@
 						"1.2270811"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -54296,7 +54512,7 @@
 						"1.1043124"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -64996,7 +65212,7 @@
 						"1.0105379"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -75696,7 +75912,7 @@
 						"1.2841961"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -86396,7 +86612,7 @@
 						"1.5755227"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -97096,7 +97312,7 @@
 						"1.3459519"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -107796,7 +108012,7 @@
 						"0.95141739"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -118496,7 +118712,7 @@
 						"0.61863446"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -122937,7 +123153,7 @@
 						"0.23841825"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -133633,7 +133849,7 @@
 						"2.5965228"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -144333,7 +144549,7 @@
 						"0.18739231"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -155013,7 +155229,7 @@
 						"0.57268721"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -165713,7 +165929,7 @@
 						"0.42548057"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -176409,7 +176625,7 @@
 						"0.45927697"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -187109,7 +187325,7 @@
 						"0.24252871"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -197809,7 +198025,7 @@
 						"0.28130433"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -208509,7 +208725,7 @@
 						"0.17477766"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -219209,7 +219425,7 @@
 						"0.50742304"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -229909,7 +230125,7 @@
 						"0.36493495"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -244156,7 +244372,7 @@
 						"0.012165878"
 					]
 				],
-				"source":"8,6"
+				"source":"9,7"
 			},
 			{
 				"deredshifted":false,
@@ -258313,7 +258529,7 @@
 						"0.010004007"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
@@ -265514,7 +265730,7 @@
 						"0.0012949797"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			}
 		]
 	}
