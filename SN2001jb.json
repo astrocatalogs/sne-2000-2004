@@ -6,16 +6,16 @@
 		],
 		"sources":[
 			{
-				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"1",
-				"secondary":true
-			},
-			{
 				"name":"Barris et al. (2004)",
 				"url":"http://adsabs.harvard.edu/abs/2004ApJ...602..571B",
 				"bibcode":"2004ApJ...602..571B",
-				"alias":"2"
+				"alias":"1"
+			},
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"2",
+				"secondary":true
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -68,7 +68,7 @@
 		"comovingdist":[
 			{
 				"value":"2180",
-				"source":"2,7",
+				"source":"1,7",
 				"unit":"Mpc"
 			},
 			{
@@ -78,12 +78,12 @@
 			},
 			{
 				"value":"2440",
-				"source":"2,7",
+				"source":"1,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2620",
-				"source":"2,7",
+				"source":"1,7",
 				"unit":"Mpc"
 			},
 			{
@@ -171,14 +171,20 @@
 		],
 		"maxappmag":[
 			{
-				"value":"23",
-				"source":"D,5,6"
+				"value":"23.67",
+				"source":"D,1"
+			}
+		],
+		"maxband":[
+			{
+				"value":"R",
+				"source":"D,1"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2001/12/08",
-				"source":"D,5,6"
+				"value":"2001/12/09",
+				"source":"D,1"
 			}
 		],
 		"ra":[
@@ -205,17 +211,226 @@
 		],
 		"photometry":[
 			{
+				"time":"52163.54",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"26.11",
+				"e_magnitude":"1.427",
+				"source":"1"
+			},
+			{
+				"time":"52191.43",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"26.608",
+				"e_magnitude":"1.7412",
+				"source":"1"
+			},
+			{
+				"time":"52204.46",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"26.889",
+				"e_magnitude":"1.3166",
+				"source":"1"
+			},
+			{
+				"time":"52204.51",
+				"u_time":"MJD",
+				"band":"R",
+				"magnitude":"27.81",
+				"e_magnitude":"1.031",
+				"source":"1"
+			},
+			{
+				"time":"52225.31",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"26.166",
+				"e_magnitude":"0.92334",
+				"source":"1"
+			},
+			{
+				"time":"52231.24",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"25.108",
+				"e_magnitude":"0.35172",
+				"source":"1"
+			},
+			{
+				"time":"52231.27",
+				"u_time":"MJD",
+				"band":"R",
+				"magnitude":"26.619",
+				"e_magnitude":"0.4211",
+				"source":"1"
+			},
+			{
+				"time":"52231.31",
+				"u_time":"MJD",
+				"band":"Z",
+				"magnitude":"24.889",
+				"e_magnitude":"0.6296",
+				"source":"1"
+			},
+			{
+				"time":"52232.23",
+				"u_time":"MJD",
+				"band":"R",
+				"magnitude":"27.608",
+				"e_magnitude":"1.478",
+				"source":"1"
+			},
+			{
+				"time":"52232.26",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"24.82",
+				"e_magnitude":"0.3819",
+				"source":"1"
+			},
+			{
+				"time":"52232.3",
+				"u_time":"MJD",
+				"band":"Z",
+				"magnitude":"24.849",
+				"e_magnitude":"0.54385",
+				"source":"1"
+			},
+			{
+				"time":"52236.21",
+				"u_time":"MJD",
+				"band":"R",
+				"magnitude":"25.776",
+				"e_magnitude":"0.36959",
+				"source":"1"
+			},
+			{
+				"time":"52236.24",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"24.177",
+				"e_magnitude":"0.19952",
+				"source":"1"
+			},
+			{
+				"time":"52236.27",
+				"u_time":"MJD",
+				"band":"Z",
+				"magnitude":"24.995",
+				"e_magnitude":"0.49267",
+				"source":"1"
+			},
+			{
 				"time":"52251.5",
 				"u_time":"MJD",
 				"magnitude":"23.0",
 				"source":"5,6"
 			},
 			{
-				"time":"52252.0",
+				"time":"52252.21",
+				"u_time":"MJD",
+				"band":"R",
+				"magnitude":"23.672",
+				"e_magnitude":"0.074874",
+				"source":"1"
+			},
+			{
+				"time":"52252.23",
 				"u_time":"MJD",
 				"band":"I",
-				"magnitude":"23.1",
-				"source":"4"
+				"magnitude":"23.261",
+				"e_magnitude":"0.094914",
+				"source":"1"
+			},
+			{
+				"time":"52252.27",
+				"u_time":"MJD",
+				"band":"Z",
+				"magnitude":"23.203",
+				"e_magnitude":"0.18251",
+				"source":"1"
+			},
+			{
+				"time":"52263.23",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"23.578",
+				"e_magnitude":"0.12553",
+				"source":"1"
+			},
+			{
+				"time":"52283.28",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"24.255",
+				"e_magnitude":"0.25282",
+				"source":"1"
+			},
+			{
+				"time":"52283.31",
+				"u_time":"MJD",
+				"band":"Z",
+				"magnitude":"24.121",
+				"e_magnitude":"0.30238",
+				"source":"1"
+			},
+			{
+				"time":"52283.34",
+				"u_time":"MJD",
+				"band":"R",
+				"magnitude":"26.132",
+				"e_magnitude":"0.37068",
+				"source":"1"
+			},
+			{
+				"time":"52288.33",
+				"u_time":"MJD",
+				"band":"Z",
+				"magnitude":"24.09",
+				"e_magnitude":"0.27237",
+				"source":"1"
+			},
+			{
+				"time":"52288.36",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"24.505",
+				"e_magnitude":"0.28798",
+				"source":"1"
+			},
+			{
+				"time":"52288.39",
+				"u_time":"MJD",
+				"band":"R",
+				"magnitude":"26.399",
+				"e_magnitude":"0.45665",
+				"source":"1"
+			},
+			{
+				"time":"52289.32",
+				"u_time":"MJD",
+				"band":"Z",
+				"magnitude":"24.444",
+				"e_magnitude":"0.5567",
+				"source":"1"
+			},
+			{
+				"time":"52289.36",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"24.576",
+				"e_magnitude":"0.68905",
+				"source":"1"
+			},
+			{
+				"time":"52323.23",
+				"u_time":"MJD",
+				"band":"I",
+				"magnitude":"24.673",
+				"e_magnitude":"1.0471",
+				"source":"1"
 			}
 		]
 	}
