@@ -39,15 +39,15 @@
 				"alias":"6"
 			},
 			{
-				"name":"Wagner et al. (2004)",
-				"bibcode":"2004PASP..116..326W",
-				"alias":"7"
-			},
-			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"8",
+				"alias":"7",
 				"secondary":true
+			},
+			{
+				"name":"Wagner et al. (2004)",
+				"bibcode":"2004PASP..116..326W",
+				"alias":"8"
 			},
 			{
 				"name":"Smith et al. (2011)",
@@ -64,6 +64,18 @@
 			{
 				"value":"IIn",
 				"source":"5,7,8,9"
+			},
+			{
+				"value":"AGN",
+				"source":"7,9"
+			},
+			{
+				"value":"Ic",
+				"source":"7,8"
+			},
+			{
+				"value":"Gal",
+				"source":"7,8"
 			},
 			{
 				"value":"IIn?",
@@ -87,7 +99,7 @@
 		"discoverdate":[
 			{
 				"value":"2000/05/03",
-				"source":"3"
+				"source":"3,7,8,9"
 			}
 		],
 		"discoverer":[
@@ -106,7 +118,7 @@
 		"host":[
 			{
 				"value":"NGC 3432",
-				"source":"3"
+				"source":"3,7,8,9"
 			}
 		],
 		"hostdec":[
@@ -256,6 +268,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"51695",
@@ -5674,6 +5687,7 @@
 				"source":"7,8"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"51722",
@@ -11112,6 +11126,7 @@
 				"source":"7,8"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"53121.4",
@@ -23639,7 +23654,7 @@
 						"0.00351597"
 					]
 				],
-				"source":"9,8"
+				"source":"7,9"
 			},
 			{
 				"instrument":"WHT-4.2m - ISIS",

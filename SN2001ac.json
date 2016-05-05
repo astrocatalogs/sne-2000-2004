@@ -22,8 +22,9 @@
 				"secondary":true
 			},
 			{
-				"name":"IAUC 7596",
+				"name":"Bergin et al. (2001)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07500/07596.html#Item1",
+				"bibcode":"2001IAUC.7596....3B",
 				"alias":"4"
 			},
 			{
@@ -33,15 +34,15 @@
 				"secondary":true
 			},
 			{
-				"name":"Smith et al. (2011)",
-				"bibcode":"2011MNRAS.415..773S",
-				"alias":"6"
-			},
-			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"7",
+				"alias":"6",
 				"secondary":true
+			},
+			{
+				"name":"Smith et al. (2011)",
+				"bibcode":"2011MNRAS.415..773S",
+				"alias":"7"
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
@@ -51,16 +52,20 @@
 		],
 		"claimedtype":[
 			{
+				"value":"Gal",
+				"source":"6,7"
+			},
+			{
 				"value":"IIn",
 				"source":"6,7"
 			},
 			{
-				"value":"IIn?",
-				"source":"3"
-			},
-			{
 				"value":"IIn/LBV",
 				"source":"4,5"
+			},
+			{
+				"value":"IIn?",
+				"source":"3"
 			}
 		],
 		"comovingdist":[
@@ -80,7 +85,7 @@
 		"discoverdate":[
 			{
 				"value":"2001/03/12",
-				"source":"3,4,5"
+				"source":"3,4,5,6,7"
 			}
 		],
 		"discoverer":[
@@ -99,7 +104,7 @@
 		"host":[
 			{
 				"value":"NGC 3504",
-				"source":"3,4,5"
+				"source":"3,4,5,6,7"
 			}
 		],
 		"hostdec":[
@@ -236,6 +241,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"51989",
@@ -9314,6 +9320,7 @@
 				"source":"6,7"
 			},
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"51997",

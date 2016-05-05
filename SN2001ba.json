@@ -37,8 +37,9 @@
 				"alias":"6"
 			},
 			{
-				"name":"IAUC 7614",
+				"name":"Schwartz & Li (2001)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07600/07614.html#Item2",
+				"bibcode":"2001IAUC.7614....4S",
 				"alias":"7"
 			},
 			{
@@ -145,15 +146,15 @@
 				"secondary":true
 			},
 			{
-				"name":"Foley, Filippenko, & Jha (2008)",
-				"bibcode":"2008ApJ...686..117F",
-				"alias":"28"
-			},
-			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"29",
+				"alias":"28",
 				"secondary":true
+			},
+			{
+				"name":"Foley, Filippenko, & Jha (2008)",
+				"bibcode":"2008ApJ...686..117F",
+				"alias":"29"
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
@@ -244,7 +245,7 @@
 		"discoverdate":[
 			{
 				"value":"2001/04/27",
-				"source":"6,7,8"
+				"source":"6,7,8,28,29,1"
 			}
 		],
 		"discoverer":[
@@ -267,7 +268,7 @@
 		"host":[
 			{
 				"value":"MCG -05-28-01",
-				"source":"1,5"
+				"source":"1,5,28,29"
 			},
 			{
 				"value":"ESO 439-G18",
@@ -1076,6 +1077,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"Kast",
 				"u_time":"MJD",
 				"time":"52029",
@@ -15771,9 +15773,11 @@
 						"0.0634754"
 					]
 				],
-				"source":"1,29"
+				"source":"28,1"
 			},
 			{
+				"deredshifted":false,
+				"instrument":"None",
 				"u_time":"MJD",
 				"time":"52037.8",
 				"snr":"42.0565",
@@ -18001,6 +18005,8 @@
 				"source":"28,29"
 			},
 			{
+				"deredshifted":false,
+				"instrument":"None",
 				"u_time":"MJD",
 				"time":"52045.2",
 				"snr":"39.4952",

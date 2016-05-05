@@ -32,8 +32,9 @@
 				"alias":"5"
 			},
 			{
-				"name":"IAUC 8082",
+				"name":"Bernstein et al. (2003)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08000/08082.html#Item1",
+				"bibcode":"2003IAUC.8082....2B",
 				"alias":"6"
 			},
 			{
@@ -49,15 +50,15 @@
 				"secondary":true
 			},
 			{
-				"name":"Foley, Filippenko, & Jha (2008)",
-				"bibcode":"2008ApJ...686..117F",
-				"alias":"9"
-			},
-			{
 				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"10",
+				"alias":"9",
 				"secondary":true
+			},
+			{
+				"name":"Foley, Filippenko, & Jha (2008)",
+				"bibcode":"2008ApJ...686..117F",
+				"alias":"10"
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
@@ -69,6 +70,14 @@
 			{
 				"value":"Ia",
 				"source":"4,5,6,7,8,9,10,1"
+			},
+			{
+				"value":"Ia-99aa",
+				"source":"9,10,1"
+			},
+			{
+				"value":"Ic",
+				"source":"9,10"
 			}
 		],
 		"comovingdist":[
@@ -93,7 +102,7 @@
 		"discoverdate":[
 			{
 				"value":"2003/02/18",
-				"source":"4,5,6,7"
+				"source":"4,5,6,7,9,10,1"
 			}
 		],
 		"discoverer":[
@@ -116,7 +125,7 @@
 		"host":[
 			{
 				"value":"2MASX J08082660+1219571",
-				"source":"1"
+				"source":"1,9,10"
 			},
 			{
 				"value":"A080826+1219",
@@ -234,6 +243,7 @@
 		],
 		"spectra":[
 			{
+				"deredshifted":false,
 				"instrument":"LRIS",
 				"u_time":"MJD",
 				"time":"52697",
@@ -13005,9 +13015,11 @@
 						"0.185156"
 					]
 				],
-				"source":"1,10"
+				"source":"9,1"
 			},
 			{
+				"deredshifted":false,
+				"instrument":"None",
 				"u_time":"MJD",
 				"time":"52708.8",
 				"snr":"28.6082",
@@ -16207,6 +16219,8 @@
 				"source":"9,10"
 			},
 			{
+				"deredshifted":false,
+				"instrument":"None",
 				"u_time":"MJD",
 				"time":"52715.6",
 				"snr":"23.0871",
@@ -19438,6 +19452,8 @@
 				"source":"9,10"
 			},
 			{
+				"deredshifted":false,
+				"instrument":"None",
 				"u_time":"MJD",
 				"time":"52722.2",
 				"snr":"18.0562",

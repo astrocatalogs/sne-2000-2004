@@ -6,55 +6,61 @@
 		],
 		"sources":[
 			{
+				"name":"Chomiuk et al. (2016)",
+				"bibcode":"2016ApJ...821..119C",
+				"alias":"1"
+			},
+			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true
 			},
 			{
 				"name":"VSNET Oct2003",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"Lennarz, Altmann, & Wiebusch (2012)",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
-				"name":"IAUC 8045",
+				"name":"Hamuy (2003)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08000/08045.html#Item1",
-				"alias":"5"
+				"bibcode":"2003IAUC.8045....3H",
+				"alias":"6"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"7"
+				"alias":"8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ib P",
-				"source":"3,4"
+				"source":"4,5"
 			},
 			{
 				"value":"Ib/c",
-				"source":"4,5,6"
+				"source":"5,6,7"
 			},
 			{
 				"value":"Ib/c P",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"comovingdist":[
@@ -67,65 +73,65 @@
 		"dec":[
 			{
 				"value":"-21:22:23.8",
-				"source":"3,4",
+				"source":"4,5",
 				"unit":"degrees"
 			},
 			{
 				"value":"-21:22:23.89",
-				"source":"5,6",
+				"source":"6,7",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/01/08",
-				"source":"3,4,5,6"
+				"source":"4,5,6,7"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOTOSS",
-				"source":"3,5,6"
+				"source":"4,6,7"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0748",
 				"error":"0.0006",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 2207",
-				"source":"3,5,6"
+				"source":"4,6,7"
 			},
 			{
 				"value":"IC 2163",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-21:22:21",
-				"source":"3",
+				"source":"4",
 				"unit":"degrees"
 			},
 			{
 				"value":"-21:22:21.0",
-				"source":"4",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"06:16:22",
-				"source":"3",
+				"source":"4",
 				"unit":"hours"
 			},
 			{
 				"value":"06:16:22.00",
-				"source":"4",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
@@ -146,44 +152,44 @@
 		"maxappmag":[
 			{
 				"value":"17.8",
-				"source":"D,1,2"
+				"source":"D,2,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"D,1,2"
+				"source":"D,2,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/01/08",
-				"source":"D,1,2"
+				"source":"D,2,3"
 			}
 		],
 		"ra":[
 			{
 				"value":"06:16:25.68",
-				"source":"3,4",
+				"source":"4,5",
 				"unit":"hours"
 			},
 			{
 				"value":"06:16:25.688",
-				"source":"5,6",
+				"source":"6,7",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0092",
-				"source":"4",
+				"source":"5",
 				"kind":"host"
 			}
 		],
 		"velocity":[
 			{
 				"value":"2747",
-				"source":"3",
+				"source":"4",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -193,21 +199,32 @@
 				"time":"52646.5",
 				"u_time":"MJD",
 				"magnitude":"17.8",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"52647.3",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"17.8",
-				"source":"1,2"
+				"source":"2,3"
 			},
 			{
 				"time":"52648.6",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"18",
-				"source":"1,2"
+				"source":"2,3"
+			},
+			{
+				"time":"52653.30",
+				"u_time":"MJD",
+				"frequency":"8.4",
+				"u_frequency":"GHz",
+				"fluxdensity":"-27.0",
+				"e_fluxdensity":"40.0",
+				"u_fluxdensity":"µJy",
+				"instrument":"VLA",
+				"source":"1"
 			}
 		]
 	}
