@@ -1,9 +1,6 @@
 {
 	"SN2002an":{
 		"name":"SN2002an",
-		"aliases":[
-			"SN2002an"
-		],
 		"sources":[
 			{
 				"name":"Faran et al. (2014)",
@@ -21,8 +18,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -44,8 +42,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"8",
 				"secondary":true
 			},
@@ -55,21 +54,35 @@
 				"alias":"9"
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"name":"Silverman et al. (2012)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"10",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"11",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11"
+				"alias":"12"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2002an",
+				"source":"1,2,4,5,7,6,8,10"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II P",
-				"source":"10,1"
+				"source":"1,10"
 			},
 			{
 				"value":"II",
@@ -83,7 +96,7 @@
 		"comovingdist":[
 			{
 				"value":"56.9",
-				"source":"D",
+				"source":"11",
 				"unit":"Mpc"
 			}
 		],
@@ -97,7 +110,7 @@
 		"discoverdate":[
 			{
 				"value":"2002/01/22",
-				"source":"4,5,6,7,10,1"
+				"source":"4,5,6,7,1,10"
 			}
 		],
 		"discoverer":[
@@ -114,13 +127,13 @@
 			{
 				"value":"0.0311",
 				"error":"0.0012",
-				"source":"11"
+				"source":"12"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 2575",
-				"source":"4,5,6,7,10,1"
+				"source":"4,5,6,7,1,10"
 			}
 		],
 		"hostdec":[
@@ -159,25 +172,25 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"D"
+				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.2",
-				"source":"D,1"
+				"source":"1,11"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1"
+				"source":"1,11"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/02/28",
-				"source":"D,1"
+				"source":"1,11"
 			}
 		],
 		"ra":[
@@ -4180,7 +4193,7 @@
 						"2.08875e-16"
 					]
 				],
-				"source":"9,8"
+				"source":"8,9"
 			},
 			{
 				"deredshifted":false,
@@ -18399,7 +18412,7 @@
 						"0.504320"
 					]
 				],
-				"source":"10,1"
+				"source":"1,10"
 			},
 			{
 				"deredshifted":false,
@@ -28178,7 +28191,7 @@
 						"0.383809"
 					]
 				],
-				"source":"10,1"
+				"source":"1,10"
 			},
 			{
 				"deredshifted":false,
@@ -42397,7 +42410,7 @@
 						"0.908696"
 					]
 				],
-				"source":"10,1"
+				"source":"1,10"
 			},
 			{
 				"deredshifted":false,
@@ -56616,7 +56629,7 @@
 						"0.874946"
 					]
 				],
-				"source":"10,1"
+				"source":"1,10"
 			}
 		]
 	}

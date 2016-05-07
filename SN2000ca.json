@@ -1,9 +1,6 @@
 {
 	"SN2000ca":{
 		"name":"SN2000ca",
-		"aliases":[
-			"SN2000ca"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -21,8 +18,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -135,9 +133,22 @@
 				"alias":"25"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"26",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"26"
+				"alias":"27"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2000ca",
+				"source":"1,4,5,7,6,8"
 			}
 		],
 		"claimedtype":[
@@ -149,12 +160,12 @@
 		"comovingdist":[
 			{
 				"value":"71.8",
-				"source":"9,8",
+				"source":"8,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"77.6",
-				"source":"10,8",
+				"source":"8,10",
 				"unit":"Mpc"
 			},
 			{
@@ -164,7 +175,7 @@
 			},
 			{
 				"value":"88.7",
-				"source":"12,8",
+				"source":"8,12",
 				"unit":"Mpc"
 			},
 			{
@@ -174,7 +185,7 @@
 			},
 			{
 				"value":"94.3",
-				"source":"14,8",
+				"source":"8,14",
 				"unit":"Mpc"
 			},
 			{
@@ -184,17 +195,17 @@
 			},
 			{
 				"value":"95.9",
-				"source":"16,8",
+				"source":"8,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"98.3",
-				"source":"17,8",
+				"source":"8,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"99.1",
-				"source":"18,8",
+				"source":"8,18",
 				"unit":"Mpc"
 			},
 			{
@@ -214,17 +225,17 @@
 			},
 			{
 				"value":"106",
-				"source":"24,8,23",
+				"source":"8,24,23",
 				"unit":"Mpc"
 			},
 			{
 				"value":"107",
-				"source":"25,8",
+				"source":"8,25",
 				"unit":"Mpc"
 			},
 			{
 				"value":"109",
-				"source":"24,8",
+				"source":"8,24",
 				"unit":"Mpc"
 			},
 			{
@@ -265,7 +276,7 @@
 			{
 				"value":"0.0572",
 				"error":"0.0025",
-				"source":"26"
+				"source":"27"
 			}
 		],
 		"host":[
@@ -314,19 +325,19 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"D"
+				"source":"26"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.87",
-				"source":"D,1,3"
+				"source":"1,3,26"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1,3"
+				"source":"1,3,26"
 			}
 		],
 		"maxdate":[

@@ -1,9 +1,6 @@
 {
 	"SN2001dv":{
 		"name":"SN2001dv",
-		"aliases":[
-			"SN2001dv"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -16,8 +13,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"3",
 				"secondary":true
 			},
@@ -39,9 +37,22 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"7",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"7"
+				"alias":"8"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2001dv",
+				"source":"1,3,4,6,5"
 			}
 		],
 		"claimedtype":[
@@ -77,7 +88,7 @@
 			{
 				"value":"0.015",
 				"error":"0.001",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"host":[
@@ -117,19 +128,19 @@
 		"maxappmag":[
 			{
 				"value":"18.5",
-				"source":"D,1,2"
+				"source":"1,2,7"
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"D,1,2"
+				"source":"1,2,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2001/08/23",
-				"source":"D,1,2"
+				"source":"1,2,7"
 			}
 		],
 		"ra":[

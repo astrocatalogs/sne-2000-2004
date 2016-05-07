@@ -1,9 +1,6 @@
 {
 	"SN2004gv":{
 		"name":"SN2004gv",
-		"aliases":[
-			"SN2004gv"
-		],
 		"sources":[
 			{
 				"name":"Drout et al. (2011)",
@@ -16,8 +13,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"3",
 				"secondary":true
 			},
@@ -39,8 +37,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"7",
 				"secondary":true
 			},
@@ -61,9 +60,22 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"11",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11"
+				"alias":"12"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2004gv",
+				"source":"1,2,3,4,6,5,7,10"
 			}
 		],
 		"claimedtype":[
@@ -79,7 +91,7 @@
 		"comovingdist":[
 			{
 				"value":"90",
-				"source":"D",
+				"source":"11",
 				"unit":"Mpc"
 			}
 		],
@@ -110,7 +122,7 @@
 			{
 				"value":"0.0276",
 				"error":"0.0012",
-				"source":"11"
+				"source":"12"
 			}
 		],
 		"host":[
@@ -146,7 +158,7 @@
 		"lumdist":[
 			{
 				"value":"90",
-				"source":"D",
+				"source":"11",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -154,25 +166,25 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"D"
+				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.96",
-				"source":"D,2"
+				"source":"11,2"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"D,2"
+				"source":"11,2"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2005/01/11",
-				"source":"D,2"
+				"source":"11,2"
 			}
 		],
 		"ra":[
@@ -347,7 +359,7 @@
 				"time":53379.0,
 				"filename":"sn2004gv-20050109.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3485.0000",
@@ -11034,7 +11046,7 @@
 						"0.18065143"
 					]
 				],
-				"source":"10"
+				"source":"8,10"
 			},
 			{
 				"deredshifted":false,
@@ -11044,7 +11056,7 @@
 				"time":53381.0,
 				"filename":"sn2004gv-20050111-ldss2.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3706.4000",
@@ -15527,7 +15539,7 @@
 						"0.063511705"
 					]
 				],
-				"source":"10"
+				"source":"8,10"
 			},
 			{
 				"deredshifted":false,
@@ -15536,7 +15548,7 @@
 				"time":53385.0,
 				"filename":"sn2004gv-20050115.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3485.0000",
@@ -26223,7 +26235,7 @@
 						"0.12490685"
 					]
 				],
-				"source":"10"
+				"source":"8,10"
 			},
 			{
 				"deredshifted":false,
@@ -26232,7 +26244,7 @@
 				"time":53415.0,
 				"filename":"sn2004gv-20050214.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3485.0000",
@@ -36919,7 +36931,7 @@
 						"0.12581787"
 					]
 				],
-				"source":"10"
+				"source":"8,10"
 			},
 			{
 				"instrument":"Magellan-Clay - LDSS-3",
@@ -51050,7 +51062,7 @@
 						"-4.4796e-05"
 					]
 				],
-				"source":"9,7"
+				"source":"7,9"
 			}
 		]
 	}

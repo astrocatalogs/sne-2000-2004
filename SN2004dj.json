@@ -1,9 +1,6 @@
 {
 	"SN2004dj":{
 		"name":"SN2004dj",
-		"aliases":[
-			"SN2004dj"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -29,8 +26,9 @@
 				"alias":"5"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"6",
 				"secondary":true
 			},
@@ -88,14 +86,16 @@
 				"alias":"16"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"17",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"name":"Silverman et al. (2012)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"18",
 				"secondary":true
 			},
@@ -115,25 +115,39 @@
 				"alias":"21"
 			},
 			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
+				"bibcode":"2001AAS...199.8408R",
 				"alias":"22",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"23",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"23"
+				"alias":"24"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2004dj",
+				"source":"1,6,7,9,8,10,17,18,22"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"II",
-				"source":"7"
+				"value":"II P",
+				"source":"6,8,9,17,19,18,20,21"
 			},
 			{
-				"value":"II P",
-				"source":"6,8,9,17,18,19,20,21"
+				"value":"II",
+				"source":"7"
 			}
 		],
 		"comovingdist":[
@@ -144,7 +158,7 @@
 			},
 			{
 				"value":"3.44",
-				"source":"12,10",
+				"source":"10,12",
 				"unit":"Mpc"
 			},
 			{
@@ -154,12 +168,12 @@
 			},
 			{
 				"value":"3.6",
-				"source":"14,10",
+				"source":"10,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3.61",
-				"source":"12,10",
+				"source":"10,12",
 				"unit":"Mpc"
 			},
 			{
@@ -169,7 +183,7 @@
 			},
 			{
 				"value":"3.7",
-				"source":"14,10",
+				"source":"10,14",
 				"unit":"Mpc"
 			},
 			{
@@ -213,7 +227,7 @@
 		"discoverdate":[
 			{
 				"value":"2004/07/31",
-				"source":"6,7,8,9,18,19,20,21"
+				"source":"6,7,8,9,19,18,20,21"
 			}
 		],
 		"discoverer":[
@@ -230,13 +244,13 @@
 			{
 				"value":"0.0345",
 				"error":"0.0002",
-				"source":"23"
+				"source":"24"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 2403",
-				"source":"6,7,8,9,18,19,20,21"
+				"source":"6,7,8,9,19,18,20,21"
 			}
 		],
 		"hostdec":[
@@ -275,25 +289,25 @@
 		"maxabsmag":[
 			{
 				"value":"-15",
-				"source":"D"
+				"source":"23"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"12.49",
-				"source":"D,1,4"
+				"source":"23,1,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1,4"
+				"source":"23,1,4"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/08/02",
-				"source":"D,1,4"
+				"source":"23,1,4"
 			}
 		],
 		"ra":[
@@ -116227,7 +116241,7 @@
 						"1.29246"
 					]
 				],
-				"source":"18,19"
+				"source":"19,18"
 			},
 			{
 				"deredshifted":false,
@@ -120406,7 +120420,7 @@
 						"1.00938"
 					]
 				],
-				"source":"18,19"
+				"source":"19,18"
 			},
 			{
 				"deredshifted":false,
@@ -124585,7 +124599,7 @@
 						"0.689605"
 					]
 				],
-				"source":"18,19"
+				"source":"19,18"
 			},
 			{
 				"deredshifted":false,
@@ -128764,7 +128778,7 @@
 						"0.552233"
 					]
 				],
-				"source":"18,19"
+				"source":"19,18"
 			},
 			{
 				"deredshifted":false,
@@ -132943,7 +132957,7 @@
 						"0.338299"
 					]
 				],
-				"source":"18,19"
+				"source":"19,18"
 			},
 			{
 				"deredshifted":false,
@@ -163206,7 +163220,7 @@
 						"0.240260"
 					]
 				],
-				"source":"18,21"
+				"source":"21,18"
 			},
 			{
 				"deredshifted":false,
@@ -194777,7 +194791,7 @@
 						"0.173695"
 					]
 				],
-				"source":"18,20"
+				"source":"20,18"
 			}
 		]
 	}

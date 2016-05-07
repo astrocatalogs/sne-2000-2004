@@ -1,9 +1,6 @@
 {
 	"SN2004fu":{
 		"name":"SN2004fu",
-		"aliases":[
-			"SN2004fu"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -27,8 +24,9 @@
 				"alias":"4"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"5",
 				"secondary":true
 			},
@@ -61,8 +59,9 @@
 				"alias":"10"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"11",
 				"secondary":true
 			},
@@ -73,15 +72,27 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"13",
+				"name":"Matheson et al. (2008)",
+				"bibcode":"2008AJ....135.1598M",
+				"alias":"13"
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"14",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"14"
+				"alias":"15"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2004fu",
+				"source":"1,2,3,5,6,8,7,9,11,12"
 			}
 		],
 		"claimedtype":[
@@ -91,13 +102,13 @@
 			},
 			{
 				"value":"Ia",
-				"source":"5,6,7,8,11,13,1"
+				"source":"5,6,7,8,11,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"29.3",
-				"source":"10,9",
+				"source":"9,10",
 				"unit":"Mpc"
 			}
 		],
@@ -116,7 +127,7 @@
 		"discoverdate":[
 			{
 				"value":"2004/11/04",
-				"source":"6,7,8,13,1"
+				"source":"6,7,8,1"
 			}
 		],
 		"discoverer":[
@@ -133,13 +144,13 @@
 			{
 				"value":"0.3345",
 				"error":"0.0031",
-				"source":"14"
+				"source":"15"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 6949",
-				"source":"1,5,6,7,8,13"
+				"source":"1,5,6,7,8"
 			}
 		],
 		"hostdec":[
@@ -169,7 +180,7 @@
 		"lumdist":[
 			{
 				"value":"41",
-				"source":"D",
+				"source":"14",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -177,19 +188,19 @@
 		"maxabsmag":[
 			{
 				"value":"-17.2",
-				"source":"D"
+				"source":"14"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.91",
-				"source":"D,3,4"
+				"source":"3,4,14"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,3,4"
+				"source":"3,4,14"
 			}
 		],
 		"maxdate":[
@@ -13781,7 +13792,7 @@
 						"2.4630978e-17"
 					]
 				],
-				"source":"12"
+				"source":"13,2,12"
 			},
 			{
 				"deredshifted":false,
@@ -27170,7 +27181,7 @@
 						"2.9900403e-17"
 					]
 				],
-				"source":"12"
+				"source":"13,2,12"
 			},
 			{
 				"deredshifted":false,
@@ -40539,7 +40550,7 @@
 						"3.5371407e-17"
 					]
 				],
-				"source":"12"
+				"source":"13,2,12"
 			},
 			{
 				"deredshifted":false,
@@ -53258,7 +53269,7 @@
 						"1.33454"
 					]
 				],
-				"source":"13,1"
+				"source":"1"
 			},
 			{
 				"deredshifted":false,
@@ -67637,7 +67648,7 @@
 						"0.957901"
 					]
 				],
-				"source":"13,1"
+				"source":"1"
 			},
 			{
 				"deredshifted":false,
@@ -81026,7 +81037,7 @@
 						"3.033047e-17"
 					]
 				],
-				"source":"12"
+				"source":"13,2,12"
 			},
 			{
 				"deredshifted":false,
@@ -94400,7 +94411,7 @@
 						"5.1989065e-17"
 					]
 				],
-				"source":"12"
+				"source":"13,2,12"
 			},
 			{
 				"deredshifted":false,
@@ -107769,7 +107780,7 @@
 						"6.5157157e-17"
 					]
 				],
-				"source":"12"
+				"source":"13,2,12"
 			},
 			{
 				"deredshifted":false,
@@ -121168,7 +121179,7 @@
 						"5.9991491e-17"
 					]
 				],
-				"source":"12"
+				"source":"13,2,12"
 			},
 			{
 				"deredshifted":false,
@@ -134552,7 +134563,7 @@
 						"2.5480108e-17"
 					]
 				],
-				"source":"12"
+				"source":"13,2,12"
 			},
 			{
 				"deredshifted":false,
@@ -146911,7 +146922,7 @@
 						"0.754903"
 					]
 				],
-				"source":"13,1"
+				"source":"1"
 			},
 			{
 				"deredshifted":false,
@@ -160295,7 +160306,7 @@
 						"1.5689127e-17"
 					]
 				],
-				"source":"12"
+				"source":"13,2,12"
 			}
 		]
 	}

@@ -1,9 +1,6 @@
 {
 	"SN2001dc":{
 		"name":"SN2001dc",
-		"aliases":[
-			"SN2001dc"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -21,8 +18,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -55,24 +53,43 @@
 				"alias":"9"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"10",
 				"secondary":true
 			},
 			{
-				"name":"SUSPECT",
+				"name":"Richardson et al. (2001)",
 				"url":"https://www.nhn.ou.edu/~suspect/",
+				"bibcode":"2001AAS...199.8408R",
 				"alias":"11",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"12",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"12"
+				"alias":"13"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2001dc",
+				"source":"1,4,5,7,6,8,10,11"
 			}
 		],
 		"claimedtype":[
+			{
+				"value":"II P",
+				"source":"4,10"
+			},
 			{
 				"value":"II",
 				"source":"5"
@@ -80,16 +97,12 @@
 			{
 				"value":"IIn",
 				"source":"6,7"
-			},
-			{
-				"value":"II P",
-				"source":"4,10"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"24",
-				"source":"9,8",
+				"source":"8,9",
 				"unit":"Mpc"
 			}
 		],
@@ -120,7 +133,7 @@
 			{
 				"value":"0.0091",
 				"error":"0.0003",
-				"source":"12"
+				"source":"13"
 			}
 		],
 		"host":[
@@ -156,32 +169,32 @@
 		"lumdist":[
 			{
 				"value":"31.56",
-				"source":"D",
+				"source":"12",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-11.39",
-				"source":"D"
+				"source":"12"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.11",
-				"source":"D,1,2"
+				"source":"1,2,12"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1,2"
+				"source":"1,2,12"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2001/06/22",
-				"source":"D,1,2"
+				"source":"1,2,12"
 			}
 		],
 		"ra":[
@@ -3254,7 +3267,7 @@
 						"6.880555833e-17"
 					]
 				],
-				"source":"11,3"
+				"source":"3,11"
 			},
 			{
 				"u_time":"MJD",
@@ -9808,7 +9821,7 @@
 						"2.026172293e-17"
 					]
 				],
-				"source":"11,3"
+				"source":"3,11"
 			},
 			{
 				"u_time":"MJD",
@@ -12618,7 +12631,7 @@
 						"2.438987035e-17"
 					]
 				],
-				"source":"11,3"
+				"source":"3,11"
 			}
 		]
 	}

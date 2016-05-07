@@ -1,9 +1,6 @@
 {
 	"SN2002di":{
 		"name":"SN2002di",
-		"aliases":[
-			"SN2002di"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -21,8 +18,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -44,8 +42,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"8",
 				"secondary":true
 			},
@@ -61,15 +60,27 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"11",
+				"name":"Matheson et al. (2008)",
+				"bibcode":"2008AJ....135.1598M",
+				"alias":"11"
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"12",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"12"
+				"alias":"13"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2002di",
+				"source":"1,2,4,5,7,6,8,10"
 			}
 		],
 		"claimedtype":[
@@ -79,17 +90,17 @@
 			},
 			{
 				"value":"Ic",
-				"source":"11,1"
+				"source":"1"
 			},
 			{
 				"value":"Ia-91bg",
-				"source":"11,1"
+				"source":"1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"159.68",
-				"source":"D",
+				"source":"12",
 				"unit":"Mpc"
 			}
 		],
@@ -103,7 +114,7 @@
 		"discoverdate":[
 			{
 				"value":"2002/06/09",
-				"source":"4,5,6,7,11,1"
+				"source":"4,5,6,7,1"
 			}
 		],
 		"discoverer":[
@@ -120,13 +131,13 @@
 			{
 				"value":"0.0293",
 				"error":"0.0006",
-				"source":"12"
+				"source":"13"
 			}
 		],
 		"host":[
 			{
 				"value":"MCG +05-40-02",
-				"source":"1,4,6,7,11"
+				"source":"1,4,6,7"
 			},
 			{
 				"value":"PGC 59162",
@@ -160,7 +171,7 @@
 		"lumdist":[
 			{
 				"value":"165.49",
-				"source":"D",
+				"source":"12",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -168,25 +179,25 @@
 		"maxabsmag":[
 			{
 				"value":"-18.494",
-				"source":"D"
+				"source":"12"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.6",
-				"source":"D,2,3"
+				"source":"2,3,12"
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"D,2,3"
+				"source":"2,3,12"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/06/09",
-				"source":"D,2,3"
+				"source":"2,3,12"
 			}
 		],
 		"ra":[
@@ -12979,7 +12990,7 @@
 						"1.681533e-17"
 					]
 				],
-				"source":"10"
+				"source":"11,9,10"
 			},
 			{
 				"deredshifted":false,
@@ -27346,7 +27357,7 @@
 						"-0.118017"
 					]
 				],
-				"source":"11,1"
+				"source":"1"
 			}
 		]
 	}

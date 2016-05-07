@@ -1,14 +1,11 @@
 {
 	"SN2003dh":{
 		"name":"SN2003dh",
-		"aliases":[
-			"SN2003dh",
-			"GRB 030329"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -56,8 +53,9 @@
 				"alias":"9"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"10",
 				"secondary":true
 			},
@@ -72,45 +70,62 @@
 				"alias":"12"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"13",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"13"
+				"alias":"14"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2003dh",
+				"source":"1,2,4,3,5,10"
+			},
+			{
+				"value":"GRB 030329",
+				"source":"3"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"Ic",
-				"source":"2,3,4"
-			},
-			{
 				"value":"Ic P",
 				"source":"1,10"
+			},
+			{
+				"value":"Ic",
+				"source":"2,3,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"671",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"756",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"810",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"844",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1110",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			}
 		],
@@ -146,7 +161,7 @@
 			{
 				"value":"0.0214",
 				"error":"0.0006",
-				"source":"13"
+				"source":"14"
 			}
 		],
 		"host":[
@@ -182,32 +197,32 @@
 		"lumdist":[
 			{
 				"value":"836.4",
-				"source":"D",
+				"source":"13",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.31",
-				"source":"D"
+				"source":"13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.3",
-				"source":"D,2"
+				"source":"13,2"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"D,2"
+				"source":"13,2"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/03/31",
-				"source":"D,2"
+				"source":"13,2"
 			}
 		],
 		"ra":[
@@ -231,7 +246,7 @@
 		"velocity":[
 			{
 				"value":"46310",
-				"source":"D",
+				"source":"13",
 				"unit":"km/s"
 			}
 		],
@@ -31912,7 +31927,7 @@
 						"0.044"
 					]
 				],
-				"source":"12,10"
+				"source":"10,12"
 			},
 			{
 				"instrument":"Keck1 - LRIS",
@@ -33434,7 +33449,7 @@
 						"0.007"
 					]
 				],
-				"source":"12,10"
+				"source":"10,12"
 			}
 		]
 	}

@@ -1,9 +1,6 @@
 {
 	"SN2003gd":{
 		"name":"SN2003gd",
-		"aliases":[
-			"SN2003gd"
-		],
 		"sources":[
 			{
 				"name":"Faran et al. (2014)",
@@ -37,8 +34,9 @@
 				"alias":"6"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"7",
 				"secondary":true
 			},
@@ -81,67 +79,82 @@
 				"alias":"14"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"15",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"name":"Silverman et al. (2012)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"16",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"17",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"17"
+				"alias":"18"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2003gd",
+				"source":"1,2,3,4,7,8,10,9,11,15,16"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II P",
-				"source":"2,7,16,1"
+				"source":"2,7,1,16"
 			},
 			{
 				"value":"II",
-				"source":"8,9,10,15"
+				"source":"8,10,9,15"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"7.2",
-				"source":"12,11",
+				"source":"11,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"8.87",
-				"source":"13,11",
+				"source":"11,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"8.95",
-				"source":"13,11",
+				"source":"11,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"9.6",
-				"source":"6,11",
+				"source":"11,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"9.73",
-				"source":"14,11",
+				"source":"11,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"9.91",
-				"source":"14,11",
+				"source":"11,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"9.95",
-				"source":"14,11",
+				"source":"11,14",
 				"unit":"Mpc"
 			}
 		],
@@ -153,14 +166,14 @@
 			},
 			{
 				"value":"+15:44:19.9",
-				"source":"7,8,9,10",
+				"source":"7,8,10,9",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/06/12",
-				"source":"7,8,16,1"
+				"source":"7,8,1,16"
 			}
 		],
 		"discoverer":[
@@ -170,14 +183,14 @@
 			},
 			{
 				"value":"Robert Evans",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0599",
 				"error":"0.0012",
-				"source":"17"
+				"source":"18"
 			}
 		],
 		"host":[
@@ -187,11 +200,11 @@
 			},
 			{
 				"value":"NGC 628",
-				"source":"7,8,16,1"
+				"source":"7,8,1,16"
 			},
 			{
 				"value":"M74",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"hostdec":[
@@ -230,25 +243,25 @@
 		"maxabsmag":[
 			{
 				"value":"-13",
-				"source":"D"
+				"source":"17"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.1",
-				"source":"D,1"
+				"source":"1,17"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1"
+				"source":"1,17"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/06/17",
-				"source":"D,1"
+				"source":"1,17"
 			}
 		],
 		"ra":[
@@ -259,7 +272,7 @@
 			},
 			{
 				"value":"01:36:42.65",
-				"source":"7,8,9,10",
+				"source":"7,8,10,9",
 				"unit":"hours"
 			}
 		],
@@ -284,7 +297,7 @@
 				"time":"52801.5",
 				"u_time":"MJD",
 				"magnitude":"13.2",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"52807.49",
@@ -14739,7 +14752,7 @@
 						"3.15812"
 					]
 				],
-				"source":"16,1"
+				"source":"1,16"
 			},
 			{
 				"deredshifted":false,
@@ -29158,7 +29171,7 @@
 						"1.61945"
 					]
 				],
-				"source":"16,1"
+				"source":"1,16"
 			},
 			{
 				"deredshifted":false,
@@ -43377,7 +43390,7 @@
 						"0.356306"
 					]
 				],
-				"source":"16,1"
+				"source":"1,16"
 			},
 			{
 				"deredshifted":false,
@@ -57676,7 +57689,7 @@
 						"0.0724760"
 					]
 				],
-				"source":"16,1"
+				"source":"1,16"
 			}
 		]
 	}

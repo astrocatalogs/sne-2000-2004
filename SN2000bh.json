@@ -1,9 +1,6 @@
 {
 	"SN2000bh":{
 		"name":"SN2000bh",
-		"aliases":[
-			"SN2000bh"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -21,8 +18,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -110,8 +108,9 @@
 				"alias":"20"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"21",
 				"secondary":true
 			},
@@ -127,9 +126,27 @@
 				"secondary":true
 			},
 			{
+				"name":"Matheson et al. (2008)",
+				"bibcode":"2008AJ....135.1598M",
+				"alias":"24"
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"25",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"24"
+				"alias":"26"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2000bh",
+				"source":"1,4,5,7,6,8,21,23"
 			}
 		],
 		"claimedtype":[
@@ -141,12 +158,12 @@
 		"comovingdist":[
 			{
 				"value":"68.9",
-				"source":"9,8",
+				"source":"8,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"91.7",
-				"source":"10,8",
+				"source":"8,10",
 				"unit":"Mpc"
 			},
 			{
@@ -156,7 +173,7 @@
 			},
 			{
 				"value":"93.4",
-				"source":"12,8",
+				"source":"8,12",
 				"unit":"Mpc"
 			},
 			{
@@ -166,22 +183,22 @@
 			},
 			{
 				"value":"95.1",
-				"source":"14,8,15",
+				"source":"8,14,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"95.6",
-				"source":"16,8",
+				"source":"8,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"97.7",
-				"source":"17,8",
+				"source":"8,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"101",
-				"source":"18,8",
+				"source":"8,18",
 				"unit":"Mpc"
 			},
 			{
@@ -191,12 +208,12 @@
 			},
 			{
 				"value":"104",
-				"source":"18,8",
+				"source":"8,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"109",
-				"source":"18,8",
+				"source":"8,18",
 				"unit":"Mpc"
 			},
 			{
@@ -206,7 +223,7 @@
 			},
 			{
 				"value":"111",
-				"source":"18,8",
+				"source":"8,18",
 				"unit":"Mpc"
 			}
 		],
@@ -237,7 +254,7 @@
 			{
 				"value":"0.0469",
 				"error":"0.0064",
-				"source":"24"
+				"source":"26"
 			}
 		],
 		"host":[
@@ -286,25 +303,25 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"D"
+				"source":"25"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.28",
-				"source":"D,1,2"
+				"source":"1,2,25"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1,2"
+				"source":"1,2,25"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2000/04/07",
-				"source":"D,1,2"
+				"source":"1,2,25"
 			}
 		],
 		"ra":[
@@ -13419,7 +13436,7 @@
 						"1.8788757e-17"
 					]
 				],
-				"source":"23"
+				"source":"22,23,24"
 			}
 		]
 	}

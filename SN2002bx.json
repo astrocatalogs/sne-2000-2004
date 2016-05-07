@@ -1,9 +1,6 @@
 {
 	"SN2002bx":{
 		"name":"SN2002bx",
-		"aliases":[
-			"SN2002bx"
-		],
 		"sources":[
 			{
 				"name":"Faran et al. (2014)",
@@ -21,8 +18,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -44,21 +42,35 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"name":"Silverman et al. (2012)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"8",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9"
+				"alias":"10"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2002bx",
+				"source":"1,2,4,5,7,6,8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II P",
-				"source":"8,1"
+				"source":"1,8"
 			},
 			{
 				"value":"II",
@@ -68,7 +80,7 @@
 		"comovingdist":[
 			{
 				"value":"33",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
@@ -82,7 +94,7 @@
 		"discoverdate":[
 			{
 				"value":"2002/03/31",
-				"source":"4,5,6,7,8,1"
+				"source":"4,5,6,7,1,8"
 			}
 		],
 		"discoverer":[
@@ -95,13 +107,13 @@
 			{
 				"value":"0.0106",
 				"error":"0.0003",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"host":[
 			{
 				"value":"IC 2461",
-				"source":"4,5,6,7,8,1"
+				"source":"4,5,6,7,1,8"
 			}
 		],
 		"hostdec":[
@@ -140,25 +152,25 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.3",
-				"source":"D,2,3"
+				"source":"9,2,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,2,3"
+				"source":"9,2,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/04/11",
-				"source":"D,2,3"
+				"source":"9,2,3"
 			}
 		],
 		"ra":[
@@ -14938,7 +14950,7 @@
 						"0.235964"
 					]
 				],
-				"source":"8,1"
+				"source":"1,8"
 			},
 			{
 				"deredshifted":false,
@@ -29157,7 +29169,7 @@
 						"0.360132"
 					]
 				],
-				"source":"8,1"
+				"source":"1,8"
 			},
 			{
 				"deredshifted":false,
@@ -43376,7 +43388,7 @@
 						"0.483978"
 					]
 				],
-				"source":"8,1"
+				"source":"1,8"
 			},
 			{
 				"deredshifted":false,
@@ -57595,7 +57607,7 @@
 						"0.0498157"
 					]
 				],
-				"source":"8,1"
+				"source":"1,8"
 			}
 		]
 	}

@@ -1,9 +1,6 @@
 {
 	"SN2001hu":{
 		"name":"SN2001hu",
-		"aliases":[
-			"SN2001hu"
-		],
 		"sources":[
 			{
 				"name":"Barris et al. (2004)",
@@ -17,8 +14,9 @@
 				"secondary":true
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"3",
 				"secondary":true
 			},
@@ -71,9 +69,22 @@
 				"alias":"12"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"13",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"13"
+				"alias":"14"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2001hu",
+				"source":"1,2,3,4,6,5,7"
 			}
 		],
 		"comovingdist":[
@@ -84,12 +95,12 @@
 			},
 			{
 				"value":"2020",
-				"source":"9,7",
+				"source":"7,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2050",
-				"source":"10,7",
+				"source":"7,10",
 				"unit":"Mpc"
 			},
 			{
@@ -109,7 +120,7 @@
 			},
 			{
 				"value":"3200",
-				"source":"12,7",
+				"source":"7,12",
 				"unit":"Mpc"
 			}
 		],
@@ -140,7 +151,7 @@
 			{
 				"value":"0.0177",
 				"error":"0.0008",
-				"source":"13"
+				"source":"14"
 			}
 		],
 		"host":[
@@ -176,7 +187,7 @@
 		"lumdist":[
 			{
 				"value":"5800",
-				"source":"D",
+				"source":"13",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -184,25 +195,25 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"D"
+				"source":"13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"25",
-				"source":"D,1"
+				"source":"1,13"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,1"
+				"source":"1,13"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2001/11/18",
-				"source":"D,1"
+				"source":"1,13"
 			}
 		],
 		"ra":[
@@ -222,7 +233,7 @@
 		"velocity":[
 			{
 				"value":"170000",
-				"source":"D",
+				"source":"13",
 				"kind":"host",
 				"unit":"km/s"
 			}

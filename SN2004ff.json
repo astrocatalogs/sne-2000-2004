@@ -1,9 +1,6 @@
 {
 	"SN2004ff":{
 		"name":"SN2004ff",
-		"aliases":[
-			"SN2004ff"
-		],
 		"sources":[
 			{
 				"name":"Drout et al. (2011)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,8 +32,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
@@ -51,58 +50,71 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9"
+				"alias":"10"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2004ff",
+				"source":"1,2,3,5,4,6,8"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"Ic",
-				"source":"3,4,5"
-			},
-			{
 				"value":"IIb",
 				"source":"2,6"
+			},
+			{
+				"value":"Ic",
+				"source":"3,5,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"99.708",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-21:34:12.0",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2004/10/30",
-				"source":"3,4,5"
+				"source":"3,5,4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"2,4,5"
+				"source":"2,5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0274",
 				"error":"0.001",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"host":[
 			{
 				"value":"ESO 552-G40",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"hostdec":[
@@ -132,26 +144,26 @@
 		"lumdist":[
 			{
 				"value":"101.97",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-17.472",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.57",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxdate":[
@@ -163,7 +175,7 @@
 		"ra":[
 			{
 				"value":"04:58:46.19",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -186,7 +198,7 @@
 				"time":"53307.5",
 				"u_time":"MJD",
 				"magnitude":"18.0",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"53310.3",
@@ -342,7 +354,7 @@
 				"time":53312.0,
 				"filename":"sn2004ff-20041103-ldss2.flm",
 				"waveunit":"Angstrom",
-				"fluxunit":"Uncalibrated",
+				"fluxunit":"erg/s/cm^2/Angstrom",
 				"data":[
 					[
 						"3748.00",
@@ -5701,7 +5713,7 @@
 						"0.0854869"
 					]
 				],
-				"source":"8"
+				"source":"8,7"
 			}
 		]
 	}

@@ -1,9 +1,6 @@
 {
 	"SN2002ic":{
 		"name":"SN2002ic",
-		"aliases":[
-			"SN2002ic"
-		],
 		"sources":[
 			{
 				"name":"Chomiuk et al. (2016)",
@@ -26,8 +23,9 @@
 				"alias":"4"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"5",
 				"secondary":true
 			},
@@ -49,9 +47,22 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9"
+				"alias":"10"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2002ic",
+				"source":"1,2,5,6,8,7"
 			}
 		],
 		"claimedtype":[
@@ -71,7 +82,7 @@
 		"comovingdist":[
 			{
 				"value":"290",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
@@ -102,7 +113,7 @@
 			{
 				"value":"0.0507",
 				"error":"0.0009",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"host":[
@@ -138,7 +149,7 @@
 		"lumdist":[
 			{
 				"value":"310",
-				"source":"D",
+				"source":"9",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -146,25 +157,25 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.05",
-				"source":"D,2,3"
+				"source":"9,2,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"D,2,3"
+				"source":"9,2,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/07/08",
-				"source":"D,2,3"
+				"source":"9,2,3"
 			}
 		],
 		"ra":[

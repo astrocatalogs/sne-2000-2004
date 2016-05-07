@@ -1,9 +1,6 @@
 {
 	"SN2004fb":{
 		"name":"SN2004fb",
-		"aliases":[
-			"SN2004fb"
-		],
 		"sources":[
 			{
 				"name":"Anderson et al. (2014)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,35 +32,48 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"6",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6"
+				"alias":"7"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2004fb",
+				"source":"1,2,3,5,4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"90",
-				"source":"D",
+				"source":"6",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-37:30:34.6",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2004/10/07",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"discoverer":[
@@ -72,20 +83,20 @@
 			},
 			{
 				"value":"Lulin Observatory",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0546",
 				"error":"0.0007",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"host":[
 			{
 				"value":"ESO 340-G7",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"hostdec":[
@@ -115,7 +126,7 @@
 		"lumdist":[
 			{
 				"value":"90",
-				"source":"D",
+				"source":"6",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -123,38 +134,38 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"D"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.53",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/10/21",
-				"source":"D,1"
+				"source":"1,6"
 			}
 		],
 		"ra":[
 			{
 				"value":"20:15:25.63",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.02",
-				"source":"3,4,5",
+				"source":"3,5,4",
 				"kind":"host"
 			}
 		],
@@ -171,7 +182,7 @@
 				"time":"53284.5",
 				"u_time":"MJD",
 				"magnitude":"18.5",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"53299.05",

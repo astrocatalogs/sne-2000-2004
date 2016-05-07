@@ -1,9 +1,6 @@
 {
 	"SN2003lc":{
 		"name":"SN2003lc",
-		"aliases":[
-			"SN2003lc"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,8 +32,9 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
@@ -51,41 +50,53 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"9",
+				"name":"Matheson et al. (2008)",
+				"bibcode":"2008AJ....135.1598M",
+				"alias":"9"
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"10",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10"
+				"alias":"11"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2003lc",
+				"source":"1,2,3,5,4,6,8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,9,1"
+				"source":"2,3,5,4,6,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"153.64",
-				"source":"D",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+30:47:14.9",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/12/26",
-				"source":"2,3,4,5,9,1"
+				"source":"2,3,5,4,1"
 			}
 		],
 		"discoverer":[
@@ -95,20 +106,20 @@
 			},
 			{
 				"value":"Tim Puckett et al.",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0459",
 				"error":"0.0014",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 934",
-				"source":"1,2,3,4,5,9"
+				"source":"1,2,3,5,4"
 			}
 		],
 		"hostdec":[
@@ -138,7 +149,7 @@
 		"lumdist":[
 			{
 				"value":"159.01",
-				"source":"D",
+				"source":"10",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -146,13 +157,13 @@
 		"maxabsmag":[
 			{
 				"value":"-19.107",
-				"source":"D"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.9",
-				"source":"D,4,5"
+				"source":"5,4,10"
 			}
 		],
 		"maxdate":[
@@ -164,7 +175,7 @@
 		"ra":[
 			{
 				"value":"01:23:25.82",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -194,7 +205,7 @@
 				"time":"53006.5",
 				"u_time":"MJD",
 				"magnitude":"16.9",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"spectra":[
@@ -12950,7 +12961,7 @@
 						"1.9771213e-17"
 					]
 				],
-				"source":"8"
+				"source":"8,9,7"
 			},
 			{
 				"deredshifted":false,
@@ -25704,7 +25715,7 @@
 						"2.2011894e-17"
 					]
 				],
-				"source":"8"
+				"source":"8,9,7"
 			},
 			{
 				"deredshifted":false,
@@ -39687,7 +39698,7 @@
 						"0.0346600"
 					]
 				],
-				"source":"9,1"
+				"source":"1"
 			}
 		]
 	}

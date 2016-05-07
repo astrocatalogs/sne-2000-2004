@@ -1,9 +1,6 @@
 {
 	"SNLS-04D1ow":{
 		"name":"SNLS-04D1ow",
-		"aliases":[
-			"SNLS-04D1ow"
-		],
 		"sources":[
 			{
 				"name":"Guy et al. (2010)",
@@ -32,8 +29,9 @@
 				"alias":"5"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
@@ -48,9 +46,22 @@
 				"alias":"8"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9"
+				"alias":"10"
+			}
+		],
+		"alias":[
+			{
+				"value":"SNLS-04D1ow",
+				"source":"1,2,6,8"
 			}
 		],
 		"claimedtype":[
@@ -103,13 +114,13 @@
 			{
 				"value":"0.0227",
 				"error":"0.0004",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"6090",
-				"source":"D",
+				"source":"9",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -117,25 +128,25 @@
 		"maxabsmag":[
 			{
 				"value":"-16.8",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"27.1",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/11/07",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"ra":[
@@ -155,7 +166,7 @@
 		"velocity":[
 			{
 				"value":"171000",
-				"source":"D",
+				"source":"9",
 				"kind":"heliocentric",
 				"unit":"km/s"
 			}

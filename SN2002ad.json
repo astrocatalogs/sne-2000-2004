@@ -1,9 +1,6 @@
 {
 	"SN2002ad":{
 		"name":"SN2002ad",
-		"aliases":[
-			"SN2002ad"
-		],
 		"sources":[
 			{
 				"name":"Barris et al. (2004)",
@@ -17,8 +14,9 @@
 				"secondary":true
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"3",
 				"secondary":true
 			},
@@ -71,9 +69,22 @@
 				"alias":"12"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"13",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"13"
+				"alias":"14"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2002ad",
+				"source":"1,2,3,4,6,5,7"
 			}
 		],
 		"comovingdist":[
@@ -84,7 +95,7 @@
 			},
 			{
 				"value":"1720",
-				"source":"9,7",
+				"source":"7,9",
 				"unit":"Mpc"
 			},
 			{
@@ -104,7 +115,7 @@
 			},
 			{
 				"value":"1990",
-				"source":"10,7",
+				"source":"7,10",
 				"unit":"Mpc"
 			},
 			{
@@ -114,7 +125,7 @@
 			},
 			{
 				"value":"2210",
-				"source":"12,7",
+				"source":"7,12",
 				"unit":"Mpc"
 			}
 		],
@@ -145,7 +156,7 @@
 			{
 				"value":"0.0062",
 				"error":"0.0004",
-				"source":"13"
+				"source":"14"
 			}
 		],
 		"host":[
@@ -181,7 +192,7 @@
 		"lumdist":[
 			{
 				"value":"3100",
-				"source":"D",
+				"source":"13",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -189,25 +200,25 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"D"
+				"source":"13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"23.03",
-				"source":"D,1"
+				"source":"1,13"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,1"
+				"source":"1,13"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/01/09",
-				"source":"D,1"
+				"source":"1,13"
 			}
 		],
 		"ra":[
@@ -227,7 +238,7 @@
 		"velocity":[
 			{
 				"value":"120000",
-				"source":"D",
+				"source":"13",
 				"kind":"host",
 				"unit":"km/s"
 			}

@@ -1,13 +1,11 @@
 {
 	"SN2003lm":{
 		"name":"SN2003lm",
-		"aliases":[
-			"SN2003lm"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -60,9 +58,22 @@
 				"alias":"10"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"11",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11"
+				"alias":"12"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2003lm",
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
@@ -74,32 +85,32 @@
 		"comovingdist":[
 			{
 				"value":"980",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1490",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1570",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1610",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1650",
-				"source":"10,5",
+				"source":"5,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2120",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			}
 		],
@@ -135,7 +146,7 @@
 			{
 				"value":"0.0357",
 				"error":"0.0017",
-				"source":"11"
+				"source":"12"
 			}
 		],
 		"host":[
@@ -171,7 +182,7 @@
 		"lumdist":[
 			{
 				"value":"2000",
-				"source":"D",
+				"source":"11",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -179,25 +190,25 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"D"
+				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22.5",
-				"source":"D,2"
+				"source":"11,2"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,2"
+				"source":"11,2"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/12/15",
-				"source":"D,2"
+				"source":"11,2"
 			}
 		],
 		"ra":[
@@ -222,7 +233,7 @@
 		"velocity":[
 			{
 				"value":"100000",
-				"source":"D",
+				"source":"11",
 				"kind":"host",
 				"unit":"km/s"
 			}

@@ -1,13 +1,11 @@
 {
 	"SN2004hm":{
 		"name":"SN2004hm",
-		"aliases":[
-			"SN2004hm"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -60,9 +58,22 @@
 				"alias":"10"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"11",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11"
+				"alias":"12"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2004hm",
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
@@ -74,47 +85,47 @@
 		"comovingdist":[
 			{
 				"value":"531",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"703",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"778",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"784",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"791",
-				"source":"10,5",
+				"source":"5,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"797",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"798",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"811",
-				"source":"10,5",
+				"source":"5,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"812",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			}
 		],
@@ -145,7 +156,7 @@
 			{
 				"value":"0.026",
 				"error":"0.0005",
-				"source":"11"
+				"source":"12"
 			}
 		],
 		"host":[
@@ -181,7 +192,7 @@
 		"lumdist":[
 			{
 				"value":"1000",
-				"source":"D",
+				"source":"11",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -189,25 +200,25 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"D"
+				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.5",
-				"source":"D,2"
+				"source":"11,2"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,2"
+				"source":"11,2"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/12/07",
-				"source":"D,2"
+				"source":"11,2"
 			}
 		],
 		"ra":[
@@ -227,7 +238,7 @@
 		"velocity":[
 			{
 				"value":"50000",
-				"source":"D",
+				"source":"11",
 				"kind":"host",
 				"unit":"km/s"
 			}

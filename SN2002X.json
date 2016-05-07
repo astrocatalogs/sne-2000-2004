@@ -1,9 +1,6 @@
 {
 	"SN2002X":{
 		"name":"SN2002X",
-		"aliases":[
-			"SN2002X"
-		],
 		"sources":[
 			{
 				"name":"Barris et al. (2004)",
@@ -17,8 +14,9 @@
 				"secondary":true
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"3",
 				"secondary":true
 			},
@@ -66,9 +64,22 @@
 				"alias":"11"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"12",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"12"
+				"alias":"13"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2002X",
+				"source":"1,2,3,4,6,5,7"
 			}
 		],
 		"comovingdist":[
@@ -84,7 +95,7 @@
 			},
 			{
 				"value":"2550",
-				"source":"9,7",
+				"source":"7,9",
 				"unit":"Mpc"
 			},
 			{
@@ -94,7 +105,7 @@
 			},
 			{
 				"value":"3430",
-				"source":"10,7",
+				"source":"7,10",
 				"unit":"Mpc"
 			},
 			{
@@ -130,7 +141,7 @@
 			{
 				"value":"0.0256",
 				"error":"0.0009",
-				"source":"12"
+				"source":"13"
 			}
 		],
 		"host":[
@@ -166,7 +177,7 @@
 		"lumdist":[
 			{
 				"value":"5610",
-				"source":"D",
+				"source":"12",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -174,25 +185,25 @@
 		"maxabsmag":[
 			{
 				"value":"-19.5",
-				"source":"D"
+				"source":"12"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.26",
-				"source":"D,1"
+				"source":"1,12"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,1"
+				"source":"1,12"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/01/15",
-				"source":"D,1"
+				"source":"1,12"
 			}
 		],
 		"ra":[
@@ -212,7 +223,7 @@
 		"velocity":[
 			{
 				"value":"165000",
-				"source":"D",
+				"source":"12",
 				"kind":"host",
 				"unit":"km/s"
 			}

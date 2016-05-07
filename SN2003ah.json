@@ -1,9 +1,6 @@
 {
 	"SN2003ah":{
 		"name":"SN2003ah",
-		"aliases":[
-			"SN2003ah"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -21,8 +18,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -44,14 +42,16 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"8",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"9",
 				"secondary":true
 			},
@@ -61,16 +61,22 @@
 				"alias":"10"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN2003ah",
+				"source":"1,2,4,5,7,6,8"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,5,6,7,8,9,1"
+				"source":"4,5,6,7,8,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"148.7",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
@@ -94,7 +100,7 @@
 		"discoverdate":[
 			{
 				"value":"2003/02/08",
-				"source":"4,5,6,7,9,1"
+				"source":"4,5,6,7,1"
 			}
 		],
 		"discoverer":[
@@ -113,7 +119,7 @@
 		"host":[
 			{
 				"value":"LOTOSS J044309.01+004553.4",
-				"source":"1,9"
+				"source":"1"
 			},
 			{
 				"value":"A044308+0046",
@@ -151,7 +157,7 @@
 		"lumdist":[
 			{
 				"value":"153.73",
-				"source":"D",
+				"source":"9",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -159,19 +165,19 @@
 		"maxabsmag":[
 			{
 				"value":"-18.934",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17",
-				"source":"D,2,3"
+				"source":"9,2,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"D,2,3"
+				"source":"9,2,3"
 			}
 		],
 		"maxdate":[
@@ -12919,7 +12925,7 @@
 						"0.0899582"
 					]
 				],
-				"source":"9,1"
+				"source":"1"
 			}
 		]
 	}

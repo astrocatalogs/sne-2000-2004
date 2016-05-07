@@ -1,9 +1,6 @@
 {
 	"SN2003ik":{
 		"name":"SN2003ik",
-		"aliases":[
-			"SN2003ik"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,14 +32,16 @@
 				"secondary":true
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"6",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"7",
 				"secondary":true
 			},
@@ -51,34 +51,40 @@
 				"alias":"8"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN2003ik",
+				"source":"1,2,3,5,4,6"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,6,7,1"
+				"source":"2,3,5,4,6,1"
 			},
 			{
 				"value":"Ia-99aa",
-				"source":"7,1"
+				"source":"1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"104.4",
-				"source":"D",
+				"source":"7",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+62:59:19.8",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/09/29",
-				"source":"2,3,4,5,7,1"
+				"source":"2,3,5,4,1"
 			}
 		],
 		"discoverer":[
@@ -88,7 +94,7 @@
 			},
 			{
 				"value":"Tom Boles",
-				"source":"4,5"
+				"source":"5,4"
 			}
 		],
 		"ebv":[
@@ -101,11 +107,11 @@
 		"host":[
 			{
 				"value":"MCG +11-10-56",
-				"source":"1,2,7"
+				"source":"1,2"
 			},
 			{
 				"value":"UGC 4185",
-				"source":"3,4,5"
+				"source":"3,5,4"
 			}
 		],
 		"hostdec":[
@@ -135,7 +141,7 @@
 		"lumdist":[
 			{
 				"value":"106.9",
-				"source":"D",
+				"source":"7",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -143,25 +149,25 @@
 		"maxabsmag":[
 			{
 				"value":"-18.55",
-				"source":"D"
+				"source":"7"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.6",
-				"source":"D,3"
+				"source":"3,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/09/29",
-				"source":"D,3"
+				"source":"3,7"
 			}
 		],
 		"ra":[
 			{
 				"value":"08:04:06.52",
-				"source":"2,3,4,5",
+				"source":"2,3,5,4",
 				"unit":"hours"
 			}
 		],
@@ -185,7 +191,7 @@
 				"time":"52910.5",
 				"u_time":"MJD",
 				"magnitude":"19.0",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"52911.0",
@@ -14412,7 +14418,7 @@
 						"0.137782"
 					]
 				],
-				"source":"7,1"
+				"source":"1"
 			}
 		]
 	}

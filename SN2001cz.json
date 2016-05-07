@@ -1,9 +1,6 @@
 {
 	"SN2001cz":{
 		"name":"SN2001cz",
-		"aliases":[
-			"SN2001cz"
-		],
 		"sources":[
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
@@ -21,8 +18,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -130,9 +128,22 @@
 				"alias":"24"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"25",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"25"
+				"alias":"26"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2001cz",
+				"source":"1,4,5,7,6,8"
 			}
 		],
 		"claimedtype":[
@@ -144,12 +155,12 @@
 		"comovingdist":[
 			{
 				"value":"45.2",
-				"source":"9,8",
+				"source":"8,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"58",
-				"source":"10,8",
+				"source":"8,10",
 				"unit":"Mpc"
 			},
 			{
@@ -159,7 +170,7 @@
 			},
 			{
 				"value":"58.8",
-				"source":"12,8",
+				"source":"8,12",
 				"unit":"Mpc"
 			},
 			{
@@ -169,7 +180,7 @@
 			},
 			{
 				"value":"61.4",
-				"source":"14,8",
+				"source":"8,14",
 				"unit":"Mpc"
 			},
 			{
@@ -179,17 +190,17 @@
 			},
 			{
 				"value":"63.8",
-				"source":"16,8",
+				"source":"8,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"64.8",
-				"source":"17,8",
+				"source":"8,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"66.3",
-				"source":"18,8",
+				"source":"8,18",
 				"unit":"Mpc"
 			},
 			{
@@ -234,7 +245,7 @@
 			},
 			{
 				"value":"78.5",
-				"source":"24,8",
+				"source":"8,24",
 				"unit":"Mpc"
 			}
 		],
@@ -265,7 +276,7 @@
 			{
 				"value":"0.079",
 				"error":"0.0005",
-				"source":"25"
+				"source":"26"
 			}
 		],
 		"host":[
@@ -310,25 +321,25 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"D"
+				"source":"25"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.44",
-				"source":"D,1,3"
+				"source":"25,1,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1,3"
+				"source":"25,1,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2001/07/13",
-				"source":"4,5,D,1,3"
+				"source":"4,5,25,1,3"
 			}
 		],
 		"ra":[

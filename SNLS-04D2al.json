@@ -1,9 +1,6 @@
 {
 	"SNLS-04D2al":{
 		"name":"SNLS-04D2al",
-		"aliases":[
-			"SNLS-04D2al"
-		],
 		"sources":[
 			{
 				"name":"Guy et al. (2010)",
@@ -38,8 +35,9 @@
 				"alias":"6"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"7",
 				"secondary":true
 			},
@@ -49,15 +47,28 @@
 				"alias":"8"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9"
+				"alias":"10"
+			}
+		],
+		"alias":[
+			{
+				"value":"SNLS-04D2al",
+				"source":"1,3,2,4,7,8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,7"
+				"source":"1,3,2,7"
 			}
 		],
 		"comovingdist":[
@@ -85,7 +96,7 @@
 			},
 			{
 				"value":"+02:09:51.25",
-				"source":"2,3",
+				"source":"3,2",
 				"unit":"degrees"
 			}
 		],
@@ -98,20 +109,20 @@
 		"discoverer":[
 			{
 				"value":"Supernova Legacy Project",
-				"source":"2,3"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0146",
 				"error":"0.0005",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"5450",
-				"source":"D",
+				"source":"9",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -119,25 +130,25 @@
 		"maxabsmag":[
 			{
 				"value":"-19.6",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.1",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"r",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/01/27",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"ra":[
@@ -148,7 +159,7 @@
 			},
 			{
 				"value":"10:01:52.482",
-				"source":"2,3",
+				"source":"3,2",
 				"unit":"hours"
 			}
 		],
@@ -162,7 +173,7 @@
 		"velocity":[
 			{
 				"value":"163000",
-				"source":"D",
+				"source":"9",
 				"kind":"heliocentric",
 				"unit":"km/s"
 			}
@@ -172,7 +183,7 @@
 				"time":"53004.5",
 				"u_time":"MJD",
 				"magnitude":"25.0",
-				"source":"2,3"
+				"source":"3,2"
 			},
 			{
 				"time":"53021.48",

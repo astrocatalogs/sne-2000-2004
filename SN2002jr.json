@@ -1,13 +1,11 @@
 {
 	"SN2002jr":{
 		"name":"SN2002jr",
-		"aliases":[
-			"SN2002jr"
-		],
 		"sources":[
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"1",
 				"secondary":true
 			},
@@ -55,9 +53,22 @@
 				"alias":"9"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"10",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10"
+				"alias":"11"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2002jr",
+				"source":"1,2,4,3,5"
 			}
 		],
 		"claimedtype":[
@@ -69,37 +80,37 @@
 		"comovingdist":[
 			{
 				"value":"934",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1340",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1500",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1510",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1530",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1570",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1580",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			}
 		],
@@ -130,7 +141,7 @@
 			{
 				"value":"0.0211",
 				"error":"0.0008",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"host":[
@@ -166,7 +177,7 @@
 		"lumdist":[
 			{
 				"value":"2000",
-				"source":"D",
+				"source":"10",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -174,25 +185,25 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"D"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22.7",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/11/09",
-				"source":"D,2"
+				"source":"2,10"
 			}
 		],
 		"ra":[
@@ -212,7 +223,7 @@
 		"velocity":[
 			{
 				"value":"100000",
-				"source":"D",
+				"source":"10",
 				"kind":"host",
 				"unit":"km/s"
 			}

@@ -1,9 +1,6 @@
 {
 	"SN2002cv":{
 		"name":"SN2002cv",
-		"aliases":[
-			"SN2002cv"
-		],
 		"sources":[
 			{
 				"name":"Panagia et al. (2006)",
@@ -26,8 +23,9 @@
 				"alias":"4"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"5",
 				"secondary":true
 			},
@@ -65,14 +63,16 @@
 				"alias":"11"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"12",
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
 				"alias":"13",
 				"secondary":true
 			},
@@ -82,24 +82,30 @@
 				"alias":"14"
 			}
 		],
+		"alias":[
+			{
+				"value":"SN2002cv",
+				"source":"1,2,3,5,6,8,7,9,12"
+			}
+		],
 		"claimedtype":[
 			{
 				"value":"Ia",
 				"source":"5,6"
 			},
 			{
-				"value":"Ic",
-				"source":"13,10"
-			},
-			{
 				"value":"Ia P",
 				"source":"7,8,12"
+			},
+			{
+				"value":"Ic",
+				"source":"10,2"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"22.4",
-				"source":"10,9",
+				"source":"9,10",
 				"unit":"Mpc"
 			},
 			{
@@ -123,7 +129,7 @@
 		"discoverdate":[
 			{
 				"value":"2002/05/13",
-				"source":"6,13,10"
+				"source":"6,10,2"
 			}
 		],
 		"discoverer":[
@@ -146,7 +152,7 @@
 		"host":[
 			{
 				"value":"NGC 3190",
-				"source":"2,5,6,7,8,13,10"
+				"source":"2,5,6,7,8,10"
 			}
 		],
 		"hostdec":[
@@ -185,19 +191,19 @@
 		"maxabsmag":[
 			{
 				"value":"-12.8",
-				"source":"D"
+				"source":"13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19",
-				"source":"D,3,4"
+				"source":"13,3,4"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,3,4"
+				"source":"13,3,4"
 			}
 		],
 		"maxdate":[
@@ -14573,7 +14579,7 @@
 						"0.939422"
 					]
 				],
-				"source":"13,10"
+				"source":"10,2"
 			},
 			{
 				"deredshifted":false,
@@ -28728,7 +28734,7 @@
 						"0.0842739"
 					]
 				],
-				"source":"13,10"
+				"source":"10,2"
 			}
 		]
 	}

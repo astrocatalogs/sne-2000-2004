@@ -1,9 +1,6 @@
 {
 	"SN2000bk":{
 		"name":"SN2000bk",
-		"aliases":[
-			"SN2000bk"
-		],
 		"sources":[
 			{
 				"name":"Silverman et al. (2012)",
@@ -26,8 +23,9 @@
 				"alias":"4"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"5",
 				"secondary":true
 			},
@@ -115,8 +113,9 @@
 				"alias":"21"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"22",
 				"secondary":true
 			},
@@ -132,27 +131,39 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
-				"url":"http://heracles.astro.berkeley.edu/sndb/info",
-				"alias":"25",
+				"name":"Matheson et al. (2008)",
+				"bibcode":"2008AJ....135.1598M",
+				"alias":"25"
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"26",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"26"
+				"alias":"27"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2000bk",
+				"source":"1,2,5,6,8,7,9,22,24"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"5,6,7,8,22,25,1"
+				"source":"5,6,7,8,22,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"82.2",
-				"source":"10,9",
+				"source":"9,10",
 				"unit":"Mpc"
 			},
 			{
@@ -162,7 +173,7 @@
 			},
 			{
 				"value":"110",
-				"source":"12,9",
+				"source":"9,12",
 				"unit":"Mpc"
 			},
 			{
@@ -211,7 +222,7 @@
 		"discoverdate":[
 			{
 				"value":"2000/04/11",
-				"source":"6,7,8,25,1"
+				"source":"6,7,8,1"
 			}
 		],
 		"discoverer":[
@@ -228,13 +239,13 @@
 			{
 				"value":"0.0221",
 				"error":"0.0012",
-				"source":"26"
+				"source":"27"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 4520",
-				"source":"1,5,6,7,8,25"
+				"source":"1,5,6,7,8"
 			}
 		],
 		"hostdec":[
@@ -273,19 +284,19 @@
 		"maxabsmag":[
 			{
 				"value":"-17.1",
-				"source":"D"
+				"source":"26"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.02",
-				"source":"D,2,3"
+				"source":"2,3,26"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,2,3"
+				"source":"2,3,26"
 			}
 		],
 		"maxdate":[
@@ -10906,7 +10917,7 @@
 						"1.08441e-16"
 					]
 				],
-				"source":"24"
+				"source":"23,25,24"
 			},
 			{
 				"deredshifted":false,
@@ -25025,7 +25036,7 @@
 						"0.00784921"
 					]
 				],
-				"source":"25,1"
+				"source":"1"
 			},
 			{
 				"deredshifted":false,
@@ -35230,7 +35241,7 @@
 						"1.28352e-16"
 					]
 				],
-				"source":"24"
+				"source":"23,25,24"
 			},
 			{
 				"deredshifted":false,
@@ -45435,7 +45446,7 @@
 						"7.0182999e-17"
 					]
 				],
-				"source":"24"
+				"source":"23,25,24"
 			}
 		]
 	}

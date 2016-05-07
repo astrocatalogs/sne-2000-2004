@@ -1,9 +1,6 @@
 {
 	"SNLS-03D1cm":{
 		"name":"SNLS-03D1cm",
-		"aliases":[
-			"SNLS-03D1cm"
-		],
 		"sources":[
 			{
 				"name":"Guy et al. (2010)",
@@ -58,8 +55,9 @@
 				"alias":"10"
 			},
 			{
-				"name":"WISeREP",
+				"name":"Yaron & Gal-Yam (2012)",
 				"url":"http://wiserep.weizmann.ac.il/",
+				"bibcode":"2012PASP..124..668Y",
 				"alias":"11",
 				"secondary":true
 			},
@@ -69,19 +67,32 @@
 				"alias":"12"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"13",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"13"
+				"alias":"14"
+			}
+		],
+		"alias":[
+			{
+				"value":"SNLS-03D1cm",
+				"source":"1,3,2,4,11"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"Ia? P?",
-				"source":"1"
+				"value":"Ia",
+				"source":"3,2,11"
 			},
 			{
-				"value":"Ia",
-				"source":"2,3,11"
+				"value":"Ia? P?",
+				"source":"1"
 			}
 		],
 		"comovingdist":[
@@ -107,12 +118,12 @@
 			},
 			{
 				"value":"3530",
-				"source":"9,4",
+				"source":"4,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3810",
-				"source":"10,4",
+				"source":"4,10",
 				"unit":"Mpc"
 			},
 			{
@@ -129,7 +140,7 @@
 			},
 			{
 				"value":"-04:23:03.61",
-				"source":"2,3",
+				"source":"3,2",
 				"unit":"degrees"
 			}
 		],
@@ -142,20 +153,20 @@
 		"discoverer":[
 			{
 				"value":"Supernova Legacy Project",
-				"source":"2,3"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0207",
 				"error":"0.0002",
-				"source":"13"
+				"source":"14"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"5700",
-				"source":"D",
+				"source":"13",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -163,25 +174,25 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"D"
+				"source":"13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"25.38",
-				"source":"D,1"
+				"source":"1,13"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"D,1"
+				"source":"1,13"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/10/18",
-				"source":"D,1"
+				"source":"1,13"
 			}
 		],
 		"ra":[
@@ -192,21 +203,21 @@
 			},
 			{
 				"value":"02:24:55.294",
-				"source":"2,3",
+				"source":"3,2",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.87",
-				"source":"1,2,3,11",
+				"source":"1,3,2,11",
 				"kind":"heliocentric"
 			}
 		],
 		"velocity":[
 			{
 				"value":"170000",
-				"source":"D",
+				"source":"13",
 				"kind":"heliocentric",
 				"unit":"km/s"
 			}
@@ -312,7 +323,7 @@
 				"time":"52938.5",
 				"u_time":"MJD",
 				"magnitude":"25.0",
-				"source":"2,3"
+				"source":"3,2"
 			},
 			{
 				"time":"52938.51",
@@ -12917,7 +12928,7 @@
 						"5.89871e-19"
 					]
 				],
-				"source":"12,11"
+				"source":"11,12"
 			}
 		]
 	}

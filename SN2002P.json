@@ -1,9 +1,6 @@
 {
 	"SN2002P":{
 		"name":"SN2002P",
-		"aliases":[
-			"SN2002P"
-		],
 		"sources":[
 			{
 				"name":"Barris et al. (2004)",
@@ -17,8 +14,9 @@
 				"secondary":true
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"3",
 				"secondary":true
 			},
@@ -51,9 +49,22 @@
 				"alias":"8"
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9"
+				"alias":"10"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2002P",
+				"source":"1,2,3,4,6,5,7"
 			}
 		],
 		"comovingdist":[
@@ -110,7 +121,7 @@
 			{
 				"value":"0.0262",
 				"error":"0.0005",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"host":[
@@ -146,19 +157,19 @@
 		"maxappmag":[
 			{
 				"value":"23.25",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/01/15",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"ra":[

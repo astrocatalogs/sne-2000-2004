@@ -1,9 +1,6 @@
 {
 	"SN2003dg":{
 		"name":"SN2003dg",
-		"aliases":[
-			"SN2003dg"
-		],
 		"sources":[
 			{
 				"name":"Chomiuk et al. (2016)",
@@ -11,8 +8,9 @@
 				"alias":"1"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"2",
 				"secondary":true
 			},
@@ -34,15 +32,28 @@
 				"secondary":true
 			},
 			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"6",
+				"secondary":true
+			},
+			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6"
+				"alias":"7"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2003dg",
+				"source":"1,2,3,5,4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ib/c",
-				"source":"3,4,5"
+				"source":"3,5,4"
 			},
 			{
 				"value":"Ib/c P",
@@ -52,7 +63,7 @@
 		"comovingdist":[
 			{
 				"value":"79",
-				"source":"D",
+				"source":"6",
 				"unit":"Mpc"
 			}
 		],
@@ -64,33 +75,33 @@
 			},
 			{
 				"value":"-01:15:13.69",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/04/08",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOTOSS",
-				"source":"2,4,5"
+				"source":"2,5,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0205",
 				"error":"0.0016",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 6934",
-				"source":"2,3,4,5"
+				"source":"2,3,5,4"
 			}
 		],
 		"hostdec":[
@@ -129,19 +140,19 @@
 		"maxabsmag":[
 			{
 				"value":"-16",
-				"source":"D"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.1",
-				"source":"D,4,5"
+				"source":"5,4,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/04/07",
-				"source":"D,4,5"
+				"source":"5,4,6"
 			}
 		],
 		"ra":[
@@ -152,7 +163,7 @@
 			},
 			{
 				"value":"11:57:31.978",
-				"source":"4,5",
+				"source":"5,4",
 				"unit":"hours"
 			}
 		],
@@ -176,7 +187,7 @@
 				"time":"52736.5",
 				"u_time":"MJD",
 				"magnitude":"19.1",
-				"source":"4,5"
+				"source":"5,4"
 			},
 			{
 				"time":"52821.00",

@@ -1,9 +1,6 @@
 {
 	"SN2002ca":{
 		"name":"SN2002ca",
-		"aliases":[
-			"SN2002ca"
-		],
 		"sources":[
 			{
 				"name":"Faran et al. (2014)",
@@ -21,8 +18,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
+				"name":"Barbon, Cappellaro, & Turatto (1989)",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"bibcode":"1989A&AS...81..421B",
 				"alias":"4",
 				"secondary":true
 			},
@@ -44,21 +42,35 @@
 				"secondary":true
 			},
 			{
-				"name":"UCB Filippenko Group's Supernova Database (SNDB)",
+				"name":"Silverman et al. (2012)",
 				"url":"http://heracles.astro.berkeley.edu/sndb/info",
+				"bibcode":"2012MNRAS.425.1789S",
 				"alias":"8",
+				"secondary":true
+			},
+			{
+				"name":"Guillochon, Parrent, & Margutti (2016)",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"9",
 				"secondary":true
 			},
 			{
 				"name":"Schlafly & Finkbeiner (2011)",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"9"
+				"alias":"10"
+			}
+		],
+		"alias":[
+			{
+				"value":"SN2002ca",
+				"source":"1,2,4,5,7,6,8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II P",
-				"source":"8,1"
+				"source":"1,8"
 			},
 			{
 				"value":"II",
@@ -68,7 +80,7 @@
 		"comovingdist":[
 			{
 				"value":"48.1",
-				"source":"D",
+				"source":"9",
 				"unit":"Mpc"
 			}
 		],
@@ -87,7 +99,7 @@
 		"discoverdate":[
 			{
 				"value":"2002/04/03",
-				"source":"4,5,6,7,8,1"
+				"source":"4,5,6,7,1,8"
 			}
 		],
 		"discoverer":[
@@ -104,13 +116,13 @@
 			{
 				"value":"0.0204",
 				"error":"0.0003",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 8521",
-				"source":"4,5,6,7,8,1"
+				"source":"4,5,6,7,1,8"
 			}
 		],
 		"hostdec":[
@@ -140,7 +152,7 @@
 		"lumdist":[
 			{
 				"value":"48.6",
-				"source":"D",
+				"source":"9",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -148,25 +160,25 @@
 		"maxabsmag":[
 			{
 				"value":"-15.5",
-				"source":"D"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.93",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/04/04",
-				"source":"D,1"
+				"source":"1,9"
 			}
 		],
 		"ra":[
@@ -14605,7 +14617,7 @@
 						"-0.0474493"
 					]
 				],
-				"source":"8,1"
+				"source":"1,8"
 			},
 			{
 				"deredshifted":false,
@@ -28824,7 +28836,7 @@
 						"0.127634"
 					]
 				],
-				"source":"8,1"
+				"source":"1,8"
 			},
 			{
 				"deredshifted":false,
@@ -43043,7 +43055,7 @@
 						"0.0105902"
 					]
 				],
-				"source":"8,1"
+				"source":"1,8"
 			},
 			{
 				"deredshifted":false,
@@ -57490,7 +57502,7 @@
 						"0.100415"
 					]
 				],
-				"source":"8,1"
+				"source":"1,8"
 			}
 		]
 	}
