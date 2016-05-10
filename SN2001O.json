@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Otero et al. (2001)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07500/07574.html#Item1",
 				"bibcode":"2001IAUC.7574....3O",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -42,17 +42,17 @@
 		"alias":[
 			{
 				"value":"SN2001O",
-				"source":"1,2,4,3"
+				"source":"1,3,2,4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"I",
-				"source":"1,2"
+				"source":"1,4"
 			},
 			{
 				"value":"Ia",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"comovingdist":[
@@ -65,14 +65,14 @@
 		"dec":[
 			{
 				"value":"-00:12:01.2",
-				"source":"2,3,4",
+				"source":"3,2,4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2001/01/23",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"discoverer":[
@@ -82,7 +82,7 @@
 			},
 			{
 				"value":"Anglo-Australian Observatory",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -106,7 +106,7 @@
 			},
 			{
 				"value":"-00:12:01.2",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -118,7 +118,7 @@
 			},
 			{
 				"value":"10:33:36.36",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -139,32 +139,26 @@
 		"maxappmag":[
 			{
 				"value":"18.7",
-				"source":"5,2"
-			}
-		],
-		"maxband":[
-			{
-				"value":"B",
-				"source":"5,2"
+				"source":"3,2,5"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2001/01/23",
-				"source":"5,2"
+				"value":"2001/01/22",
+				"source":"3,2,5"
 			}
 		],
 		"ra":[
 			{
 				"value":"10:33:36.36",
-				"source":"2,3,4",
+				"source":"3,2,4",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.087",
-				"source":"2",
+				"source":"4",
 				"kind":"host"
 			}
 		],
@@ -181,14 +175,7 @@
 				"time":"51931.5",
 				"u_time":"MJD",
 				"magnitude":"18.7",
-				"source":"3,4"
-			},
-			{
-				"time":"51932.0",
-				"u_time":"MJD",
-				"band":"B",
-				"magnitude":"18.7",
-				"source":"2"
+				"source":"3,2"
 			}
 		]
 	}

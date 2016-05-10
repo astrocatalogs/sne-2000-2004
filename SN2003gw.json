@@ -10,21 +10,21 @@
 				"secondary":true
 			},
 			{
-				"name":"Lennarz, Altmann, & Wiebusch (2012)",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"2"
-			},
-			{
 				"name":"Wagner et al. (2003)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08100/08176.html#Item1",
 				"bibcode":"2003IAUC.8176....3W",
-				"alias":"3"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"3",
 				"secondary":true
+			},
+			{
+				"name":"Lennarz, Altmann, & Wiebusch (2012)",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
 			},
 			{
 				"name":"Guillochon, Parrent, & Margutti (2016)",
@@ -42,13 +42,13 @@
 		"alias":[
 			{
 				"value":"SN2003gw",
-				"source":"1,2,4,3"
+				"source":"1,3,2,4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"comovingdist":[
@@ -61,19 +61,19 @@
 		"dec":[
 			{
 				"value":"+67:29:22.2",
-				"source":"1,2",
+				"source":"1,4",
 				"unit":"degrees"
 			},
 			{
 				"value":"+67:29:22.29",
-				"source":"3,4",
+				"source":"3,2",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/08/07",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"discoverer":[
@@ -83,7 +83,7 @@
 			},
 			{
 				"value":"Mark Armstrong",
-				"source":"3,4"
+				"source":"3,2"
 			}
 		],
 		"ebv":[
@@ -96,7 +96,7 @@
 		"host":[
 			{
 				"value":"UGC 3252",
-				"source":"1,2,3,4"
+				"source":"1,3,2,4"
 			}
 		],
 		"hostdec":[
@@ -107,7 +107,7 @@
 			},
 			{
 				"value":"+67:29:17.4",
-				"source":"2",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
@@ -119,7 +119,7 @@
 			},
 			{
 				"value":"05:11:45.16",
-				"source":"2",
+				"source":"4",
 				"unit":"hours"
 			}
 		],
@@ -127,7 +127,7 @@
 			{
 				"value":"70",
 				"error":"10",
-				"source":"2",
+				"source":"4",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -141,31 +141,31 @@
 		"maxappmag":[
 			{
 				"value":"17.1",
-				"source":"5,2"
+				"source":"3,2,5"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2003/08/07",
-				"source":"5,2"
+				"value":"2003/08/06",
+				"source":"3,2,5"
 			}
 		],
 		"ra":[
 			{
 				"value":"05:11:47.68",
-				"source":"1,2",
+				"source":"1,4",
 				"unit":"hours"
 			},
 			{
 				"value":"05:11:47.688",
-				"source":"3,4",
+				"source":"3,2",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.02",
-				"source":"2",
+				"source":"4",
 				"kind":"host"
 			}
 		],
@@ -182,13 +182,7 @@
 				"time":"52857.5",
 				"u_time":"MJD",
 				"magnitude":"17.1",
-				"source":"3,4"
-			},
-			{
-				"time":"52858.0",
-				"u_time":"MJD",
-				"magnitude":"17.1",
-				"source":"2"
+				"source":"3,2"
 			}
 		]
 	}
