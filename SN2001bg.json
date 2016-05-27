@@ -33,63 +33,69 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il",
+				"alias":"6"
+			},
+			{
 				"name":"IAUC 7621",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07600/07621.html#Item1",
 				"bibcode":"2001IAUC.7621....4G",
-				"alias":"6",
+				"alias":"7",
 				"reference":"Granslo et al. (2001)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7",
+				"alias":"8",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"8",
+				"alias":"9",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"9",
+				"alias":"10",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"10",
+				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
+				"alias":"11",
 				"secondary":true
 			},
 			{
 				"name":"2008AJ....135.1598M",
 				"bibcode":"2008AJ....135.1598M",
-				"alias":"11",
+				"alias":"12",
 				"reference":"Matheson et al. (2008)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"12",
+				"alias":"13",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"13",
+				"alias":"14",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2001bg",
-				"source":"1,2,3,5,6,7,8,9,10"
+				"source":"1,2,3,5,6,7,8,9,10,11"
 			}
 		],
 		"claimedtype":[
@@ -99,27 +105,32 @@
 			},
 			{
 				"value":"Ia",
-				"source":"5,6,7,8,9,1"
+				"source":"5,6,7,8,9,10,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"31.47",
-				"source":"12",
+				"source":"13",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+28:28:05.8",
-				"source":"5,6,7,8",
+				"source":"5,7,8,9",
+				"unit":"degrees"
+			},
+			{
+				"value":"+28:28:05.81",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2001/05/08",
-				"source":"5,6,7,8,1"
+				"source":"5,6,7,8,9,1"
 			}
 		],
 		"discoverer":[
@@ -129,20 +140,20 @@
 			},
 			{
 				"value":"Tom Boles",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0337",
 				"error":"0.0006",
-				"source":"13"
+				"source":"14"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 2608",
-				"source":"1,5,6,7,8"
+				"source":"1,5,6,7,8,9"
 			}
 		],
 		"hostdec":[
@@ -153,7 +164,7 @@
 			},
 			{
 				"value":"+28:28:24.4",
-				"source":"8",
+				"source":"9",
 				"unit":"degrees"
 			}
 		],
@@ -165,7 +176,7 @@
 			},
 			{
 				"value":"08:35:17.30",
-				"source":"8",
+				"source":"9",
 				"unit":"hours"
 			}
 		],
@@ -173,7 +184,7 @@
 			{
 				"value":"21",
 				"error":"8",
-				"source":"8",
+				"source":"9",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -181,31 +192,31 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"12"
+				"source":"13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.18",
-				"source":"12,1"
+				"source":"13,1"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"12,1"
+				"source":"13,1"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2001/05/11",
-				"source":"8,12,1"
+				"source":"9,13,1"
 			}
 		],
 		"ra":[
 			{
 				"value":"08:35:18.86",
-				"source":"5,6,7,8",
+				"source":"5,6,7,8,9",
 				"unit":"hours"
 			}
 		],
@@ -693,7 +704,7 @@
 				"time":"52045.5",
 				"u_time":"MJD",
 				"magnitude":"13.6",
-				"source":"6,7"
+				"source":"7,8"
 			},
 			{
 				"time":"52045.88",
@@ -5422,14 +5433,14 @@
 						"1.853623E-15"
 					]
 				],
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":52044.23,
+				"time":"52044.23",
 				"filename":"sn2001bg-20010515.23-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -15627,14 +15638,14 @@
 						"1.0095e-15"
 					]
 				],
-				"source":"10,2,11"
+				"source":"11,2,12"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":52045.23,
+				"time":"52045.23",
 				"filename":"sn2001bg-20010516.23-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -28381,14 +28392,14 @@
 						"4.7766015e-17"
 					]
 				],
-				"source":"10,2,11"
+				"source":"11,2,12"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":52050.14,
+				"time":"52050.14",
 				"filename":"sn2001bg-20010521.14-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -38586,7 +38597,7 @@
 						"1.0782799e-15"
 					]
 				],
-				"source":"10,2,11"
+				"source":"11,2,12"
 			},
 			{
 				"deredshifted":false,
@@ -53012,7 +53023,7 @@
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":52054.14,
+				"time":"52054.14",
 				"filename":"sn2001bg-20010525.14-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -65624,14 +65635,14 @@
 						"3.8664974e-17"
 					]
 				],
-				"source":"10,2,11"
+				"source":"11,2,12"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":52059.15,
+				"time":"52059.15",
 				"filename":"sn2001bg-20010530.15-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -78378,7 +78389,7 @@
 						"3.7353541e-17"
 					]
 				],
-				"source":"10,2,11"
+				"source":"11,2,12"
 			},
 			{
 				"deredshifted":false,

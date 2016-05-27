@@ -17,47 +17,52 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 8345",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08300/08345.html#Item1",
 				"bibcode":"2004IAUC.8345....4L",
-				"alias":"3",
+				"alias":"4",
 				"reference":"Li, Foley, & Filippenko (2004)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"5",
+				"alias":"6",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
 			},
 			{
 				"name":"2015Sci...347.1459K",
 				"bibcode":"2015Sci...347.1459K",
-				"alias":"7",
+				"alias":"8",
 				"reference":"Kelly et al. (2015)"
 			},
 			{
 				"name":"2013MNRAS.433.2240G",
 				"bibcode":"2013MNRAS.433.2240G",
-				"alias":"8",
+				"alias":"9",
 				"reference":"Ganeshalingam, Li, & Filippenko (2013)"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"9",
+				"alias":"10",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
@@ -65,80 +70,85 @@
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"10",
+				"alias":"11",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11",
+				"alias":"12",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2004bw",
-				"source":"1,2,3,4,5,6,9"
+				"source":"1,2,3,4,5,6,7,10"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"2,3,4,5,9,1"
+				"source":"2,3,4,5,6,10,1"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"88.7",
-				"source":"7,6",
+				"source":"8,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"90.8",
-				"source":"7,6",
+				"source":"8,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"93.6",
-				"source":"8,6",
+				"source":"9,7",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-03:18:16.4",
-				"source":"2,3,4,5",
+				"source":"2,4,5,6",
+				"unit":"degrees"
+			},
+			{
+				"value":"-03:18:16.42",
+				"source":"3",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2004/05/26",
-				"source":"2,3,4,5,1"
+				"source":"2,3,4,5,6,1"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"2,3,4"
+				"source":"2,4,5"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.1212",
 				"error":"0.0033",
-				"source":"11"
+				"source":"12"
 			}
 		],
 		"host":[
 			{
 				"value":"MCG +00-38-19",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			},
 			{
 				"value":"PGC 53750",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"hostdec":[
@@ -149,7 +159,7 @@
 			},
 			{
 				"value":"-03:18:08.8",
-				"source":"5",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
@@ -161,14 +171,14 @@
 			},
 			{
 				"value":"15:03:45.31",
-				"source":"5",
+				"source":"6",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"95.3",
-				"source":"10",
+				"source":"11",
 				"kind":"heliocentric",
 				"unit":"Mpc"
 			}
@@ -176,38 +186,38 @@
 		"maxabsmag":[
 			{
 				"value":"-18.5",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.36",
-				"source":"10,1"
+				"source":"11,1"
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"10,1"
+				"source":"11,1"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/06/06",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"ra":[
 			{
 				"value":"15:03:46.75",
-				"source":"2,3,4,5",
+				"source":"2,3,4,5,6",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0212",
-				"source":"1,9",
+				"source":"1,10",
 				"kind":"heliocentric"
 			}
 		],
@@ -224,7 +234,7 @@
 				"time":"53150.5",
 				"u_time":"MJD",
 				"magnitude":"16.3",
-				"source":"3,4"
+				"source":"4,5"
 			},
 			{
 				"time":"53154.31",

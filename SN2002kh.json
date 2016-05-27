@@ -11,56 +11,66 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 8052",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08000/08052.html#Item1",
 				"bibcode":"2003IAUC.8052....2P",
-				"alias":"2",
+				"alias":"3",
 				"reference":"Papenkova et al. (2003)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4",
+				"alias":"5",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"6",
+				"alias":"7",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2002kh",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"dec":[
 			{
 				"value":"+62:14:37.7",
-				"source":"1,2,3,4",
+				"source":"1,3,4,5",
+				"unit":"degrees"
+			},
+			{
+				"value":"+62:14:37.72",
+				"source":"2",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2002/11/22",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"discoverer":[
@@ -70,14 +80,14 @@
 			},
 			{
 				"value":"HST GOODS team",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0101",
 				"error":"0.0003",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"host":[
@@ -94,7 +104,7 @@
 			},
 			{
 				"value":"+62:14:37.0",
-				"source":"4",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
@@ -106,26 +116,26 @@
 			},
 			{
 				"value":"12:36:16.00",
-				"source":"4",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"25.1",
-				"source":"5,2,3"
+				"source":"6,3,4"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/11/21",
-				"source":"5,2,3"
+				"source":"6,3,4"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:36:16.78",
-				"source":"1,2,3,4",
+				"source":"1,2,3,4,5",
 				"unit":"hours"
 			}
 		],
@@ -134,7 +144,7 @@
 				"time":"52599.5",
 				"u_time":"MJD",
 				"magnitude":"25.1",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		]
 	}

@@ -11,95 +11,106 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il",
+				"alias":"2"
+			},
+			{
 				"name":"IAUC 8201",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08200/08201.html#Item1",
 				"bibcode":"2003IAUC.8201....2W",
-				"alias":"2",
+				"alias":"3",
 				"reference":"Wang & Baade (2003)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"4",
+				"alias":"5",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2012AJ....143..126B",
 				"bibcode":"2012AJ....143..126B",
-				"alias":"6",
+				"alias":"7",
 				"reference":"Blondin et al. (2012)"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"7",
+				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
+				"alias":"8",
 				"secondary":true
 			},
 			{
 				"name":"2008AJ....135.1598M",
 				"bibcode":"2008AJ....135.1598M",
-				"alias":"8",
+				"alias":"9",
 				"reference":"Matheson et al. (2008)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"9",
+				"alias":"10",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"10",
+				"alias":"11",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2003ia",
-				"source":"1,2,3,4,5,7"
+				"source":"1,2,3,4,5,6,8"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,4,5"
+				"source":"1,2,3,4,5,6"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"131",
-				"source":"9",
+				"source":"10",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+35:00:07.2",
-				"source":"1,2,3,4",
+				"source":"1,3,4,5",
+				"unit":"degrees"
+			},
+			{
+				"value":"+35:00:07.20",
+				"source":"2",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/09/15",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"discoverer":[
@@ -109,20 +120,20 @@
 			},
 			{
 				"value":"Koichi Itagaki",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0196",
 				"error":"0.0004",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 6109",
-				"source":"1,2,3,4"
+				"source":"1,2,3,4,5"
 			}
 		],
 		"hostdec":[
@@ -133,7 +144,7 @@
 			},
 			{
 				"value":"+35:00:14.9",
-				"source":"4",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
@@ -145,7 +156,7 @@
 			},
 			{
 				"value":"16:17:40.55",
-				"source":"4",
+				"source":"5",
 				"unit":"hours"
 			}
 		],
@@ -153,7 +164,7 @@
 			{
 				"value":"103",
 				"error":"19",
-				"source":"4",
+				"source":"5",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -161,32 +172,32 @@
 		"maxabsmag":[
 			{
 				"value":"-17.8",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.3",
-				"source":"9,2,3"
+				"source":"10,3,4"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/09/14",
-				"source":"9,2,3"
+				"source":"10,3,4"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:17:41.17",
-				"source":"1,2,3,4",
+				"source":"1,2,3,4,5",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.0298",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"velocity":[
@@ -202,7 +213,7 @@
 				"time":"52896.5",
 				"u_time":"MJD",
 				"magnitude":"17.3",
-				"source":"2,3"
+				"source":"3,4"
 			}
 		],
 		"spectra":[
@@ -211,7 +222,7 @@
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":52901.17,
+				"time":"52901.17",
 				"filename":"sn2003ia-20030919.17-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -12958,14 +12969,14 @@
 						"1.5608914e-17"
 					]
 				],
-				"source":"7,6,8"
+				"source":"8,7,9"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":52910.1,
+				"time":"52910.1",
 				"filename":"sn2003ia-20030928.10-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -25712,14 +25723,14 @@
 						"1.1194757e-17"
 					]
 				],
-				"source":"7,6,8"
+				"source":"8,7,9"
 			},
 			{
 				"deredshifted":false,
 				"dereddened":false,
 				"instrument":"fast",
 				"u_time":"MJD",
-				"time":52912.13,
+				"time":"52912.13",
 				"filename":"sn2003ia-20030930.13-fast.flm",
 				"waveunit":"Angstrom",
 				"fluxunit":"erg/s/cm^2/Angstrom",
@@ -38466,7 +38477,7 @@
 						"1.4387813e-17"
 					]
 				],
-				"source":"7,6,8"
+				"source":"8,7,9"
 			}
 		]
 	}
