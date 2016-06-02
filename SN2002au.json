@@ -3,61 +3,61 @@
 		"name":"SN2002au",
 		"sources":[
 			{
+				"name":"The Open Supernova Catalog",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"1",
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
+			},
+			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true
 			},
 			{
 				"name":"VSNET Oct2003",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"3",
+				"alias":"4",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"IAUC 7823",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07800/07823.html#Item1",
 				"bibcode":"2002IAUC.7823....3J",
-				"alias":"5",
+				"alias":"6",
 				"reference":"Jha et al. (2002)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"7",
+				"alias":"8",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
-				"alias":"8",
-				"secondary":true
-			},
-			{
-				"name":"The Open Supernova Catalog",
-				"url":"https://sne.space",
-				"bibcode":"2016arXiv160501054G",
 				"alias":"9",
-				"secondary":true,
-				"reference":"Guillochon, Parrent, & Margutti (2016)"
+				"secondary":true
 			},
 			{
 				"name":"2011ApJ...737..103S",
@@ -69,52 +69,48 @@
 		"alias":[
 			{
 				"value":"SN2002au",
-				"source":"1,3,4,5,6,7,8"
+				"source":"2,4,5,6,7,8,9"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"Ia",
-				"source":"4,5,6,7"
-			},
-			{
 				"value":"IIb",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"79",
-				"source":"9",
+				"source":"1",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+05:50:15.7",
-				"source":"3,5,6,7",
+				"source":"4,6,7,8",
 				"unit":"degrees"
 			},
 			{
 				"value":"+05:50:15.68",
-				"source":"4",
+				"source":"5",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2002/02/08",
-				"source":"3,4,7"
+				"source":"4,5,8"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Martin, LOTOSS",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"value":"Tim Puckett et al.",
-				"source":"5,6"
+				"source":"6,7"
 			}
 		],
 		"ebv":[
@@ -124,40 +120,66 @@
 				"source":"10"
 			}
 		],
+		"errors":[
+			{
+				"value":"Transient Name Server",
+				"kind":"name",
+				"extra":"claimedtype",
+				"source":"1"
+			},
+			{
+				"value":"2002IAUC.7823....3J",
+				"kind":"bibcode",
+				"extra":"claimedtype",
+				"source":"1"
+			},
+			{
+				"value":"Latest Supernovae",
+				"kind":"name",
+				"extra":"claimedtype",
+				"source":"1"
+			},
+			{
+				"value":"2012A&A...538A.120L",
+				"kind":"bibcode",
+				"extra":"claimedtype",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"UGC 5100",
-				"source":"3,4,5,6,7"
+				"source":"4,5,6,7,8"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+05:50:26",
-				"source":"3",
+				"source":"4",
 				"unit":"degrees"
 			},
 			{
 				"value":"+05:50:29.3",
-				"source":"7",
+				"source":"8",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"09:34:39",
-				"source":"3",
+				"source":"4",
 				"unit":"hours"
 			},
 			{
 				"value":"09:34:38.63",
-				"source":"7",
+				"source":"8",
 				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"81",
-				"source":"9",
+				"source":"1",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -165,45 +187,45 @@
 		"maxabsmag":[
 			{
 				"value":"-17",
-				"source":"9"
+				"source":"1"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.2",
-				"source":"9,1,2"
+				"source":"1,2,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"9,1,2"
+				"source":"1,2,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/03/02",
-				"source":"9,1,2"
+				"source":"1,2,3"
 			}
 		],
 		"ra":[
 			{
 				"value":"09:34:37.60",
-				"source":"3,4,5,6,7",
+				"source":"4,5,6,7,8",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.018",
-				"source":"7",
+				"source":"8",
 				"kind":"host"
 			}
 		],
 		"velocity":[
 			{
 				"value":"5514",
-				"source":"3",
+				"source":"4",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -213,49 +235,49 @@
 				"time":"52305.5",
 				"u_time":"MJD",
 				"magnitude":"17.3",
-				"source":"5,6"
+				"source":"6,7"
 			},
 			{
 				"time":"52306.3",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"20",
-				"source":"1,2"
+				"source":"2,3"
 			},
 			{
 				"time":"52313.3",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"17.7",
-				"source":"1,2"
+				"source":"2,3"
 			},
 			{
 				"time":"52314.22",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"18",
-				"source":"1,2"
+				"source":"2,3"
 			},
 			{
 				"time":"52315.14",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"18",
-				"source":"1,2"
+				"source":"2,3"
 			},
 			{
 				"time":"52315.3",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"17.3",
-				"source":"1,2"
+				"source":"2,3"
 			},
 			{
 				"time":"52335.09",
 				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"17.2",
-				"source":"1,2"
+				"source":"2,3"
 			}
 		],
 		"spectra":[
@@ -10461,7 +10483,7 @@
 						"1.66168e-16"
 					]
 				],
-				"source":"8"
+				"source":"9"
 			}
 		]
 	}
