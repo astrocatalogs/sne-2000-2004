@@ -3,197 +3,252 @@
 		"name":"SN2002P",
 		"sources":[
 			{
+				"name":"2000A&AS..143....9W",
+				"bibcode":"2000A&AS..143....9W",
+				"alias":"1",
+				"secondary":true,
+				"reference":"Wenger et al. (2000)"
+			},
+			{
+				"name":"2002IAUC.7801....1B",
+				"bibcode":"2002IAUC.7801....1B",
+				"alias":"2",
+				"reference":"Barris et al. (2002)"
+			},
+			{
 				"name":"2004ApJ...602..571B",
 				"bibcode":"2004ApJ...602..571B",
-				"alias":"1",
+				"alias":"3",
 				"reference":"Barris et al. (2004)"
 			},
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"2",
+				"alias":"4",
 				"secondary":true
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"3",
+				"alias":"5",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"4"
+				"alias":"6"
 			},
 			{
 				"name":"IAUC 7801",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07800/07801.html#Item1",
 				"bibcode":"2002IAUC.7801....2M",
-				"alias":"5",
+				"alias":"7",
 				"reference":"Matheson et al. (2002)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6",
+				"alias":"8",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"7",
+				"alias":"9",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"8",
+				"alias":"10",
 				"secondary":true
 			},
 			{
 				"name":"2004ApJ...607..665R",
 				"bibcode":"2004ApJ...607..665R",
-				"alias":"9",
+				"alias":"11",
 				"reference":"Riess et al. (2004)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"10",
+				"alias":"12",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11",
+				"alias":"13",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2002P",
-				"source":"1,2,3,4,5,6,7,8"
+				"source":"1,3,4,5,6,7,8,9,10"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"2280",
-				"source":"1,8",
+				"source":"3,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2310",
-				"source":"1,8",
+				"source":"3,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2380",
-				"source":"1,8",
+				"source":"3,10",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2560",
-				"source":"9,8",
+				"source":"11,10",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+00:47:20.1",
-				"source":"3,5,6,7",
+				"source":"1,2,5,7,8,9",
 				"unit":"degrees"
 			},
 			{
 				"value":"+00:47:20.11",
-				"source":"4",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2002/01/09",
-				"source":"3,4,5,6,7"
+				"source":"5,6,7,8,9"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"HZSST",
-				"source":"3"
+				"source":"5"
 			},
 			{
 				"value":"High Z Supernova Search",
-				"source":"5,6"
+				"source":"7,8"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0262",
 				"error":"0.0005",
-				"source":"11"
+				"source":"13"
 			}
 		],
 		"host":[
 			{
 				"value":"A022905+0047",
-				"source":"3"
+				"source":"5"
+			},
+			{
+				"value":"H-ZSNS J022905.71+004720.1",
+				"source":"3,10,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+00:47:20",
-				"source":"3",
+				"source":"5",
 				"unit":"degrees"
 			},
 			{
 				"value":"+00:47:20.0",
-				"source":"7",
+				"source":"9",
 				"unit":"degrees"
 			}
 		],
 		"hostra":[
 			{
 				"value":"02:29:05",
-				"source":"3",
+				"source":"5",
 				"unit":"hours"
 			},
 			{
 				"value":"02:29:05.00",
-				"source":"7",
+				"source":"9",
 				"unit":"hours"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"3660",
+				"source":"12",
+				"unit":"Mpc"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-19.6",
+				"source":"12"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"23.25",
-				"source":"10,1"
+				"source":"12,3"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"10,1"
+				"source":"12,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/01/15",
-				"source":"10,1"
+				"source":"12,3"
 			}
 		],
 		"ra":[
 			{
 				"value":"02:29:05.71",
-				"source":"3,5,6,7",
+				"source":"1,2,5,7,8,9",
 				"unit":"hours"
 			},
 			{
 				"value":"02:29:05.17",
-				"source":"4",
+				"source":"6",
 				"unit":"hours"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.603",
+				"source":"3,10"
+			},
+			{
+				"value":"0.612",
+				"source":"3,10"
+			},
+			{
+				"value":"0.635",
+				"source":"3,10"
+			},
+			{
+				"value":"0.694",
+				"source":"11,10"
+			}
+		],
+		"velocity":[
+			{
+				"value":"132000",
+				"source":"12",
+				"unit":"km/s"
 			}
 		],
 		"photometry":[
@@ -204,7 +259,7 @@
 				"magnitude":"29.859",
 				"e_magnitude":"3.6909",
 				"telescope":"Subaru",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52204.48",
@@ -213,7 +268,7 @@
 				"system":"Cousins",
 				"magnitude":"26.603",
 				"e_magnitude":"0.84782",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52204.49",
@@ -222,7 +277,7 @@
 				"system":"Cousins",
 				"magnitude":"27.325",
 				"e_magnitude":"0.90211",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52225.31",
@@ -231,7 +286,7 @@
 				"system":"Cousins",
 				"magnitude":"27.033",
 				"e_magnitude":"0.88124",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52231.23",
@@ -240,7 +295,7 @@
 				"system":"Cousins",
 				"magnitude":"26.746",
 				"e_magnitude":"1.0366",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52231.26",
@@ -249,7 +304,7 @@
 				"system":"Cousins",
 				"magnitude":"26.262",
 				"e_magnitude":"0.3357",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52231.29",
@@ -258,7 +313,7 @@
 				"magnitude":"27.838",
 				"e_magnitude":"2.1314",
 				"telescope":"Subaru",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52232.21",
@@ -267,7 +322,7 @@
 				"system":"Cousins",
 				"magnitude":"25.852",
 				"e_magnitude":"0.18414",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52232.28",
@@ -276,7 +331,7 @@
 				"magnitude":"28.928",
 				"e_magnitude":"3.0339",
 				"telescope":"Subaru",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52236.2",
@@ -285,7 +340,7 @@
 				"system":"Cousins",
 				"magnitude":"25.905",
 				"e_magnitude":"0.50479",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52236.23",
@@ -294,7 +349,7 @@
 				"system":"Cousins",
 				"magnitude":"27.099",
 				"e_magnitude":"1.6814",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52236.25",
@@ -303,7 +358,7 @@
 				"magnitude":"25.502",
 				"e_magnitude":"0.69695",
 				"telescope":"Subaru",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52252.2",
@@ -312,7 +367,7 @@
 				"system":"Cousins",
 				"magnitude":"26.607",
 				"e_magnitude":"0.80813",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52252.22",
@@ -321,7 +376,7 @@
 				"system":"Cousins",
 				"magnitude":"26.746",
 				"e_magnitude":"0.90009",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52263.23",
@@ -330,13 +385,13 @@
 				"system":"Cousins",
 				"magnitude":"26.542",
 				"e_magnitude":"1.2793",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52282.5",
 				"u_time":"MJD",
 				"magnitude":"23.8",
-				"source":"5,6"
+				"source":"7,8"
 			},
 			{
 				"time":"52283.27",
@@ -345,7 +400,7 @@
 				"system":"Cousins",
 				"magnitude":"23.93",
 				"e_magnitude":"0.06809",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52283.29",
@@ -354,7 +409,7 @@
 				"magnitude":"23.828",
 				"e_magnitude":"0.13729",
 				"telescope":"Subaru",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52283.33",
@@ -363,7 +418,7 @@
 				"system":"Cousins",
 				"magnitude":"23.85",
 				"e_magnitude":"0.06422",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52288.3",
@@ -372,7 +427,7 @@
 				"magnitude":"23.215",
 				"e_magnitude":"0.059946",
 				"telescope":"Subaru",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52288.38",
@@ -381,7 +436,7 @@
 				"system":"Cousins",
 				"magnitude":"23.298",
 				"e_magnitude":"0.037352",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52289.28",
@@ -390,7 +445,7 @@
 				"system":"Cousins",
 				"magnitude":"23.25",
 				"e_magnitude":"0.035321",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52289.31",
@@ -399,7 +454,7 @@
 				"magnitude":"23.315",
 				"e_magnitude":"0.11566",
 				"telescope":"Subaru",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52289.35",
@@ -408,7 +463,7 @@
 				"system":"Cousins",
 				"magnitude":"23.293",
 				"e_magnitude":"0.080056",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"time":"52323.22",
@@ -417,7 +472,7 @@
 				"system":"Cousins",
 				"magnitude":"23.422",
 				"e_magnitude":"0.11093",
-				"source":"1"
+				"source":"3"
 			}
 		]
 	}

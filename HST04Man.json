@@ -3,209 +3,282 @@
 		"name":"HST04Man",
 		"sources":[
 			{
+				"name":"The Open Supernova Catalog",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"1",
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
+			},
+			{
+				"name":"2000A&AS..143....9W",
+				"bibcode":"2000A&AS..143....9W",
+				"alias":"2",
+				"secondary":true,
+				"reference":"Wenger et al. (2000)"
+			},
+			{
+				"name":"2008ApJ...673..981K",
+				"bibcode":"2008ApJ...673..981K",
+				"alias":"3",
+				"reference":"Kuznetsova et al. (2008)"
+			},
+			{
 				"name":"Paper",
 				"url":"http://arxiv.org/pdf/astro-ph/0611572.pdf",
-				"alias":"1"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"2",
+				"alias":"5",
 				"secondary":true
 			},
 			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"3",
+				"alias":"6",
 				"secondary":true
 			},
 			{
 				"name":"2010ApJ...716..712A",
 				"bibcode":"2010ApJ...716..712A",
-				"alias":"4",
+				"alias":"7",
 				"reference":"Amanullah et al. (2010)"
 			},
 			{
 				"name":"2010arXiv1006.2112L",
 				"bibcode":"2010arXiv1006.2112L",
-				"alias":"5",
+				"alias":"8",
 				"reference":"Lorenzi (2010)"
 			},
 			{
 				"name":"2009ApJS..185...32K",
 				"bibcode":"2009ApJS..185...32K",
-				"alias":"6",
+				"alias":"9",
 				"reference":"Kessler et al. (2009)"
 			},
 			{
 				"name":"2009ApJ...700.1097H",
 				"bibcode":"2009ApJ...700.1097H",
-				"alias":"7",
+				"alias":"10",
 				"reference":"Hicken et al. (2009)"
 			},
 			{
 				"name":"2008ApJ...686..749K",
 				"bibcode":"2008ApJ...686..749K",
-				"alias":"8",
+				"alias":"11",
 				"reference":"Kowalski et al. (2008)"
 			},
 			{
 				"name":"2007ApJ...659...98R",
 				"bibcode":"2007ApJ...659...98R",
-				"alias":"9",
+				"alias":"12",
 				"reference":"Riess et al. (2007)"
-			},
-			{
-				"name":"The Open Supernova Catalog",
-				"url":"https://sne.space",
-				"bibcode":"2016arXiv160501054G",
-				"alias":"10",
-				"secondary":true,
-				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"11",
+				"alias":"13",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"HST04Man",
-				"source":"1,2,3"
+				"source":"1,2,4,5,6"
+			},
+			{
+				"value":"Manipogo",
+				"source":"1,2"
+			},
+			{
+				"value":"2 13",
+				"source":"2"
 			},
 			{
 				"value":"K0405-004",
-				"source":"1,2"
+				"source":"4,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2"
+				"source":"4,5"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"2040",
-				"source":"4,3",
+				"source":"7,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2100",
-				"source":"5,3",
+				"source":"8,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2830",
-				"source":"6,3",
+				"source":"9,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2850",
-				"source":"6,3",
+				"source":"9,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3040",
-				"source":"7,3",
+				"source":"10,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3120",
-				"source":"7,3",
+				"source":"10,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3240",
-				"source":"7,3",
+				"source":"10,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3280",
-				"source":"8,3",
+				"source":"11,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3340",
-				"source":"9,3",
+				"source":"12,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3570",
-				"source":"7,3",
+				"source":"10,6",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
+				"value":"+62:15:48.86",
+				"source":"2,3",
+				"unit":"degrees"
+			},
+			{
 				"value":"+62:15:49.1",
-				"source":"1,2",
+				"source":"4,5",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2004/05/20",
-				"source":"1,2"
+				"source":"4,5"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"HST",
-				"source":"1,2"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0103",
 				"error":"0.0003",
-				"source":"11"
+				"source":"13"
+			}
+		],
+		"host":[
+			{
+				"value":"GOODS J123634.92+621549.1",
+				"source":"7,6,8,9,10,11,12"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"5590",
-				"source":"10",
+				"source":"1",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-20.5",
-				"source":"10"
+				"source":"1"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"23.2",
-				"source":"10,1,2"
+				"source":"1,4,5"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/05/19",
-				"source":"10,1,2"
+				"source":"1,4,5"
 			}
 		],
 		"ra":[
 			{
+				"value":"12:36:34.853",
+				"source":"2,3",
+				"unit":"hours"
+			},
+			{
 				"value":"12:36:34.81",
-				"source":"1,2",
+				"source":"4,5",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.854",
-				"source":"1,2"
+				"source":"4,5"
+			},
+			{
+				"value":"0.528",
+				"source":"7,6"
+			},
+			{
+				"value":"0.787",
+				"source":"9,6"
+			},
+			{
+				"value":"0.794",
+				"source":"9,6"
+			},
+			{
+				"value":"0.863",
+				"source":"10,6"
+			},
+			{
+				"value":"0.893",
+				"source":"10,6"
+			},
+			{
+				"value":"0.938",
+				"source":"10,6"
+			},
+			{
+				"value":"0.954",
+				"source":"11,6"
+			},
+			{
+				"value":"0.978",
+				"source":"12,6"
+			},
+			{
+				"value":"1.07",
+				"source":"10,6"
 			}
 		],
 		"velocity":[
 			{
 				"value":"165000",
-				"source":"10",
+				"source":"1",
 				"unit":"km/s"
 			}
 		],
@@ -214,7 +287,7 @@
 				"time":"53144.5",
 				"u_time":"MJD",
 				"magnitude":"23.2",
-				"source":"1,2"
+				"source":"4,5"
 			}
 		]
 	}
