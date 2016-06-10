@@ -3,23 +3,23 @@
 		"name":"SPC-0401",
 		"sources":[
 			{
+				"name":"The Open Supernova Catalog",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"1",
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
+			},
+			{
 				"name":"unannounced",
 				"url":"unannounced",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"2",
-				"secondary":true
-			},
-			{
-				"name":"The Open Supernova Catalog",
-				"url":"https://sne.space",
-				"bibcode":"2016arXiv160501054G",
 				"alias":"3",
-				"secondary":true,
-				"reference":"Guillochon, Parrent, & Margutti (2016)"
+				"secondary":true
 			},
 			{
 				"name":"2011ApJ...737..103S",
@@ -31,43 +31,39 @@
 		"alias":[
 			{
 				"value":"SPC-0401",
-				"source":"1,2"
-			},
-			{
-				"value":"Mingus",
-				"source":"1,2"
+				"source":"1"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2"
+				"source":"2,3"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"4850",
-				"source":"3",
+				"source":"1",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"+62:22:15.5",
-				"source":"1,2",
+				"source":"2,3",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2004/04/03",
-				"source":"1,2"
+				"source":"2,3"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"HST",
-				"source":"1,2"
+				"source":"2,3"
 			}
 		],
 		"ebv":[
@@ -77,48 +73,56 @@
 				"source":"4"
 			}
 		],
+		"errors":[
+			{
+				"value":"Latest Supernovae",
+				"kind":"name",
+				"extra":"alias",
+				"source":"1"
+			}
+		],
 		"lumdist":[
 			{
 				"value":"13200",
-				"source":"3",
+				"source":"1",
 				"unit":"Mpc"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-20.4",
-				"source":"3"
+				"source":"1"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"25.2",
-				"source":"3,1,2"
+				"source":"1,2,3"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/04/02",
-				"source":"3,1,2"
+				"source":"1,2,3"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:37:09.5",
-				"source":"1,2",
+				"source":"2,3",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"1.71",
-				"source":"1,2"
+				"source":"2,3"
 			}
 		],
 		"velocity":[
 			{
 				"value":"228000",
-				"source":"3",
+				"source":"1",
 				"unit":"km/s"
 			}
 		],
@@ -127,7 +131,7 @@
 				"time":"53097.5",
 				"u_time":"MJD",
 				"magnitude":"25.2",
-				"source":"1,2"
+				"source":"2,3"
 			}
 		]
 	}
