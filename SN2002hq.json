@@ -3,64 +3,64 @@
 		"name":"SN2002hq",
 		"sources":[
 			{
+				"name":"The Open Supernova Catalog",
+				"url":"https://sne.space",
+				"bibcode":"2016arXiv160501054G",
+				"alias":"1",
+				"secondary":true,
+				"reference":"Guillochon, Parrent, & Margutti (2016)"
+			},
+			{
 				"name":"SIMBAD astronomical database",
 				"url":"http://simbad.u-strasbg.fr/",
 				"bibcode":"2000A&AS..143....9W",
-				"alias":"1",
+				"alias":"2",
 				"secondary":true,
 				"reference":"Wenger et al. (2000)"
 			},
 			{
 				"name":"2004ApJ...613..200S",
 				"bibcode":"2004ApJ...613..200S",
-				"alias":"2",
+				"alias":"3",
 				"reference":"Strolger et al. (2004)"
 			},
 			{
 				"name":"2014MNRAS.444.2133S",
 				"bibcode":"2014MNRAS.444.2133S",
-				"alias":"3",
+				"alias":"4",
 				"reference":"Stanway, Levan, & Davies (2014)"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"IAUC 8012",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08000/08012.html#Item1",
 				"bibcode":"2002IAUC.8012....2B",
-				"alias":"6",
+				"alias":"7",
 				"reference":"Boles, Schwartz, & Li (2002)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7",
+				"alias":"8",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"8",
-				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
-			},
-			{
-				"name":"The Open Supernova Catalog",
-				"url":"https://sne.space",
-				"bibcode":"2016arXiv160501054G",
 				"alias":"9",
-				"secondary":true,
-				"reference":"Guillochon, Parrent, & Margutti (2016)"
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
@@ -72,52 +72,47 @@
 		"alias":[
 			{
 				"value":"SN2002hq",
-				"source":"1,3,4,5,6,7,8"
+				"source":"2,4,5,6,7,8,9"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"2490",
-				"source":"9",
+				"source":"1",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-27:43:47.2",
-				"source":"1,2",
-				"unit":"degrees"
-			},
-			{
-				"value":"+−27:43:47.40",
-				"source":"3",
+				"source":"2,3",
 				"unit":"degrees"
 			},
 			{
 				"value":"-27:43:46.7",
-				"source":"4,6,7,8",
+				"source":"5,7,8,9",
 				"unit":"nospace"
 			},
 			{
 				"value":"-27:43:46.70",
-				"source":"5",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2002/11/01",
-				"source":"4,5,6,7,8"
+				"source":"5,6,7,8,9"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"GOODS, HHZST",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"value":"HST GOODS team",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"ebv":[
@@ -127,38 +122,45 @@
 				"source":"10"
 			}
 		],
+		"errors":[
+			{
+				"value":"2014MNRAS.444.2133S",
+				"kind":"bibcode",
+				"extra":"dec"
+			}
+		],
 		"host":[
 			{
 				"value":"A033230-2743",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-27:43:46",
-				"source":"4",
+				"source":"5",
 				"unit":"nospace"
 			},
 			{
 				"value":"-27:43:46.0",
-				"source":"8"
+				"source":"9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"03:32:30",
-				"source":"4",
+				"source":"5",
 				"unit":"nospace"
 			},
 			{
 				"value":"03:32:30.00",
-				"source":"8"
+				"source":"9"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"4150",
-				"source":"9",
+				"source":"1",
 				"kind":"host",
 				"unit":"Mpc"
 			}
@@ -166,49 +168,49 @@
 		"maxabsmag":[
 			{
 				"value":"-17.4",
-				"source":"9"
+				"source":"1"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"25.7",
-				"source":"9,6,7"
+				"source":"1,7,8"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/10/31",
-				"source":"9,6,7"
+				"source":"1,7,8"
 			}
 		],
 		"ra":[
 			{
 				"value":"03:32:29.94",
-				"source":"1,2",
+				"source":"2,3",
 				"unit":"hours"
 			},
 			{
 				"value":"03:32:30.027",
-				"source":"3",
+				"source":"4",
 				"unit":"hours"
 			},
 			{
 				"value":"03:32:30.12",
-				"source":"4,5,6,7,8",
+				"source":"5,6,7,8,9",
 				"unit":"nospace"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.669",
-				"source":"3",
+				"source":"4",
 				"kind":"host"
 			}
 		],
 		"velocity":[
 			{
 				"value":"141000",
-				"source":"9",
+				"source":"1",
 				"kind":"host",
 				"unit":"km/s"
 			}
@@ -218,7 +220,7 @@
 				"time":"52578.5",
 				"u_time":"MJD",
 				"magnitude":"25.7",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		]
 	}
