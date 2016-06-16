@@ -61,6 +61,12 @@
 				"bibcode":"2011ApJ...737..103S",
 				"alias":"9",
 				"reference":"Schlafly & Finkbeiner (2011)"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"10",
+				"reference":"Planck Collaboration et al. (2015)"
 			}
 		],
 		"alias":[
@@ -72,15 +78,11 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,7"
+				"source":"1,2,3,7"
 			},
 			{
 				"value":"Ia?",
 				"source":"2"
-			},
-			{
-				"value":"0.0002",
-				"source":"3"
 			}
 		],
 		"comovingdist":[
@@ -144,15 +146,17 @@
 		"lumdist":[
 			{
 				"value":"4907",
-				"source":"8",
+				"source":"8,10,3",
 				"kind":"host",
-				"unit":"Mpc"
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18.17",
-				"source":"8"
+				"source":"8,10,3",
+				"derived":true
 			}
 		],
 		"maxappmag":[
@@ -196,9 +200,10 @@
 		"velocity":[
 			{
 				"value":"154400",
-				"source":"8",
+				"source":"8,3",
 				"kind":"host",
-				"unit":"km/s"
+				"unit":"km/s",
+				"derived":true
 			}
 		],
 		"photometry":[

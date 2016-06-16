@@ -120,6 +120,12 @@
 				"bibcode":"2011ApJ...737..103S",
 				"alias":"19",
 				"reference":"Schlafly & Finkbeiner (2011)"
+			},
+			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"20",
+				"reference":"Planck Collaboration et al. (2015)"
 			}
 		],
 		"alias":[
@@ -261,15 +267,17 @@
 		"lumdist":[
 			{
 				"value":"4630",
-				"source":"18",
+				"source":"18,20,2,16,17",
 				"kind":"heliocentric",
-				"unit":"Mpc"
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-17.7",
-				"source":"18"
+				"source":"18,20,2,16,17",
+				"derived":true
 			}
 		],
 		"maxappmag":[
@@ -352,9 +360,10 @@
 		"velocity":[
 			{
 				"value":"150000",
-				"source":"18",
+				"source":"18,2,16,17",
 				"kind":"heliocentric",
-				"unit":"km/s"
+				"unit":"km/s",
+				"derived":true
 			}
 		],
 		"photometry":[

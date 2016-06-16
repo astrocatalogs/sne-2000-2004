@@ -49,9 +49,15 @@
 				"reference":"Schlafly & Finkbeiner (2011)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"8",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"8",
+				"alias":"9",
 				"secondary":true
 			}
 		],
@@ -68,8 +74,9 @@
 		"comovingdist":[
 			{
 				"value":"52.5",
-				"source":"2",
-				"unit":"Mpc"
+				"source":"2,8,9",
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"dec":[
@@ -112,15 +119,17 @@
 		"lumdist":[
 			{
 				"value":"53.1",
-				"source":"2",
+				"source":"2,8,9",
 				"kind":"host",
-				"unit":"Mpc"
+				"unit":"Mpc",
+				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-16.3",
-				"source":"2"
+				"source":"2,8,9",
+				"derived":true
 			}
 		],
 		"maxappmag":[
@@ -150,16 +159,18 @@
 		"redshift":[
 			{
 				"value":"0.0119",
-				"source":"8",
-				"kind":"host"
+				"source":"8,9",
+				"kind":"host",
+				"derived":true
 			}
 		],
 		"velocity":[
 			{
 				"value":"3550",
-				"source":"2",
+				"source":"2,8,9",
 				"kind":"host",
-				"unit":"km/s"
+				"unit":"km/s",
+				"derived":true
 			}
 		],
 		"photometry":[
