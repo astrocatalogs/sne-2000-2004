@@ -137,17 +137,17 @@
 		"comovingdist":[
 			{
 				"value":"1900",
-				"source":"7,6",
+				"source":"6,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1910",
-				"source":"8,6",
+				"source":"6,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2630",
-				"source":"9,6,10",
+				"source":"6,9,10",
 				"unit":"Mpc"
 			},
 			{
@@ -234,19 +234,50 @@
 			{
 				"value":"0.0095",
 				"error":"0.0012",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"[HSP2005] J141657.90+522246.53",
-				"source":"7,6,8,9,10,11,2,12,13,14,15"
+				"source":"6,7,8,9,10,11,2,12,13,14,15"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"+52:22:46.53",
+				"source":"17",
+				"unit":"degrees",
+				"derived":true
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.4853",
+				"source":"1,17,2",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.584",
+				"source":"1,10,11,12,13,14,15,16,17,2,3,4,5,6,7,8,9"
+			}
+		],
+		"hostra":[
+			{
+				"value":"14:16:57.90",
+				"source":"17",
+				"unit":"hours",
+				"derived":true
 			}
 		],
 		"lumdist":[
 			{
 				"value":"4600",
-				"source":"17,19,3,4,5,16",
+				"source":"10,11,12,13,14,15,16,17,19,2,3,4,5,6,7,8,9",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -255,26 +286,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"17,19,3,4,5,16",
+				"source":"10,11,12,13,14,15,16,17,19,2,3,4,5,6,7,8,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"25.32",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/04/14",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -298,14 +332,14 @@
 			{
 				"value":"0.73",
 				"error":"0.01",
-				"source":"3,4,5,16",
+				"source":"3,4,5,6,7,8,9,10,11,2,12,13,14,15,16",
 				"kind":"host"
 			}
 		],
 		"velocity":[
 			{
 				"value":"150000",
-				"source":"17,3,4,5,16",
+				"source":"10,11,12,13,14,15,16,17,2,3,4,5,6,7,8,9",
 				"kind":"host",
 				"unit":"km/s",
 				"derived":true
@@ -12901,7 +12935,7 @@
 						"3.8536e-19"
 					]
 				],
-				"source":"3,16"
+				"source":"16,3"
 			}
 		]
 	}

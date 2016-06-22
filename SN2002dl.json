@@ -155,7 +155,7 @@
 		"comovingdist":[
 			{
 				"value":"72.5",
-				"source":"15,14",
+				"source":"14,15",
 				"unit":"Mpc"
 			}
 		],
@@ -191,35 +191,52 @@
 			{
 				"value":"0.0668",
 				"error":"0.0003",
-				"source":"20"
+				"source":"19,20",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 11994",
-				"source":"5,6,9,10,11,12,13,15,14"
+				"source":"5,6,9,10,11,12,13,14,15"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+33:17:43",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+33:17:42.4",
-				"source":"13"
+				"source":"13",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"17.14",
+				"source":"1,10,11,12,13,19,2,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"5.928",
+				"source":"1,10,11,12,13,14,15,19,2,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"22:20:53",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"22:20:53.10",
-				"source":"13"
+				"source":"13",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -234,26 +251,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18",
-				"source":"19,13",
+				"source":"13,19",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.11",
-				"source":"19,5,6"
+				"source":"19,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"19,5,6"
+				"source":"19,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/06/27",
-				"source":"19,5,6"
+				"source":"19,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -265,12 +285,8 @@
 		],
 		"redshift":[
 			{
-				"value":"0.0164",
-				"source":"15,14"
-			},
-			{
-				"value":"0.0163",
-				"source":"16"
+				"value":"0.016251",
+				"source":"14,15"
 			}
 		],
 		"velocity":[
@@ -14057,7 +14073,7 @@
 						"2.1971917e-17"
 					]
 				],
-				"source":"17,4,18"
+				"source":"17,18,4"
 			},
 			{
 				"deredshifted":false,
@@ -26811,7 +26827,7 @@
 						"2.473313e-17"
 					]
 				],
-				"source":"17,4,18"
+				"source":"17,18,4"
 			},
 			{
 				"deredshifted":false,
@@ -39630,7 +39646,7 @@
 						"2.5266094e-17"
 					]
 				],
-				"source":"17,4,18"
+				"source":"17,18,4"
 			},
 			{
 				"deredshifted":false,
@@ -52384,7 +52400,7 @@
 						"2.9353851e-17"
 					]
 				],
-				"source":"17,4,18"
+				"source":"17,18,4"
 			}
 		]
 	}

@@ -134,27 +134,27 @@
 			},
 			{
 				"value":"1420",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1860",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1950",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1960",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2040",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			},
 			{
@@ -164,7 +164,7 @@
 			},
 			{
 				"value":"2090",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
@@ -179,12 +179,12 @@
 			},
 			{
 				"value":"2290",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2400",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			},
 			{
@@ -231,7 +231,8 @@
 			{
 				"value":"0.0218",
 				"error":"0.0004",
-				"source":"16"
+				"source":"15,16",
+				"derived":true
 			}
 		],
 		"host":[
@@ -240,10 +241,40 @@
 				"source":"2,5,6,7,8,9,10,11,12"
 			}
 		],
+		"hostdec":[
+			{
+				"value":"-04:19:38.7",
+				"source":"15",
+				"unit":"degrees",
+				"derived":true
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.5311",
+				"source":"1,15,2",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"1.483",
+				"source":"1,10,11,12,13,14,15,2,3,4,5,6,7,8,9"
+			}
+		],
+		"hostra":[
+			{
+				"value":"02:27:33.39",
+				"source":"15",
+				"unit":"hours",
+				"derived":true
+			}
+		],
 		"lumdist":[
 			{
 				"value":"3100",
-				"source":"15,17,2,3,4,13,14",
+				"source":"10,11,12,13,14,15,17,2,3,4,5,6,7,8,9",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -252,26 +283,29 @@
 		"maxabsmag":[
 			{
 				"value":"-16.4",
-				"source":"15,17,2,3,4,13,14",
+				"source":"10,11,12,13,14,15,17,2,3,4,5,6,7,8,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"26.05",
-				"source":"15,2"
+				"source":"15,2",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"15,2"
+				"source":"15,2",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/12/26",
-				"source":"15,2"
+				"source":"15,2",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -289,54 +323,14 @@
 		"redshift":[
 			{
 				"value":"0.526",
-				"source":"2,3,4,13,14",
+				"source":"2,3,4,5,6,7,8,9,10,11,12,13,14",
 				"kind":"heliocentric"
-			},
-			{
-				"value":"0.209",
-				"source":"2,5"
-			},
-			{
-				"value":"0.475",
-				"source":"7,5"
-			},
-			{
-				"value":"0.501",
-				"source":"8,5"
-			},
-			{
-				"value":"0.504",
-				"source":"9,5"
-			},
-			{
-				"value":"0.528",
-				"source":"9,5"
-			},
-			{
-				"value":"0.537",
-				"source":"10,5"
-			},
-			{
-				"value":"0.544",
-				"source":"8,5"
-			},
-			{
-				"value":"0.581",
-				"source":"11,5"
-			},
-			{
-				"value":"0.606",
-				"source":"9,5"
-			},
-			{
-				"value":"0.728",
-				"source":"2,5"
 			}
 		],
 		"velocity":[
 			{
 				"value":"120000",
-				"source":"15,2,3,4,13,14",
+				"source":"10,11,12,13,14,15,2,3,4,5,6,7,8,9",
 				"kind":"heliocentric",
 				"unit":"km/s",
 				"derived":true

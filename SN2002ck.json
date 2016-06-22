@@ -181,37 +181,37 @@
 		"comovingdist":[
 			{
 				"value":"92.7",
-				"source":"15,14",
+				"source":"14,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"115",
-				"source":"16,14",
+				"source":"14,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"120",
-				"source":"17,14",
+				"source":"14,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"124",
-				"source":"18,14",
+				"source":"14,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"132",
-				"source":"19,14",
+				"source":"14,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"137",
-				"source":"19,14",
+				"source":"14,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"138",
-				"source":"19,14",
+				"source":"14,19",
 				"unit":"Mpc"
 			}
 		],
@@ -224,7 +224,7 @@
 			{
 				"value":"-00:59:25.44",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:59:25.51",
@@ -248,45 +248,62 @@
 			{
 				"value":"0.0847",
 				"error":"0.0013",
-				"source":"26"
+				"source":"25,26",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 10030",
-				"source":"4,9,10,11,12,13,15,14,16,17,18,20,19"
+				"source":"4,9,10,11,12,13,14,15,16,17,18,20,19"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-00:59:05.64",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:59:07",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-00:59:06.7",
-				"source":"13"
+				"source":"13",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"20.27",
+				"source":"1,10,11,12,13,2,25,5,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"8.846",
+				"source":"1,10,11,12,13,14,15,16,17,18,19,2,25,5,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"15:47:00.48",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"15:47:00",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"15:47:00.41",
-				"source":"13"
+				"source":"13",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -301,20 +318,22 @@
 		"maxabsmag":[
 			{
 				"value":"-18.7",
-				"source":"25,13",
+				"source":"13,25",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.91",
-				"source":"25,6,8"
+				"source":"25,6,8",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"25,6,8"
+				"source":"25,6,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -332,19 +351,13 @@
 			{
 				"value":"15:47:00.72",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.02986",
-				"source":"4",
-				"kind":"heliocentric"
-			},
-			{
-				"value":"0.02975",
-				"source":"5",
-				"kind":"host"
+				"value":"0.029864",
+				"source":"14,15,16,17,18,19"
 			}
 		],
 		"velocity":[
@@ -13411,7 +13424,7 @@
 						"3.0173877e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -26165,7 +26178,7 @@
 						"2.7029259e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -38654,7 +38667,7 @@
 						"1.9051239e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -65627,7 +65640,7 @@
 						"2.5059199e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -78386,7 +78399,7 @@
 						"1.9349009e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -91140,7 +91153,7 @@
 						"1.828517e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -103894,7 +103907,7 @@
 						"2.2915227e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -116513,7 +116526,7 @@
 						"1.1498772e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			}
 		]
 	}

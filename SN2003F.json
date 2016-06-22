@@ -121,13 +121,13 @@
 		"alias":[
 			{
 				"value":"SN2003F",
-				"source":"1,4,5,7,8,9,10,11,12,14"
+				"source":"1,4,5,7,8,10,9,11,12,14"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,7,8,9,10,11,12,4"
+				"source":"1,3,7,8,10,9,11,12,4"
 			}
 		],
 		"comovingdist":[
@@ -151,14 +151,14 @@
 			},
 			{
 				"value":"+17:03:28.49",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/01/08",
-				"source":"7,8,9,10,11,4"
+				"source":"7,8,10,9,11,4"
 			}
 		],
 		"discoverer":[
@@ -168,42 +168,59 @@
 			},
 			{
 				"value":"LOTOSS",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.2826",
 				"error":"0.003",
-				"source":"17"
+				"source":"16,17",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 3261",
-				"source":"4,7,8,9,10,11"
+				"source":"4,7,8,10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+17:03:24",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+17:03:21.4",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"4.403",
+				"source":"1,11,16,2,7,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"1.595",
+				"source":"1,11,16,18,2,4,7,8"
 			}
 		],
 		"hostra":[
 			{
 				"value":"05:11:33",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"05:11:32.42",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -225,19 +242,22 @@
 		"maxappmag":[
 			{
 				"value":"15.8",
-				"source":"16,5,6"
+				"source":"16,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"16,5,6"
+				"source":"16,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/01/12",
-				"source":"16,5,6"
+				"source":"16,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -248,7 +268,7 @@
 			},
 			{
 				"value":"05:11:32.998",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"hours"
 			}
 		],
@@ -293,7 +313,7 @@
 				"time":"52650.5",
 				"u_time":"MJD",
 				"magnitude":"15.8",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"52650.82",
@@ -13119,7 +13139,7 @@
 						"3.3266206e-17"
 					]
 				],
-				"source":"14,13,15"
+				"source":"13,14,15"
 			},
 			{
 				"deredshifted":false,
@@ -41521,7 +41541,7 @@
 						"1.3585493e-17"
 					]
 				],
-				"source":"14,13,15"
+				"source":"13,14,15"
 			},
 			{
 				"deredshifted":false,

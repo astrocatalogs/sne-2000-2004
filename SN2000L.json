@@ -101,13 +101,13 @@
 		"alias":[
 			{
 				"value":"SN2000L",
-				"source":"1,4,5,7,8,9,10,11,12"
+				"source":"1,4,5,7,8,10,9,11,12"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,3,4,7,8,9,10,11"
+				"source":"1,3,4,7,8,10,9,11"
 			}
 		],
 		"comovingdist":[
@@ -121,13 +121,13 @@
 		"dec":[
 			{
 				"value":"+65:08:03.5",
-				"source":"1,2,7,9,10,11",
+				"source":"1,2,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
 				"value":"+65:08:03.48",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+65:08:03.52",
@@ -138,7 +138,7 @@
 		"discoverdate":[
 			{
 				"value":"2000/02/29",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"discoverer":[
@@ -148,52 +148,69 @@
 			},
 			{
 				"value":"Tim Puckett et al.",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0306",
 				"error":"0.0025",
-				"source":"14"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 5520",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+65:08:23.64",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+65:08:21",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+65:08:23.8",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"28.45",
+				"source":"1,10,11,13,2,4,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"6.63",
+				"source":"1,10,11,13,15,2,4,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"10:15:00.48",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"10:15:00",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"10:15:00.52",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -208,38 +225,41 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"13,11",
+				"source":"11,13",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.5",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2000/03/12",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"10:15:01.82",
-				"source":"1,2,7,8,9,10,11",
+				"source":"1,2,7,8,10,9,11",
 				"unit":"hours"
 			},
 			{
 				"value":"10:15:01.92",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -269,7 +289,7 @@
 				"time":"51604.5",
 				"u_time":"MJD",
 				"magnitude":"17.2",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"51605.97",

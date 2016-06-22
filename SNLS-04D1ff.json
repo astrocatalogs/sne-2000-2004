@@ -84,7 +84,7 @@
 		"comovingdist":[
 			{
 				"value":"2450",
-				"source":"4,3",
+				"source":"3,4",
 				"unit":"Mpc"
 			},
 			{
@@ -94,7 +94,7 @@
 			},
 			{
 				"value":"2680",
-				"source":"5,3",
+				"source":"3,5",
 				"unit":"Mpc"
 			},
 			{
@@ -125,40 +125,45 @@
 			{
 				"value":"0.0238",
 				"error":"0.0005",
-				"source":"9"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"lumdist":[
 			{
-				"value":"4060",
-				"source":"8,10,4,3",
+				"value":"5600",
+				"source":"10,2,3,4,5,6,7,8",
+				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-16.6",
-				"source":"8,10,4,3",
+				"value":"-17",
+				"source":"10,2,3,4,5,6,7,8",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"26.48",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/08/19",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -170,22 +175,16 @@
 		],
 		"redshift":[
 			{
-				"value":"0.657",
-				"source":"4,3"
-			},
-			{
-				"value":"0.721",
-				"source":"2,3"
-			},
-			{
-				"value":"0.734",
-				"source":"5,3"
+				"value":"0.86",
+				"source":"2,3,4,5,6,7",
+				"kind":"heliocentric"
 			}
 		],
 		"velocity":[
 			{
-				"value":"140000",
-				"source":"8,4,3",
+				"value":"170000",
+				"source":"2,3,4,5,6,7,8",
+				"kind":"heliocentric",
 				"unit":"km/s",
 				"derived":true
 			}

@@ -98,7 +98,7 @@
 		"claimedtype":[
 			{
 				"value":"II L",
-				"source":"1,3,4,5,6,7,9,10"
+				"source":"1,3,4,5,6,7,10,9"
 			},
 			{
 				"value":"II",
@@ -133,7 +133,7 @@
 		"discoverdate":[
 			{
 				"value":"2003/08/14",
-				"source":"4,5,6,7,8,9,10"
+				"source":"4,5,6,7,8,10,9"
 			}
 		],
 		"discoverer":[
@@ -146,35 +146,52 @@
 			{
 				"value":"0.0177",
 				"error":"0.0013",
-				"source":"12"
+				"source":"11,12",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 10586",
-				"source":"4,5,6,7,8,9,10"
+				"source":"4,5,6,7,8,10,9"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+45:24:08",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+45:24:05.9",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"8.422",
+				"source":"1,11,2,4,5,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"5.544",
+				"source":"1,11,13,2,4,5,8"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:50:48",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"16:50:48.57",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -196,13 +213,15 @@
 		"maxappmag":[
 			{
 				"value":"17.7",
-				"source":"11,6,7"
+				"source":"11,6,7",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/08/13",
-				"source":"11,6,7"
+				"source":"11,6,7",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -13266,7 +13285,7 @@
 						"0.147287"
 					]
 				],
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"deredshifted":false,
@@ -27621,7 +27640,7 @@
 						"0.0415967"
 					]
 				],
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"deredshifted":false,
@@ -39812,7 +39831,7 @@
 						"0.0709125"
 					]
 				],
-				"source":"9,10"
+				"source":"10,9"
 			}
 		]
 	}

@@ -153,12 +153,12 @@
 			{
 				"value":"+61:53:24",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+61:53:24.0",
 				"source":"8,10,11,12",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+61:53:24.61",
@@ -186,7 +186,8 @@
 			{
 				"value":"0.0161",
 				"error":"0.0008",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
@@ -203,32 +204,48 @@
 			{
 				"value":"+61:53:23.64",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+61:53:21",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+61:53:23.6",
-				"source":"12"
+				"source":"12",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"18.62",
+				"source":"1,17,2,5,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"7.892",
+				"source":"1,17,19,2,4,5,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"12:15:40.8",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"12:15:41",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"12:15:40.80",
-				"source":"12"
+				"source":"12",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -250,19 +267,22 @@
 		"maxappmag":[
 			{
 				"value":"16",
-				"source":"17,6,7"
+				"source":"17,6,7",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"17,6,7"
+				"source":"17,6,7",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2000/07/12",
-				"source":"17,6,7"
+				"source":"17,6,7",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -274,12 +294,12 @@
 			{
 				"value":"12:15:42.24",
 				"source":"5",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"12:15:42.21",
 				"source":"8,10,11,12",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -13091,7 +13111,7 @@
 						"3.2540536e-17"
 					]
 				],
-				"source":"15,14,16"
+				"source":"14,15,16"
 			},
 			{
 				"deredshifted":false,

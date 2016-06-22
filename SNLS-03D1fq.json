@@ -142,17 +142,17 @@
 			},
 			{
 				"value":"2190",
-				"source":"7,6",
+				"source":"6,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2250",
-				"source":"8,6",
+				"source":"6,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2770",
-				"source":"9,6",
+				"source":"6,9",
 				"unit":"Mpc"
 			},
 			{
@@ -239,7 +239,8 @@
 			{
 				"value":"0.0224",
 				"error":"0.0005",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
@@ -248,37 +249,71 @@
 				"source":"2,6,7,8,9,10,11,12,13,14,15"
 			}
 		],
+		"hostdec":[
+			{
+				"value":"-04:18:08.10",
+				"source":"17",
+				"unit":"degrees",
+				"derived":true
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.2683",
+				"source":"1,17,2",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"1.554",
+				"source":"1,10,11,12,13,14,15,16,17,2,4,5,6,7,8,9"
+			}
+		],
+		"hostra":[
+			{
+				"value":"02:26:55.68",
+				"source":"17",
+				"unit":"hours",
+				"derived":true
+			}
+		],
 		"lumdist":[
 			{
-				"value":"3360",
-				"source":"17,19,2,6",
+				"value":"5000",
+				"source":"10,11,12,13,14,15,16,17,19,2,4,5,6,7,8,9",
+				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-16.6",
-				"source":"17,19,2,6",
+				"value":"-20",
+				"source":"10,11,12,13,14,15,16,17,19,2,4,5,6,7,8,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"26.02",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/12/26",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -295,62 +330,16 @@
 		],
 		"redshift":[
 			{
-				"value":"0.562",
-				"source":"2,6"
-			},
-			{
-				"value":"0.574",
-				"source":"7,6"
-			},
-			{
-				"value":"0.593",
-				"source":"8,6"
-			},
-			{
-				"value":"0.766",
-				"source":"9,6"
-			},
-			{
-				"value":"0.841",
-				"source":"10,6"
-			},
-			{
-				"value":"0.863",
-				"source":"2,6"
-			},
-			{
-				"value":"0.912",
-				"source":"13,6"
-			},
-			{
-				"value":"0.938",
-				"source":"14,6"
-			},
-			{
-				"value":"0.954",
-				"source":"14,6"
-			},
-			{
-				"value":"0.974",
-				"source":"11,6"
-			},
-			{
-				"value":"0.994",
-				"source":"13,6,11"
-			},
-			{
-				"value":"1.38",
-				"source":"15,6"
-			},
-			{
-				"value":"1.71",
-				"source":"11,6"
+				"value":"0.8",
+				"source":"2,4,5,6,7,8,9,10,11,12,13,14,15,16",
+				"kind":"heliocentric"
 			}
 		],
 		"velocity":[
 			{
-				"value":"125000",
-				"source":"17,2,6",
+				"value":"200000",
+				"source":"10,11,12,13,14,15,16,17,2,4,5,6,7,8,9",
+				"kind":"heliocentric",
 				"unit":"km/s",
 				"derived":true
 			}
@@ -12975,7 +12964,7 @@
 						"1.98563e-19"
 					]
 				],
-				"source":"3,16"
+				"source":"16,3"
 			}
 		]
 	}

@@ -102,7 +102,7 @@
 		"alias":[
 			{
 				"value":"SN2002gg",
-				"source":"1,4,5,7,8,9,10,11,12"
+				"source":"1,4,5,7,8,10,9,11,12"
 			}
 		],
 		"claimedtype":[
@@ -114,7 +114,7 @@
 		"comovingdist":[
 			{
 				"value":"470",
-				"source":"13,15,4,9,10,12",
+				"source":"10,12,13,15,4,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -122,7 +122,7 @@
 		"dec":[
 			{
 				"value":"+06:55:44.7",
-				"source":"1,2,7,9,10,11",
+				"source":"1,2,7,10,9,11",
 				"unit":"degrees"
 			},
 			{
@@ -134,7 +134,7 @@
 		"discoverdate":[
 			{
 				"value":"2002/10/05",
-				"source":"7,8,9,10,11,4"
+				"source":"7,8,10,9,11,4"
 			}
 		],
 		"discoverer":[
@@ -144,14 +144,15 @@
 			},
 			{
 				"value":"Nearby Supernova Factory",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.1085",
 				"error":"0.0006",
-				"source":"14"
+				"source":"13,14",
+				"derived":true
 			}
 		],
 		"host":[
@@ -168,28 +169,44 @@
 			{
 				"value":"+06:55:44",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+06:55:44.0",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"13.97",
+				"source":"1,10,11,13,2,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"28.68",
+				"source":"1,10,11,12,13,15,2,4,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"22:27:45",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"22:27:45.00",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"530",
-				"source":"13,15,4,9,10,12",
+				"source":"10,12,13,15,4,9",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -198,46 +215,49 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"13,15,4,9,10,12",
+				"source":"10,12,13,15,4,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/10/05",
-				"source":"13,5,6"
+				"source":"13,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"22:27:45.93",
-				"source":"1,2,7,8,9,10,11",
+				"source":"1,2,7,8,10,9,11",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.11",
-				"source":"4,9,10,12",
+				"source":"4,10,9,12",
 				"kind":"heliocentric"
 			}
 		],
 		"velocity":[
 			{
 				"value":"31000",
-				"source":"13,4,9,10,12",
+				"source":"10,12,13,4,9",
 				"kind":"heliocentric",
 				"unit":"km/s",
 				"derived":true
@@ -248,7 +268,7 @@
 				"time":"52551.5",
 				"u_time":"MJD",
 				"magnitude":"20.0",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"52552.18",

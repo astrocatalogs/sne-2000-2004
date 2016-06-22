@@ -131,7 +131,7 @@
 				"source":"1,4,5,6,7,8,9,14"
 			},
 			{
-				"value":"GRB 030329",
+				"value":"GRB 030329A",
 				"source":"6,7"
 			}
 		],
@@ -209,7 +209,8 @@
 			{
 				"value":"0.0214",
 				"error":"0.0006",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
@@ -226,28 +227,44 @@
 			{
 				"value":"+21:31:17",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+21:31:17.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.8139",
+				"source":"1,17,2,4,5,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.266",
+				"source":"1,10,14,17,2,4,5,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"10:44:50",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"10:44:50.00",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"836.4",
-				"source":"17,19,14",
+				"source":"14,17,19",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -255,26 +272,29 @@
 		"maxabsmag":[
 			{
 				"value":"-19.31",
-				"source":"17,19,14",
+				"source":"14,17,19",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.3",
-				"source":"17,8"
+				"source":"17,8",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"V",
-				"source":"17,8"
+				"source":"17,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/03/31",
-				"source":"17,8"
+				"source":"17,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -298,7 +318,7 @@
 		"velocity":[
 			{
 				"value":"46310",
-				"source":"17,14",
+				"source":"14,17",
 				"unit":"km/s",
 				"derived":true
 			}
@@ -4462,7 +4482,7 @@
 						"0.100"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"MMT - MMT-Blue",
@@ -10789,7 +10809,7 @@
 						"0.077"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"MMT - MMT-Blue",
@@ -12920,7 +12940,7 @@
 						"0.060"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"MMT - MMT-Blue",
@@ -15611,7 +15631,7 @@
 						"0.036"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"MMT - MMT-Blue",
@@ -17878,7 +17898,7 @@
 						"0.077"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"MMT - MMT-Blue",
@@ -22477,7 +22497,7 @@
 						"0.062"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"MMT - MMT-Blue",
@@ -26216,7 +26236,7 @@
 						"0.100"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"MMT - MMT-Blue",
@@ -27815,7 +27835,7 @@
 						"0.052"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"Magellan-Baade - Boller & Chivens",
@@ -28994,7 +29014,7 @@
 						"0.066"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"Magellan-Baade - Boller & Chivens",
@@ -30649,7 +30669,7 @@
 						"0.055"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"Subaru - FOCAS",
@@ -31980,7 +32000,7 @@
 						"0.044"
 					]
 				],
-				"source":"16,14"
+				"source":"14,16"
 			},
 			{
 				"instrument":"Keck1 - LRIS",
@@ -33135,7 +33155,7 @@
 						"0.033"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"instrument":"Subaru - FOCAS",
@@ -33502,7 +33522,7 @@
 						"0.007"
 					]
 				],
-				"source":"16,14"
+				"source":"14,16"
 			}
 		]
 	}

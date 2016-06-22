@@ -201,22 +201,22 @@
 		"comovingdist":[
 			{
 				"value":"106",
-				"source":"16,15",
+				"source":"15,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"137",
-				"source":"17,15",
+				"source":"15,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"145",
-				"source":"19,15",
+				"source":"15,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"152",
-				"source":"20,15",
+				"source":"15,20",
 				"unit":"Mpc"
 			}
 		],
@@ -248,35 +248,52 @@
 			{
 				"value":"0.0159",
 				"error":"0.0007",
-				"source":"28"
+				"source":"27,28",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"IC 4423",
-				"source":"4,6,10,11,12,13,14,16,15,17,18,19,20,25,22"
+				"source":"4,6,10,11,12,13,14,15,16,17,18,19,20,25,22"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+26:14:46",
 				"source":"10",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+26:14:46.4",
-				"source":"14"
+				"source":"14",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"17.92",
+				"source":"1,10,11,12,13,14,2,27",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"8.939",
+				"source":"1,10,11,12,13,14,15,16,17,19,2,27,4"
 			}
 		],
 		"hostra":[
 			{
 				"value":"14:26:18",
 				"source":"10",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"14:26:17.71",
-				"source":"14"
+				"source":"14",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -291,20 +308,22 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"27,14",
+				"source":"14,27",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.72",
-				"source":"27,4,6"
+				"source":"27,4,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"27,4,6"
+				"source":"27,4,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -323,7 +342,7 @@
 		"redshift":[
 			{
 				"value":"0.03024",
-				"source":"4",
+				"source":"4,15,16,17,19",
 				"kind":"heliocentric"
 			}
 		],
@@ -14773,7 +14792,7 @@
 						"1.766629e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -27527,7 +27546,7 @@
 						"1.9212355e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -40281,7 +40300,7 @@
 						"5.9917196e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -51598,7 +51617,7 @@
 						"2.3469502e-16"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"u_time":"MJD",
@@ -87945,7 +87964,7 @@
 						"1.9331688e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"u_time":"MJD",
@@ -111809,7 +111828,7 @@
 						"0.154720"
 					]
 				],
-				"source":"4,22"
+				"source":"22,4"
 			},
 			{
 				"deredshifted":false,
@@ -124563,7 +124582,7 @@
 						"1.3640455e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -137317,7 +137336,7 @@
 						"1.5145782e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -139546,7 +139565,7 @@
 						"6.17687e-16"
 					]
 				],
-				"source":"4,25"
+				"source":"25,4"
 			},
 			{
 				"u_time":"MJD",
@@ -147916,7 +147935,7 @@
 						"5.46459e-16"
 					]
 				],
-				"source":"4,25"
+				"source":"25,4"
 			},
 			{
 				"u_time":"MJD",
@@ -167010,7 +167029,7 @@
 						"1.00000"
 					]
 				],
-				"source":"4,22"
+				"source":"22,4"
 			},
 			{
 				"deredshifted":false,
@@ -179764,7 +179783,7 @@
 						"1.8257743e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"u_time":"MJD",
@@ -200479,7 +200498,7 @@
 						"1.9302089e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -212632,7 +212651,7 @@
 						"1.3276085e-16"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -224921,7 +224940,7 @@
 						"-7.6075053e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -237540,7 +237559,7 @@
 						"1.7470905e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -250294,7 +250313,7 @@
 						"1.1706693e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -263048,7 +263067,7 @@
 						"4.5607933e-17"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			},
 			{
 				"deredshifted":false,
@@ -274465,7 +274484,7 @@
 						"1.21551e-16"
 					]
 				],
-				"source":"23,5,24"
+				"source":"23,24,5"
 			}
 		]
 	}

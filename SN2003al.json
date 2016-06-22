@@ -82,7 +82,7 @@
 			{
 				"value":"-27:44:29.2",
 				"source":"3,7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-27:44:29.18",
@@ -115,7 +115,8 @@
 			{
 				"value":"0.0079",
 				"error":"0.0004",
-				"source":"9"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -128,34 +129,46 @@
 			{
 				"value":"-27:44:29",
 				"source":"3",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-27:44:29.0",
-				"source":"7"
+				"source":"7",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"5.78",
+				"source":"1,2,3,8",
+				"unit":"arcseconds",
+				"derived":true
 			}
 		],
 		"hostra":[
 			{
 				"value":"03:32:05",
 				"source":"3",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"03:32:05.00",
-				"source":"7"
+				"source":"7",
+				"unit":"hours"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.5",
-				"source":"8,5,6"
+				"source":"5,6,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/02/04",
-				"source":"8,5,6"
+				"source":"5,6,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -167,7 +180,7 @@
 			{
 				"value":"03:32:05.39",
 				"source":"3,4,7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"03:32:05.398",

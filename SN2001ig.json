@@ -136,7 +136,7 @@
 			},
 			{
 				"value":"Ib/c",
-				"source":"7,8,9,13,12"
+				"source":"7,8,9,12,13"
 			},
 			{
 				"value":"II",
@@ -146,7 +146,7 @@
 		"comovingdist":[
 			{
 				"value":"13.48",
-				"source":"15,17,11",
+				"source":"11,15,17",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -166,7 +166,7 @@
 		"discoverdate":[
 			{
 				"value":"2001/12/10",
-				"source":"6,7,8,9,10,13,12"
+				"source":"6,7,8,9,10,12,13"
 			}
 		],
 		"discoverer":[
@@ -183,35 +183,52 @@
 			{
 				"value":"0.0089",
 				"error":"0.0004",
-				"source":"16"
+				"source":"15,16",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 7424",
-				"source":"6,7,8,9,10,13,12"
+				"source":"6,7,8,9,10,12,13"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-41:04:14",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-41:04:14.5",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"218.9",
+				"source":"1,10,15,2,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"14.26",
+				"source":"1,10,11,15,17,2,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"22:57:18",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"22:57:18.36",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -226,26 +243,29 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"15,10",
+				"source":"10,15",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.21",
-				"source":"15,4,5"
+				"source":"15,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"15,4,5"
+				"source":"15,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2001/12/12",
-				"source":"15,4,5"
+				"source":"15,4,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -8607,7 +8627,7 @@
 						"2.436490059"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"u_time":"MJD",
@@ -24993,7 +25013,7 @@
 						"2.457793951"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"deredshifted":false,
@@ -39112,7 +39132,7 @@
 						"4.45716"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"u_time":"MJD",
@@ -67322,7 +67342,7 @@
 						"4.591380119"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"u_time":"MJD",
@@ -81224,7 +81244,7 @@
 						"3.508380175"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"deredshifted":false,
@@ -94543,7 +94563,7 @@
 						"8.43831"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"u_time":"MJD",
@@ -104801,7 +104821,7 @@
 						"10.93060017"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"deredshifted":false,
@@ -109960,7 +109980,7 @@
 						"10.9693"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"deredshifted":false,
@@ -118099,7 +118119,7 @@
 						"11.5424"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"u_time":"MJD",
@@ -134341,7 +134361,7 @@
 						"11.51725006"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"u_time":"MJD",
@@ -144599,7 +144619,7 @@
 						"10.93060017"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"u_time":"MJD",
@@ -156153,7 +156173,7 @@
 						"2.519074917"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"deredshifted":false,
@@ -168716,7 +168736,7 @@
 						"0.0253807"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"u_time":"MJD",
@@ -174990,7 +175010,7 @@
 						"0.0112062851"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			},
 			{
 				"deredshifted":false,
@@ -187629,7 +187649,7 @@
 						"0.0157411"
 					]
 				],
-				"source":"13,12"
+				"source":"12,13"
 			},
 			{
 				"u_time":"MJD",
@@ -212831,7 +212851,7 @@
 						"0.01623735018"
 					]
 				],
-				"source":"14,12"
+				"source":"12,14"
 			}
 		]
 	}

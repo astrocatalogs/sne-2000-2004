@@ -131,108 +131,114 @@
 				"reference":"Conley et al. (2011)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"22",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"22",
+				"alias":"23",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2012AJ....143..126B",
 				"bibcode":"2012AJ....143..126B",
-				"alias":"23",
+				"alias":"24",
 				"reference":"Blondin et al. (2012)"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
-				"alias":"24",
+				"alias":"25",
 				"secondary":true
 			},
 			{
 				"name":"2008AJ....135.1598M",
 				"bibcode":"2008AJ....135.1598M",
-				"alias":"25",
+				"alias":"26",
 				"reference":"Matheson et al. (2008)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"26",
+				"alias":"27",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"27",
+				"alias":"28",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2002de",
-				"source":"1,4,6,9,10,11,12,13,14,22,24"
+				"source":"1,4,6,9,10,11,12,13,14,23,25"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,4,5,9,10,11,12,13,22"
+				"source":"1,3,4,5,9,10,11,12,13,23"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"87.9",
-				"source":"15,14",
+				"source":"14,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"120",
-				"source":"17,14",
+				"source":"14,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"122",
-				"source":"18,14",
+				"source":"14,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"123.027",
-				"source":"19,14",
+				"source":"14,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"126.474",
-				"source":"19,14",
+				"source":"14,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"130",
-				"source":"20,14",
+				"source":"14,20",
 				"unit":"Mpc"
 			},
 			{
 				"value":"132",
-				"source":"20,14",
+				"source":"14,20",
 				"unit":"Mpc"
 			},
 			{
 				"value":"133",
-				"source":"20,14",
+				"source":"14,20",
 				"unit":"Mpc"
 			},
 			{
 				"value":"135",
-				"source":"20,14",
+				"source":"14,20",
 				"unit":"Mpc"
 			},
 			{
 				"value":"174",
-				"source":"21,14",
+				"source":"14,21",
 				"unit":"Mpc"
 			}
 		],
@@ -264,35 +270,52 @@
 			{
 				"value":"0.0144",
 				"error":"0.0013",
-				"source":"27"
+				"source":"27,28",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 6104",
-				"source":"4,5,9,10,11,12,13,15,14,16,17,18,19,20,21"
+				"source":"4,5,9,10,11,12,13,14,15,16,17,18,19,20,21"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+35:42:25",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+35:42:29.4",
-				"source":"13"
+				"source":"13",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"7.716",
+				"source":"1,10,11,12,13,2,27,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"3.199",
+				"source":"1,10,11,12,13,14,15,19,2,22,27,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:16:30",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"16:16:30.69",
-				"source":"13"
+				"source":"13",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -307,20 +330,22 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"26,13",
+				"source":"13,27",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.74",
-				"source":"26,4,5"
+				"source":"27,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"26,4,5"
+				"source":"27,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -339,11 +364,11 @@
 		"redshift":[
 			{
 				"value":"0.0279812",
-				"source":"19,14"
+				"source":"14,19,22"
 			},
 			{
 				"value":"0.0287704",
-				"source":"19,14"
+				"source":"14,19,22"
 			}
 		],
 		"velocity":[
@@ -14333,7 +14358,7 @@
 						"2.6503029e-17"
 					]
 				],
-				"source":"24,23,25"
+				"source":"24,25,26"
 			},
 			{
 				"deredshifted":false,
@@ -27087,7 +27112,7 @@
 						"2.868737e-17"
 					]
 				],
-				"source":"24,23,25"
+				"source":"24,25,26"
 			},
 			{
 				"deredshifted":false,
@@ -39841,7 +39866,7 @@
 						"3.401302e-17"
 					]
 				],
-				"source":"24,23,25"
+				"source":"24,25,26"
 			},
 			{
 				"deredshifted":false,
@@ -52460,7 +52485,7 @@
 						"2.1874898e-17"
 					]
 				],
-				"source":"24,23,25"
+				"source":"24,25,26"
 			},
 			{
 				"deredshifted":false,
@@ -65079,7 +65104,7 @@
 						"2.9799351e-17"
 					]
 				],
-				"source":"24,23,25"
+				"source":"24,25,26"
 			},
 			{
 				"deredshifted":false,
@@ -92165,7 +92190,7 @@
 						"2.5610427e-17"
 					]
 				],
-				"source":"24,23,25"
+				"source":"24,25,26"
 			},
 			{
 				"deredshifted":false,
@@ -104919,7 +104944,7 @@
 						"2.9089739e-17"
 					]
 				],
-				"source":"24,23,25"
+				"source":"24,25,26"
 			},
 			{
 				"deredshifted":false,
@@ -117673,7 +117698,7 @@
 						"2.7786768e-17"
 					]
 				],
-				"source":"24,23,25"
+				"source":"24,25,26"
 			},
 			{
 				"deredshifted":false,
@@ -130492,7 +130517,7 @@
 						"3.1571884e-17"
 					]
 				],
-				"source":"24,23,25"
+				"source":"24,25,26"
 			},
 			{
 				"deredshifted":false,
@@ -159697,7 +159722,7 @@
 						"2.7064336e-17"
 					]
 				],
-				"source":"24,23,25"
+				"source":"24,25,26"
 			},
 			{
 				"deredshifted":false,
@@ -172451,7 +172476,7 @@
 						"3.1723974e-17"
 					]
 				],
-				"source":"24,23,25"
+				"source":"24,25,26"
 			}
 		]
 	}

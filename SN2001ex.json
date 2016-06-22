@@ -182,7 +182,8 @@
 			{
 				"value":"0.0452",
 				"error":"0.0008",
-				"source":"19"
+				"source":"18,19",
+				"derived":true
 			}
 		],
 		"host":[
@@ -195,22 +196,38 @@
 			{
 				"value":"+55:24:02",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+55:24:02.6",
-				"source":"12"
+				"source":"12",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"16.68",
+				"source":"1,10,11,12,18,2,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"9.139",
+				"source":"1,10,11,12,18,2,20,4,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"06:56:01",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"06:56:00.41",
-				"source":"12"
+				"source":"12",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -232,13 +249,15 @@
 		"maxappmag":[
 			{
 				"value":"17.68",
-				"source":"18,4,5"
+				"source":"18,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"18,4,5"
+				"source":"18,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -13267,7 +13286,7 @@
 						"1.7296078e-17"
 					]
 				],
-				"source":"15,14,16"
+				"source":"14,15,16"
 			},
 			{
 				"deredshifted":false,
@@ -33339,7 +33358,7 @@
 						"8.23942e-17"
 					]
 				],
-				"source":"4,17"
+				"source":"17,4"
 			},
 			{
 				"deredshifted":false,
@@ -39192,7 +39211,7 @@
 						"1.50693e-16"
 					]
 				],
-				"source":"4,17"
+				"source":"17,4"
 			},
 			{
 				"deredshifted":false,
@@ -44937,7 +44956,7 @@
 						"5.18661e-17"
 					]
 				],
-				"source":"4,17"
+				"source":"17,4"
 			},
 			{
 				"deredshifted":false,
@@ -47162,7 +47181,7 @@
 						"1.22195e-16"
 					]
 				],
-				"source":"4,17"
+				"source":"17,4"
 			},
 			{
 				"deredshifted":false,
@@ -49387,7 +49406,7 @@
 						"9.4651e-17"
 					]
 				],
-				"source":"4,17"
+				"source":"17,4"
 			},
 			{
 				"deredshifted":false,
@@ -51616,7 +51635,7 @@
 						"7.95667e-17"
 					]
 				],
-				"source":"4,17"
+				"source":"17,4"
 			}
 		]
 	}

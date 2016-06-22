@@ -137,22 +137,22 @@
 		"comovingdist":[
 			{
 				"value":"1010",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1120",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1370",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1450",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			},
 			{
@@ -244,19 +244,50 @@
 			{
 				"value":"0.0067",
 				"error":"0.0003",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"[AGR2006] J141758.44+522857.6",
-				"source":"6,5,7,8,9,10,11,2,12,13,14"
+				"source":"5,6,7,8,9,10,11,2,12,13,14"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"+52:28:57.6",
+				"source":"17",
+				"unit":"degrees",
+				"derived":true
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.3425",
+				"source":"1,17,2",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"1.223",
+				"source":"1,15,17,2,5,6"
+			}
+		],
+		"hostra":[
+			{
+				"value":"14:17:58.44",
+				"source":"17",
+				"unit":"hours",
+				"derived":true
 			}
 		],
 		"lumdist":[
 			{
 				"value":"2049",
-				"source":"17,19,2,15",
+				"source":"15,17,19,2",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -265,26 +296,29 @@
 		"maxabsmag":[
 			{
 				"value":"-17.42",
-				"source":"17,19,2,15",
+				"source":"15,17,19,2",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.14",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/06/01",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -309,7 +343,7 @@
 		"velocity":[
 			{
 				"value":"91560",
-				"source":"17,2,15",
+				"source":"15,17,2",
 				"kind":"heliocentric",
 				"unit":"km/s",
 				"derived":true
@@ -5719,7 +5753,7 @@
 						"0.291779"
 					]
 				],
-				"source":"16,15"
+				"source":"15,16"
 			}
 		]
 	}

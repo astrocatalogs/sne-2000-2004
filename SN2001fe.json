@@ -181,42 +181,42 @@
 		"comovingdist":[
 			{
 				"value":"42.9",
-				"source":"14,13",
+				"source":"13,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"56.3",
-				"source":"15,13",
+				"source":"13,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"57",
-				"source":"16,13",
+				"source":"13,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"60.1",
-				"source":"17,13",
+				"source":"13,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"62",
-				"source":"18,13",
+				"source":"13,18",
 				"unit":"Mpc"
 			},
 			{
 				"value":"64.5",
-				"source":"19,13",
+				"source":"13,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"65.2",
-				"source":"19,13",
+				"source":"13,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"65.9",
-				"source":"19,13",
+				"source":"13,19",
 				"unit":"Mpc"
 			}
 		],
@@ -229,7 +229,7 @@
 			{
 				"value":"+25:29:41.7",
 				"source":"8,10,11,12",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+25:29:41.32",
@@ -257,35 +257,52 @@
 			{
 				"value":"0.0185",
 				"error":"0.0005",
-				"source":"26"
+				"source":"25,26",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 5129",
-				"source":"4,8,9,10,11,12,14,13,15,20,16,17,18,19"
+				"source":"4,8,9,10,11,12,13,14,15,20,16,17,18,19"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+25:29:43",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+25:29:41.3",
-				"source":"12"
+				"source":"12",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"13.61",
+				"source":"1,2,25,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.793",
+				"source":"1,13,14,15,16,18,19,2,25,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"09:37:58",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"09:37:58.00",
-				"source":"12"
+				"source":"12",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -300,20 +317,22 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"25,12",
+				"source":"12,25",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"14.78",
-				"source":"25,5,7"
+				"source":"25,5,7",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"25,5,7"
+				"source":"25,5,7",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -331,14 +350,13 @@
 			{
 				"value":"09:37:57.03",
 				"source":"8,10,11,12",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.01354",
-				"source":"4",
-				"kind":"heliocentric"
+				"value":"0.013539",
+				"source":"13,14,15,16,18,19"
 			}
 		],
 		"velocity":[
@@ -13658,7 +13676,7 @@
 						"3.3271441e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -40671,7 +40689,7 @@
 						"4.0930847e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -53425,7 +53443,7 @@
 						"2.1712224e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -66179,7 +66197,7 @@
 						"3.1460215e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -78933,7 +78951,7 @@
 						"3.1131515e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -91687,7 +91705,7 @@
 						"2.5688566e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -104441,7 +104459,7 @@
 						"4.55611e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -117195,7 +117213,7 @@
 						"4.1985758e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -129949,7 +129967,7 @@
 						"2.8842199e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -142703,7 +142721,7 @@
 						"2.4073737e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -155457,7 +155475,7 @@
 						"4.1622118e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			},
 			{
 				"deredshifted":false,
@@ -168211,7 +168229,7 @@
 						"3.0728029e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"22,23,24"
 			}
 		]
 	}

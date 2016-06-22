@@ -155,7 +155,7 @@
 		"comovingdist":[
 			{
 				"value":"154",
-				"source":"14,13",
+				"source":"13,14",
 				"unit":"Mpc"
 			}
 		],
@@ -187,7 +187,8 @@
 			{
 				"value":"0.0803",
 				"error":"0.006",
-				"source":"20"
+				"source":"19,20",
+				"derived":true
 			}
 		],
 		"host":[
@@ -201,35 +202,51 @@
 			},
 			{
 				"value":"CGCG 408-029",
-				"source":"14,13"
+				"source":"13,14"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+08:53:15",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+08:53:15.9",
-				"source":"12"
+				"source":"12",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"3.791",
+				"source":"1,10,11,12,19,2,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.726",
+				"source":"1,10,11,12,13,14,19,2,4,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"00:06:14",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"00:06:14.12",
-				"source":"12"
+				"source":"12",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"175.3",
-				"source":"19,21,4",
+				"source":"13,14,19,21,4",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -238,20 +255,22 @@
 		"maxabsmag":[
 			{
 				"value":"-18.78",
-				"source":"19,21,4",
+				"source":"13,14,19,21,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.44",
-				"source":"19,4,5"
+				"source":"19,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"19,4,5"
+				"source":"19,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -270,7 +289,7 @@
 		"redshift":[
 			{
 				"value":"0.03849",
-				"source":"4",
+				"source":"4,13,14",
 				"kind":"heliocentric"
 			}
 		],
@@ -27562,7 +27581,7 @@
 						"4.1886824e-17"
 					]
 				],
-				"source":"17,16,18"
+				"source":"16,17,18"
 			},
 			{
 				"deredshifted":false,
@@ -40316,7 +40335,7 @@
 						"1.9641478e-17"
 					]
 				],
-				"source":"17,16,18"
+				"source":"16,17,18"
 			},
 			{
 				"deredshifted":false,
@@ -67389,7 +67408,7 @@
 						"2.1196201e-17"
 					]
 				],
-				"source":"17,16,18"
+				"source":"16,17,18"
 			},
 			{
 				"deredshifted":false,
@@ -80143,7 +80162,7 @@
 						"1.881305e-17"
 					]
 				],
-				"source":"17,16,18"
+				"source":"16,17,18"
 			}
 		]
 	}

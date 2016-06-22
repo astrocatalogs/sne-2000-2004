@@ -121,13 +121,13 @@
 		"alias":[
 			{
 				"value":"SN2003M",
-				"source":"1,4,5,7,8,9,10,11,12,14"
+				"source":"1,4,5,7,8,10,9,11,12,14"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia Pec",
-				"source":"8,9,10,4"
+				"source":"8,10,9,4"
 			},
 			{
 				"value":"Ia",
@@ -159,7 +159,7 @@
 			},
 			{
 				"value":"+21:38:48.49",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"degrees"
 			}
 		],
@@ -172,42 +172,59 @@
 		"discoverer":[
 			{
 				"value":"LOTOSS",
-				"source":"7,9,10"
+				"source":"7,10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0232",
 				"error":"0.0014",
-				"source":"17"
+				"source":"16,17",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 7224",
-				"source":"4,7,8,9,10,11"
+				"source":"4,7,8,10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+21:38:07",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+21:38:03.7",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"61.15",
+				"source":"1,11,16,2,7,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"30.88",
+				"source":"1,11,16,18,2,4,7,8"
 			}
 		],
 		"hostra":[
 			{
 				"value":"12:13:18",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"12:13:18.27",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -229,19 +246,22 @@
 		"maxappmag":[
 			{
 				"value":"17.3",
-				"source":"16,5,6"
+				"source":"16,5,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"16,5,6"
+				"source":"16,5,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/01/13",
-				"source":"16,5,6"
+				"source":"16,5,6",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -252,7 +272,7 @@
 			},
 			{
 				"value":"12:13:21.008",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"hours"
 			}
 		],
@@ -290,7 +310,7 @@
 				"time":"52995.5",
 				"u_time":"MJD",
 				"magnitude":"17.3",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"spectra":[
@@ -13046,7 +13066,7 @@
 						"1.8151394e-17"
 					]
 				],
-				"source":"14,13,15"
+				"source":"13,14,15"
 			},
 			{
 				"deredshifted":false,
@@ -25735,7 +25755,7 @@
 						"1.3238098e-17"
 					]
 				],
-				"source":"14,13,15"
+				"source":"13,14,15"
 			},
 			{
 				"deredshifted":false,
@@ -54137,7 +54157,7 @@
 						"7.3586326e-18"
 					]
 				],
-				"source":"14,13,15"
+				"source":"13,14,15"
 			},
 			{
 				"deredshifted":false,

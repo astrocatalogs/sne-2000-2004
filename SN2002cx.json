@@ -138,13 +138,13 @@
 		"alias":[
 			{
 				"value":"SN2002cx",
-				"source":"1,4,6,8,9,2,10,11,12,14,17"
+				"source":"1,4,6,8,9,10,2,11,12,14,17"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,5,2,10,11,14,15,16"
+				"source":"4,5,10,2,11,14,15,16"
 			},
 			{
 				"value":"Ia Pec",
@@ -154,7 +154,7 @@
 		"comovingdist":[
 			{
 				"value":"166",
-				"source":"13,12",
+				"source":"12,13",
 				"unit":"Mpc"
 			}
 		],
@@ -183,20 +183,21 @@
 			},
 			{
 				"value":"Nearby Supernova Factory",
-				"source":"2,10"
+				"source":"10,2"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0278",
 				"error":"0.0008",
-				"source":"21"
+				"source":"20,21",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"CGCG 044-035",
-				"source":"4,5,8,2,10,13,12,15,16"
+				"source":"4,5,8,10,2,12,13,15,16"
 			},
 			{
 				"value":"PGC 45981",
@@ -207,22 +208,38 @@
 			{
 				"value":"+06:57:46",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+06:57:45.7",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"17.76",
+				"source":"1,10,11,2,20,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"13.96",
+				"source":"1,10,11,12,13,2,20,4,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:13:49",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"13:13:49.26",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -237,20 +254,22 @@
 		"maxabsmag":[
 			{
 				"value":"-18.4",
-				"source":"20,11",
+				"source":"11,20",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.69",
-				"source":"20,6,7"
+				"source":"20,6,7",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"20,6,7"
+				"source":"20,6,7",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -269,7 +288,7 @@
 		"redshift":[
 			{
 				"value":"0.02396",
-				"source":"4",
+				"source":"4,12,13",
 				"kind":"heliocentric"
 			}
 		],
@@ -286,7 +305,7 @@
 				"time":"52383.5",
 				"u_time":"MJD",
 				"magnitude":"17.5",
-				"source":"2,10"
+				"source":"10,2"
 			},
 			{
 				"time":"52406.21",
@@ -65521,7 +65540,7 @@
 						"0.121583"
 					]
 				],
-				"source":"4,15"
+				"source":"15,4"
 			},
 			{
 				"deredshifted":false,
@@ -77896,7 +77915,7 @@
 						"0.583799"
 					]
 				],
-				"source":"4,15"
+				"source":"15,4"
 			},
 			{
 				"deredshifted":false,
@@ -88955,7 +88974,7 @@
 						"0.0857022"
 					]
 				],
-				"source":"4,15"
+				"source":"15,4"
 			},
 			{
 				"deredshifted":false,
@@ -96494,7 +96513,7 @@
 						"0.0194278"
 					]
 				],
-				"source":"4,15"
+				"source":"15,4"
 			},
 			{
 				"deredshifted":false,
@@ -106433,7 +106452,7 @@
 						"1.07957"
 					]
 				],
-				"source":"4,15"
+				"source":"15,4"
 			},
 			{
 				"deredshifted":false,
@@ -118712,7 +118731,7 @@
 						"0.0101558"
 					]
 				],
-				"source":"4,16"
+				"source":"16,4"
 			},
 			{
 				"deredshifted":false,
@@ -131251,7 +131270,7 @@
 						"0.338565"
 					]
 				],
-				"source":"4,16"
+				"source":"16,4"
 			},
 			{
 				"deredshifted":false,
@@ -139362,7 +139381,7 @@
 						"5.90980"
 					]
 				],
-				"source":"4,16"
+				"source":"16,4"
 			},
 			{
 				"deredshifted":false,

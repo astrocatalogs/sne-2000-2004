@@ -142,52 +142,52 @@
 		"comovingdist":[
 			{
 				"value":"1240",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1250",
-				"source":"12,10",
+				"source":"10,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1750",
-				"source":"13,10",
+				"source":"10,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1780",
-				"source":"14,10",
+				"source":"10,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1800",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1840",
-				"source":"16,10,15",
+				"source":"10,16,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1850",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1860",
-				"source":"16,10",
+				"source":"10,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1870",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1900",
-				"source":"14,10",
+				"source":"10,14",
 				"unit":"Mpc"
 			}
 		],
@@ -233,7 +233,8 @@
 			{
 				"value":"0.0274",
 				"error":"0.0017",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
@@ -243,29 +244,45 @@
 			},
 			{
 				"value":"ESSENCE J023134.54-083646.4",
-				"source":"11,10,12,13,14,15,16"
+				"source":"10,11,12,13,14,15,16"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-08:36:46",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-08:36:46.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"8.11",
+				"source":"1,17,2,4,5,6,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"32.6",
+				"source":"1,10,11,17,2,4,5,6,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"02:31:34",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"02:31:34.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -287,13 +304,15 @@
 		"maxappmag":[
 			{
 				"value":"22.2",
-				"source":"17,7,8"
+				"source":"17,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/11/20",
-				"source":"17,7,8"
+				"source":"17,7,8",
+				"derived":true
 			}
 		],
 		"ra":[

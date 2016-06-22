@@ -136,42 +136,42 @@
 		"comovingdist":[
 			{
 				"value":"1460",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1990",
-				"source":"12,10",
+				"source":"10,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2360",
-				"source":"13,10",
+				"source":"10,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2470",
-				"source":"13,10",
+				"source":"10,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2490",
-				"source":"14,10",
+				"source":"10,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2890",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2940",
-				"source":"13,10",
+				"source":"10,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3190",
-				"source":"14,10,13",
+				"source":"10,14,13",
 				"unit":"Mpc"
 			}
 		],
@@ -212,7 +212,8 @@
 			{
 				"value":"0.0285",
 				"error":"0.0006",
-				"source":"17"
+				"source":"16,17",
+				"derived":true
 			}
 		],
 		"host":[
@@ -222,29 +223,45 @@
 			},
 			{
 				"value":"ESSENCE J023040.00-081140.5",
-				"source":"11,10,12,13,14,15"
+				"source":"10,11,12,13,14,15"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-08:11:40",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-08:11:40.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.5",
+				"source":"1,16,2,4,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2",
+				"source":"1,10,11,16,2,4,5,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"02:30:40",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"02:30:40.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -266,13 +283,15 @@
 		"maxappmag":[
 			{
 				"value":"21.3",
-				"source":"16,7,8"
+				"source":"16,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/11/04",
-				"source":"16,7,8"
+				"source":"16,7,8",
+				"derived":true
 			}
 		],
 		"ra":[

@@ -190,7 +190,8 @@
 			{
 				"value":"0.0878",
 				"error":"0.0059",
-				"source":"19"
+				"source":"18,19",
+				"derived":true
 			}
 		],
 		"host":[
@@ -203,22 +204,38 @@
 			{
 				"value":"+45:42:24",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+45:42:20.8",
-				"source":"13"
+				"source":"13",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"29.71",
+				"source":"1,10,11,12,13,18,2,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"9.861",
+				"source":"1,10,11,12,13,18,2,20,4,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"18:46:58",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"18:46:57.61",
-				"source":"13"
+				"source":"13",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -233,20 +250,22 @@
 		"maxabsmag":[
 			{
 				"value":"-20",
-				"source":"18,13",
+				"source":"13,18",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.51",
-				"source":"18,4,6"
+				"source":"18,4,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"18,4,6"
+				"source":"18,4,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -7801,7 +7820,7 @@
 						"9.21453e-16"
 					]
 				],
-				"source":"15,14"
+				"source":"14,15"
 			},
 			{
 				"deredshifted":false,
@@ -34774,7 +34793,7 @@
 						"3.3414075e-17"
 					]
 				],
-				"source":"16,5,17"
+				"source":"16,17,5"
 			},
 			{
 				"deredshifted":false,
@@ -47533,7 +47552,7 @@
 						"3.2653072e-17"
 					]
 				],
-				"source":"16,5,17"
+				"source":"16,17,5"
 			},
 			{
 				"deredshifted":false,
@@ -60222,7 +60241,7 @@
 						"3.0537527e-17"
 					]
 				],
-				"source":"16,5,17"
+				"source":"16,17,5"
 			},
 			{
 				"deredshifted":false,
@@ -72976,7 +72995,7 @@
 						"1.8625224e-17"
 					]
 				],
-				"source":"16,5,17"
+				"source":"16,17,5"
 			},
 			{
 				"deredshifted":false,
@@ -85730,7 +85749,7 @@
 						"2.4289869e-17"
 					]
 				],
-				"source":"16,5,17"
+				"source":"16,17,5"
 			},
 			{
 				"deredshifted":false,

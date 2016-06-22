@@ -146,42 +146,42 @@
 		"comovingdist":[
 			{
 				"value":"1120",
-				"source":"11,10,12",
+				"source":"10,11,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1500",
-				"source":"13,10",
+				"source":"10,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1580",
-				"source":"14,10",
+				"source":"10,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1600",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1670",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1730",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1750",
-				"source":"16,10,15",
+				"source":"10,16,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1770",
-				"source":"14,10",
+				"source":"10,14",
 				"unit":"Mpc"
 			}
 		],
@@ -227,7 +227,8 @@
 			{
 				"value":"0.0297",
 				"error":"0.0013",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
@@ -237,29 +238,45 @@
 			},
 			{
 				"value":"ESSENCE J232758.22-085711.8",
-				"source":"11,10,12,13,14,15,16"
+				"source":"10,11,12,13,14,15,16"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-08:57:11",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-08:57:11.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"3.396",
+				"source":"1,17,2,4,5,6,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"13.16",
+				"source":"1,10,11,12,17,2,4,5,6,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"23:27:58",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"23:27:58.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -281,7 +298,8 @@
 		"maxappmag":[
 			{
 				"value":"22.2",
-				"source":"17,7,8"
+				"source":"17,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[

@@ -130,18 +130,18 @@
 			},
 			{
 				"value":"Ia Pec",
-				"source":"10,11,16,5,14"
+				"source":"10,11,16,14,5"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"22.4",
-				"source":"14,13",
+				"source":"13,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"23.7",
-				"source":"15,13",
+				"source":"13,15",
 				"unit":"Mpc"
 			}
 		],
@@ -154,7 +154,7 @@
 			{
 				"value":"+21:50:06.0",
 				"source":"8,12",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+21:50:06.00",
@@ -165,7 +165,7 @@
 		"discoverdate":[
 			{
 				"value":"2002/05/13",
-				"source":"9,12,5,14"
+				"source":"9,12,14,5"
 			}
 		],
 		"discoverer":[
@@ -182,35 +182,52 @@
 			{
 				"value":"0.0216",
 				"error":"0.0002",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 3190",
-				"source":"5,8,9,10,11,12,14,13,15"
+				"source":"5,8,9,10,11,12,13,14,15"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+21:49:59",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+21:49:58.0",
-				"source":"12"
+				"source":"12",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"35.54",
+				"source":"10,11,12,17,2,3,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"3.843",
+				"source":"10,11,12,13,14,15,16,17,2,3,5,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"10:18:06",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"10:18:06.32",
-				"source":"12"
+				"source":"12",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -225,20 +242,22 @@
 		"maxabsmag":[
 			{
 				"value":"-12.8",
-				"source":"17,12",
+				"source":"12,17",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19",
-				"source":"17,6,7"
+				"source":"17,6,7",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"17,6,7"
+				"source":"17,6,7",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -257,16 +276,8 @@
 		"redshift":[
 			{
 				"value":"0.00424",
-				"source":"5,16",
+				"source":"5,13,14,15,16",
 				"kind":"heliocentric"
-			},
-			{
-				"value":"0.00507",
-				"source":"14,13"
-			},
-			{
-				"value":"0.00536",
-				"source":"15,13"
 			}
 		],
 		"velocity":[
@@ -14622,7 +14633,7 @@
 						"0.939422"
 					]
 				],
-				"source":"5,14"
+				"source":"14,5"
 			},
 			{
 				"deredshifted":false,
@@ -28777,7 +28788,7 @@
 						"0.0842739"
 					]
 				],
-				"source":"5,14"
+				"source":"14,5"
 			}
 		]
 	}

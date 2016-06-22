@@ -137,22 +137,22 @@
 		"comovingdist":[
 			{
 				"value":"1370",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1590",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1750",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2140",
-				"source":"9,5",
+				"source":"5,9",
 				"unit":"Mpc"
 			},
 			{
@@ -234,19 +234,50 @@
 			{
 				"value":"0.0247",
 				"error":"0.0012",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"[AGR2006] J221731.04-173746.9",
-				"source":"6,5,7,8,9,10,11,12,13,2,14"
+				"source":"5,6,7,8,9,10,11,12,13,2,14"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"-17:37:46.9",
+				"source":"17",
+				"unit":"degrees",
+				"derived":true
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.246",
+				"source":"1,17,2",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"1",
+				"source":"1,15,17,2,5,6"
+			}
+		],
+		"hostra":[
+			{
+				"value":"22:17:31.04",
+				"source":"17",
+				"unit":"hours",
+				"derived":true
 			}
 		],
 		"lumdist":[
 			{
 				"value":"3832",
-				"source":"17,19,15",
+				"source":"15,17,19",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -254,26 +285,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18.91",
-				"source":"17,19,15",
+				"source":"15,17,19",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.01",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/09/18",
-				"source":"17,2"
+				"source":"17,2",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -297,7 +331,7 @@
 		"velocity":[
 			{
 				"value":"135400",
-				"source":"17,15",
+				"source":"15,17",
 				"unit":"km/s",
 				"derived":true
 			}
@@ -5746,7 +5780,7 @@
 						"0.412967"
 					]
 				],
-				"source":"16,15"
+				"source":"15,16"
 			}
 		]
 	}

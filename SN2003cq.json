@@ -125,98 +125,104 @@
 				"reference":"Hicken et al. (2009)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"21",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"WISeREP",
 				"url":"http://wiserep.weizmann.ac.il/",
 				"bibcode":"2012PASP..124..668Y",
-				"alias":"21",
+				"alias":"22",
 				"secondary":true,
 				"reference":"Yaron & Gal-Yam (2012)"
 			},
 			{
 				"name":"2012AJ....143..126B",
 				"bibcode":"2012AJ....143..126B",
-				"alias":"22",
+				"alias":"23",
 				"reference":"Blondin et al. (2012)"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
-				"alias":"23",
+				"alias":"24",
 				"secondary":true
 			},
 			{
 				"name":"2008AJ....135.1598M",
 				"bibcode":"2008AJ....135.1598M",
-				"alias":"24",
+				"alias":"25",
 				"reference":"Matheson et al. (2008)"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"25",
+				"alias":"26",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"26",
+				"alias":"27",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2003cq",
-				"source":"1,4,6,9,10,11,12,13,14,21,23"
+				"source":"1,4,6,9,10,11,12,13,14,22,24"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,4,5,9,10,11,12,13,21"
+				"source":"1,3,4,5,9,10,11,12,13,22"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"101",
-				"source":"15,14",
+				"source":"14,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"128",
-				"source":"16,14",
+				"source":"14,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"130.617",
-				"source":"17,14",
+				"source":"14,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"134.896",
-				"source":"17,14",
+				"source":"14,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"144",
-				"source":"19,14",
+				"source":"14,19",
 				"unit":"Mpc"
 			},
 			{
 				"value":"147",
-				"source":"20,14",
+				"source":"14,20",
 				"unit":"Mpc"
 			},
 			{
 				"value":"152",
-				"source":"20,14",
+				"source":"14,20",
 				"unit":"Mpc"
 			},
 			{
 				"value":"155",
-				"source":"20,14",
+				"source":"14,20",
 				"unit":"Mpc"
 			}
 		],
@@ -257,35 +263,52 @@
 			{
 				"value":"0.0171",
 				"error":"0.0008",
-				"source":"26"
+				"source":"26,27",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 3978",
-				"source":"4,5,9,10,11,12,13,15,14,16,17,18,19,20"
+				"source":"4,5,9,10,11,12,13,14,15,16,17,18,19,20"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+60:31:21",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+60:31:24.7",
-				"source":"13"
+				"source":"13",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"47.59",
+				"source":"1,10,13,2,26,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"22.63",
+				"source":"1,10,13,14,15,17,2,21,26,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"11:56:11",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"11:56:10.39",
-				"source":"13"
+				"source":"13",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -300,20 +323,22 @@
 		"maxabsmag":[
 			{
 				"value":"-18.7",
-				"source":"25,13",
+				"source":"13,26",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.15",
-				"source":"25,4,5"
+				"source":"26,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"25,4,5"
+				"source":"26,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -337,11 +362,11 @@
 		"redshift":[
 			{
 				"value":"0.0297197",
-				"source":"17,14"
+				"source":"14,17,21"
 			},
 			{
 				"value":"0.0307004",
-				"source":"17,14"
+				"source":"14,17,21"
 			}
 		],
 		"velocity":[
@@ -13813,7 +13838,7 @@
 						"2.2051737e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"23,24,25"
 			},
 			{
 				"deredshifted":false,
@@ -26567,7 +26592,7 @@
 						"2.6194426e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"23,24,25"
 			},
 			{
 				"deredshifted":false,
@@ -53872,7 +53897,7 @@
 						"2.6898002e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"23,24,25"
 			},
 			{
 				"deredshifted":false,
@@ -66626,7 +66651,7 @@
 						"2.5480129e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"23,24,25"
 			},
 			{
 				"deredshifted":false,
@@ -79380,7 +79405,7 @@
 						"2.9106596e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"23,24,25"
 			},
 			{
 				"deredshifted":false,
@@ -92134,7 +92159,7 @@
 						"4.0905582e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"23,24,25"
 			},
 			{
 				"deredshifted":false,
@@ -104888,7 +104913,7 @@
 						"1.9061912e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"23,24,25"
 			},
 			{
 				"deredshifted":false,
@@ -117642,7 +117667,7 @@
 						"3.1091218e-17"
 					]
 				],
-				"source":"23,22,24"
+				"source":"23,24,25"
 			}
 		]
 	}

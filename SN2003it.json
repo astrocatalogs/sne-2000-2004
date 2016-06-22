@@ -171,42 +171,42 @@
 		"comovingdist":[
 			{
 				"value":"34.8",
-				"source":"12,11",
+				"source":"11,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"75.4",
-				"source":"13,11",
+				"source":"11,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"98.5",
-				"source":"14,11",
+				"source":"11,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"104",
-				"source":"15,11",
+				"source":"11,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"109",
-				"source":"16,11",
+				"source":"11,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"111",
-				"source":"16,11",
+				"source":"11,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"115",
-				"source":"16,11",
+				"source":"11,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"116",
-				"source":"16,11",
+				"source":"11,16",
 				"unit":"Mpc"
 			}
 		],
@@ -242,62 +242,81 @@
 			{
 				"value":"0.06",
 				"error":"0.0027",
-				"source":"23"
+				"source":"22,23",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 40",
-				"source":"6,7,8,9,10,12,11,13,14,17,15,16"
+				"source":"6,7,8,9,10,11,12,13,14,17,15,16"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+27:26:57",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+27:26:57.0",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"14.44",
+				"source":"1,10,2,22,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.377",
+				"source":"1,10,11,12,13,14,16,2,22,6,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"00:05:48",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"00:05:48.00",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"35.1",
-				"source":"22,24,12,11",
+				"value":"113.3",
+				"source":"11,12,13,14,16,22,24",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-16.1",
-				"source":"22,24,12,11",
+				"value":"-18.631",
+				"source":"11,12,13,14,16,22,24",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.64",
-				"source":"22,4,5"
+				"source":"22,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"22,4,5"
+				"source":"22,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -315,40 +334,8 @@
 		],
 		"redshift":[
 			{
-				"value":"0.00788",
-				"source":"12,11"
-			},
-			{
-				"value":"0.0171",
-				"source":"13,11"
-			},
-			{
-				"value":"0.0224",
-				"source":"14,11"
-			},
-			{
-				"value":"0.0236",
-				"source":"15,11"
-			},
-			{
-				"value":"0.0248",
-				"source":"16,11"
-			},
-			{
-				"value":"0.0252",
-				"source":"16,11"
-			},
-			{
-				"value":"0.0261",
-				"source":"16,11"
-			},
-			{
-				"value":"0.0264",
-				"source":"16,11"
-			},
-			{
-				"value":"0.0251",
-				"source":"18"
+				"value":"0.025121",
+				"source":"11,12,13,14,16"
 			}
 		],
 		"velocity":[
@@ -13344,7 +13331,7 @@
 						"1.4101319e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -26098,7 +26085,7 @@
 						"1.2872515e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -38852,7 +38839,7 @@
 						"1.4353145e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -51606,7 +51593,7 @@
 						"1.4718935e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -64360,7 +64347,7 @@
 						"1.4249062e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -77114,7 +77101,7 @@
 						"1.3409061e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -89868,7 +89855,7 @@
 						"1.5561293e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -102622,7 +102609,7 @@
 						"1.5635833e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -115376,7 +115363,7 @@
 						"4.2949171e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -128130,7 +128117,7 @@
 						"1.6895779e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -140884,7 +140871,7 @@
 						"1.2326168e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -153638,7 +153625,7 @@
 						"1.4763052e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -166392,7 +166379,7 @@
 						"1.2948946e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -179146,7 +179133,7 @@
 						"2.0690359e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			},
 			{
 				"deredshifted":false,
@@ -191900,7 +191887,7 @@
 						"1.6290212e-17"
 					]
 				],
-				"source":"20,19,21"
+				"source":"19,20,21"
 			}
 		]
 	}

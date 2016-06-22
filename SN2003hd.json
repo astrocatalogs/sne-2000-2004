@@ -79,17 +79,23 @@
 				"reference":"Olivares E. et al. (2010)"
 			},
 			{
+				"name":"2015arXiv150201589P",
+				"bibcode":"2015arXiv150201589P",
+				"alias":"13",
+				"reference":"Planck Collaboration et al. (2015)"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"13",
+				"alias":"14",
 				"secondary":true,
 				"reference":"Guillochon, Parrent, & Margutti (2016)"
 			},
 			{
 				"name":"2011ApJ...737..103S",
 				"bibcode":"2011ApJ...737..103S",
-				"alias":"14",
+				"alias":"15",
 				"reference":"Schlafly & Finkbeiner (2011)"
 			}
 		],
@@ -112,22 +118,22 @@
 		"comovingdist":[
 			{
 				"value":"143",
-				"source":"12,11",
+				"source":"11,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"148",
-				"source":"12,11",
+				"source":"11,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"149",
-				"source":"12,11",
+				"source":"11,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"153",
-				"source":"12,11",
+				"source":"11,12",
 				"unit":"Mpc"
 			}
 		],
@@ -164,7 +170,8 @@
 			{
 				"value":"0.0111",
 				"error":"0.0005",
-				"source":"14"
+				"source":"14,15",
+				"derived":true
 			}
 		],
 		"host":[
@@ -182,29 +189,45 @@
 			},
 			{
 				"value":"ESO 543- G 017",
-				"source":"12,11"
+				"source":"11,12"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-21:54:26",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-21:54:26.9",
-				"source":"10"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"15.7",
+				"source":"1,10,14,2,4,6,7",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"10.5",
+				"source":"1,10,11,12,14,2,4,6,7"
 			}
 		],
 		"hostra":[
 			{
 				"value":"01:49:47",
 				"source":"6",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"01:49:47.09",
-				"source":"10"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -219,26 +242,29 @@
 		"maxabsmag":[
 			{
 				"value":"-16.9",
-				"source":"13,10",
+				"source":"10,14",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.98",
-				"source":"13,4"
+				"source":"14,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"13,4"
+				"source":"14,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/08/15",
-				"source":"13,4"
+				"source":"14,4",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -250,7 +276,7 @@
 			{
 				"value":"01:49:46.32",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"01:49:46.318",

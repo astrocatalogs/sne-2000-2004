@@ -101,17 +101,17 @@
 		"comovingdist":[
 			{
 				"value":"1770",
-				"source":"6,5",
+				"source":"5,6",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2140",
-				"source":"7,5",
+				"source":"5,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2210",
-				"source":"8,5",
+				"source":"5,8",
 				"unit":"Mpc"
 			}
 		],
@@ -148,19 +148,50 @@
 			{
 				"value":"0.0242",
 				"error":"0.0002",
-				"source":"12"
+				"source":"11,12",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"[AGR2006] J022631.20-040308.5",
-				"source":"6,5,7,8"
+				"source":"5,6,7,8"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"-04:03:08.5",
+				"source":"11",
+				"unit":"degrees",
+				"derived":true
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.1389",
+				"source":"1,11,2",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0.7394",
+				"source":"1,10,11,2,3,4,5,6,7,8,9"
+			}
+		],
+		"hostra":[
+			{
+				"value":"02:26:31.20",
+				"source":"11",
+				"unit":"hours",
+				"derived":true
 			}
 		],
 		"lumdist":[
 			{
 				"value":"3720",
-				"source":"11,13,2,3,4,9,10",
+				"source":"10,11,13,2,3,4,5,6,7,8,9",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -169,26 +200,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18.7",
-				"source":"11,13,2,3,4,9,10",
+				"source":"10,11,13,2,3,4,5,6,7,8,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.18",
-				"source":"11,2"
+				"source":"11,2",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"11,2"
+				"source":"11,2",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/11/18",
-				"source":"11,2"
+				"source":"11,2",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -206,26 +240,14 @@
 		"redshift":[
 			{
 				"value":"0.612",
-				"source":"2,3,4,9,10",
+				"source":"2,3,4,5,6,7,8,9,10",
 				"kind":"heliocentric"
-			},
-			{
-				"value":"0.449",
-				"source":"6,5"
-			},
-			{
-				"value":"0.559",
-				"source":"7,5"
-			},
-			{
-				"value":"0.581",
-				"source":"8,5"
 			}
 		],
 		"velocity":[
 			{
 				"value":"133000",
-				"source":"11,2,3,4,9,10",
+				"source":"10,11,2,3,4,5,6,7,8,9",
 				"kind":"heliocentric",
 				"unit":"km/s",
 				"derived":true

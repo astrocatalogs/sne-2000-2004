@@ -84,12 +84,12 @@
 		"comovingdist":[
 			{
 				"value":"1730",
-				"source":"4,3",
+				"source":"3,4",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2220",
-				"source":"5,3",
+				"source":"3,5",
 				"unit":"Mpc"
 			},
 			{
@@ -125,19 +125,50 @@
 			{
 				"value":"0.0237",
 				"error":"0.0004",
-				"source":"9"
+				"source":"8,9",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"[NSB2006] J022612.56-040805.3",
-				"source":"4,3,5,2"
+				"source":"3,4,5,2"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"-04:08:05.3",
+				"source":"8",
+				"unit":"degrees",
+				"derived":true
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.04924",
+				"source":"1,2,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"0.2607",
+				"source":"1,2,3,4,5,6,8"
+			}
+		],
+		"hostra":[
+			{
+				"value":"02:26:12.56",
+				"source":"8",
+				"unit":"hours",
+				"derived":true
 			}
 		],
 		"lumdist":[
 			{
 				"value":"3519",
-				"source":"8,10,2,6",
+				"source":"10,2,3,4,5,6,8",
 				"kind":"heliocentric",
 				"unit":"Mpc",
 				"derived":true
@@ -146,26 +177,29 @@
 		"maxabsmag":[
 			{
 				"value":"-18.94",
-				"source":"8,10,2,6",
+				"source":"10,2,3,4,5,6,8",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"23.79",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/09/19",
-				"source":"8,2"
+				"source":"2,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -178,14 +212,14 @@
 		"redshift":[
 			{
 				"value":"0.5842",
-				"source":"2,6",
+				"source":"2,3,4,5,6",
 				"kind":"heliocentric"
 			}
 		],
 		"velocity":[
 			{
 				"value":"129000",
-				"source":"8,2,6",
+				"source":"2,3,4,5,6,8",
 				"kind":"heliocentric",
 				"unit":"km/s",
 				"derived":true
@@ -5754,7 +5788,7 @@
 						"0.56948"
 					]
 				],
-				"source":"7,6"
+				"source":"6,7"
 			}
 		]
 	}

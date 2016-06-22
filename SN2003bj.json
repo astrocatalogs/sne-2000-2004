@@ -94,7 +94,7 @@
 		"alias":[
 			{
 				"value":"SN2003bj",
-				"source":"1,4,5,7,8,9,10,11"
+				"source":"1,4,5,7,8,10,9,11"
 			}
 		],
 		"claimedtype":[
@@ -104,7 +104,7 @@
 			},
 			{
 				"value":"II",
-				"source":"1,3,7,8,9,10,11"
+				"source":"1,3,7,8,10,9,11"
 			}
 		],
 		"comovingdist":[
@@ -124,7 +124,7 @@
 			{
 				"value":"-31:37:37.56",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-31:37:37.70",
@@ -133,14 +133,14 @@
 			},
 			{
 				"value":"-31:37:37.79",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/02/27",
-				"source":"7,8,9,10,11"
+				"source":"7,8,10,9,11"
 			}
 		],
 		"discoverer":[
@@ -150,42 +150,59 @@
 			},
 			{
 				"value":"Robin Chassagne",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0561",
 				"error":"0.0008",
-				"source":"13"
+				"source":"12,13",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"IC 4219",
-				"source":"4,7,8,9,10,11"
+				"source":"4,7,8,10,9,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-31:37:51",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-31:37:50.8",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"18.95",
+				"source":"1,11,12,2,7,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"4.883",
+				"source":"1,11,12,14,2,4,7,8"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:18:30",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"13:18:29.72",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -207,19 +224,22 @@
 		"maxappmag":[
 			{
 				"value":"15.8",
-				"source":"12,4"
+				"source":"12,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"12,4"
+				"source":"12,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/03/04",
-				"source":"12,4"
+				"source":"12,4",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -231,11 +251,11 @@
 			{
 				"value":"13:18:29.04",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"13:18:29.108",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"hours"
 			}
 		],
@@ -260,7 +280,7 @@
 				"time":"52696.5",
 				"u_time":"MJD",
 				"magnitude":"15.1",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"52697.8",

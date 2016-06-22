@@ -116,17 +116,17 @@
 		"comovingdist":[
 			{
 				"value":"1090",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1160",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1170",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			}
 		],
@@ -144,7 +144,7 @@
 			{
 				"value":"-08:54:36.3",
 				"source":"5,7,8,9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-08:54:36.29",
@@ -172,7 +172,8 @@
 			{
 				"value":"0.0253",
 				"error":"0.0005",
-				"source":"13"
+				"source":"12,13",
+				"derived":true
 			}
 		],
 		"host":[
@@ -182,35 +183,51 @@
 			},
 			{
 				"value":"APMUKS(BJ) B232710.07-091108.8",
-				"source":"11,10"
+				"source":"10,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-08:54:36",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-08:54:36.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"4.051",
+				"source":"1,12,2,5",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"16.92",
+				"source":"1,10,11,12,2,4,5"
 			}
 		],
 		"hostra":[
 			{
 				"value":"23:29:45",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"23:29:45.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"1390",
-				"source":"12,14,4",
+				"source":"10,11,12,14,4",
 				"kind":"host",
 				"unit":"Mpc",
 				"derived":true
@@ -219,20 +236,22 @@
 		"maxabsmag":[
 			{
 				"value":"-19.2",
-				"source":"12,14,4",
+				"source":"10,11,12,14,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.5",
-				"source":"12,7,8"
+				"source":"12,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/10/08",
-				"source":"12,7,8"
+				"source":"12,7,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -250,26 +269,14 @@
 		"redshift":[
 			{
 				"value":"0.265",
-				"source":"4",
+				"source":"4,10,11",
 				"kind":"host"
-			},
-			{
-				"value":"0.263",
-				"source":"11,10"
-			},
-			{
-				"value":"0.281",
-				"source":"11,10"
-			},
-			{
-				"value":"0.284",
-				"source":"11,10"
 			}
 		],
 		"velocity":[
 			{
 				"value":"69200",
-				"source":"12,4",
+				"source":"10,11,12,4",
 				"kind":"host",
 				"unit":"km/s",
 				"derived":true

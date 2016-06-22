@@ -123,17 +123,17 @@
 		"comovingdist":[
 			{
 				"value":"4000",
-				"source":"7,6",
+				"source":"6,7",
 				"unit":"Mpc"
 			},
 			{
 				"value":"4390",
-				"source":"8,6",
+				"source":"6,8",
 				"unit":"Mpc"
 			},
 			{
 				"value":"4590",
-				"source":"9,6",
+				"source":"6,9",
 				"unit":"Mpc"
 			},
 			{
@@ -200,40 +200,73 @@
 			{
 				"value":"0.0097",
 				"error":"0.0003",
-				"source":"14"
+				"source":"1,14",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"GOODS J123654.15+620821.8",
-				"source":"7,6,8,9,10,11,12,13"
+				"source":"6,7,8,9,10,11,12,13"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"+62:08:21.8",
+				"source":"1",
+				"unit":"degrees",
+				"derived":true
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.5556",
+				"source":"1,2,3",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"7.449",
+				"source":"1,10,11,12,13,2,3,6,7,8,9"
+			}
+		],
+		"hostra":[
+			{
+				"value":"12:36:54.15",
+				"source":"1",
+				"unit":"hours",
+				"derived":true
 			}
 		],
 		"lumdist":[
 			{
-				"value":"10200",
-				"source":"1,15,4,5",
+				"value":"2549.5",
+				"source":"1,10,11,12,13,15,6,7,8,9",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-20.2",
-				"source":"1,15,4,5",
+				"value":"-17.232",
+				"source":"1,10,11,12,13,15,6,7,8,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.8",
-				"source":"1,4,5"
+				"source":"1,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/05/22",
-				"source":"1,4,5"
+				"source":"1,4,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -250,38 +283,14 @@
 		],
 		"redshift":[
 			{
-				"value":"1.39",
-				"source":"4,5"
-			},
-			{
-				"value":"1.45",
-				"source":"8,6"
-			},
-			{
-				"value":"1.56",
-				"source":"9,6"
-			},
-			{
-				"value":"2.83",
-				"source":"10,6"
-			},
-			{
-				"value":"2.88",
-				"source":"11,6"
-			},
-			{
-				"value":"3.06",
-				"source":"12,6"
-			},
-			{
-				"value":"4.65",
-				"source":"13,6"
+				"value":"0.44643",
+				"source":"6,7,8,9,10,11,12,13"
 			}
 		],
 		"velocity":[
 			{
-				"value":"210000",
-				"source":"1,4,5",
+				"value":"105890",
+				"source":"1,10,11,12,13,6,7,8,9",
 				"unit":"km/s",
 				"derived":true
 			}

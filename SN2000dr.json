@@ -132,7 +132,7 @@
 		"comovingdist":[
 			{
 				"value":"77.8",
-				"source":"14,13",
+				"source":"13,14",
 				"unit":"Mpc"
 			}
 		],
@@ -164,69 +164,88 @@
 			{
 				"value":"0.0175",
 				"error":"0.0005",
-				"source":"17"
+				"source":"16,17",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"IC 1610",
-				"source":"4,5,8,9,10,11,12,14,13"
+				"source":"4,5,8,9,10,11,12,13,14"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-15:34:04",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-15:34:04.2",
-				"source":"12"
+				"source":"12",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"16.41",
+				"source":"1,10,11,12,16,2,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"6.075",
+				"source":"1,10,11,12,13,14,16,2,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"01:01:43",
 				"source":"8",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"01:01:42.59",
-				"source":"12"
+				"source":"12",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"84.4",
-				"source":"16,18,4,15",
-				"kind":"heliocentric",
+				"value":"84.377",
+				"source":"13,14,16,18",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-18.6",
-				"source":"16,18,4,15",
+				"value":"-18.591",
+				"source":"13,14,16,18",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.04",
-				"source":"16,4,5"
+				"source":"16,4,5",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"16,4,5"
+				"source":"16,4,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2000/10/16",
-				"source":"16,4,5"
+				"source":"16,4,5",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -243,13 +262,8 @@
 		],
 		"redshift":[
 			{
-				"value":"0.0188",
-				"source":"4,15",
-				"kind":"heliocentric"
-			},
-			{
-				"value":"0.0177",
-				"source":"14,13"
+				"value":"0.018796",
+				"source":"13,14"
 			}
 		],
 		"velocity":[

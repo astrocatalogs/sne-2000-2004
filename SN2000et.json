@@ -113,7 +113,8 @@
 			{
 				"value":"0.0364",
 				"error":"0.0006",
-				"source":"10"
+				"source":"10,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -130,28 +131,39 @@
 			{
 				"value":"+01:09:25",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+01:09:25.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"3.164",
+				"source":"1,2,4,5,6,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
 			}
 		],
 		"hostra":[
 			{
 				"value":"08:21:15",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"08:21:15.00",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.4",
-				"source":"9,6,7"
+				"source":"6,7,9",
+				"derived":true
 			}
 		],
 		"maxdate":[

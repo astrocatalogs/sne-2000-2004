@@ -148,47 +148,47 @@
 		"comovingdist":[
 			{
 				"value":"1020",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1060",
-				"source":"12,10",
+				"source":"10,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1380",
-				"source":"13,10,14",
+				"source":"10,13,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1480",
-				"source":"15,10,16",
+				"source":"10,15,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1520",
-				"source":"16,10",
+				"source":"10,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1530",
-				"source":"16,10",
+				"source":"10,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1550",
-				"source":"15,10,16",
+				"source":"10,15,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1580",
-				"source":"17,10",
+				"source":"10,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1610",
-				"source":"17,10",
+				"source":"10,17",
 				"unit":"Mpc"
 			}
 		],
@@ -234,7 +234,8 @@
 			{
 				"value":"0.0174",
 				"error":"0.0003",
-				"source":"19"
+				"source":"18,19",
+				"derived":true
 			}
 		],
 		"host":[
@@ -244,29 +245,45 @@
 			},
 			{
 				"value":"ESSENCE J021053.98-042549.8",
-				"source":"11,10,12,13,14,15,16,17"
+				"source":"10,11,12,13,14,15,16,17"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-04:25:49",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-04:25:49.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"14.72",
+				"source":"1,18,2,4,5,6,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"54.24",
+				"source":"1,10,11,18,2,4,5,6,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"02:10:53",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"02:10:53.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -288,7 +305,8 @@
 		"maxappmag":[
 			{
 				"value":"22.7",
-				"source":"18,7,8"
+				"source":"18,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[

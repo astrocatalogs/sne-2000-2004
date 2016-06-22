@@ -148,62 +148,62 @@
 		"comovingdist":[
 			{
 				"value":"1330",
-				"source":"11,10",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1610",
-				"source":"12,10",
+				"source":"10,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2240",
-				"source":"13,10",
+				"source":"10,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2260",
-				"source":"14,10",
+				"source":"10,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2310",
-				"source":"14,10",
+				"source":"10,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2380",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2430",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2440",
-				"source":"16,10",
+				"source":"10,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2460",
-				"source":"15,10",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2480",
-				"source":"16,10",
+				"source":"10,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2530",
-				"source":"17,10",
+				"source":"10,17",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2550",
-				"source":"17,10",
+				"source":"10,17",
 				"unit":"Mpc"
 			}
 		],
@@ -249,7 +249,8 @@
 			{
 				"value":"0.0293",
 				"error":"0.0025",
-				"source":"19"
+				"source":"18,19",
+				"derived":true
 			}
 		],
 		"host":[
@@ -259,29 +260,45 @@
 			},
 			{
 				"value":"ESSENCE J023102.64-083950.8",
-				"source":"11,10,12,13,14,15,16,17"
+				"source":"10,11,12,13,14,15,16,17"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-08:39:50",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-08:39:50.0",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"9.633",
+				"source":"1,18,2,4,5,6,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"37.76",
+				"source":"1,10,11,18,2,4,5,6,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"02:31:02",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"02:31:02.00",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -303,13 +320,15 @@
 		"maxappmag":[
 			{
 				"value":"22.1",
-				"source":"18,7,8"
+				"source":"18,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/11/20",
-				"source":"18,7,8"
+				"source":"18,7,8",
+				"derived":true
 			}
 		],
 		"ra":[

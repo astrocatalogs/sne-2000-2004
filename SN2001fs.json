@@ -29,65 +29,65 @@
 				"reference":"Barris et al. (2004)"
 			},
 			{
+				"name":"2004ApJ...607..665R",
+				"bibcode":"2004ApJ...607..665R",
+				"alias":"5",
+				"reference":"Riess et al. (2004)"
+			},
+			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"5",
+				"alias":"6",
 				"secondary":true
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"6",
+				"alias":"7",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"8",
+				"alias":"9",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"9",
+				"alias":"10",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"10",
+				"alias":"11",
 				"secondary":true
 			},
 			{
 				"name":"2010ApJ...716..712A",
 				"bibcode":"2010ApJ...716..712A",
-				"alias":"11",
+				"alias":"12",
 				"reference":"Amanullah et al. (2010)"
 			},
 			{
 				"name":"2008ApJ...686..749K",
 				"bibcode":"2008ApJ...686..749K",
-				"alias":"12",
+				"alias":"13",
 				"reference":"Kowalski et al. (2008)"
 			},
 			{
 				"name":"2009ApJ...700.1097H",
 				"bibcode":"2009ApJ...700.1097H",
-				"alias":"13",
-				"reference":"Hicken et al. (2009)"
-			},
-			{
-				"name":"2004ApJ...607..665R",
-				"bibcode":"2004ApJ...607..665R",
 				"alias":"14",
-				"reference":"Riess et al. (2004)"
+				"reference":"Hicken et al. (2009)"
 			},
 			{
 				"name":"2010arXiv1006.2112L",
@@ -119,189 +119,196 @@
 		"alias":[
 			{
 				"value":"SN2001fs",
-				"source":"1,4,5,6,7,2,8,9,10"
+				"source":"1,4,5,6,7,8,2,9,10,11"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,6,2,8,9"
+				"source":"1,3,7,2,9,10"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"1730",
-				"source":"11,10",
+				"source":"11,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2310",
-				"source":"4,10",
+				"source":"11,4",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2540",
-				"source":"12,10",
+				"source":"11,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2590",
-				"source":"13,10",
+				"source":"11,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3000",
-				"source":"14,10",
+				"source":"11,5",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3040",
-				"source":"15,10",
+				"source":"11,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"3130",
-				"source":"4,10",
+				"source":"11,4",
 				"unit":"Mpc"
 			}
 		],
 		"dec":[
 			{
 				"value":"-01:28:21.9",
-				"source":"1,2,6,8,9",
+				"source":"1,2,7,9,10",
 				"unit":"degrees"
 			},
 			{
 				"value":"-01:28:21.90",
-				"source":"7",
+				"source":"8",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2001/10/09",
-				"source":"6,7,9"
+				"source":"7,8,10"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"HZSST",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"value":"High Z Supernova Search",
-				"source":"2,8"
+				"source":"2,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0271",
 				"error":"0.0015",
-				"source":"17"
+				"source":"16,17",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"A043930-0128",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"value":"H-ZSNS J043930.68-012821.9",
-				"source":"11,10,4,12,13,14,15"
+				"source":"11,12,4,13,14,5,15"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-01:28:21",
-				"source":"6",
-				"unit":"nospace"
+				"source":"7",
+				"unit":"degrees"
 			},
 			{
 				"value":"-01:28:21.0",
-				"source":"9"
+				"source":"10",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"10.24",
+				"source":"1,10,16,2,7,8,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"45.85",
+				"source":"1,10,11,12,16,2,5,7,8,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"04:39:30",
-				"source":"6",
-				"unit":"nospace"
+				"source":"7",
+				"unit":"hours"
 			},
 			{
 				"value":"04:39:30.00",
-				"source":"9"
+				"source":"10",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"2490",
-				"source":"16,18,11,10",
+				"value":"5750",
+				"source":"16,18,5",
+				"kind":"spectroscopic",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-17.1",
-				"source":"16,18,11,10",
+				"value":"-19",
+				"source":"16,18,5",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.83",
-				"source":"16,4"
+				"source":"16,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
-				"source":"16,4"
+				"source":"16,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2001/10/22",
-				"source":"16,4"
+				"source":"16,4",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
 				"value":"04:39:30.68",
-				"source":"1,2,6,7,8,9",
+				"source":"1,2,7,8,9,10",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.437",
-				"source":"11,10"
+				"value":"0.873",
+				"source":"5",
+				"kind":"spectroscopic"
 			},
 			{
-				"value":"0.612",
-				"source":"4,10"
-			},
-			{
-				"value":"0.687",
-				"source":"12,10"
-			},
-			{
-				"value":"0.704",
-				"source":"13,10"
-			},
-			{
-				"value":"0.863",
-				"source":"15,10"
-			},
-			{
-				"value":"0.896",
-				"source":"4,10"
+				"value":"0.874",
+				"source":"11,12,4,13,14,5,15"
 			}
 		],
 		"velocity":[
 			{
-				"value":"104000",
-				"source":"16,11,10",
+				"value":"167000",
+				"source":"16,5",
+				"kind":"spectroscopic",
 				"unit":"km/s",
 				"derived":true
 			}
@@ -311,7 +318,7 @@
 				"time":"52162.5",
 				"u_time":"MJD",
 				"magnitude":"23.9",
-				"source":"2,8"
+				"source":"2,9"
 			},
 			{
 				"time":"52191.5",

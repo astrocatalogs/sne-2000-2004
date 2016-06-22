@@ -124,7 +124,7 @@
 		"alias":[
 			{
 				"value":"SN2003bg",
-				"source":"1,4,5,7,8,9,10,11,12,14,15"
+				"source":"1,4,5,7,8,10,9,11,12,14,15"
 			}
 		],
 		"claimedtype":[
@@ -134,7 +134,7 @@
 			},
 			{
 				"value":"Ic",
-				"source":"1,3,7,9,10,11,14,13"
+				"source":"1,3,7,10,9,11,13,14"
 			},
 			{
 				"value":"IIb",
@@ -162,7 +162,7 @@
 			{
 				"value":"-31:24:50.4",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"-31:24:50.29",
@@ -171,14 +171,14 @@
 			},
 			{
 				"value":"-31:24:50.39",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/02/25",
-				"source":"8,9,10,11,14,13"
+				"source":"8,10,9,11,13,14"
 			}
 		],
 		"discoverer":[
@@ -188,14 +188,15 @@
 			},
 			{
 				"value":"Robin Chassagne",
-				"source":"9,10"
+				"source":"10,9"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.018",
 				"error":"0.001",
-				"source":"17"
+				"source":"16,17",
+				"derived":true
 			}
 		],
 		"host":[
@@ -205,7 +206,7 @@
 			},
 			{
 				"value":"MCG -05-10-15",
-				"source":"7,8,9,10,14,13"
+				"source":"7,8,10,9,13,14"
 			},
 			{
 				"value":"ESO 420-G9",
@@ -216,22 +217,38 @@
 			{
 				"value":"-31:24:29",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"-31:24:27.8",
-				"source":"11"
+				"source":"11",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"23.01",
+				"source":"1,11,16,2,7,8",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.243",
+				"source":"1,11,16,18,2,4,7,8"
 			}
 		],
 		"hostra":[
 			{
 				"value":"04:11:00",
 				"source":"7",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"04:11:00.65",
-				"source":"11"
+				"source":"11",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -253,13 +270,15 @@
 		"maxappmag":[
 			{
 				"value":"14.69",
-				"source":"16,4"
+				"source":"16,4",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"16,4"
+				"source":"16,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
@@ -277,11 +296,11 @@
 			{
 				"value":"04:10:59.424",
 				"source":"4",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"04:10:59.428",
-				"source":"9,10",
+				"source":"10,9",
 				"unit":"hours"
 			}
 		],
@@ -306,7 +325,7 @@
 				"time":"52694.5",
 				"u_time":"MJD",
 				"magnitude":"14.8",
-				"source":"9,10"
+				"source":"10,9"
 			},
 			{
 				"time":"52695.7",
@@ -13575,7 +13594,7 @@
 						"0.647259"
 					]
 				],
-				"source":"14,13"
+				"source":"13,14"
 			},
 			{
 				"u_time":"MJD",
@@ -20737,7 +20756,7 @@
 						"5.175970584e-16"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -27899,7 +27918,7 @@
 						"5.079569764e-16"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -35061,7 +35080,7 @@
 						"1.019965735e-15"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -42043,7 +42062,7 @@
 						"2.06936777e-15"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -49205,7 +49224,7 @@
 						"2.270841598e-16"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -56367,7 +56386,7 @@
 						"6.255909004e-16"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -61537,7 +61556,7 @@
 						"3.691128709e-16"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -68699,7 +68718,7 @@
 						"1.511765743e-16"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -75681,7 +75700,7 @@
 						"0"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -80851,7 +80870,7 @@
 						"7.325101223e-18"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -87709,7 +87728,7 @@
 						"-3.593610071e-18"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -94871,7 +94890,7 @@
 						"0"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			},
 			{
 				"u_time":"MJD",
@@ -102033,7 +102052,7 @@
 						"0"
 					]
 				],
-				"source":"15,13"
+				"source":"13,15"
 			}
 		]
 	}

@@ -1,6 +1,6 @@
 {
-	"SN2001ga":{
-		"name":"SN2001ga",
+	"SN2001hk":{
+		"name":"SN2001hk",
 		"sources":[
 			{
 				"name":"SIMBAD astronomical database",
@@ -11,58 +11,56 @@
 				"reference":"Wenger et al. (2000)"
 			},
 			{
-				"name":"2001IAUC.7755....2B",
-				"bibcode":"2001IAUC.7755....2B",
+				"name":"2001IAUC.7767....1B",
+				"bibcode":"2001IAUC.7767....1B",
 				"alias":"2",
 				"reference":"Barris et al. (2001)"
-			},
-			{
-				"name":"2008yCat....1.2024B",
-				"bibcode":"2008yCat....1.2024B",
-				"alias":"3",
-				"reference":"Barbon et al. (2008)"
-			},
-			{
-				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"4",
-				"secondary":true
-			},
-			{
-				"name":"VSNET Oct2003",
-				"alias":"5"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"6",
+				"alias":"3",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"7"
-			},
-			{
-				"name":"IAUC 7767",
-				"url":"http://www.cbat.eps.harvard.edu/iauc/07700/07767.html#Item1",
-				"bibcode":"2001IAUC.7767....1B",
-				"alias":"8",
-				"reference":"Barris et al. (2001)"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"9",
+				"alias":"5",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"10",
+				"alias":"6",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
+			},
+			{
+				"name":"2001IAUC.7755....2B",
+				"bibcode":"2001IAUC.7755....2B",
+				"alias":"7",
+				"reference":"Barris et al. (2001)"
+			},
+			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"alias":"8",
+				"reference":"Barbon et al. (2008)"
+			},
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"9"
+			},
+			{
+				"name":"VSNET Oct2003",
+				"alias":"10"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -87,128 +85,146 @@
 		],
 		"alias":[
 			{
-				"value":"SN2001ga",
-				"source":"1,4,6,7,8,9,10"
+				"value":"SN2001hk",
+				"source":"1,3,4,2,5,6"
 			},
 			{
-				"value":"SN2001hk",
-				"source":"8,9,1,6,7,10"
+				"value":"SN2001ga",
+				"source":"2,5,1,3,4,6,9"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,6,7,8,9,10"
+				"source":"2,5,1,3,4,6,8"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"560",
-				"source":"11,13,6,8,9,10",
+				"source":"11,13,2,3,5,6",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"dec":[
 			{
-				"value":"+00:37:20.9",
-				"source":"1,2,6,10",
-				"unit":"degrees"
-			},
-			{
-				"value":"+00:37:20.89",
-				"source":"7",
-				"unit":"degrees"
-			},
-			{
 				"value":"+00:36:59.8",
-				"source":"8,9,1,6,10",
+				"source":"1,2,3,5,6",
 				"unit":"degrees"
 			},
 			{
 				"value":"+00:36:59.80",
-				"source":"7",
+				"source":"4",
+				"unit":"degrees"
+			},
+			{
+				"value":"+00:37:20.9",
+				"source":"1,3,6,7",
+				"unit":"degrees"
+			},
+			{
+				"value":"+00:37:20.89",
+				"source":"4",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2001/11/12",
-				"source":"6,7,8,9,10"
+				"source":"3,4,2,5,6"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"HZSST",
-				"source":"6"
+				"source":"3"
 			},
 			{
 				"value":"High Z Supernova Search",
-				"source":"8,9"
+				"source":"2,5"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.026",
-				"error":"0.001",
-				"source":"12"
+				"error":"0.0009",
+				"source":"11,12",
+				"derived":true
 			}
 		],
 		"host":[
 			{
-				"value":"A022751+0037",
-				"source":"6"
+				"value":"A022750+0036",
+				"source":"3"
 			},
 			{
-				"value":"A022750+0036",
-				"source":"6"
+				"value":"A022751+0037",
+				"source":"3"
 			}
 		],
 		"hostdec":[
 			{
-				"value":"+00:37:20",
-				"source":"6",
-				"unit":"nospace"
-			},
-			{
-				"value":"+00:37:20.0",
-				"source":"10"
-			},
-			{
-				"value":"+00::3:6:59",
-				"source":"6",
-				"unit":"nospace"
+				"value":"+00:36:59",
+				"source":"3",
+				"unit":"degrees"
 			},
 			{
 				"value":"+00:36:59.0",
-				"source":"10"
+				"source":"6",
+				"unit":"degrees"
+			},
+			{
+				"value":"+00:37:20",
+				"source":"3",
+				"unit":"degrees"
+			},
+			{
+				"value":"+00:37:20.0",
+				"source":"6",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"4.423",
+				"source":"1,11,2,3,4,5,6",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"10.63",
+				"source":"1,11,13,2,3,4,5,6"
 			}
 		],
 		"hostra":[
 			{
-				"value":"02:27:51",
-				"source":"6",
-				"unit":"nospace"
-			},
-			{
-				"value":"02:27:51.00",
-				"source":"10"
-			},
-			{
-				"value":"02::2:7:50",
-				"source":"6",
-				"unit":"nospace"
+				"value":"02:27:50",
+				"source":"3",
+				"unit":"hours"
 			},
 			{
 				"value":"02:27:50.00",
-				"source":"10"
+				"source":"6",
+				"unit":"hours"
+			},
+			{
+				"value":"02:27:51",
+				"source":"3",
+				"unit":"hours"
+			},
+			{
+				"value":"02:27:51.00",
+				"source":"6",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"630",
-				"source":"11,13,6,8,9,10",
-				"kind":"host",
+				"source":"11,13,2,3,5,6",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -216,52 +232,46 @@
 		"maxabsmag":[
 			{
 				"value":"-19",
-				"source":"11,13,6,8,9,10",
+				"source":"11,13,2,3,5,6",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.5",
-				"source":"11,4,5"
-			}
-		],
-		"maxband":[
-			{
-				"value":"I",
-				"source":"11,4,5"
+				"source":"11,2,5",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2001/11/12",
-				"source":"11,4,5"
+				"value":"2001/11/11",
+				"source":"11,2,5",
+				"derived":true
 			}
 		],
 		"ra":[
 			{
-				"value":"02:27:51.76",
-				"source":"1,2,6,7,10",
+				"value":"02:27:50.29",
+				"source":"1,2,3,4,5,6",
 				"unit":"hours"
 			},
 			{
-				"value":"02:27:50.29",
-				"source":"8,9,1,6,7,10",
+				"value":"02:27:51.76",
+				"source":"1,3,4,6,7",
 				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.13",
-				"source":"6,8,9,10",
-				"kind":"host"
+				"source":"2,5,3,6"
 			}
 		],
 		"velocity":[
 			{
 				"value":"36000",
-				"source":"11,6,8,9,10",
-				"kind":"host",
+				"source":"11,2,3,5,6",
 				"unit":"km/s",
 				"derived":true
 			}
@@ -271,35 +281,28 @@
 				"time":"52224.5",
 				"u_time":"MJD",
 				"magnitude":"19.5",
-				"source":"8,9"
+				"source":"2,5"
 			},
 			{
 				"time":"52225.0",
 				"u_time":"MJD",
 				"band":"I",
 				"magnitude":"19.5",
-				"source":"4,5"
-			},
-			{
-				"time":"52225.0",
-				"u_time":"MJD",
-				"band":"I",
-				"magnitude":"23.5",
-				"source":"10"
+				"source":"10,9"
 			},
 			{
 				"time":"52230.0",
 				"u_time":"MJD",
 				"band":"I",
 				"magnitude":"19.7",
-				"source":"4,5"
+				"source":"10,9"
 			},
 			{
 				"time":"52231.0",
 				"u_time":"MJD",
 				"band":"I",
 				"magnitude":"19.5",
-				"source":"4,5"
+				"source":"10,9"
 			}
 		]
 	}

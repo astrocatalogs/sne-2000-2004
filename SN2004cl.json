@@ -98,7 +98,7 @@
 		"comovingdist":[
 			{
 				"value":"483",
-				"source":"9,11,3,4,6,7",
+				"source":"11,3,4,6,7,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -112,12 +112,12 @@
 			{
 				"value":"+08:52:05.52",
 				"source":"3",
-				"unit":"floatdegrees"
+				"unit":"degrees"
 			},
 			{
 				"value":"+08:52:05.4",
 				"source":"4,6,7,8",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+08:52:05.41",
@@ -145,7 +145,8 @@
 			{
 				"value":"0.0241",
 				"error":"0.0007",
-				"source":"10"
+				"source":"10,9",
+				"derived":true
 			}
 		],
 		"host":[
@@ -162,28 +163,44 @@
 			{
 				"value":"+08:52:05",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+08:52:05.0",
-				"source":"8"
+				"source":"8",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"6.918",
+				"source":"1,2,4,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"14.57",
+				"source":"1,11,2,3,4,6,7,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"08:29:33",
 				"source":"4",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"08:29:33.00",
-				"source":"8"
+				"source":"8",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"537",
-				"source":"9,11,3,4,6,7",
+				"source":"11,3,4,6,7,9",
 				"unit":"Mpc",
 				"derived":true
 			}
@@ -191,20 +208,22 @@
 		"maxabsmag":[
 			{
 				"value":"-17.1",
-				"source":"9,11,3,4,6,7",
+				"source":"11,3,4,6,7,9",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"21.5",
-				"source":"9,6,7"
+				"source":"6,7,9",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/03/19",
-				"source":"9,6,7"
+				"source":"6,7,9",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -216,12 +235,12 @@
 			{
 				"value":"08:29:33.36",
 				"source":"3",
-				"unit":"floatdegrees"
+				"unit":"hours"
 			},
 			{
 				"value":"08:29:33.47",
 				"source":"4,5,6,7,8",
-				"unit":"nospace"
+				"unit":"hours"
 			}
 		],
 		"redshift":[
@@ -233,7 +252,7 @@
 		"velocity":[
 			{
 				"value":"31700",
-				"source":"9,3,4,6,7",
+				"source":"3,4,6,7,9",
 				"unit":"km/s",
 				"derived":true
 			}

@@ -161,7 +161,8 @@
 			{
 				"value":"0.0055",
 				"error":"0.0007",
-				"source":"15"
+				"source":"14,15",
+				"derived":true
 			}
 		],
 		"host":[
@@ -174,22 +175,38 @@
 			{
 				"value":"+40:52:28",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+40:52:28.3",
-				"source":"9"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"27.58",
+				"source":"1,14,2,5,6,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"33.14",
+				"source":"1,14,16,2,4,5,6,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:41:42",
 				"source":"5",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"13:41:42.25",
-				"source":"9"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
@@ -211,13 +228,15 @@
 		"maxappmag":[
 			{
 				"value":"17.4",
-				"source":"14,7,8"
+				"source":"14,7,8",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/06/08",
-				"source":"14,7,8"
+				"source":"14,7,8",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -13008,7 +13027,7 @@
 						"1.9295399e-17"
 					]
 				],
-				"source":"12,11,13"
+				"source":"11,12,13"
 			},
 			{
 				"deredshifted":false,
@@ -25762,7 +25781,7 @@
 						"2.2120945e-17"
 					]
 				],
-				"source":"12,11,13"
+				"source":"11,12,13"
 			},
 			{
 				"deredshifted":false,
@@ -38516,7 +38535,7 @@
 						"1.3095666e-17"
 					]
 				],
-				"source":"12,11,13"
+				"source":"11,12,13"
 			},
 			{
 				"deredshifted":false,
@@ -51270,7 +51289,7 @@
 						"2.0364761e-17"
 					]
 				],
-				"source":"12,11,13"
+				"source":"11,12,13"
 			},
 			{
 				"deredshifted":false,
@@ -64024,7 +64043,7 @@
 						"1.3246623e-17"
 					]
 				],
-				"source":"12,11,13"
+				"source":"11,12,13"
 			},
 			{
 				"deredshifted":false,
@@ -76778,7 +76797,7 @@
 						"1.394959e-17"
 					]
 				],
-				"source":"12,11,13"
+				"source":"11,12,13"
 			},
 			{
 				"deredshifted":false,
@@ -101451,7 +101470,7 @@
 						"1.8403651e-17"
 					]
 				],
-				"source":"12,11,13"
+				"source":"11,12,13"
 			},
 			{
 				"deredshifted":false,
@@ -112220,7 +112239,7 @@
 						"8.3978072e-18"
 					]
 				],
-				"source":"12,11,13"
+				"source":"11,12,13"
 			},
 			{
 				"deredshifted":false,
@@ -124974,7 +124993,7 @@
 						"3.1042369e-17"
 					]
 				],
-				"source":"12,11,13"
+				"source":"11,12,13"
 			},
 			{
 				"deredshifted":false,
@@ -137493,7 +137512,7 @@
 						"1.3655474e-17"
 					]
 				],
-				"source":"12,11,13"
+				"source":"11,12,13"
 			}
 		]
 	}

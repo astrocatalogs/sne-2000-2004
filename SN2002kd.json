@@ -23,72 +23,72 @@
 				"reference":"Barbon et al. (2008)"
 			},
 			{
+				"name":"2004ApJ...607..665R",
+				"bibcode":"2004ApJ...607..665R",
+				"alias":"4",
+				"reference":"Riess et al. (2004)"
+			},
+			{
 				"name":"Asiago Supernova Catalogue",
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
 				"bibcode":"1989A&AS...81..421B",
-				"alias":"4",
+				"alias":"5",
 				"secondary":true,
 				"reference":"Barbon, Cappellaro, & Turatto (1989)"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"IAUC 8038",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08000/08038.html#Item2",
 				"bibcode":"2002IAUC.8038....2S",
-				"alias":"6",
+				"alias":"7",
 				"reference":"Strolger et al. (2002)"
 			},
 			{
 				"name":"Latest Supernovae",
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7",
+				"alias":"8",
 				"secondary":true
 			},
 			{
 				"name":"2012A&A...538A.120L",
 				"bibcode":"2012A&A...538A.120L",
-				"alias":"8",
+				"alias":"9",
 				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
 			},
 			{
 				"name":"NED-D",
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"9",
+				"alias":"10",
 				"secondary":true
 			},
 			{
 				"name":"2010ApJ...716..712A",
 				"bibcode":"2010ApJ...716..712A",
-				"alias":"10",
+				"alias":"11",
 				"reference":"Amanullah et al. (2010)"
 			},
 			{
 				"name":"2010arXiv1006.2112L",
 				"bibcode":"2010arXiv1006.2112L",
-				"alias":"11",
+				"alias":"12",
 				"reference":"Lorenzi (2010)"
 			},
 			{
 				"name":"2009ApJS..185...32K",
 				"bibcode":"2009ApJS..185...32K",
-				"alias":"12",
+				"alias":"13",
 				"reference":"Kessler et al. (2009)"
 			},
 			{
 				"name":"2009ApJ...700.1097H",
 				"bibcode":"2009ApJ...700.1097H",
-				"alias":"13",
-				"reference":"Hicken et al. (2009)"
-			},
-			{
-				"name":"2004ApJ...607..665R",
-				"bibcode":"2004ApJ...607..665R",
 				"alias":"14",
-				"reference":"Riess et al. (2004)"
+				"reference":"Hicken et al. (2009)"
 			},
 			{
 				"name":"2008ApJ...686..749K",
@@ -126,63 +126,67 @@
 		"alias":[
 			{
 				"value":"SN2002kd",
-				"source":"1,4,5,6,7,8,9"
+				"source":"1,4,5,6,7,8,9,10"
 			},
 			{
 				"value":"4 3",
 				"source":"1"
+			},
+			{
+				"value":"Frodo",
+				"source":"4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,4,8"
+				"source":"1,3,5,9"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"1720",
-				"source":"10,9",
+				"source":"10,11",
 				"unit":"Mpc"
 			},
 			{
 				"value":"1760",
-				"source":"11,9",
+				"source":"10,12",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2310",
-				"source":"12,9,13",
+				"source":"10,13,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2340",
-				"source":"12,9",
+				"source":"10,13",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2390",
-				"source":"14,9,13",
+				"source":"10,4,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2410",
-				"source":"15,9",
+				"source":"10,15",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2450",
-				"source":"16,9",
+				"source":"10,16",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2610",
-				"source":"13,9",
+				"source":"10,14",
 				"unit":"Mpc"
 			},
 			{
 				"value":"2780",
-				"source":"13,9",
+				"source":"10,14",
 				"unit":"Mpc"
 			}
 		],
@@ -194,96 +198,122 @@
 			},
 			{
 				"value":"-27:44:26.9",
-				"source":"4,6,7,8",
-				"unit":"nospace"
+				"source":"4,5,7,8,9",
+				"unit":"degrees"
 			},
 			{
 				"value":"-27:44:26.92",
-				"source":"5",
+				"source":"6",
 				"unit":"degrees"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2002/12/21",
-				"source":"4,5,6,7,8"
+				"source":"5,6,7,8,9"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"GOODS, HHZST",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"value":"HST GOODS team",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0077",
 				"error":"0.0005",
-				"source":"18"
+				"source":"17,18",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"A033222-2744",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"value":"COMBO-17 40676",
-				"source":"10,9,11,12,13,14,15,16"
+				"source":"10,11,12,13,14,4,15,16"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-27:44:26",
-				"source":"4",
-				"unit":"nospace"
+				"source":"5",
+				"unit":"degrees"
 			},
 			{
 				"value":"-27:44:26.0",
-				"source":"8"
+				"source":"9",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"4.882",
+				"source":"1,17,2,5",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"23.46",
+				"source":"1,10,11,12,13,14,15,16,17,2,4,5"
 			}
 		],
 		"hostra":[
 			{
 				"value":"03:32:22",
-				"source":"4",
-				"unit":"nospace"
+				"source":"5",
+				"unit":"hours"
 			},
 			{
 				"value":"03:32:22.00",
-				"source":"8"
+				"source":"9",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"4650",
-				"source":"17,19,4",
-				"kind":"host",
+				"source":"10,11,12,13,14,15,16,17,19,4",
+				"kind":"spectroscopic",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-19.5",
-				"source":"17,19,4",
+				"value":"-20.6",
+				"source":"10,11,12,13,14,15,16,17,19,4",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"23.8",
-				"source":"17,6,7"
+				"value":"22.73",
+				"source":"17,4",
+				"derived":true
+			}
+		],
+		"maxband":[
+			{
+				"value":"F775W",
+				"source":"17,4",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2002/12/20",
-				"source":"17,6,7"
+				"value":"1997/07/16",
+				"source":"17,4",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -294,68 +324,127 @@
 			},
 			{
 				"value":"03:32:22.34",
-				"source":"4,5,6,7,8",
-				"unit":"nospace"
+				"source":"4,5,6,7,8,9",
+				"unit":"hours"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.735",
-				"source":"4",
-				"kind":"host"
-			},
-			{
-				"value":"0.434",
-				"source":"10,9"
-			},
-			{
-				"value":"0.446",
-				"source":"11,9"
-			},
-			{
-				"value":"0.612",
-				"source":"12,9,13"
-			},
-			{
-				"value":"0.622",
-				"source":"12,9"
-			},
-			{
-				"value":"0.638",
-				"source":"14,9,13"
-			},
-			{
-				"value":"0.644",
-				"source":"15,9"
-			},
-			{
-				"value":"0.657",
-				"source":"16,9"
-			},
-			{
-				"value":"0.711",
-				"source":"13,9"
-			},
-			{
-				"value":"0.769",
-				"source":"13,9"
+				"source":"4,10,11,12,13,14,15,16",
+				"kind":"spectroscopic"
 			}
 		],
 		"velocity":[
 			{
 				"value":"150000",
-				"source":"17,4",
-				"kind":"host",
+				"source":"10,11,12,13,14,15,16,17,4",
+				"kind":"spectroscopic",
 				"unit":"km/s",
 				"derived":true
 			}
 		],
 		"photometry":[
 			{
+				"time":"50628.92",
+				"u_time":"MJD",
+				"band":"F606W",
+				"system":"Vega",
+				"magnitude":"24.93",
+				"e_magnitude":"0.03",
+				"source":"4"
+			},
+			{
+				"time":"50628.93",
+				"u_time":"MJD",
+				"band":"F775W",
+				"system":"Vega",
+				"magnitude":"23.75",
+				"e_magnitude":"0.02",
+				"telescope":"Hubble",
+				"instrument":"WFC3",
+				"source":"4"
+			},
+			{
+				"time":"50628.97",
+				"u_time":"MJD",
+				"band":"F850LP",
+				"system":"Vega",
+				"magnitude":"23.75",
+				"e_magnitude":"0.01",
+				"telescope":"Hubble",
+				"instrument":"WFC3",
+				"source":"4"
+			},
+			{
+				"time":"50638.88",
+				"u_time":"MJD",
+				"band":"F850LP",
+				"system":"Vega",
+				"magnitude":"23.04",
+				"e_magnitude":"0.02",
+				"telescope":"Hubble",
+				"instrument":"WFC3",
+				"source":"4"
+			},
+			{
+				"time":"50644.0",
+				"u_time":"MJD",
+				"band":"F775W",
+				"system":"Vega",
+				"magnitude":"22.93",
+				"e_magnitude":"0.17",
+				"telescope":"Hubble",
+				"instrument":"WFC3",
+				"source":"4"
+			},
+			{
+				"time":"50645.0",
+				"u_time":"MJD",
+				"band":"F775W",
+				"system":"Vega",
+				"magnitude":"22.73",
+				"e_magnitude":"0.1",
+				"telescope":"Hubble",
+				"instrument":"WFC3",
+				"source":"4"
+			},
+			{
+				"time":"50673.02",
+				"u_time":"MJD",
+				"band":"F606W",
+				"system":"Vega",
+				"magnitude":"25.78",
+				"e_magnitude":"0.05",
+				"source":"4"
+			},
+			{
+				"time":"50673.03",
+				"u_time":"MJD",
+				"band":"F775W",
+				"system":"Vega",
+				"magnitude":"24.15",
+				"e_magnitude":"0.05",
+				"telescope":"Hubble",
+				"instrument":"WFC3",
+				"source":"4"
+			},
+			{
+				"time":"50673.08",
+				"u_time":"MJD",
+				"band":"F850LP",
+				"system":"Vega",
+				"magnitude":"23.73",
+				"e_magnitude":"0.01",
+				"telescope":"Hubble",
+				"instrument":"WFC3",
+				"source":"4"
+			},
+			{
 				"time":"52628.5",
 				"u_time":"MJD",
 				"magnitude":"23.8",
-				"source":"6,7"
+				"source":"7,8"
 			}
 		]
 	}

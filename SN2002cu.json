@@ -155,7 +155,7 @@
 		"comovingdist":[
 			{
 				"value":"93.2",
-				"source":"15,14",
+				"source":"14,15",
 				"unit":"Mpc"
 			}
 		],
@@ -187,69 +187,88 @@
 			{
 				"value":"0.0535",
 				"error":"0.0012",
-				"source":"20"
+				"source":"19,20",
+				"derived":true
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 6575",
-				"source":"4,6,9,10,11,12,13,15,14"
+				"source":"4,6,9,10,11,12,13,14,15"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+31:07:03",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"degrees"
 			},
 			{
 				"value":"+31:06:56.3",
-				"source":"13"
+				"source":"13",
+				"unit":"degrees"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"103.7",
+				"source":"1,10,11,12,13,19,2,9",
+				"unit":"arcseconds",
+				"derived":true
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"45.79",
+				"source":"1,10,11,12,13,14,15,19,2,9"
 			}
 		],
 		"hostra":[
 			{
 				"value":"18:10:57",
 				"source":"9",
-				"unit":"nospace"
+				"unit":"hours"
 			},
 			{
 				"value":"18:10:57.36",
-				"source":"13"
+				"source":"13",
+				"unit":"hours"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"105",
-				"source":"19,21,4",
-				"kind":"heliocentric",
+				"value":"105.05",
+				"source":"14,15,19,21",
 				"unit":"Mpc",
 				"derived":true
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-18.75",
-				"source":"19,21,4",
+				"value":"-18.747",
+				"source":"14,15,19,21",
 				"derived":true
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.36",
-				"source":"19,4,6"
+				"source":"19,4,6",
+				"derived":true
 			}
 		],
 		"maxband":[
 			{
 				"value":"B",
-				"source":"19,4,6"
+				"source":"19,4,6",
+				"derived":true
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/05/22",
-				"source":"19,4,6"
+				"source":"19,4,6",
+				"derived":true
 			}
 		],
 		"ra":[
@@ -261,9 +280,8 @@
 		],
 		"redshift":[
 			{
-				"value":"0.02332",
-				"source":"4",
-				"kind":"heliocentric"
+				"value":"0.023323",
+				"source":"14,15"
 			}
 		],
 		"velocity":[
@@ -14078,7 +14096,7 @@
 						"2.5687097e-17"
 					]
 				],
-				"source":"17,5,18"
+				"source":"17,18,5"
 			},
 			{
 				"deredshifted":false,
@@ -26837,7 +26855,7 @@
 						"1.870335e-17"
 					]
 				],
-				"source":"17,5,18"
+				"source":"17,18,5"
 			},
 			{
 				"deredshifted":false,
@@ -47265,7 +47283,7 @@
 						"2.4493155e-17"
 					]
 				],
-				"source":"17,5,18"
+				"source":"17,18,5"
 			},
 			{
 				"deredshifted":false,
