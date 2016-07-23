@@ -1,209 +1,209 @@
 {
 	"SN2001dv":{
-		"schema":"https://github.com/astrocatalogs/sne/blob/07f1aa00c396ea7c98a76b8de18028285b2e7b14/OSC-JSON-format.md",
+		"schema":"https://github.com/astrocatalogs/astrocats/blob/aaf96e3b3fbcf703610b756295a7120ec1ecc3f7/OSC-JSON-format.md",
 		"name":"SN2001dv",
 		"sources":[
 			{
-				"name":"SIMBAD astronomical database",
-				"url":"http://simbad.u-strasbg.fr/",
-				"bibcode":"2000A&AS..143....9W",
-				"alias":"1",
-				"secondary":true,
-				"reference":"Wenger et al. (2000)"
+				"name":"2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)",
+				"alias":"1"
 			},
 			{
-				"name":"2001IAUC.7690....2P",
-				"bibcode":"2001IAUC.7690....2P",
-				"alias":"2",
-				"reference":"Puckett et al. (2001)"
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"2"
 			},
 			{
 				"name":"2008yCat....1.2024B",
 				"bibcode":"2008yCat....1.2024B",
-				"alias":"3",
-				"reference":"Barbon et al. (2008)"
+				"reference":"Barbon et al. (2008)",
+				"alias":"3"
 			},
 			{
-				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"4",
-				"secondary":true
+				"name":"2001IAUC.7690....2P",
+				"bibcode":"2001IAUC.7690....2P",
+				"reference":"Puckett et al. (2001)",
+				"alias":"4"
 			},
 			{
 				"name":"VSNET 2001",
 				"alias":"5"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
-				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"bibcode":"1989A&AS...81..421B",
-				"alias":"6",
-				"secondary":true,
-				"reference":"Barbon, Cappellaro, & Turatto (1989)"
-			},
-			{
 				"name":"Transient Name Server",
-				"url":"https://wis-tns.weizmann.ac.il",
-				"alias":"7"
+				"url":"https://wis-tns.weizmann.ac.il/",
+				"alias":"6"
 			},
 			{
 				"name":"Latest Supernovae",
+				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"8",
-				"secondary":true
+				"alias":"7"
 			},
 			{
-				"name":"2012A&A...538A.120L",
-				"bibcode":"2012A&A...538A.120L",
-				"alias":"9",
-				"reference":"Lennarz, Altmann, & Wiebusch (2012)"
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"secondary":true,
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"8"
 			},
 			{
 				"name":"The Open Supernova Catalog",
-				"url":"https://sne.space",
 				"bibcode":"2016arXiv160501054G",
-				"alias":"10",
+				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
-				"reference":"Guillochon, Parrent, & Margutti (2016)"
+				"url":"https://sne.space",
+				"alias":"9"
 			},
 			{
-				"name":"2011ApJ...737..103S",
-				"bibcode":"2011ApJ...737..103S",
-				"alias":"11",
-				"reference":"Schlafly & Finkbeiner (2011)"
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"10"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"bibcode":"1989A&AS...81..421B",
+				"reference":"Barbon, Cappellaro, & Turatto (1989)",
+				"secondary":true,
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2001dv",
-				"source":"1,4,6,7,2,8,9"
+				"source":"1,4,6,7,8,10,11"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"1,3,6,7,2,8,9"
+				"source":"1,3,4,6,7,10,11"
 			}
 		],
 		"dec":[
 			{
 				"value":"+51:15:25.8",
-				"source":"1,2,6,8,9",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"1,4,7,10,11"
 			},
 			{
 				"value":"+51:15:25.81",
-				"source":"7",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"6"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2001/08/23",
-				"source":"6,7,2,8,9"
+				"source":"1,4,6,7,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Puckett, George",
-				"source":"6"
+				"source":"11"
 			},
 			{
 				"value":"Tim Puckett et al.",
-				"source":"2,8"
+				"source":"4,7"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.015",
-				"error":"0.001",
-				"source":"10,11",
-				"derived":true
+				"derived":true,
+				"e_value":"0.001",
+				"source":"2,9"
 			}
 		],
 		"host":[
 			{
 				"value":"MCG +09-27-71",
-				"source":"6,7,2,8"
+				"source":"4,6,7,11"
 			},
 			{
 				"value":"PGC 58901",
-				"source":"9"
+				"source":"1"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+51:15:30",
-				"source":"6",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"11"
 			},
 			{
 				"value":"+51:15:30.2",
-				"source":"9",
-				"unit":"degrees"
+				"u_value":"degrees",
+				"source":"1"
 			}
 		],
 		"hostoffsetang":[
 			{
 				"value":"4.243",
-				"source":"1,10,2,6,7,8,9",
-				"unit":"arcseconds",
-				"derived":true
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"1,4,6,7,9,10,11"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:44:56",
-				"source":"6",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"11"
 			},
 			{
 				"value":"16:44:55.85",
-				"source":"9",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"1"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.5",
-				"source":"10,4,5",
-				"derived":true
+				"derived":true,
+				"source":"5,8,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
-				"source":"10,4,5",
-				"derived":true
+				"derived":true,
+				"source":"5,8,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2001/08/23",
-				"source":"10,4,5",
-				"derived":true
+				"derived":true,
+				"source":"5,8,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:44:56.04",
-				"source":"1,2,6,7,8,9",
-				"unit":"hours"
+				"u_value":"hours",
+				"source":"1,4,6,7,10,11"
 			}
 		],
 		"photometry":[
 			{
 				"time":"52143.5",
-				"u_time":"MJD",
 				"magnitude":"18.5",
-				"source":"2,8"
+				"u_time":"MJD",
+				"source":"4,7"
 			},
 			{
 				"time":"52144.15",
-				"u_time":"MJD",
 				"band":"C",
 				"magnitude":"18.5",
-				"source":"4,5"
+				"u_time":"MJD",
+				"source":"5,8"
 			}
 		]
 	}
