@@ -22,28 +22,34 @@
 				"alias":"3"
 			},
 			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"reference":"Barbon et al. (2008)",
+				"alias":"4"
+			},
+			{
 				"name":"2004IAUC.8444....1B",
 				"bibcode":"2004IAUC.8444....1B",
 				"reference":"Boles et al. (2004)",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"IAUC 8444",
 				"bibcode":"2004IAUC.8444....2B",
 				"reference":"Bezpalko (2004)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08400/08444.html#Item1",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -51,7 +57,7 @@
 				"reference":"Guillochon, Parrent, & Margutti (2016)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"8"
+				"alias":"9"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -59,7 +65,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"9"
+				"alias":"10"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -67,19 +73,27 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"10"
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2004gg",
-				"source":"2,5,6,7,9,10"
+				"source":"2,6,7,8,10,11"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"2,5,7"
+				"source":"2,6,8"
+			},
+			{
+				"value":"II Pec",
+				"source":"4,10,11"
+			},
+			{
+				"value":"II P",
+				"source":"7"
 			}
 		],
 		"comovingdist":[
@@ -87,31 +101,31 @@
 				"value":"90",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,8"
+				"source":"1,2,9"
 			}
 		],
 		"dec":[
 			{
 				"value":"+16:02:44.5",
 				"u_value":"degrees",
-				"source":"2,4,5,7,9,10"
+				"source":"2,5,6,8,10,11"
 			},
 			{
 				"value":"+16:02:44.48",
 				"u_value":"degrees",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2004/11/16",
-				"source":"2,5,6,7,10"
+				"source":"2,6,7,8,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"5,7,10"
+				"source":"6,8,11"
 			}
 		],
 		"ebv":[
@@ -119,20 +133,20 @@
 				"value":"0.0392",
 				"derived":true,
 				"e_value":"0.0018",
-				"source":"3,8"
+				"source":"3,9"
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 5234",
-				"source":"2,5,6,7,10"
+				"source":"2,6,7,8,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+16:02:36",
 				"u_value":"degrees",
-				"source":"10"
+				"source":"11"
 			},
 			{
 				"value":"+16:02:34.4",
@@ -145,20 +159,20 @@
 				"value":"15.95",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,4,5,6,7,8,9,10"
+				"source":"2,5,6,7,8,9,10,11"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"6.823",
-				"source":"1,2,4,5,6,7,8,9,10"
+				"source":"1,2,5,6,7,8,9,10,11"
 			}
 		],
 		"hostra":[
 			{
 				"value":"09:46:50",
 				"u_value":"hours",
-				"source":"10"
+				"source":"11"
 			},
 			{
 				"value":"09:46:49.54",
@@ -179,28 +193,28 @@
 			{
 				"value":"-16",
 				"derived":true,
-				"source":"2,8"
+				"source":"2,9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.7",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"6,8,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/11/15",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"6,8,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"09:46:49.10",
 				"u_value":"hours",
-				"source":"2,4,5,6,7,9,10"
+				"source":"2,5,6,7,8,10,11"
 			}
 		],
 		"redshift":[
@@ -215,7 +229,7 @@
 				"value":"6017",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"photometry":[
@@ -223,7 +237,7 @@
 				"time":"53324.5",
 				"magnitude":"18.7",
 				"u_time":"MJD",
-				"source":"5,7"
+				"source":"6,8"
 			}
 		]
 	}
