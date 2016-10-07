@@ -116,7 +116,7 @@
 		"alias":[
 			{
 				"value":"SN2001dc",
-				"source":"3,7,9,10,11,12,14,15,16,17"
+				"source":"3,7,9,10,11,12,13,14,15,16,17"
 			}
 		],
 		"claimedtype":[
@@ -235,26 +235,54 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-11.4",
+				"value":"-14.2",
 				"derived":true,
 				"source":"2,3,13"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"21.11",
+				"value":"18.3",
 				"derived":true,
 				"source":"8,12,13"
 			}
 		],
 		"maxband":[
 			{
-				"value":"B",
+				"value":"C",
 				"derived":true,
 				"source":"8,12,13"
 			}
 		],
 		"maxdate":[
+			{
+				"value":"2001/06/02",
+				"derived":true,
+				"source":"8,12,13"
+			}
+		],
+		"maxvisualabsmag":[
+			{
+				"value":"-11.4",
+				"derived":true,
+				"source":"2,3,13"
+			}
+		],
+		"maxvisualappmag":[
+			{
+				"value":"21.11",
+				"derived":true,
+				"source":"8,12,13"
+			}
+		],
+		"maxvisualband":[
+			{
+				"value":"B",
+				"derived":true,
+				"source":"8,12,13"
+			}
+		],
+		"maxvisualdate":[
 			{
 				"value":"2001/06/22",
 				"derived":true,
@@ -3340,6 +3368,12 @@
 			},
 			{
 				"time":"52137",
+				"exclude":[
+					{
+						"below":"3400.0",
+						"reason":"noise"
+					}
+				],
 				"filename":"2001dc_20010816_3200_8057_00.dat",
 				"u_errors":"Uncalibrated",
 				"u_fluxes":"Uncalibrated",
