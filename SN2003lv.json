@@ -64,16 +64,16 @@
 				"alias":"10"
 			},
 			{
+				"name":"2004ApJ...607..665R",
+				"bibcode":"2004ApJ...607..665R",
+				"reference":"Riess et al. (2004)",
+				"alias":"11"
+			},
+			{
 				"name":"IAUC 8284",
 				"bibcode":"2004IAUC.8284....4S",
 				"reference":"Seargent, Souza, & Amorim (2004)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08200/08284.html#Item2",
-				"alias":"11"
-			},
-			{
-				"name":"2004ApJ...607..665R",
-				"bibcode":"2004ApJ...607..665R",
-				"reference":"Riess et al. (2004)",
 				"alias":"12"
 			},
 			{
@@ -121,7 +121,15 @@
 		"alias":[
 			{
 				"value":"SN2003lv",
-				"source":"2,11,13,14,15,17,18"
+				"source":"2,12,13,14,15,16,17,18"
+			},
+			{
+				"value":"SN2003xx",
+				"source":"11,16,17"
+			},
+			{
+				"value":"Vilas",
+				"source":"11"
 			}
 		],
 		"comovingdist":[
@@ -158,7 +166,7 @@
 			{
 				"value":"3070",
 				"u_value":"Mpc",
-				"source":"12,15"
+				"source":"11,15"
 			},
 			{
 				"value":"3220",
@@ -168,14 +176,14 @@
 		],
 		"dec":[
 			{
+				"value":"+62:11:27.8",
+				"u_value":"degrees",
+				"source":"2,11,17,18"
+			},
+			{
 				"value":"+62:11:27.36",
 				"u_value":"degrees",
 				"source":"8,17"
-			},
-			{
-				"value":"+62:11:27.8",
-				"u_value":"degrees",
-				"source":"2,18"
 			},
 			{
 				"value":"+62:11:27.82",
@@ -185,13 +193,13 @@
 			{
 				"value":"+62:11:27.89",
 				"u_value":"degrees",
-				"source":"11,14"
+				"source":"12,14"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/04/04",
-				"source":"2,11,13,14,18"
+				"source":"2,12,13,14,18"
 			}
 		],
 		"discoverer":[
@@ -201,7 +209,7 @@
 			},
 			{
 				"value":"HST",
-				"source":"11,14"
+				"source":"12,14"
 			}
 		],
 		"ebv":[
@@ -219,7 +227,7 @@
 			},
 			{
 				"value":"GOODS J123728.95+621127.8",
-				"source":"3,5,6,7,9,10,12,15"
+				"source":"3,5,6,7,9,10,11,15"
 			}
 		],
 		"hostdec":[
@@ -236,16 +244,16 @@
 		],
 		"hostoffsetang":[
 			{
-				"value":"14.88",
+				"value":"15.02",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"8,16,17,18"
+				"source":"2,11,16,17,18"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"70.46",
-				"source":"3,5,6,7,8,9,10,12,15,16,17,18"
+				"value":"71.13",
+				"source":"2,3,5,6,7,9,10,11,15,16,17,18"
 			}
 		],
 		"hostra":[
@@ -265,52 +273,71 @@
 				"value":"6252",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,3,5,6,7,9,10,12,15,16"
+				"source":"1,3,5,6,7,9,10,11,15,16"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-20.78",
+				"value":"-20.73",
 				"derived":true,
-				"source":"1,3,5,6,7,9,10,12,15,16"
+				"source":"1,3,5,6,7,9,10,11,15,16"
 			}
 		],
 		"maxappmag":[
 			{
-				"value":"23.2",
+				"value":"23.25",
 				"derived":true,
-				"source":"11,14,16"
+				"source":"11,16"
+			}
+		],
+		"maxband":[
+			{
+				"value":"F850LP",
+				"derived":true,
+				"source":"11,16"
 			}
 		],
 		"maxdate":[
 			{
-				"value":"2003/04/03",
+				"value":"2003/04/04",
 				"derived":true,
-				"source":"11,14,16"
+				"source":"11,16"
 			}
 		],
 		"maxvisualabsmag":[
 			{
-				"value":"-20.78",
+				"value":"-20.73",
 				"derived":true,
-				"source":"1,3,5,6,7,9,10,12,15,16"
+				"source":"1,3,5,6,7,9,10,11,15,16"
 			}
 		],
 		"maxvisualappmag":[
 			{
-				"value":"23.2",
+				"value":"23.25",
 				"derived":true,
-				"source":"11,14,16"
+				"source":"11,16"
+			}
+		],
+		"maxvisualband":[
+			{
+				"value":"F850LP",
+				"derived":true,
+				"source":"11,16"
 			}
 		],
 		"maxvisualdate":[
 			{
-				"value":"2003/04/03",
+				"value":"2003/04/04",
 				"derived":true,
-				"source":"11,14,16"
+				"source":"11,16"
 			}
 		],
 		"ra":[
+			{
+				"value":"12:37:29.00",
+				"u_value":"hours",
+				"source":"11,17"
+			},
 			{
 				"value":"12:37:28.992",
 				"u_value":"hours",
@@ -324,13 +351,13 @@
 			{
 				"value":"12:37:28.978",
 				"u_value":"hours",
-				"source":"11,14"
+				"source":"12,14"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.935",
-				"source":"3,5,6,7,9,10,12,15"
+				"source":"3,5,6,7,9,10,11,15"
 			}
 		],
 		"velocity":[
@@ -342,10 +369,145 @@
 		],
 		"photometry":[
 			{
-				"time":"52732.5",
-				"magnitude":"23.2",
+				"time":"52691.92",
+				"band":"F850LP",
+				"e_magnitude":"0.3",
+				"instrument":"WFC3",
+				"magnitude":"26.39",
+				"system":"Vega",
+				"telescope":"Hubble",
 				"u_time":"MJD",
-				"source":"11,14"
+				"source":"11"
+			},
+			{
+				"time":"52733.15",
+				"band":"F606W",
+				"e_magnitude":"0.05",
+				"magnitude":"25.14",
+				"system":"Vega",
+				"u_time":"MJD",
+				"source":"11"
+			},
+			{
+				"time":"52733.15",
+				"band":"F775W",
+				"e_magnitude":"0.05",
+				"instrument":"WFC3",
+				"magnitude":"23.54",
+				"system":"Vega",
+				"telescope":"Hubble",
+				"u_time":"MJD",
+				"source":"11"
+			},
+			{
+				"time":"52733.15",
+				"band":"F850LP",
+				"e_magnitude":"0.04",
+				"instrument":"WFC3",
+				"magnitude":"23.25",
+				"system":"Vega",
+				"telescope":"Hubble",
+				"u_time":"MJD",
+				"source":"11"
+			},
+			{
+				"time":"52745.15",
+				"band":"F775W",
+				"e_magnitude":"0.05",
+				"instrument":"WFC3",
+				"magnitude":"24.09",
+				"system":"Vega",
+				"telescope":"Hubble",
+				"u_time":"MJD",
+				"source":"11"
+			},
+			{
+				"time":"52745.15",
+				"band":"F850LP",
+				"e_magnitude":"0.05",
+				"instrument":"WFC3",
+				"magnitude":"23.57",
+				"system":"Vega",
+				"telescope":"Hubble",
+				"u_time":"MJD",
+				"source":"11"
+			},
+			{
+				"time":"52750.62",
+				"band":"F850LP",
+				"e_magnitude":"0.06",
+				"instrument":"WFC3",
+				"magnitude":"23.86",
+				"system":"Vega",
+				"telescope":"Hubble",
+				"u_time":"MJD",
+				"source":"11"
+			},
+			{
+				"time":"52763.11",
+				"band":"F850LP",
+				"e_magnitude":"0.08",
+				"instrument":"WFC3",
+				"magnitude":"24.6",
+				"system":"Vega",
+				"telescope":"Hubble",
+				"u_time":"MJD",
+				"source":"11"
+			},
+			{
+				"time":"52773.39",
+				"band":"F850LP",
+				"e_magnitude":"0.12",
+				"instrument":"WFC3",
+				"magnitude":"24.92",
+				"system":"Vega",
+				"telescope":"Hubble",
+				"u_time":"MJD",
+				"source":"11"
+			},
+			{
+				"time":"52783.04",
+				"band":"F775W",
+				"e_magnitude":"0.25",
+				"instrument":"WFC3",
+				"magnitude":"26.36",
+				"system":"Vega",
+				"telescope":"Hubble",
+				"u_time":"MJD",
+				"source":"11"
+			},
+			{
+				"time":"52783.04",
+				"band":"F850LP",
+				"e_magnitude":"0.15",
+				"instrument":"WFC3",
+				"magnitude":"25.63",
+				"system":"Vega",
+				"telescope":"Hubble",
+				"u_time":"MJD",
+				"source":"11"
+			},
+			{
+				"time":"52798.59",
+				"band":"F850LP",
+				"e_magnitude":"0.25",
+				"instrument":"WFC3",
+				"magnitude":"26.05",
+				"system":"Vega",
+				"telescope":"Hubble",
+				"u_time":"MJD",
+				"source":"11"
+			},
+			{
+				"time":"52806.77",
+				"band":"F850LP",
+				"e_magnitude":"0.3",
+				"instrument":"WFC3",
+				"magnitude":"26.28",
+				"system":"Vega",
+				"telescope":"Hubble",
+				"u_time":"MJD",
+				"source":"11"
 			}
 		]
 	}
