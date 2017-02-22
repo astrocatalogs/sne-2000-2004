@@ -241,6 +241,13 @@
 				"source":"5,6,7,9,11,16"
 			}
 		],
+		"hostcomovingdist":[
+			{
+				"value":"1660",
+				"derived":true,
+				"source":"1,2,17"
+			}
+		],
 		"hostdec":[
 			{
 				"value":"+00:19:51",
@@ -253,6 +260,13 @@
 				"source":"3"
 			}
 		],
+		"hostlumdist":[
+			{
+				"value":"2352.3",
+				"derived":true,
+				"source":"1,2,17"
+			}
+		],
 		"hostoffsetang":[
 			{
 				"value":"0.5408",
@@ -263,7 +277,7 @@
 		],
 		"hostoffsetdist":[
 			{
-				"value":"1.998",
+				"value":"2",
 				"source":"1,3,5,10,12,14,16,17,19,20"
 			}
 		],
@@ -279,9 +293,22 @@
 				"source":"3"
 			}
 		],
+		"hostredshift":[
+			{
+				"value":"0.4171",
+				"e_value":"0.0006",
+				"source":"1"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"100500",
+				"source":"17"
+			}
+		],
 		"lumdist":[
 			{
-				"value":"2352.3",
+				"value":"2344.3",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,17"
@@ -289,7 +316,7 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-20.157",
+				"value":"-19.772",
 				"derived":true,
 				"source":"1,2,17"
 			}
@@ -317,7 +344,7 @@
 		],
 		"maxvisualabsmag":[
 			{
-				"value":"-20.157",
+				"value":"-20.15",
 				"derived":true,
 				"source":"1,2,17"
 			}
@@ -362,15 +389,21 @@
 		],
 		"redshift":[
 			{
-				"value":"0.4171",
-				"e_value":"0.0006",
-				"kind":"host",
+				"value":"0.4159",
+				"kind":[
+					"spectroscopic",
+					"cmb"
+				],
 				"source":"1"
+			},
+			{
+				"value":"0.4171",
+				"source":"18"
 			}
 		],
 		"velocity":[
 			{
-				"value":"100500",
+				"value":"100200",
 				"u_value":"km/s",
 				"source":"17"
 			}

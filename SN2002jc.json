@@ -114,10 +114,10 @@
 		],
 		"comovingdist":[
 			{
-				"value":"2100",
+				"value":"2036",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"2,6,11"
+				"source":"1,2,11"
 			}
 		],
 		"dec":[
@@ -172,6 +172,13 @@
 				"source":"14"
 			}
 		],
+		"hostcomovingdist":[
+			{
+				"value":"2000",
+				"derived":true,
+				"source":"2,3,11,14"
+			}
+		],
 		"hostdec":[
 			{
 				"value":"-03:50:20",
@@ -184,6 +191,13 @@
 				"source":"3"
 			}
 		],
+		"hostlumdist":[
+			{
+				"value":"2900",
+				"derived":true,
+				"source":"2,3,11,14"
+			}
+		],
 		"hostoffsetang":[
 			{
 				"value":"4.249",
@@ -194,8 +208,8 @@
 		],
 		"hostoffsetdist":[
 			{
-				"value":"28.09",
-				"source":"2,3,6,7,8,9,10,11,13,14"
+				"value":"27.45",
+				"source":"1,2,3,6,7,8,9,10,11,13,14"
 			}
 		],
 		"hostra":[
@@ -210,19 +224,31 @@
 				"source":"3"
 			}
 		],
+		"hostredshift":[
+			{
+				"value":"0.5",
+				"source":"3,14"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"100000",
+				"source":"11"
+			}
+		],
 		"lumdist":[
 			{
-				"value":"3200",
+				"value":"3109",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"2,6,11"
+				"source":"1,2,11"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-20",
+				"value":"-19.433",
 				"derived":true,
-				"source":"2,6,11"
+				"source":"1,2,11"
 			}
 		],
 		"maxappmag":[
@@ -248,9 +274,9 @@
 		],
 		"maxvisualabsmag":[
 			{
-				"value":"-20",
+				"value":"-19.893",
 				"derived":true,
-				"source":"2,6,11"
+				"source":"1,2,11"
 			}
 		],
 		"maxvisualappmag":[
@@ -288,15 +314,25 @@
 		],
 		"redshift":[
 			{
-				"value":"0.54",
-				"e_value":"0.008",
-				"kind":"heliocentric",
-				"source":"6"
+				"value":"0.528",
+				"kind":[
+					"spectroscopic",
+					"heliocentric"
+				],
+				"source":"1"
+			},
+			{
+				"value":"0.5271",
+				"kind":[
+					"spectroscopic",
+					"cmb"
+				],
+				"source":"1"
 			}
 		],
 		"velocity":[
 			{
-				"value":"120000",
+				"value":"119800",
 				"u_value":"km/s",
 				"source":"11"
 			}

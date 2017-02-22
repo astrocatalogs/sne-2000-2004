@@ -267,6 +267,13 @@
 				"source":"5,6,7,8,10,12,17"
 			}
 		],
+		"hostcomovingdist":[
+			{
+				"value":"1690",
+				"derived":true,
+				"source":"1,2,18"
+			}
+		],
 		"hostdec":[
 			{
 				"value":"-08:36:14",
@@ -277,6 +284,13 @@
 				"value":"-08:36:14.0",
 				"u_value":"degrees",
 				"source":"3"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"2418",
+				"derived":true,
+				"source":"1,2,18"
 			}
 		],
 		"hostoffsetang":[
@@ -305,9 +319,22 @@
 				"source":"3"
 			}
 		],
+		"hostredshift":[
+			{
+				"value":"0.427",
+				"e_value":"0.001",
+				"source":"1"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"102000",
+				"source":"18"
+			}
+		],
 		"lumdist":[
 			{
-				"value":"2418",
+				"value":"2413.1",
 				"derived":true,
 				"u_value":"Mpc",
 				"source":"1,2,18"
@@ -315,7 +342,7 @@
 		],
 		"maxabsmag":[
 			{
-				"value":"-19.9",
+				"value":"-19.507",
 				"derived":true,
 				"source":"1,2,18"
 			}
@@ -343,7 +370,7 @@
 		],
 		"maxvisualabsmag":[
 			{
-				"value":"-19.68",
+				"value":"-19.673",
 				"derived":true,
 				"source":"1,2,18"
 			}
@@ -389,14 +416,28 @@
 		"redshift":[
 			{
 				"value":"0.427",
-				"e_value":"0.001",
-				"kind":"host",
+				"kind":[
+					"spectroscopic",
+					"heliocentric"
+				],
 				"source":"1"
+			},
+			{
+				"value":"0.4262",
+				"kind":[
+					"spectroscopic",
+					"cmb"
+				],
+				"source":"1"
+			},
+			{
+				"value":"0.427",
+				"source":"19"
 			}
 		],
 		"velocity":[
 			{
-				"value":"102000",
+				"value":"102200",
 				"u_value":"km/s",
 				"source":"18"
 			}

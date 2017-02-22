@@ -110,7 +110,7 @@
 				"value":"2100",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"2,6,10"
+				"source":"2,10,11"
 			}
 		],
 		"dec":[
@@ -160,6 +160,13 @@
 				"source":"13"
 			}
 		],
+		"hostcomovingdist":[
+			{
+				"value":"2000",
+				"derived":true,
+				"source":"2,3,10,13"
+			}
+		],
 		"hostdec":[
 			{
 				"value":"-09:34:43",
@@ -170,6 +177,13 @@
 				"value":"-09:34:43.0",
 				"u_value":"degrees",
 				"source":"3"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"2200",
+				"derived":true,
+				"source":"2,3,10,13"
 			}
 		],
 		"hostoffsetang":[
@@ -183,7 +197,7 @@
 		"hostoffsetdist":[
 			{
 				"value":"38.35",
-				"source":"2,3,6,7,8,9,10,12,13"
+				"source":"2,3,6,7,8,9,10,11,12,13"
 			}
 		],
 		"hostra":[
@@ -198,19 +212,31 @@
 				"source":"3"
 			}
 		],
+		"hostredshift":[
+			{
+				"value":"0.4",
+				"source":"3,13"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"100000",
+				"source":"10"
+			}
+		],
 		"lumdist":[
 			{
 				"value":"3270",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"2,6,10"
+				"source":"2,10,11"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-19.7",
+				"value":"-19.2",
 				"derived":true,
-				"source":"2,6,10"
+				"source":"2,10,11"
 			}
 		],
 		"maxappmag":[
@@ -231,7 +257,7 @@
 			{
 				"value":"-19.7",
 				"derived":true,
-				"source":"2,6,10"
+				"source":"2,10,11"
 			}
 		],
 		"maxvisualappmag":[
@@ -263,9 +289,7 @@
 		"redshift":[
 			{
 				"value":"0.55",
-				"e_value":"0.007",
-				"kind":"heliocentric",
-				"source":"6"
+				"source":"11"
 			}
 		],
 		"velocity":[
