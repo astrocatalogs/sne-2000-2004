@@ -4,10 +4,22 @@
 		"name":"ESSENCEd009",
 		"sources":[
 			{
+				"name":"2016ApJS..224....3N",
+				"bibcode":"2016ApJS..224....3N",
+				"reference":"Narayan et al. (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2016A&A...594A..13P",
 				"bibcode":"2016A&A...594A..13P",
 				"reference":"Planck Collaboration et al. (2016)",
-				"alias":"1"
+				"alias":"2"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"3"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -15,7 +27,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"2"
+				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -23,19 +35,19 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"3"
+				"alias":"5"
 			}
 		],
 		"alias":[
 			{
 				"value":"ESSENCEd009",
-				"source":"3"
+				"source":"1,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"3"
+				"source":"1,5"
 			}
 		],
 		"comovingdist":[
@@ -43,14 +55,56 @@
 				"value":"1431",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,4"
+			}
+		],
+		"dec":[
+			{
+				"value":"-08:56:41.300",
+				"u_value":"degrees",
+				"source":"1"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/10/29",
 				"derived":true,
-				"source":"2,3"
+				"source":"1,4"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0318",
+				"derived":true,
+				"e_value":"0.0005",
+				"source":"3,4"
+			}
+		],
+		"hostcomovingdist":[
+			{
+				"value":"1431",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"1936.9",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.3535",
+				"e_value":"0.0002",
+				"source":"1"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"88070",
+				"source":"4"
 			}
 		],
 		"lumdist":[
@@ -58,31 +112,37 @@
 				"value":"1936.9",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,4"
+			}
+		],
+		"ra":[
+			{
+				"value":"23:25:55.900",
+				"u_value":"hours",
+				"source":"1"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.3535",
-				"source":"3"
+				"e_value":"0.0002",
+				"kind":"host",
+				"source":"1"
 			}
 		],
 		"velocity":[
 			{
 				"value":"88070",
 				"u_value":"km/s",
-				"source":"2"
+				"source":"4"
 			}
 		],
 		"spectra":[
 			{
-				"time":"52941.0",
-				"filename":"ESSENCEd009_2003-10-29_fors1_1.ascii",
-				"instrument":"VLT-UT1 - FORS1",
-				"observer":"Unknown",
-				"redshift":"0.3535",
-				"reducer":"Unknown",
-				"reduction":"final",
+				"time":"52941.11",
+				"filename":"d009_20031029.110_fors1.flm",
+				"instrument":"FORS1",
+				"telescope":"VLT",
 				"u_fluxes":"erg/s/cm^2/Angstrom",
 				"u_time":"MJD",
 				"u_wavelengths":"Angstrom",
@@ -1961,6 +2021,10 @@
 					],
 					[
 						"5590.20",
+						"8.54258e-18"
+					],
+					[
+						"5592.85",
 						"8.54258e-18"
 					],
 					[
@@ -7008,16 +7072,13 @@
 						"1.65153e-17"
 					]
 				],
-				"source":"3"
+				"source":"1"
 			},
 			{
-				"time":"52943.0",
-				"filename":"ESSENCEd009_2003-10-31_fors1_2.ascii",
-				"instrument":"VLT-UT1 - FORS1",
-				"observer":"Unknown",
-				"redshift":"0.3535",
-				"reducer":"Unknown",
-				"reduction":"final",
+				"time":"52943.01",
+				"filename":"d009_20031031.010_fors1.flm",
+				"instrument":"FORS1",
+				"telescope":"VLT",
 				"u_fluxes":"erg/s/cm^2/Angstrom",
 				"u_time":"MJD",
 				"u_wavelengths":"Angstrom",
@@ -8895,6 +8956,10 @@
 						"7.85442e-18"
 					],
 					[
+						"5590.20",
+						"7.85442e-18"
+					],
+					[
 						"5592.85",
 						"7.48057e-18"
 					],
@@ -9980,6 +10045,10 @@
 					],
 					[
 						"6311.00",
+						"9.96072e-18"
+					],
+					[
+						"6313.65",
 						"9.96072e-18"
 					],
 					[
@@ -13939,7 +14008,7 @@
 						"1.19488e-17"
 					]
 				],
-				"source":"3"
+				"source":"1"
 			}
 		]
 	}

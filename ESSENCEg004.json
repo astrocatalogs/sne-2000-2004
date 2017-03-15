@@ -4,12 +4,24 @@
 		"name":"ESSENCEg004",
 		"sources":[
 			{
+				"name":"2016ApJS..224....3N",
+				"bibcode":"2016ApJS..224....3N",
+				"reference":"Narayan et al. (2016)",
+				"alias":"1"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"2"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"1"
+				"alias":"3"
 			},
 			{
 				"name":"WISeREP",
@@ -17,36 +29,56 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"2"
+				"alias":"4"
 			}
 		],
 		"alias":[
 			{
 				"value":"ESSENCEg004",
-				"source":"2"
+				"source":"1,4"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"2"
+				"source":"1,4"
+			}
+		],
+		"dec":[
+			{
+				"value":"+00:23:38.571",
+				"u_value":"degrees",
+				"source":"1"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2004/11/11",
 				"derived":true,
-				"source":"1,2"
+				"source":"1,3"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0253",
+				"derived":true,
+				"e_value":"0.0014",
+				"source":"2,3"
+			}
+		],
+		"ra":[
+			{
+				"value":"01:15:06.214",
+				"u_value":"hours",
+				"source":"1"
 			}
 		],
 		"spectra":[
 			{
-				"time":"53320.0",
-				"filename":"ESSENCEg004_2004-11-11_ldss-2_1.ascii",
-				"instrument":"Magellan-Clay - LDSS-2",
-				"observer":"Unknown",
-				"reducer":"Unknown",
-				"reduction":"final",
+				"time":"53320.176",
+				"filename":"g004_20041111.176_ldss2.flm",
+				"instrument":"LDSS-2",
+				"telescope":"Magellan Clay & Baade",
 				"u_fluxes":"erg/s/cm^2/Angstrom",
 				"u_time":"MJD",
 				"u_wavelengths":"Angstrom",
@@ -1525,6 +1557,10 @@
 					],
 					[
 						"5613.60",
+						"1.5536e-17"
+					],
+					[
+						"5618.80",
 						"1.5536e-17"
 					],
 					[
@@ -4128,7 +4164,7 @@
 						"-2.08322e-18"
 					]
 				],
-				"source":"2"
+				"source":"1"
 			}
 		]
 	}

@@ -58,18 +58,12 @@
 				"alias":"9"
 			},
 			{
-				"name":"NED-D",
-				"secondary":true,
-				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"10"
-			},
-			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"11"
+				"alias":"10"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -77,6 +71,14 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"11"
+			},
+			{
+				"name":"NED-D v13.1.0",
+				"bibcode":"1991ASSL..171...89H",
+				"reference":"Helou et al. (1991)",
+				"secondary":true,
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
 				"alias":"12"
 			},
 			{
@@ -91,44 +93,44 @@
 		"alias":[
 			{
 				"value":"SN2002lt",
-				"source":"2,7,8,9,10,12,13"
+				"source":"2,7,8,9,11,12,13"
 			},
 			{
 				"value":"GRB 021211A",
-				"source":"7,9,12"
+				"source":"7,9,11"
 			},
 			{
 				"value":"HETE Trigger 2493",
-				"source":"12"
+				"source":"11"
 			},
 			{
 				"value":"XRF 021211",
-				"source":"12"
+				"source":"11"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ic",
-				"source":"2,5,7,8,9,12,13"
+				"source":"2,5,7,8,9,11,13"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"2770",
 				"u_value":"Mpc",
-				"source":"4,10"
+				"source":"4,12"
 			},
 			{
 				"value":"3410",
 				"u_value":"Mpc",
-				"source":"4,10"
+				"source":"4,12"
 			}
 		],
 		"dec":[
 			{
 				"value":"+06:43:37.52",
 				"u_value":"degrees",
-				"source":"6,12"
+				"source":"6,11"
 			},
 			{
 				"value":"+06:43:37.5",
@@ -162,7 +164,7 @@
 				"value":"0.0235",
 				"derived":true,
 				"e_value":"0.0008",
-				"source":"3,11"
+				"source":"3,10"
 			}
 		],
 		"host":[
@@ -172,14 +174,14 @@
 			},
 			{
 				"value":"GRB 021211",
-				"source":"4,10"
+				"source":"4,12"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"3411",
 				"derived":true,
-				"source":"1,11,13"
+				"source":"1,10,13"
 			}
 		],
 		"hostdec":[
@@ -198,7 +200,7 @@
 			{
 				"value":"6842.1",
 				"derived":true,
-				"source":"1,11,13"
+				"source":"1,10,13"
 			}
 		],
 		"hostoffsetang":[
@@ -206,7 +208,7 @@
 				"value":"12.79",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"6,11,12,13"
+				"source":"6,10,11,13"
 			}
 		],
 		"hostoffsetdist":[
@@ -236,7 +238,7 @@
 		"hostvelocity":[
 			{
 				"value":"180400",
-				"source":"11"
+				"source":"10"
 			}
 		],
 		"lumdist":[
@@ -244,70 +246,70 @@
 				"value":"6842.1",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,11,13"
+				"source":"1,10,13"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18.92",
 				"derived":true,
-				"source":"1,11,13"
+				"source":"1,10,13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"24.5",
 				"derived":true,
-				"source":"2,11"
+				"source":"2,10"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"2,11"
+				"source":"2,10"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/01/09",
 				"derived":true,
-				"source":"2,11"
+				"source":"2,10"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-19.676",
 				"derived":true,
-				"source":"1,11,13"
+				"source":"1,10,13"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"24.5",
 				"derived":true,
-				"source":"2,11"
+				"source":"2,10"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"2,11"
+				"source":"2,10"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2003/01/09",
 				"derived":true,
-				"source":"2,11"
+				"source":"2,10"
 			}
 		],
 		"ra":[
 			{
 				"value":"08:08:59.858",
 				"u_value":"hours",
-				"source":"6,12"
+				"source":"6,11"
 			},
 			{
 				"value":"08:08:59.86",
@@ -328,14 +330,14 @@
 			},
 			{
 				"value":"0.8",
-				"source":"4,10"
+				"source":"4,12"
 			}
 		],
 		"velocity":[
 			{
 				"value":"180400",
 				"u_value":"km/s",
-				"source":"11"
+				"source":"10"
 			}
 		],
 		"photometry":[

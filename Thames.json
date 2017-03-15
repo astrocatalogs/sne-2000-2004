@@ -63,18 +63,12 @@
 				"alias":"10"
 			},
 			{
-				"name":"NED-D",
-				"secondary":true,
-				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"11"
-			},
-			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"12"
+				"alias":"11"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -82,17 +76,25 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"12"
+			},
+			{
+				"name":"NED-D v13.1.0",
+				"bibcode":"1991ASSL..171...89H",
+				"reference":"Helou et al. (1991)",
+				"secondary":true,
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
 				"alias":"13"
 			}
 		],
 		"alias":[
 			{
 				"value":"Thames",
-				"source":"13"
+				"source":"12"
 			},
 			{
 				"value":"HST04Tha",
-				"source":"9,10,11,13"
+				"source":"9,10,12,13"
 			}
 		],
 		"claimedtype":[
@@ -106,14 +108,14 @@
 				"value":"3280",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,9,10,12"
+				"source":"1,9,10,11"
 			}
 		],
 		"dec":[
 			{
 				"value":"+62:13:03.75",
 				"u_value":"degrees",
-				"source":"6,13"
+				"source":"6,12"
 			},
 			{
 				"value":"+62:13:04.1",
@@ -138,13 +140,13 @@
 				"value":"0.0102",
 				"derived":true,
 				"e_value":"0.0002",
-				"source":"2,12"
+				"source":"2,11"
 			}
 		],
 		"host":[
 			{
 				"value":"GOODS J123655.15+621304.0",
-				"source":"3,4,5,7,8,11"
+				"source":"3,4,5,7,8,13"
 			}
 		],
 		"hostdec":[
@@ -152,7 +154,7 @@
 				"value":"+62:13:04.0",
 				"derived":true,
 				"u_value":"degrees",
-				"source":"12"
+				"source":"11"
 			}
 		],
 		"hostoffsetang":[
@@ -160,13 +162,13 @@
 				"value":"0.5126",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"6,12,13"
+				"source":"6,11,12"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"4.172",
-				"source":"1,6,9,10,12,13"
+				"source":"1,6,9,10,11,12"
 			}
 		],
 		"hostra":[
@@ -174,7 +176,7 @@
 				"value":"12:36:55.15",
 				"derived":true,
 				"u_value":"hours",
-				"source":"12"
+				"source":"11"
 			}
 		],
 		"lumdist":[
@@ -182,14 +184,14 @@
 				"value":"6409",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,9,10,12"
+				"source":"1,9,10,11"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:36:55.214",
 				"u_value":"hours",
-				"source":"6,13"
+				"source":"6,12"
 			},
 			{
 				"value":"12:36:55.17",
@@ -207,7 +209,7 @@
 			{
 				"value":"175000",
 				"u_value":"km/s",
-				"source":"12"
+				"source":"11"
 			}
 		]
 	}

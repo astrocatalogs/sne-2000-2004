@@ -189,16 +189,10 @@
 				"alias":"31"
 			},
 			{
-				"name":"NED-D",
-				"secondary":true,
-				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"32"
-			},
-			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"secondary":true,
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"33"
+				"alias":"32"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -206,7 +200,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"34"
+				"alias":"33"
 			},
 			{
 				"name":"WISeREP",
@@ -214,7 +208,7 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"35"
+				"alias":"34"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -222,6 +216,14 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"35"
+			},
+			{
+				"name":"NED-D v13.1.0",
+				"bibcode":"1991ASSL..171...89H",
+				"reference":"Helou et al. (1991)",
+				"secondary":true,
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
 				"alias":"36"
 			},
 			{
@@ -236,32 +238,102 @@
 		"alias":[
 			{
 				"value":"SN2000fa",
-				"source":"6,7,25,27,29,30,31,32,33,35,36,37"
+				"source":"6,7,25,27,29,30,31,32,34,35,36,37"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"6,7,11,15,27,29,31,36,37"
+				"source":"6,7,11,15,27,29,31,35,37"
 			}
 		],
 		"comovingdist":[
 			{
-				"value":"84.3335",
+				"value":"84.3",
 				"u_value":"Mpc",
-				"source":"2,32"
+				"source":"2,36"
 			},
 			{
-				"value":"86.6962",
+				"value":"86.7",
 				"u_value":"Mpc",
-				"source":"2,32"
+				"source":"2,36"
+			},
+			{
+				"value":"89.7",
+				"u_value":"Mpc",
+				"source":"21,36"
+			},
+			{
+				"value":"91.8",
+				"u_value":"Mpc",
+				"source":"4,36"
+			},
+			{
+				"value":"93.5",
+				"u_value":"Mpc",
+				"source":"16,36"
+			},
+			{
+				"value":"93.6",
+				"u_value":"Mpc",
+				"source":"18,36"
+			},
+			{
+				"value":"94.5",
+				"u_value":"Mpc",
+				"source":"3,36"
+			},
+			{
+				"value":"94.6",
+				"u_value":"Mpc",
+				"source":"13,22,36"
+			},
+			{
+				"value":"95.3",
+				"u_value":"Mpc",
+				"source":"23,36"
+			},
+			{
+				"value":"96.7",
+				"u_value":"Mpc",
+				"source":"14,36"
+			},
+			{
+				"value":"97.3",
+				"u_value":"Mpc",
+				"source":"13,36"
+			},
+			{
+				"value":"101",
+				"u_value":"Mpc",
+				"source":"25,36"
+			},
+			{
+				"value":"102",
+				"u_value":"Mpc",
+				"source":"13,19,36"
+			},
+			{
+				"value":"109",
+				"u_value":"Mpc",
+				"source":"18,36"
+			},
+			{
+				"value":"114",
+				"u_value":"Mpc",
+				"source":"24,36"
+			},
+			{
+				"value":"124",
+				"u_value":"Mpc",
+				"source":"9,36"
 			}
 		],
 		"dec":[
 			{
 				"value":"+23:25:42.4",
 				"u_value":"degrees",
-				"source":"7,26,27,31,36,37"
+				"source":"7,26,27,31,35,37"
 			},
 			{
 				"value":"+23:25:42.38",
@@ -286,20 +358,20 @@
 				"value":"0.0558",
 				"derived":true,
 				"e_value":"0.0025",
-				"source":"10,34"
+				"source":"10,33"
 			}
 		],
 		"host":[
 			{
 				"value":"UGC 3770",
-				"source":"2,3,4,5,6,7,9,11,12,13,14,16,18,19,21,22,23,24,25,27,29,31,32,37"
+				"source":"2,3,4,5,6,7,9,11,12,13,14,16,18,19,21,22,23,24,25,27,29,31,36,37"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"92",
 				"derived":true,
-				"source":"1,7,34"
+				"source":"1,7,33"
 			}
 		],
 		"hostdec":[
@@ -318,7 +390,7 @@
 			{
 				"value":"94.4",
 				"derived":true,
-				"source":"1,7,34"
+				"source":"1,7,33"
 			}
 		],
 		"hostoffsetang":[
@@ -326,13 +398,13 @@
 				"value":"12.12",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"7,26,27,29,31,34,36,37"
+				"source":"7,26,27,29,31,33,35,37"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"4.862",
-				"source":"1,2,7,26,27,29,31,32,34,36,37"
+				"value":"4.85",
+				"source":"2,6,7,26,27,29,31,33,35,36,37"
 			}
 		],
 		"hostra":[
@@ -373,21 +445,21 @@
 			{
 				"value":"-19.4",
 				"derived":true,
-				"source":"7,34"
+				"source":"7,33"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.3",
 				"derived":true,
-				"source":"28,33,34"
+				"source":"28,32,33"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"28,33,34"
+				"source":"28,32,33"
 			}
 		],
 		"maxdate":[
@@ -400,45 +472,46 @@
 			{
 				"value":"-18.6",
 				"derived":true,
-				"source":"7,34"
+				"source":"7,33"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"16.18",
 				"derived":true,
-				"source":"6,11,34"
+				"source":"6,11,33"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"6,11,34"
+				"source":"6,11,33"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2000/12/16",
 				"derived":true,
-				"source":"6,11,34"
+				"source":"6,11,33"
 			}
 		],
 		"ra":[
 			{
 				"value":"07:15:29.88",
 				"u_value":"hours",
-				"source":"7,26,27,29,31,36,37"
+				"source":"7,26,27,29,31,35,37"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.0191409",
-				"source":"1,2,32"
+				"value":"0.02127",
+				"kind":"heliocentric",
+				"source":"6"
 			},
 			{
-				"value":"0.0196797",
-				"source":"1,2,32"
+				"value":"0.02127",
+				"source":"4,9,12,13,14,16,18,19,21,22,23,25,36"
 			}
 		],
 		"velocity":[
@@ -455,14 +528,14 @@
 				"band":"C",
 				"magnitude":"17.3",
 				"u_time":"MJD",
-				"source":"28,33"
+				"source":"28,32"
 			},
 			{
 				"time":"51879.2",
 				"band":"C",
 				"magnitude":"17",
 				"u_time":"MJD",
-				"source":"28,33"
+				"source":"28,32"
 			},
 			{
 				"time":"51879.47",
@@ -541,7 +614,7 @@
 				"band":"B",
 				"magnitude":"17.18",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51881.41",
@@ -566,7 +639,7 @@
 				"band":"I",
 				"magnitude":"16.92",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51881.41",
@@ -582,14 +655,14 @@
 				"band":"R",
 				"magnitude":"16.89",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51881.41",
 				"band":"U",
 				"magnitude":"17.09",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51881.41",
@@ -614,7 +687,7 @@
 				"band":"V",
 				"magnitude":"17.06",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51881.43",
@@ -693,14 +766,14 @@
 				"band":"R",
 				"magnitude":"16.5",
 				"u_time":"MJD",
-				"source":"28,33"
+				"source":"28,32"
 			},
 			{
 				"time":"51886.02",
 				"band":"C",
 				"magnitude":"16.4",
 				"u_time":"MJD",
-				"source":"28,33"
+				"source":"28,32"
 			},
 			{
 				"time":"51887.35",
@@ -743,14 +816,14 @@
 				"band":"R",
 				"magnitude":"15.3",
 				"u_time":"MJD",
-				"source":"28,33"
+				"source":"28,32"
 			},
 			{
 				"time":"51894.12",
 				"band":"R",
 				"magnitude":"15.5",
 				"u_time":"MJD",
-				"source":"28,33"
+				"source":"28,32"
 			},
 			{
 				"time":"51894.42",
@@ -901,14 +974,14 @@
 				"band":"R",
 				"magnitude":"15.8",
 				"u_time":"MJD",
-				"source":"28,33"
+				"source":"28,32"
 			},
 			{
 				"time":"51898.33",
 				"band":"B",
 				"magnitude":"16.36",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51898.33",
@@ -924,7 +997,7 @@
 				"band":"I",
 				"magnitude":"16.42",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51898.33",
@@ -940,7 +1013,7 @@
 				"band":"R",
 				"magnitude":"15.99",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51898.33",
@@ -965,7 +1038,7 @@
 				"band":"U",
 				"magnitude":"16.39",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51898.33",
@@ -981,7 +1054,7 @@
 				"band":"V",
 				"magnitude":"16.11",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51898.37",
@@ -1078,7 +1151,7 @@
 				"band":"R",
 				"magnitude":"16.7",
 				"u_time":"MJD",
-				"source":"28,33"
+				"source":"28,32"
 			},
 			{
 				"time":"51901.33",
@@ -1094,7 +1167,7 @@
 				"band":"B",
 				"magnitude":"16.57",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51901.33",
@@ -1110,7 +1183,7 @@
 				"band":"I",
 				"magnitude":"16.58",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51901.33",
@@ -1126,7 +1199,7 @@
 				"band":"R",
 				"magnitude":"16.16",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51901.33",
@@ -1142,7 +1215,7 @@
 				"band":"U",
 				"magnitude":"16.72",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51901.33",
@@ -1158,7 +1231,7 @@
 				"band":"V",
 				"magnitude":"16.24",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51901.36",
@@ -1318,14 +1391,14 @@
 				"band":"B",
 				"magnitude":"17.04",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51906.32",
 				"band":"I",
 				"magnitude":"16.83",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51906.32",
@@ -1341,7 +1414,7 @@
 				"band":"R",
 				"magnitude":"16.53",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51906.32",
@@ -1366,7 +1439,7 @@
 				"band":"U",
 				"magnitude":"17.3",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51906.32",
@@ -1382,7 +1455,7 @@
 				"band":"V",
 				"magnitude":"16.55",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51906.40",
@@ -1434,7 +1507,7 @@
 				"band":"B",
 				"magnitude":"17.15",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51907.24",
@@ -1450,7 +1523,7 @@
 				"band":"I",
 				"magnitude":"16.84",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51907.24",
@@ -1466,7 +1539,7 @@
 				"band":"R",
 				"magnitude":"16.56",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51907.24",
@@ -1482,14 +1555,14 @@
 				"band":"U",
 				"magnitude":"17.37",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51907.24",
 				"band":"V",
 				"magnitude":"16.58",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51907.24",
@@ -1730,7 +1803,7 @@
 				"band":"B",
 				"magnitude":"19.08",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51929.33",
@@ -1764,7 +1837,7 @@
 				"band":"I",
 				"magnitude":"17.01",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51929.33",
@@ -1780,7 +1853,7 @@
 				"band":"R",
 				"magnitude":"17.25",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51929.33",
@@ -1796,7 +1869,7 @@
 				"band":"U",
 				"magnitude":"19.64",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51929.33",
@@ -1821,7 +1894,7 @@
 				"band":"V",
 				"magnitude":"17.78",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51929.33",
@@ -1882,14 +1955,14 @@
 				"band":"B",
 				"magnitude":"19.22",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51933.33",
 				"band":"I",
 				"magnitude":"17.28",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51933.33",
@@ -1905,7 +1978,7 @@
 				"band":"R",
 				"magnitude":"17.47",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51933.33",
@@ -1921,7 +1994,7 @@
 				"band":"U",
 				"magnitude":"19.92",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51933.33",
@@ -1937,7 +2010,7 @@
 				"band":"V",
 				"magnitude":"17.98",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51933.33",
@@ -2034,7 +2107,7 @@
 				"band":"B",
 				"magnitude":"19.46",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51953.23",
@@ -2059,7 +2132,7 @@
 				"band":"I",
 				"magnitude":"18.22",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51953.23",
@@ -2075,7 +2148,7 @@
 				"band":"R",
 				"magnitude":"18.17",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51953.23",
@@ -2091,7 +2164,7 @@
 				"band":"V",
 				"magnitude":"18.54",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51959.11",
@@ -2107,14 +2180,14 @@
 				"band":"B",
 				"magnitude":"19.53",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51959.11",
 				"band":"I",
 				"magnitude":"18.45",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51959.11",
@@ -2130,7 +2203,7 @@
 				"band":"R",
 				"magnitude":"18.37",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51959.11",
@@ -2155,14 +2228,14 @@
 				"band":"V",
 				"magnitude":"18.74",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51963.26",
 				"band":"B",
 				"magnitude":"19.61",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51963.26",
@@ -2178,7 +2251,7 @@
 				"band":"I",
 				"magnitude":"18.54",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51963.26",
@@ -2203,14 +2276,14 @@
 				"band":"R",
 				"magnitude":"18.54",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51963.26",
 				"band":"V",
 				"magnitude":"18.8",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51963.26",
@@ -2226,7 +2299,7 @@
 				"band":"B",
 				"magnitude":"20.13",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51994.20",
@@ -2242,7 +2315,7 @@
 				"band":"I",
 				"magnitude":"19.59",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51994.20",
@@ -2267,14 +2340,14 @@
 				"band":"R",
 				"magnitude":"19.48",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51994.2",
 				"band":"U",
 				"magnitude":"20.66",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51994.20",
@@ -2290,7 +2363,7 @@
 				"band":"V",
 				"magnitude":"19.6",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"51994.20",
@@ -2315,14 +2388,14 @@
 				"band":"B",
 				"magnitude":"20.55",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"52022.16",
 				"band":"R",
 				"magnitude":"20.42",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			},
 			{
 				"time":"52022.16",
@@ -2347,7 +2420,7 @@
 				"band":"V",
 				"magnitude":"20.24",
 				"u_time":"MJD",
-				"source":"20,33"
+				"source":"20,32"
 			}
 		],
 		"spectra":[

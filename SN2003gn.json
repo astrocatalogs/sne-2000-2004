@@ -95,18 +95,12 @@
 				"alias":"15"
 			},
 			{
-				"name":"NED-D",
-				"secondary":true,
-				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"16"
-			},
-			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"17"
+				"alias":"16"
 			},
 			{
 				"name":"WISeREP",
@@ -114,7 +108,7 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"18"
+				"alias":"17"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -122,6 +116,14 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"18"
+			},
+			{
+				"name":"NED-D v13.1.0",
+				"bibcode":"1991ASSL..171...89H",
+				"reference":"Helou et al. (1991)",
+				"secondary":true,
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
 				"alias":"19"
 			},
 			{
@@ -136,13 +138,13 @@
 		"alias":[
 			{
 				"value":"SN2003gn",
-				"source":"4,5,6,12,13,14,15,16,18,19,20"
+				"source":"4,5,6,12,13,14,15,17,18,19,20"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,6,8,9,12,13,15,19,20"
+				"source":"4,6,8,9,12,13,15,18,20"
 			},
 			{
 				"value":"Ia-HV",
@@ -151,21 +153,26 @@
 		],
 		"comovingdist":[
 			{
-				"value":"162.181",
+				"value":"162",
 				"u_value":"Mpc",
-				"source":"2,16"
+				"source":"2,19"
 			},
 			{
-				"value":"165.196",
+				"value":"163",
 				"u_value":"Mpc",
-				"source":"2,16"
+				"source":"3,19"
+			},
+			{
+				"value":"165",
+				"u_value":"Mpc",
+				"source":"2,19"
 			}
 		],
 		"dec":[
 			{
 				"value":"+20:48:08.5",
 				"u_value":"degrees",
-				"source":"6,11,19,20"
+				"source":"6,11,18,20"
 			},
 			{
 				"value":"+20:48:08.50",
@@ -195,13 +202,13 @@
 				"value":"0.042",
 				"derived":true,
 				"e_value":"0.0018",
-				"source":"7,17"
+				"source":"7,16"
 			}
 		],
 		"host":[
 			{
 				"value":"CGCG 452-024",
-				"source":"2,3,4,8,12,15,16,20"
+				"source":"2,3,4,8,12,15,19,20"
 			},
 			{
 				"value":"PGC 69160",
@@ -212,7 +219,7 @@
 			{
 				"value":"150",
 				"derived":true,
-				"source":"1,6,17"
+				"source":"1,6,16"
 			}
 		],
 		"hostdec":[
@@ -231,7 +238,7 @@
 			{
 				"value":"154",
 				"derived":true,
-				"source":"1,6,17"
+				"source":"1,6,16"
 			}
 		],
 		"hostoffsetang":[
@@ -239,13 +246,13 @@
 				"value":"25.79",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"6,11,13,17,19,20"
+				"source":"6,11,13,16,18,20"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"19.56",
-				"source":"1,2,6,11,13,16,17,19,20"
+				"value":"19.58",
+				"source":"2,4,6,11,13,16,18,19,20"
 			}
 		],
 		"hostra":[
@@ -275,31 +282,31 @@
 		],
 		"lumdist":[
 			{
-				"value":"168.176",
+				"value":"156.45",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,16,17"
+				"source":"1,4,16"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-18.8494",
+				"value":"-18.695",
 				"derived":true,
-				"source":"1,2,16,17"
+				"source":"1,4,16"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.24",
 				"derived":true,
-				"source":"4,8,17"
+				"source":"4,8,16"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"4,8,17"
+				"source":"4,8,16"
 			}
 		],
 		"maxdate":[
@@ -310,37 +317,37 @@
 		],
 		"maxvisualabsmag":[
 			{
-				"value":"-18.6588",
+				"value":"-18.502",
 				"derived":true,
-				"source":"1,2,16,17"
+				"source":"1,4,16"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"17.47",
 				"derived":true,
-				"source":"4,8,17"
+				"source":"4,8,16"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"4,8,17"
+				"source":"4,8,16"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2003/08/02",
 				"derived":true,
-				"source":"4,8,17"
+				"source":"4,8,16"
 			}
 		],
 		"ra":[
 			{
 				"value":"22:33:51.68",
 				"u_value":"hours",
-				"source":"6,11,13,19,20"
+				"source":"6,11,13,18,20"
 			},
 			{
 				"value":"22:33:51.688",
@@ -350,12 +357,13 @@
 		],
 		"redshift":[
 			{
-				"value":"0.0369648",
-				"source":"1,2,16"
+				"value":"0.03445",
+				"kind":"heliocentric",
+				"source":"4"
 			},
 			{
-				"value":"0.0376582",
-				"source":"1,2,16"
+				"value":"0.03445",
+				"source":"3,19"
 			}
 		],
 		"velocity":[

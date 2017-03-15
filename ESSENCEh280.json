@@ -4,10 +4,22 @@
 		"name":"ESSENCEh280",
 		"sources":[
 			{
+				"name":"2016ApJS..224....3N",
+				"bibcode":"2016ApJS..224....3N",
+				"reference":"Narayan et al. (2016)",
+				"alias":"1"
+			},
+			{
 				"name":"2016A&A...594A..13P",
 				"bibcode":"2016A&A...594A..13P",
 				"reference":"Planck Collaboration et al. (2016)",
-				"alias":"1"
+				"alias":"2"
+			},
+			{
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
+				"alias":"3"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -15,7 +27,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"2"
+				"alias":"4"
 			},
 			{
 				"name":"WISeREP",
@@ -23,19 +35,19 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"3"
+				"alias":"5"
 			}
 		],
 		"alias":[
 			{
 				"value":"ESSENCEh280",
-				"source":"3"
+				"source":"1,5"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II",
-				"source":"3"
+				"source":"1,5"
 			}
 		],
 		"comovingdist":[
@@ -43,14 +55,56 @@
 				"value":"1092",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,4"
+			}
+		],
+		"dec":[
+			{
+				"value":"-00:01:22.880",
+				"u_value":"degrees",
+				"source":"1"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2004/11/14",
 				"derived":true,
-				"source":"2,3"
+				"source":"1,4"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0288",
+				"derived":true,
+				"e_value":"0.0009",
+				"source":"3,4"
+			}
+		],
+		"hostcomovingdist":[
+			{
+				"value":"1092",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"1379",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.2633",
+				"e_value":"0.0005",
+				"source":"1"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"68820",
+				"source":"4"
 			}
 		],
 		"lumdist":[
@@ -58,31 +112,37 @@
 				"value":"1379",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,4"
+			}
+		],
+		"ra":[
+			{
+				"value":"01:09:28.330",
+				"u_value":"hours",
+				"source":"1"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.2633",
-				"source":"3"
+				"e_value":"0.0005",
+				"kind":"host",
+				"source":"1"
 			}
 		],
 		"velocity":[
 			{
 				"value":"68820",
 				"u_value":"km/s",
-				"source":"2"
+				"source":"4"
 			}
 		],
 		"spectra":[
 			{
-				"time":"53323.0",
-				"filename":"ESSENCEh280_2004-11-14_lris_1.ascii",
-				"instrument":"Keck1 - LRIS",
-				"observer":"Unknown",
-				"redshift":"0.2633",
-				"reducer":"Unknown",
-				"reduction":"final",
+				"time":"53323.296",
+				"filename":"h280_20041114.296_lris.flm",
+				"instrument":"LRIS",
+				"telescope":"Keck",
 				"u_fluxes":"erg/s/cm^2/Angstrom",
 				"u_time":"MJD",
 				"u_wavelengths":"Angstrom",
@@ -12216,7 +12276,7 @@
 						"-8.0436e-18"
 					]
 				],
-				"source":"3"
+				"source":"1"
 			}
 		]
 	}
