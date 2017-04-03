@@ -1,7 +1,7 @@
 {
-	"2MASS J02261840-0418425":{
+	"SNLS-04D1dc":{
 		"schema":"https://github.com/astrocatalogs/supernovae/blob/a0bc0b9/SCHEMA.md",
-		"name":"2MASS J02261840-0418425",
+		"name":"SNLS-04D1dc",
 		"sources":[
 			{
 				"name":"2016A&A...594A..13P",
@@ -52,18 +52,12 @@
 				"alias":"8"
 			},
 			{
-				"name":"2003yCat.2246....0C",
-				"bibcode":"2003yCat.2246....0C",
-				"reference":"Cutri et al. (2003)",
-				"alias":"9"
-			},
-			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"10"
+				"alias":"9"
 			},
 			{
 				"name":"WISeREP",
@@ -71,15 +65,7 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"11"
-			},
-			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"reference":"Wenger et al. (2000)",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"12"
+				"alias":"10"
 			},
 			{
 				"name":"NED-D v13.1.0",
@@ -87,23 +73,19 @@
 				"reference":"Helou et al. (1991)",
 				"secondary":true,
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"13"
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
-				"value":"2MASS J02261840-0418425",
-				"source":"6,7,11,12"
-			},
-			{
 				"value":"SNLS-04D1dc",
-				"source":"8,12,13"
+				"source":"6,7,8,10,11"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"6,11,12"
+				"source":"6,10"
 			},
 			{
 				"value":"Ia",
@@ -113,18 +95,22 @@
 		],
 		"comovingdist":[
 			{
-				"value":"887",
-				"derived":true,
+				"value":"479",
 				"u_value":"Mpc",
-				"source":"1,6,10"
+				"source":"6,11"
+			},
+			{
+				"value":"814",
+				"u_value":"Mpc",
+				"source":"2,11"
+			},
+			{
+				"value":"1070",
+				"u_value":"Mpc",
+				"source":"4,11"
 			}
 		],
 		"dec":[
-			{
-				"value":"-04:18:42.5",
-				"u_value":"degrees",
-				"source":"9,12"
-			},
 			{
 				"value":"-04:18:43.090",
 				"u_value":"degrees",
@@ -147,13 +133,13 @@
 				"value":"0.0221",
 				"derived":true,
 				"e_value":"0.0005",
-				"source":"5,10"
+				"source":"5,9"
 			}
 		],
 		"host":[
 			{
 				"value":"[NSB2006] J022618.47-041843.2",
-				"source":"2,3,4,6,13"
+				"source":"2,3,4,6,11"
 			}
 		],
 		"hostdec":[
@@ -161,21 +147,21 @@
 				"value":"-04:18:43.2",
 				"derived":true,
 				"u_value":"degrees",
-				"source":"10"
+				"source":"9"
 			}
 		],
 		"hostoffsetang":[
 			{
-				"value":"1.259",
+				"value":"0.142",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"9,10,12"
+				"source":"6,9"
 			}
 		],
 		"hostoffsetdist":[
 			{
-				"value":"4.471",
-				"source":"1,6,9,10,12"
+				"value":"0.272",
+				"source":"6,9,11"
 			}
 		],
 		"hostra":[
@@ -183,7 +169,7 @@
 				"value":"02:26:18.47",
 				"derived":true,
 				"u_value":"hours",
-				"source":"10"
+				"source":"9"
 			}
 		],
 		"lumdist":[
@@ -191,71 +177,66 @@
 				"value":"1074",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,6,10"
+				"source":"1,6,9"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.3",
 				"derived":true,
-				"source":"1,6,10"
+				"source":"1,6,9"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"20.65",
 				"derived":true,
-				"source":"6,10"
+				"source":"6,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"i",
 				"derived":true,
-				"source":"6,10"
+				"source":"6,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/08/14",
 				"derived":true,
-				"source":"6,10"
+				"source":"6,9"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-19.11",
 				"derived":true,
-				"source":"1,6,10"
+				"source":"1,6,9"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"21.04",
 				"derived":true,
-				"source":"6,10"
+				"source":"6,9"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"g",
 				"derived":true,
-				"source":"6,10"
+				"source":"6,9"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2004/08/12",
 				"derived":true,
-				"source":"6,10"
+				"source":"6,9"
 			}
 		],
 		"ra":[
-			{
-				"value":"02:26:18.40",
-				"u_value":"hours",
-				"source":"9,12"
-			},
 			{
 				"value":"02:26:18.464",
 				"u_value":"hours",
@@ -275,14 +256,14 @@
 			},
 			{
 				"value":"0.211",
-				"source":"7,11"
+				"source":"2,3,4,6,7,10,11"
 			}
 		],
 		"velocity":[
 			{
 				"value":"56700",
 				"u_value":"km/s",
-				"source":"10"
+				"source":"9"
 			}
 		],
 		"photometry":[
@@ -1706,6 +1687,7 @@
 		],
 		"spectra":[
 			{
+				"time":"53229.0",
 				"filename":"snonly_04D1dc_589_Balland_etal_09.dat",
 				"telescope":"VLT",
 				"u_errors":"erg/s/cm^2/Angstrom",
