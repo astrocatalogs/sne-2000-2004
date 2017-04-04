@@ -28,32 +28,44 @@
 				"alias":"4"
 			},
 			{
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"reference":"Barbon et al. (2008)",
+				"alias":"5"
+			},
+			{
+				"name":"2000IAUC.7517Q...1S",
+				"bibcode":"2000IAUC.7517Q...1S",
+				"reference":"Schwartz, Li, & Filippenko (2000)",
+				"alias":"6"
+			},
+			{
 				"name":"IAUC 7517",
 				"bibcode":"2000IAUC.7517....3H",
 				"reference":"Hammer et al. (2000)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07500/07517.html#Item1",
-				"alias":"5"
+				"alias":"7"
 			},
 			{
 				"name":"VSNET 2001",
-				"alias":"6"
+				"alias":"8"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"7"
+				"alias":"9"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"8"
+				"alias":"10"
 			},
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"secondary":true,
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"9"
+				"alias":"11"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -61,7 +73,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"10"
+				"alias":"12"
 			},
 			{
 				"name":"WISeREP",
@@ -69,7 +81,15 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"11"
+				"alias":"13"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"14"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -77,19 +97,19 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"12"
+				"alias":"15"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2000ej",
-				"source":"2,3,5,7,8,9,11,12"
+				"source":"2,3,7,9,10,11,13,14,15"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"3,7,12"
+				"source":"3,5,9,14,15"
 			},
 			{
 				"value":"Ia?",
@@ -97,7 +117,7 @@
 			},
 			{
 				"value":"Ia Pec",
-				"source":"5,8"
+				"source":"7,10"
 			}
 		],
 		"comovingdist":[
@@ -105,35 +125,35 @@
 				"value":"133.4",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,10"
+				"source":"1,2,12"
 			}
 		],
 		"dec":[
 			{
 				"value":"-04:52:40.5",
 				"u_value":"degrees",
-				"source":"3,5,8,12"
+				"source":"3,6,7,10,14,15"
 			},
 			{
 				"value":"-04:52:40.51",
 				"u_value":"degrees",
-				"source":"7"
+				"source":"9"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2000/11/02",
-				"source":"2,3,5,7,8,12"
+				"source":"2,3,7,9,10,15"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOTOSS",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"Mike Schwartz",
-				"source":"5,8"
+				"source":"7,10"
 			}
 		],
 		"ebv":[
@@ -141,27 +161,27 @@
 				"value":"0.0557",
 				"derived":true,
 				"e_value":"0.0009",
-				"source":"4,10"
+				"source":"4,12"
 			}
 		],
 		"host":[
 			{
 				"value":"IC 1371",
-				"source":"2,3,5,7,8,12"
+				"source":"2,3,7,9,10,15"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"100",
 				"derived":true,
-				"source":"1,3,10"
+				"source":"1,3,12"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-04:52:38",
 				"u_value":"degrees",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"-04:52:34.6",
@@ -173,7 +193,7 @@
 			{
 				"value":"140",
 				"derived":true,
-				"source":"1,3,10"
+				"source":"1,3,12"
 			}
 		],
 		"hostoffsetang":[
@@ -181,20 +201,20 @@
 				"value":"5.663",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"3,5,7,8,10,12"
+				"source":"3,6,7,9,10,12,14,15"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"3.555",
-				"source":"1,2,3,5,7,8,10,12"
+				"source":"1,2,3,6,7,9,10,12,14,15"
 			}
 		],
 		"hostra":[
 			{
 				"value":"21:20:16",
 				"u_value":"hours",
-				"source":"12"
+				"source":"15"
 			},
 			{
 				"value":"21:20:15.72",
@@ -212,7 +232,7 @@
 			{
 				"value":"9102",
 				"kind":"host",
-				"source":"12"
+				"source":"15"
 			}
 		],
 		"lumdist":[
@@ -220,70 +240,70 @@
 				"value":"137.46",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,10"
+				"source":"1,2,12"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-17.658",
 				"derived":true,
-				"source":"1,2,10"
+				"source":"1,2,12"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"8,11,12"
 			}
 		],
 		"maxband":[
 			{
 				"value":"C",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"8,11,12"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2000/11/02",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"8,11,12"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-17.691",
 				"derived":true,
-				"source":"1,2,10"
+				"source":"1,2,12"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"18",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"8,11,12"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"C",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"8,11,12"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2000/11/02",
 				"derived":true,
-				"source":"6,9,10"
+				"source":"8,11,12"
 			}
 		],
 		"ra":[
 			{
 				"value":"21:20:15.66",
 				"u_value":"hours",
-				"source":"3,5,7,8,12"
+				"source":"3,6,7,9,10,14,15"
 			}
 		],
 		"redshift":[
@@ -298,7 +318,7 @@
 				"value":"9102",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"12"
+				"source":"15"
 			}
 		],
 		"photometry":[
@@ -307,14 +327,14 @@
 				"band":"C",
 				"magnitude":"18",
 				"u_time":"MJD",
-				"source":"6,9"
+				"source":"8,11"
 			},
 			{
 				"time":"51854.2",
 				"band":"C",
 				"magnitude":"18",
 				"u_time":"MJD",
-				"source":"6,9"
+				"source":"8,11"
 			}
 		],
 		"spectra":[

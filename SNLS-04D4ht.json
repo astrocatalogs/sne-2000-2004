@@ -50,24 +50,32 @@
 				"alias":"7"
 			},
 			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"8"
+			},
+			{
 				"name":"NED-D v13.1.0",
 				"bibcode":"1991ASSL..171...89H",
 				"reference":"Helou et al. (1991)",
 				"secondary":true,
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"8"
+				"alias":"9"
 			}
 		],
 		"alias":[
 			{
 				"value":"SNLS-04D4ht",
-				"source":"3,4,5,7,8"
+				"source":"3,4,5,7,8,9"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"3,7"
+				"source":"3,7,8"
 			},
 			{
 				"value":"Ia",
@@ -79,15 +87,20 @@
 			{
 				"value":"1010",
 				"u_value":"Mpc",
-				"source":"3,8"
+				"source":"3,9"
 			},
 			{
 				"value":"1620",
 				"u_value":"Mpc",
-				"source":"3,8"
+				"source":"3,9"
 			}
 		],
 		"dec":[
+			{
+				"value":"-17:21:31.21",
+				"u_value":"degrees",
+				"source":"3,8"
+			},
 			{
 				"value":"-17:21:31.210",
 				"u_value":"degrees",
@@ -116,7 +129,7 @@
 		"host":[
 			{
 				"value":"[NSB2006] J221433.28-172131.3",
-				"source":"3,8"
+				"source":"3,9"
 			}
 		],
 		"hostdec":[
@@ -132,13 +145,13 @@
 				"value":"0.09972",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"3,6"
+				"source":"3,6,8"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"0.4012",
-				"source":"3,6,8"
+				"source":"3,6,8,9"
 			}
 		],
 		"hostra":[
@@ -217,7 +230,7 @@
 			{
 				"value":"22:14:33.277",
 				"u_value":"hours",
-				"source":"3"
+				"source":"3,8"
 			},
 			{
 				"value":"22:14:33.289",
@@ -233,7 +246,7 @@
 			},
 			{
 				"value":"0.217",
-				"source":"3,4,7,8"
+				"source":"3,4,7,9"
 			}
 		],
 		"velocity":[

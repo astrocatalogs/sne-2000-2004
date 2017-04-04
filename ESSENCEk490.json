@@ -22,16 +22,22 @@
 				"alias":"3"
 			},
 			{
+				"name":"2009AJ....137.3731F",
+				"bibcode":"2009AJ....137.3731F",
+				"reference":"Foley et al. (2009)",
+				"alias":"4"
+			},
+			{
 				"name":"2009ApJ...700.1097H",
 				"bibcode":"2009ApJ...700.1097H",
 				"reference":"Hicken et al. (2009)",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"2007ApJ...666..674M",
 				"bibcode":"2007ApJ...666..674M",
 				"reference":"Miknaitis et al. (2007)",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -39,7 +45,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"WISeREP",
@@ -47,7 +53,15 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"7"
+				"alias":"8"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"9"
 			},
 			{
 				"name":"NED-D v13.1.0",
@@ -55,33 +69,38 @@
 				"reference":"Helou et al. (1991)",
 				"secondary":true,
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"8"
+				"alias":"10"
 			}
 		],
 		"alias":[
 			{
 				"value":"ESSENCEk490",
-				"source":"1,5,7,8"
+				"source":"1,6,8,9,10"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,7"
+				"source":"1,4,8,9"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"2880",
 				"u_value":"Mpc",
-				"source":"4,8"
+				"source":"5,10"
 			}
 		],
 		"dec":[
 			{
+				"value":"-07:53:21.0",
+				"u_value":"degrees",
+				"source":"6,9"
+			},
+			{
 				"value":"-07:53:20.95",
 				"u_value":"degrees",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"value":"-07:53:20.935",
@@ -93,7 +112,7 @@
 			{
 				"value":"2004/12/05",
 				"derived":true,
-				"source":"1,6"
+				"source":"1,7"
 			}
 		],
 		"ebv":[
@@ -101,21 +120,21 @@
 				"value":"0.0274",
 				"derived":true,
 				"e_value":"0.0009",
-				"source":"3,6"
+				"source":"3,7"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"2622",
 				"derived":true,
-				"source":"1,2,6"
+				"source":"1,2,7"
 			}
 		],
 		"hostlumdist":[
 			{
 				"value":"4496.4",
 				"derived":true,
-				"source":"1,2,6"
+				"source":"1,2,7"
 			}
 		],
 		"hostredshift":[
@@ -128,7 +147,7 @@
 		"hostvelocity":[
 			{
 				"value":"147600",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"lumdist":[
@@ -136,70 +155,70 @@
 				"value":"4500.2",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,6"
+				"source":"1,2,7"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.82",
 				"derived":true,
-				"source":"1,2,6"
+				"source":"1,2,7"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"22.86",
 				"derived":true,
-				"source":"1,6"
+				"source":"1,7"
 			}
 		],
 		"maxband":[
 			{
 				"value":"I",
 				"derived":true,
-				"source":"1,6"
+				"source":"1,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2004/12/09",
 				"derived":true,
-				"source":"1,6"
+				"source":"1,7"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-19.896",
 				"derived":true,
-				"source":"1,2,6"
+				"source":"1,2,7"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"23.37",
 				"derived":true,
-				"source":"1,6"
+				"source":"1,7"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"1,6"
+				"source":"1,7"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2004/12/05",
 				"derived":true,
-				"source":"1,6"
+				"source":"1,7"
 			}
 		],
 		"ra":[
 			{
 				"value":"02:30:24.32",
 				"u_value":"hours",
-				"source":"5"
+				"source":"6,9"
 			},
 			{
 				"value":"02:30:24.320",
@@ -218,14 +237,14 @@
 			},
 			{
 				"value":"0.7147",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"velocity":[
 			{
 				"value":"147700",
 				"u_value":"km/s",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"photometry":[

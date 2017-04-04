@@ -16,17 +16,23 @@
 				"alias":"2"
 			},
 			{
+				"name":"2008IAUC.8992....1D",
+				"bibcode":"2008IAUC.8992....1D",
+				"reference":"Dudley, Fischer, & Li (2008)",
+				"alias":"3"
+			},
+			{
 				"name":"IAUC 8992",
 				"bibcode":"2008IAUC.8992....3G",
 				"reference":"Gonzalez (2008)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/08900/08992.html#Item1",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -34,7 +40,15 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"5"
+				"alias":"6"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"7"
 			},
 			{
 				"name":"NED-D",
@@ -42,17 +56,17 @@
 				"reference":"Helou et al. (1991)",
 				"secondary":true,
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"6"
+				"alias":"8"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN0304",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"value":"K0304-001",
-				"source":"3,4,5"
+				"source":"4,5,6,7"
 			}
 		],
 		"comovingdist":[
@@ -60,26 +74,31 @@
 				"value":"52.5",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,5,6"
+				"source":"1,6,8"
 			}
 		],
 		"dec":[
 			{
+				"value":"+42:12:19.3",
+				"u_value":"degrees",
+				"source":"3,7"
+			},
+			{
 				"value":"+42:12:19.39",
 				"u_value":"degrees",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/04/17",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Naval Research Laboratory",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"ebv":[
@@ -87,40 +106,40 @@
 				"value":"0.0222",
 				"derived":true,
 				"e_value":"0.001",
-				"source":"2,5"
+				"source":"2,6"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 5900",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"52.5",
 				"derived":true,
-				"source":"1,5,6"
+				"source":"1,6,8"
 			}
 		],
 		"hostlumdist":[
 			{
 				"value":"53.14",
 				"derived":true,
-				"source":"1,5,6"
+				"source":"1,6,8"
 			}
 		],
 		"hostredshift":[
 			{
 				"value":"0.0119",
 				"derived":true,
-				"source":"1,6"
+				"source":"1,8"
 			}
 		],
 		"hostvelocity":[
 			{
 				"value":"3550",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"lumdist":[
@@ -128,56 +147,61 @@
 				"value":"53.14",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,5,6"
+				"source":"1,6,8"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-16.31",
 				"derived":true,
-				"source":"1,5,6"
+				"source":"1,6,8"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.3",
 				"derived":true,
-				"source":"3,4,5"
+				"source":"4,5,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/04/16",
 				"derived":true,
-				"source":"3,4,5"
+				"source":"4,5,6"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-16.33",
 				"derived":true,
-				"source":"1,5,6"
+				"source":"1,6,8"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"17.3",
 				"derived":true,
-				"source":"3,4,5"
+				"source":"4,5,6"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2003/04/16",
 				"derived":true,
-				"source":"3,4,5"
+				"source":"4,5,6"
 			}
 		],
 		"ra":[
 			{
+				"value":"15:15:06.97",
+				"u_value":"hours",
+				"source":"3,7"
+			},
+			{
 				"value":"15:15:06.978",
 				"u_value":"hours",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"redshift":[
@@ -185,14 +209,14 @@
 				"value":"0.0119",
 				"derived":true,
 				"kind":"host",
-				"source":"1,6"
+				"source":"1,8"
 			}
 		],
 		"velocity":[
 			{
 				"value":"3550",
 				"u_value":"km/s",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"photometry":[
@@ -200,7 +224,7 @@
 				"time":"52745.5",
 				"magnitude":"17.3",
 				"u_time":"MJD",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		]
 	}

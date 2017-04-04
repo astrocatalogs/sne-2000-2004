@@ -10,15 +10,15 @@
 				"alias":"1"
 			},
 			{
-				"name":"2014ApJS..213...19B",
-				"bibcode":"2014ApJS..213...19B",
-				"reference":"Bianco et al. (2014)",
-				"alias":"2"
-			},
-			{
 				"name":"2014AJ....147...99M",
 				"bibcode":"2014AJ....147...99M",
 				"reference":"Modjaz et al. (2014)",
+				"alias":"2"
+			},
+			{
+				"name":"2014ApJS..213...19B",
+				"bibcode":"2014ApJS..213...19B",
+				"reference":"Bianco et al. (2014)",
 				"alias":"3"
 			},
 			{
@@ -34,39 +34,45 @@
 				"alias":"5"
 			},
 			{
+				"name":"2001IAUC.7761....1N",
+				"bibcode":"2001IAUC.7761....1N",
+				"reference":"Nakano et al. (2001)",
+				"alias":"6"
+			},
+			{
 				"name":"IAUC 7761",
 				"bibcode":"2001IAUC.7761....2M",
 				"reference":"Matheson et al. (2001)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07700/07761.html#Item1",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"VSNET Oct2003",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"Transient Name Server",
 				"url":"https://wis-tns.weizmann.ac.il/",
-				"alias":"8"
+				"alias":"9"
 			},
 			{
 				"name":"CfA Supernova Archive",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
 				"secondary":true,
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"9"
+				"alias":"10"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"10"
+				"alias":"11"
 			},
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"secondary":true,
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"11"
+				"alias":"12"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -74,7 +80,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"12"
+				"alias":"13"
 			},
 			{
 				"name":"WISeREP",
@@ -82,7 +88,15 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"13"
+				"alias":"14"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"15"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -90,23 +104,23 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"14"
+				"alias":"16"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2001gd",
-				"source":"2,4,6,8,9,10,11,13,14"
+				"source":"3,4,7,9,10,11,12,14,15,16"
 			}
 		],
 		"claimedtype":[
 			{
-				"value":"II",
-				"source":"4"
+				"value":"IIb",
+				"source":"2,7,9,11,15,16"
 			},
 			{
-				"value":"IIb",
-				"source":"6,8,10,14"
+				"value":"II",
+				"source":"4"
 			}
 		],
 		"comovingdist":[
@@ -114,40 +128,40 @@
 				"value":"13",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,4,12"
+				"source":"1,4,13"
 			}
 		],
 		"dec":[
 			{
 				"value":"+36:38:17.7",
 				"u_value":"degrees",
-				"source":"4,14"
+				"source":"4,6,15,16"
 			},
 			{
 				"value":"+36:38:17.70",
 				"u_value":"degrees",
-				"source":"8"
+				"source":"9"
 			},
 			{
 				"value":"+36:38:18.2",
 				"u_value":"degrees",
-				"source":"6,10"
+				"source":"7,11"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2001/11/24",
-				"source":"4,6,8,10,14"
+				"source":"4,7,9,11,16"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Itagaki",
-				"source":"14"
+				"source":"16"
 			},
 			{
 				"value":"Koichi Itagaki",
-				"source":"6,10"
+				"source":"7,11"
 			}
 		],
 		"ebv":[
@@ -155,27 +169,27 @@
 				"value":"0.0098",
 				"derived":true,
 				"e_value":"0.0001",
-				"source":"5,12"
+				"source":"5,13"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 5033",
-				"source":"4,6,8,10,14"
+				"source":"4,7,9,11,16"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"13",
 				"derived":true,
-				"source":"1,4,12"
+				"source":"1,4,13"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+36:35:38",
 				"u_value":"degrees",
-				"source":"14"
+				"source":"16"
 			},
 			{
 				"value":"+36:35:37.6",
@@ -187,7 +201,7 @@
 			{
 				"value":"12.9",
 				"derived":true,
-				"source":"1,4,12"
+				"source":"1,4,13"
 			}
 		],
 		"hostoffsetang":[
@@ -195,20 +209,20 @@
 				"value":"167.2",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"4,8,12,14"
+				"source":"4,6,9,13,15,16"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"10.51",
-				"source":"1,4,8,12,14"
+				"source":"1,4,6,9,13,15,16"
 			}
 		],
 		"hostra":[
 			{
 				"value":"13:13:28",
 				"u_value":"hours",
-				"source":"14"
+				"source":"16"
 			},
 			{
 				"value":"13:13:27.53",
@@ -226,7 +240,7 @@
 			{
 				"value":"877",
 				"kind":"host",
-				"source":"14"
+				"source":"16"
 			}
 		],
 		"lumdist":[
@@ -242,68 +256,68 @@
 			{
 				"value":"-15.6",
 				"derived":true,
-				"source":"4,12"
+				"source":"4,13"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.1",
 				"derived":true,
-				"source":"7,11,12"
+				"source":"8,12,13"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"7,11,12"
+				"source":"8,12,13"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2001/12/03",
 				"derived":true,
-				"source":"7,11,12"
+				"source":"8,12,13"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-13",
 				"derived":true,
-				"source":"4,12"
+				"source":"4,13"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"18.67",
 				"derived":true,
-				"source":"2,12"
+				"source":"3,13"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"2,12"
+				"source":"3,13"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2001/12/23",
 				"derived":true,
-				"source":"2,12"
+				"source":"3,13"
 			}
 		],
 		"ra":[
 			{
 				"value":"13:13:23.89",
 				"u_value":"hours",
-				"source":"4,8,14"
+				"source":"4,6,9,15,16"
 			},
 			{
 				"value":"13:13:23.92",
 				"u_value":"hours",
-				"source":"6,10"
+				"source":"7,11"
 			}
 		],
 		"redshift":[
@@ -318,7 +332,7 @@
 				"value":"877",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"14"
+				"source":"16"
 			}
 		],
 		"photometry":[
@@ -327,63 +341,63 @@
 				"band":"C",
 				"magnitude":"16.5",
 				"u_time":"MJD",
-				"source":"7,11"
+				"source":"8,12"
 			},
 			{
 				"time":"52237.85",
 				"band":"C",
 				"magnitude":"17.5",
 				"u_time":"MJD",
-				"source":"7,11"
+				"source":"8,12"
 			},
 			{
 				"time":"52238.21",
 				"band":"C",
 				"magnitude":"16.4",
 				"u_time":"MJD",
-				"source":"7,11"
+				"source":"8,12"
 			},
 			{
 				"time":"52238.8",
 				"band":"C",
 				"magnitude":"16.2",
 				"u_time":"MJD",
-				"source":"7,11"
+				"source":"8,12"
 			},
 			{
 				"time":"52239.21",
 				"band":"C",
 				"magnitude":"16.4",
 				"u_time":"MJD",
-				"source":"7,11"
+				"source":"8,12"
 			},
 			{
 				"time":"52241.21",
 				"band":"R",
 				"magnitude":"16.2",
 				"u_time":"MJD",
-				"source":"7,11"
+				"source":"8,12"
 			},
 			{
 				"time":"52244.2",
 				"band":"R",
 				"magnitude":"16.2",
 				"u_time":"MJD",
-				"source":"7,11"
+				"source":"8,12"
 			},
 			{
 				"time":"52246.23",
 				"band":"R",
 				"magnitude":"16.1",
 				"u_time":"MJD",
-				"source":"7,11"
+				"source":"8,12"
 			},
 			{
 				"time":"52255.13",
 				"band":"C",
 				"magnitude":"16.3",
 				"u_time":"MJD",
-				"source":"7,11"
+				"source":"8,12"
 			},
 			{
 				"time":"52266.52417",
@@ -393,7 +407,7 @@
 				"magnitude":"18.666",
 				"telescope":"CfA3_4SH",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"52266.52735",
@@ -403,7 +417,7 @@
 				"magnitude":"17.781",
 				"telescope":"CfA3_4SH",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"52266.52983",
@@ -413,7 +427,7 @@
 				"magnitude":"17.147",
 				"telescope":"CfA3_4SH",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"52266.53162",
@@ -423,21 +437,21 @@
 				"magnitude":"16.485",
 				"telescope":"CfA3_4SH",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"52283.21",
 				"band":"R",
 				"magnitude":"16.8",
 				"u_time":"MJD",
-				"source":"7,11"
+				"source":"8,12"
 			},
 			{
 				"time":"52287.21",
 				"band":"R",
 				"magnitude":"17",
 				"u_time":"MJD",
-				"source":"7,11"
+				"source":"8,12"
 			},
 			{
 				"time":"52320.45929",
@@ -447,7 +461,7 @@
 				"magnitude":"19.598",
 				"telescope":"CfA3_4SH",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"52320.46321",
@@ -457,7 +471,7 @@
 				"magnitude":"19.582",
 				"telescope":"CfA3_4SH",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"52320.46638",
@@ -467,7 +481,7 @@
 				"magnitude":"18.709",
 				"telescope":"CfA3_4SH",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"52320.46884",
@@ -477,7 +491,7 @@
 				"magnitude":"18.080",
 				"telescope":"CfA3_4SH",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"52320.47063",
@@ -487,7 +501,7 @@
 				"magnitude":"17.462",
 				"telescope":"CfA3_4SH",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"spectra":[
@@ -10691,7 +10705,7 @@
 						"0.250926"
 					]
 				],
-				"source":"3,9"
+				"source":"2,10"
 			},
 			{
 				"time":"52293.0",
@@ -20841,7 +20855,7 @@
 						"0.0709866"
 					]
 				],
-				"source":"3,9"
+				"source":"2,10"
 			},
 			{
 				"time":"52294.0",
@@ -30991,7 +31005,7 @@
 						"0.0728196"
 					]
 				],
-				"source":"3,9"
+				"source":"2,10"
 			}
 		]
 	}
