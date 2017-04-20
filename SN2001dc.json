@@ -56,12 +56,16 @@
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
 				"alias":"10"
+			},
+			{
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2001dc",
-				"source":"1,10,2,3,5,8,9"
+				"source":"1,10,11,2,3,5,8,9"
 			}
 		],
 		"claimedtype":[
@@ -72,6 +76,10 @@
 			{
 				"value":"IIn",
 				"source":"10,3"
+			},
+			{
+				"value":"II",
+				"source":"11"
 			}
 		],
 		"dec":[
@@ -83,7 +91,7 @@
 			{
 				"value":"+58:59:03.0",
 				"u_value":"degrees",
-				"source":"10,3,8"
+				"source":"10,11,3,8"
 			},
 			{
 				"value":"+58:59:03.01",
@@ -94,7 +102,7 @@
 		"discoverdate":[
 			{
 				"value":"2001/05/30",
-				"source":"8,9"
+				"source":"11,8,9"
 			}
 		],
 		"discoverer":[
@@ -110,7 +118,7 @@
 		"host":[
 			{
 				"value":"NGC 5777",
-				"source":"10,3,8,9"
+				"source":"10,11,3,8,9"
 			}
 		],
 		"hostdec":[
@@ -118,6 +126,11 @@
 				"value":"+58:58:41",
 				"u_value":"degrees",
 				"source":"8"
+			},
+			{
+				"value":"+58:58:41.2",
+				"u_value":"degrees",
+				"source":"11"
 			}
 		],
 		"hostra":[
@@ -125,6 +138,17 @@
 				"value":"14:51:18",
 				"u_value":"hours",
 				"source":"8"
+			},
+			{
+				"value":"14:51:17.90",
+				"u_value":"hours",
+				"source":"11"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.0071",
+				"source":"11"
 			}
 		],
 		"hostvelocity":[
@@ -143,13 +167,14 @@
 			{
 				"value":"14:51:16.21",
 				"u_value":"hours",
-				"source":"10,3,8,9"
+				"source":"10,11,3,8,9"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.007",
-				"source":"10,3"
+				"value":"0.0071",
+				"kind":"host",
+				"source":"11"
 			}
 		],
 		"velocity":[
