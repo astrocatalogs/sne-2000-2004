@@ -4,95 +4,303 @@
 		"name":"HST04Man",
 		"sources":[
 			{
-				"name":"The Open Supernova Catalog",
-				"bibcode":"2017ApJ...835...64G",
-				"secondary":true,
-				"url":"https://sne.space",
+				"name":"2016A&A...594A..13P",
+				"bibcode":"2016A&A...594A..13P",
+				"reference":"Planck Collaboration et al. (2016)",
 				"alias":"1"
 			},
 			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
 				"alias":"2"
 			},
 			{
-				"bibcode":"2008ApJ...673..981K",
+				"name":"2010ApJ...716..712A",
+				"bibcode":"2010ApJ...716..712A",
+				"reference":"Amanullah et al. (2010)",
 				"alias":"3"
+			},
+			{
+				"name":"2010arXiv1006.2112L",
+				"bibcode":"2010arXiv1006.2112L",
+				"reference":"Lorenzi (2010)",
+				"alias":"4"
+			},
+			{
+				"name":"2009ApJS..185...32K",
+				"bibcode":"2009ApJS..185...32K",
+				"reference":"Kessler et al. (2009)",
+				"alias":"5"
+			},
+			{
+				"name":"2009ApJ...700.1097H",
+				"bibcode":"2009ApJ...700.1097H",
+				"reference":"Hicken et al. (2009)",
+				"alias":"6"
+			},
+			{
+				"name":"2008ApJ...673..981K",
+				"bibcode":"2008ApJ...673..981K",
+				"reference":"Kuznetsova et al. (2008)",
+				"alias":"7"
+			},
+			{
+				"name":"2008ApJ...686..749K",
+				"bibcode":"2008ApJ...686..749K",
+				"reference":"Kowalski et al. (2008)",
+				"alias":"8"
+			},
+			{
+				"name":"2007ApJ...659...98R",
+				"bibcode":"2007ApJ...659...98R",
+				"reference":"Riess et al. (2007)",
+				"alias":"9"
+			},
+			{
+				"name":"Paper",
+				"url":"http://arxiv.org/pdf/astro-ph/0611572.pdf",
+				"alias":"10"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"4"
+				"alias":"11"
 			},
 			{
-				"name":"Paper",
-				"url":"http://arxiv.org/pdf/astro-ph/0611572.pdf",
-				"alias":"5"
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"reference":"Guillochon et al. (2017)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"12"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"13"
+			},
+			{
+				"name":"NED-D v13.1.0",
+				"bibcode":"1991ASSL..171...89H",
+				"reference":"Helou et al. (1991)",
+				"secondary":true,
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"14"
 			}
 		],
 		"alias":[
 			{
 				"value":"HST04Man",
-				"source":"1,2,4,5"
+				"source":"10,11,12,13,14"
 			},
 			{
 				"value":"Manipogo",
-				"source":"1,2"
+				"source":"12,13"
 			},
 			{
 				"value":"K0405-004",
-				"source":"4,5"
+				"source":"10,11"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"4,5"
+				"source":"10,11"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"2040",
+				"u_value":"Mpc",
+				"source":"3,14"
+			},
+			{
+				"value":"2830",
+				"u_value":"Mpc",
+				"source":"5,14"
+			},
+			{
+				"value":"2850",
+				"u_value":"Mpc",
+				"source":"5,14"
+			},
+			{
+				"value":"3040",
+				"u_value":"Mpc",
+				"source":"6,14"
+			},
+			{
+				"value":"3120",
+				"u_value":"Mpc",
+				"source":"6,14"
+			},
+			{
+				"value":"3240",
+				"u_value":"Mpc",
+				"source":"6,14"
+			},
+			{
+				"value":"3280",
+				"u_value":"Mpc",
+				"source":"8,14"
+			},
+			{
+				"value":"3340",
+				"u_value":"Mpc",
+				"source":"9,14"
+			},
+			{
+				"value":"3570",
+				"u_value":"Mpc",
+				"source":"6,14"
 			}
 		],
 		"dec":[
 			{
 				"value":"+62:15:48.86",
 				"u_value":"degrees",
-				"source":"2,3"
+				"source":"7,13"
 			},
 			{
 				"value":"+62:15:49.1",
 				"u_value":"degrees",
-				"source":"4,5"
+				"source":"10,11"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2004/05/20",
-				"source":"4,5"
+				"source":"10,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"HST",
-				"source":"4,5"
+				"source":"10,11"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0103",
+				"derived":true,
+				"e_value":"0.0003",
+				"source":"2,12"
+			}
+		],
+		"host":[
+			{
+				"value":"GOODS J123634.92+621549.1",
+				"source":"3,4,5,6,8,9,14"
+			}
+		],
+		"hostdec":[
+			{
+				"value":"+62:15:49.1",
+				"derived":true,
+				"u_value":"degrees",
+				"source":"12"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"0.5257",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"7,12,13"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"2.804",
+				"source":"3,4,5,6,7,8,9,12,13,14"
+			}
+		],
+		"hostra":[
+			{
+				"value":"12:36:34.92",
+				"derived":true,
+				"u_value":"hours",
+				"source":"12"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"5596.93",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,3,4,5,6,8,9,12,14"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-19.8692",
+				"derived":true,
+				"source":"1,3,4,5,6,8,9,12,14"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"23.2",
+				"derived":true,
+				"source":"10,11,12"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2004/05/19",
+				"derived":true,
+				"source":"10,11,12"
+			}
+		],
+		"maxvisualabsmag":[
+			{
+				"value":"-20.5397",
+				"derived":true,
+				"source":"1,3,4,5,6,8,9,12,14"
+			}
+		],
+		"maxvisualappmag":[
+			{
+				"value":"23.2",
+				"derived":true,
+				"source":"10,11,12"
+			}
+		],
+		"maxvisualdate":[
+			{
+				"value":"2004/05/19",
+				"derived":true,
+				"source":"10,11,12"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:36:34.853",
 				"u_value":"hours",
-				"source":"2,3"
+				"source":"7,13"
 			},
 			{
 				"value":"12:36:34.81",
 				"u_value":"hours",
-				"source":"4,5"
+				"source":"10,11"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.854",
-				"source":"4,5"
+				"value":"0.85454",
+				"source":"3,4,5,6,8,9,14"
+			}
+		],
+		"velocity":[
+			{
+				"value":"164730",
+				"u_value":"km/s",
+				"source":"12"
 			}
 		],
 		"photometry":[
@@ -100,7 +308,7 @@
 				"time":"53144.5",
 				"magnitude":"23.2",
 				"u_time":"MJD",
-				"source":"4,5"
+				"source":"10,11"
 			}
 		]
 	}

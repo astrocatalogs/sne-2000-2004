@@ -4,141 +4,289 @@
 		"name":"SN2001cw",
 		"sources":[
 			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
+				"name":"2016A&A...594A..13P",
+				"bibcode":"2016A&A...594A..13P",
+				"reference":"Planck Collaboration et al. (2016)",
 				"alias":"1"
 			},
 			{
-				"bibcode":"2001IAUC.7649....1D",
+				"name":"2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"reference":"Lennarz, Altmann, & Wiebusch (2012)",
 				"alias":"2"
 			},
 			{
-				"bibcode":"2008yCat....1.2024B",
+				"name":"2011ApJ...737..103S",
+				"bibcode":"2011ApJ...737..103S",
+				"reference":"Schlafly & Finkbeiner (2011)",
 				"alias":"3"
 			},
 			{
-				"name":"Asiago Supernova Catalogue",
-				"bibcode":"1989A&AS...81..421B",
-				"secondary":true,
-				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"name":"2010ApJ...716..712A",
+				"bibcode":"2010ApJ...716..712A",
+				"reference":"Amanullah et al. (2010)",
 				"alias":"4"
 			},
 			{
-				"name":"Transient Name Server",
-				"url":"https://wis-tns.weizmann.ac.il/",
+				"name":"2008yCat....1.2024B",
+				"bibcode":"2008yCat....1.2024B",
+				"reference":"Barbon et al. (2008)",
 				"alias":"5"
 			},
 			{
-				"name":"Latest Supernovae",
-				"secondary":true,
-				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"name":"2001IAUC.7649....1D",
+				"bibcode":"2001IAUC.7649....1D",
+				"reference":"Doi et al. (2001)",
 				"alias":"6"
 			},
 			{
 				"name":"IAUC 7649",
 				"bibcode":"2001IAUC.7649....2M",
+				"reference":"Matheson et al. (2001)",
 				"url":"http://www.cbat.eps.harvard.edu/iauc/07600/07649.html#Item1",
 				"alias":"7"
 			},
 			{
-				"bibcode":"2012A&A...538A.120L",
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il/",
 				"alias":"8"
+			},
+			{
+				"name":"Latest Supernovae",
+				"secondary":true,
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"9"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"reference":"Guillochon et al. (2017)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"10"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"11"
+			},
+			{
+				"name":"NED-D v13.1.0",
+				"bibcode":"1991ASSL..171...89H",
+				"reference":"Helou et al. (1991)",
+				"secondary":true,
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"12"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"bibcode":"1989A&AS...81..421B",
+				"reference":"Barbon, Cappellaro, & Turatto (1989)",
+				"secondary":true,
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"13"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2001cw",
-				"source":"1,4,5,6,7,8"
+				"source":"2,7,8,9,11,12,13"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,3,4,5,6,7,8"
+				"source":"2,5,7,8,9,11,13"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"2640",
+				"u_value":"Mpc",
+				"source":"4,12"
 			}
 		],
 		"dec":[
 			{
 				"value":"+29:39:31.9",
 				"u_value":"degrees",
-				"source":"1,2,4,6,7,8"
+				"source":"2,6,7,9,11,13"
 			},
 			{
 				"value":"+29:39:31.90",
 				"u_value":"degrees",
-				"source":"5"
+				"source":"8"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2001/05/20",
-				"source":"4,5,6,7,8"
+				"source":"2,7,8,9,13"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"SCP",
-				"source":"4"
+				"source":"13"
 			},
 			{
 				"value":"High Z Supernova Search",
-				"source":"6,7"
+				"source":"7,9"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.02",
+				"derived":true,
+				"e_value":"0.0006",
+				"source":"3,10"
 			}
 		],
 		"host":[
 			{
 				"value":"A152306+2939",
-				"source":"4"
+				"source":"13"
+			},
+			{
+				"value":"SCP J152306.31+293931.9",
+				"source":"4,12"
+			}
+		],
+		"hostcomovingdist":[
+			{
+				"value":"3200",
+				"derived":true,
+				"source":"1,2,10,13"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+29:39:31",
 				"u_value":"degrees",
-				"source":"4"
+				"source":"13"
 			},
 			{
 				"value":"+29:39:31.0",
 				"u_value":"degrees",
-				"source":"8"
+				"source":"2"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"6210",
+				"derived":true,
+				"source":"1,2,10,13"
+			}
+		],
+		"hostoffsetang":[
+			{
+				"value":"4.14",
+				"derived":true,
+				"u_value":"arcseconds",
+				"source":"2,6,7,8,9,10,11,13"
+			}
+		],
+		"hostoffsetdist":[
+			{
+				"value":"27.1",
+				"source":"2,4,6,7,8,9,10,11,12,13"
 			}
 		],
 		"hostra":[
 			{
 				"value":"15:23:06",
 				"u_value":"hours",
-				"source":"4"
+				"source":"13"
 			},
 			{
 				"value":"15:23:06.00",
 				"u_value":"hours",
-				"source":"8"
+				"source":"2"
 			}
 		],
 		"hostredshift":[
 			{
 				"value":"0.93",
-				"source":"4,8"
+				"source":"2,13"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"170000",
+				"source":"10"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"6401",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,4,10,12"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-19",
+				"derived":true,
+				"source":"1,4,10,12"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"24.3",
+				"derived":true,
+				"source":"7,9,10"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2001/05/19",
+				"derived":true,
+				"source":"7,9,10"
+			}
+		],
+		"maxvisualabsmag":[
+			{
+				"value":"-19.73",
+				"derived":true,
+				"source":"1,4,10,12"
+			}
+		],
+		"maxvisualappmag":[
+			{
+				"value":"24.3",
+				"derived":true,
+				"source":"7,9,10"
+			}
+		],
+		"maxvisualdate":[
+			{
+				"value":"2001/05/19",
+				"derived":true,
+				"source":"7,9,10"
 			}
 		],
 		"ra":[
 			{
 				"value":"15:23:06.31",
 				"u_value":"hours",
-				"source":"1,2,4,5,6,7,8"
+				"source":"2,6,7,8,9,11,13"
 			}
 		],
 		"redshift":[
 			{
-				"value":"0.93",
-				"kind":"host",
-				"source":"4,8"
-			},
+				"value":"0.953",
+				"source":"4,12"
+			}
+		],
+		"velocity":[
 			{
-				"value":"0.93",
-				"source":"6,7"
+				"value":"175000",
+				"u_value":"km/s",
+				"source":"10"
 			}
 		],
 		"photometry":[
@@ -146,7 +294,7 @@
 				"time":"52048.5",
 				"magnitude":"24.3",
 				"u_time":"MJD",
-				"source":"6,7"
+				"source":"7,9"
 			}
 		]
 	}

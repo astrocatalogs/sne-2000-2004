@@ -4,27 +4,66 @@
 		"name":"SNLS-03D3ce",
 		"sources":[
 			{
-				"bibcode":"2006ApJ...645..841N",
+				"name":"2016A&A...594A..13P",
+				"bibcode":"2016A&A...594A..13P",
+				"reference":"Planck Collaboration et al. (2016)",
 				"alias":"1"
+			},
+			{
+				"name":"2006ApJ...645..841N",
+				"bibcode":"2006ApJ...645..841N",
+				"reference":"Nugent et al. (2006)",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"reference":"Guillochon et al. (2017)",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
 			}
 		],
 		"alias":[
 			{
 				"value":"SNLS-03D3ce",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"comovingdist":[
+			{
+				"value":"1187",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/07/01",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"1528.6",
+				"derived":true,
+				"u_value":"Mpc",
+				"source":"1,2,3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.2881",
 				"kind":"spectroscopic",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"74320",
+				"u_value":"km/s",
+				"source":"3"
 			}
 		],
 		"photometry":[
@@ -41,22 +80,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"32.199",
-				"source":"1"
-			},
-			{
-				"time":"52721.6",
-				"band":"r",
-				"countrate":"-290.328",
-				"e_countrate":"362.730",
-				"e_upper_magnitude":"0.3123475",
-				"magnitude":"24.47324",
-				"survey":"SNLS",
-				"telescope":"CFHT",
-				"u_time":"s^-1",
-				"upperlimit":true,
-				"upperlimitsigma":"3.0",
-				"zeropoint":"32.065",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52721.6",
@@ -71,7 +95,22 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"32.440",
-				"source":"1"
+				"source":"2"
+			},
+			{
+				"time":"52721.6",
+				"band":"r",
+				"countrate":"-290.328",
+				"e_countrate":"362.730",
+				"e_upper_magnitude":"0.3123475",
+				"magnitude":"24.47324",
+				"survey":"SNLS",
+				"telescope":"CFHT",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"32.065",
+				"source":"2"
 			},
 			{
 				"time":"52722.6",
@@ -86,7 +125,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"32.440",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52723.6",
@@ -101,7 +140,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"32.199",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52730.4",
@@ -116,22 +155,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"32.199",
-				"source":"1"
-			},
-			{
-				"time":"52730.5",
-				"band":"r",
-				"countrate":"-477.001",
-				"e_countrate":"285.286",
-				"e_upper_magnitude":"0.3123475",
-				"magnitude":"24.73400",
-				"survey":"SNLS",
-				"telescope":"CFHT",
-				"u_time":"s^-1",
-				"upperlimit":true,
-				"upperlimitsigma":"3.0",
-				"zeropoint":"32.065",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52730.5",
@@ -146,7 +170,22 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"32.440",
-				"source":"1"
+				"source":"2"
+			},
+			{
+				"time":"52730.5",
+				"band":"r",
+				"countrate":"-477.001",
+				"e_countrate":"285.286",
+				"e_upper_magnitude":"0.3123475",
+				"magnitude":"24.73400",
+				"survey":"SNLS",
+				"telescope":"CFHT",
+				"u_time":"s^-1",
+				"upperlimit":true,
+				"upperlimitsigma":"3.0",
+				"zeropoint":"32.065",
+				"source":"2"
 			},
 			{
 				"time":"52753.5",
@@ -161,7 +200,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"32.199",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52755.5",
@@ -176,7 +215,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"32.065",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52758.4",
@@ -191,7 +230,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"32.199",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52759.5",
@@ -206,7 +245,7 @@
 				"upperlimit":true,
 				"upperlimitsigma":"3.0",
 				"zeropoint":"32.065",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52783.5",
@@ -220,7 +259,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.199",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52784.4",
@@ -234,7 +273,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.065",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52785.4",
@@ -248,7 +287,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.440",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52787.5",
@@ -262,7 +301,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.199",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52792.3",
@@ -276,21 +315,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.199",
-				"source":"1"
-			},
-			{
-				"time":"52792.4",
-				"band":"r",
-				"countrate":"3352.767",
-				"e_countrate":"261.937",
-				"e_lower_magnitude":"0.0883200",
-				"e_upper_magnitude":"0.0816750",
-				"magnitude":"23.25149",
-				"survey":"SNLS",
-				"telescope":"CFHT",
-				"u_time":"s^-1",
-				"zeropoint":"32.065",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52792.4",
@@ -304,7 +329,21 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.440",
-				"source":"1"
+				"source":"2"
+			},
+			{
+				"time":"52792.4",
+				"band":"r",
+				"countrate":"3352.767",
+				"e_countrate":"261.937",
+				"e_lower_magnitude":"0.0883200",
+				"e_upper_magnitude":"0.0816750",
+				"magnitude":"23.25149",
+				"survey":"SNLS",
+				"telescope":"CFHT",
+				"u_time":"s^-1",
+				"zeropoint":"32.065",
+				"source":"2"
 			},
 			{
 				"time":"52796.5",
@@ -318,7 +357,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.199",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52812.4",
@@ -332,7 +371,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.199",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52813.3",
@@ -346,7 +385,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.440",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52813.4",
@@ -360,7 +399,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.065",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52816.4",
@@ -374,7 +413,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.199",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52817.3",
@@ -388,7 +427,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.440",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52817.3",
@@ -402,7 +441,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.065",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52820.3",
@@ -416,7 +455,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.199",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"time":"52824.3",
@@ -430,7 +469,7 @@
 				"telescope":"CFHT",
 				"u_time":"s^-1",
 				"zeropoint":"32.199",
-				"source":"1"
+				"source":"2"
 			}
 		]
 	}
