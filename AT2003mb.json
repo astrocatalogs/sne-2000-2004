@@ -17,7 +17,7 @@
 			},
 			{
 				"name":"Transient Name Server",
-				"url":"https://wis-tns.weizmann.ac.il/object/2003mb",
+				"url":"https://wis-tns.weizmann.ac.il/",
 				"alias":"3"
 			},
 			{
@@ -56,7 +56,7 @@
 				"value":"286.08",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,3,4,5"
+				"source":"1,3,5"
 			}
 		],
 		"dec":[
@@ -92,19 +92,45 @@
 				"source":"3,4"
 			}
 		],
+		"hostcomovingdist":[
+			{
+				"value":"286.08",
+				"derived":true,
+				"source":"1,3,5"
+			}
+		],
+		"hostlumdist":[
+			{
+				"value":"304.858",
+				"derived":true,
+				"source":"1,3,5"
+			}
+		],
+		"hostredshift":[
+			{
+				"value":"0.065652",
+				"source":"3"
+			}
+		],
+		"hostvelocity":[
+			{
+				"value":"19037",
+				"source":"5"
+			}
+		],
 		"lumdist":[
 			{
 				"value":"304.858",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,3,4,5"
+				"source":"1,3,5"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-19.4515",
 				"derived":true,
-				"source":"1,3,4,5"
+				"source":"1,3,5"
 			}
 		],
 		"maxappmag":[
@@ -125,7 +151,7 @@
 			{
 				"value":"-19.5205",
 				"derived":true,
-				"source":"1,3,4,5"
+				"source":"1,3,5"
 			}
 		],
 		"maxvisualappmag":[
@@ -144,12 +170,22 @@
 		],
 		"ra":[
 			{
+				"value":"12:59:30.923",
+				"u_value":"hours",
+				"source":"3"
+			},
+			{
 				"value":"12:59:30.920",
 				"u_value":"hours",
 				"source":"3,4"
 			}
 		],
 		"redshift":[
+			{
+				"value":"0.065652",
+				"kind":"host",
+				"source":"3"
+			},
 			{
 				"value":"0.065652",
 				"source":"3,4"
