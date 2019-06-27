@@ -15,24 +15,30 @@
 				"alias":"2"
 			},
 			{
+				"name":"Latest Supernovae",
+				"secondary":true,
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"3"
+				"alias":"4"
 			}
 		],
 		"alias":[
 			{
 				"value":"AT2001kz",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Candidate",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"comovingdist":[
@@ -40,14 +46,14 @@
 				"value":"230",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,4"
 			}
 		],
 		"dec":[
 			{
 				"value":"-00:58:58.08",
 				"u_value":"degrees",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"discoverdate":[
@@ -60,6 +66,10 @@
 			{
 				"value":"None",
 				"source":"2"
+			},
+			{
+				"value":"Galaxy Zoo",
+				"source":"2,3"
 			}
 		],
 		"host":[
@@ -72,7 +82,7 @@
 			{
 				"value":"230",
 				"derived":true,
-				"source":"1,2,3"
+				"source":"1,2,4"
 			}
 		],
 		"hostdec":[
@@ -80,14 +90,14 @@
 				"value":"-00:59:02.2",
 				"derived":true,
 				"u_value":"degrees",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"hostlumdist":[
 			{
 				"value":"239",
 				"derived":true,
-				"source":"1,2,3"
+				"source":"1,2,4"
 			}
 		],
 		"hostoffsetang":[
@@ -95,13 +105,13 @@
 				"value":"4.12",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"2,3"
+				"source":"2,3,4"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"4.37",
-				"source":"1,2,3"
+				"source":"1,2,3,4"
 			}
 		],
 		"hostra":[
@@ -109,7 +119,7 @@
 				"value":"14:23:54.05",
 				"derived":true,
 				"u_value":"hours",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"hostredshift":[
@@ -121,7 +131,7 @@
 		"hostvelocity":[
 			{
 				"value":"15000",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"lumdist":[
@@ -129,14 +139,56 @@
 				"value":"239",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,2,3"
+				"source":"1,2,4"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-17.7",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"19.1",
+				"derived":true,
+				"source":"2,3,4"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2001/05/23",
+				"derived":true,
+				"source":"2,3,4"
+			}
+		],
+		"maxvisualabsmag":[
+			{
+				"value":"-17.8",
+				"derived":true,
+				"source":"1,2,4"
+			}
+		],
+		"maxvisualappmag":[
+			{
+				"value":"19.1",
+				"derived":true,
+				"source":"2,3,4"
+			}
+		],
+		"maxvisualdate":[
+			{
+				"value":"2001/05/23",
+				"derived":true,
+				"source":"2,3,4"
 			}
 		],
 		"ra":[
 			{
 				"value":"14:23:54.048",
 				"u_value":"hours",
-				"source":"2"
+				"source":"2,3"
 			}
 		],
 		"redshift":[
@@ -144,13 +196,25 @@
 				"value":"0.052",
 				"kind":"host",
 				"source":"2"
+			},
+			{
+				"value":"0.052",
+				"source":"2,3"
 			}
 		],
 		"velocity":[
 			{
 				"value":"15000",
 				"u_value":"km/s",
-				"source":"3"
+				"source":"4"
+			}
+		],
+		"photometry":[
+			{
+				"time":"52052.5",
+				"magnitude":"19.1",
+				"u_time":"MJD",
+				"source":"2,3"
 			}
 		]
 	}
