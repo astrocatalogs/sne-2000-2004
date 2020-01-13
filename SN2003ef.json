@@ -71,17 +71,22 @@
 				"alias":"11"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://wis-tns.weizmann.ac.il/",
+				"alias":"12"
+			},
+			{
 				"name":"CfA Supernova Archive",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
 				"secondary":true,
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"12"
+				"alias":"13"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"13"
+				"alias":"14"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -89,7 +94,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"14"
+				"alias":"15"
 			},
 			{
 				"name":"WISeREP",
@@ -97,7 +102,7 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"15"
+				"alias":"16"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -105,7 +110,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"16"
+				"alias":"17"
 			},
 			{
 				"name":"NED-D v13.1.0",
@@ -113,7 +118,7 @@
 				"reference":"Helou et al. (1991)",
 				"secondary":true,
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"17"
+				"alias":"18"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -121,52 +126,52 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"18"
+				"alias":"19"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2003ef",
-				"source":"1,2,4,6,11,12,13,15,16,17,18"
+				"source":"1,2,4,6,11,12,13,14,16,17,18,19"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"II P",
-				"source":"2,15"
+				"source":"2,16"
 			},
 			{
 				"value":"II",
-				"source":"6,9,11,13,16,18"
+				"source":"6,9,11,12,14,17,19"
 			}
 		],
 		"comovingdist":[
 			{
 				"value":"38.7",
 				"u_value":"Mpc",
-				"source":"8,17"
+				"source":"8,18"
 			},
 			{
 				"value":"59.4",
 				"u_value":"Mpc",
-				"source":"5,17"
+				"source":"5,18"
 			},
 			{
 				"value":"61.9",
 				"u_value":"Mpc",
-				"source":"5,17"
+				"source":"5,18"
 			},
 			{
 				"value":"74.4",
 				"u_value":"Mpc",
-				"source":"8,17"
+				"source":"8,18"
 			}
 		],
 		"dec":[
 			{
 				"value":"-11:05:29.5",
 				"u_value":"degrees",
-				"source":"6,10,16,18"
+				"source":"6,10,17,19"
 			},
 			{
 				"value":"-11:05:29.4",
@@ -174,21 +179,26 @@
 				"source":"2"
 			},
 			{
+				"value":"-11:05:29.51",
+				"u_value":"degrees",
+				"source":"12"
+			},
+			{
 				"value":"-11:05:29.59",
 				"u_value":"degrees",
-				"source":"11,13"
+				"source":"11,14"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/05/11",
-				"source":"6,11,13,18"
+				"source":"6,11,14,19"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOTOSS",
-				"source":"11,13,18"
+				"source":"11,14,19"
 			}
 		],
 		"ebv":[
@@ -196,27 +206,27 @@
 				"value":"0.0396",
 				"derived":true,
 				"e_value":"0.0003",
-				"source":"7,14"
+				"source":"7,15"
 			}
 		],
 		"host":[
 			{
 				"value":"NGC 4708",
-				"source":"2,5,6,8,11,13,17,18"
+				"source":"2,5,6,8,11,12,14,18,19"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"62",
 				"derived":true,
-				"source":"3,6,14"
+				"source":"3,6,15"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-11:05:36",
 				"u_value":"degrees",
-				"source":"18"
+				"source":"19"
 			},
 			{
 				"value":"-11:05:34.8",
@@ -228,7 +238,7 @@
 			{
 				"value":"62.6",
 				"derived":true,
-				"source":"3,6,14"
+				"source":"3,6,15"
 			}
 		],
 		"hostoffsetang":[
@@ -236,20 +246,20 @@
 				"value":"19.51",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"6,10,14,16,18"
+				"source":"6,10,15,17,19"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"3.607",
-				"source":"2,6,8,10,14,16,17,18"
+				"source":"2,6,8,10,15,17,18,19"
 			}
 		],
 		"hostra":[
 			{
 				"value":"12:49:41",
 				"u_value":"hours",
-				"source":"18"
+				"source":"19"
 			},
 			{
 				"value":"12:49:41.49",
@@ -267,7 +277,7 @@
 			{
 				"value":"4107",
 				"kind":"host",
-				"source":"18"
+				"source":"19"
 			}
 		],
 		"lumdist":[
@@ -283,56 +293,56 @@
 			{
 				"value":"-16.7",
 				"derived":true,
-				"source":"6,14"
+				"source":"6,15"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"16.2",
 				"derived":true,
-				"source":"11,13,14"
+				"source":"11,14,15"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/05/10",
 				"derived":true,
-				"source":"11,13,14"
+				"source":"11,14,15"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-14.9",
 				"derived":true,
-				"source":"6,14"
+				"source":"6,15"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"17.96",
 				"derived":true,
-				"source":"2,14"
+				"source":"2,15"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"2,14"
+				"source":"2,15"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2003/05/13",
 				"derived":true,
-				"source":"2,14"
+				"source":"2,15"
 			}
 		],
 		"ra":[
 			{
 				"value":"12:49:42.25",
 				"u_value":"hours",
-				"source":"6,10,16,18"
+				"source":"6,10,17,19"
 			},
 			{
 				"value":"12:49:42.24",
@@ -340,9 +350,14 @@
 				"source":"2"
 			},
 			{
+				"value":"12:49:42.250",
+				"u_value":"hours",
+				"source":"12"
+			},
+			{
 				"value":"12:49:42.258",
 				"u_value":"hours",
-				"source":"11,13"
+				"source":"11,14"
 			}
 		],
 		"redshift":[
@@ -364,7 +379,7 @@
 				"value":"4107",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"18"
+				"source":"19"
 			}
 		],
 		"photometry":[
@@ -372,7 +387,7 @@
 				"time":"52769.5",
 				"magnitude":"16.2",
 				"u_time":"MJD",
-				"source":"11,13"
+				"source":"11,14"
 			},
 			{
 				"time":"52772.2",
@@ -48092,7 +48107,7 @@
 						"1.1451e-16"
 					]
 				],
-				"source":"12"
+				"source":"13"
 			}
 		]
 	}
