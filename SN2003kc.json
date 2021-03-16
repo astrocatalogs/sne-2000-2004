@@ -89,23 +89,28 @@
 				"alias":"14"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://www.wis-tns.org/",
+				"alias":"15"
+			},
+			{
 				"name":"CfA Supernova Archive",
 				"acknowledgment":"This research has made use of the CfA Supernova Archive, which is funded in part by the National Science Foundation through grant AST 0907903.",
 				"secondary":true,
 				"url":"https://www.cfa.harvard.edu/supernova/SNarchive.html",
-				"alias":"15"
+				"alias":"16"
 			},
 			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"16"
+				"alias":"17"
 			},
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"secondary":true,
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"17"
+				"alias":"18"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -113,7 +118,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"18"
+				"alias":"19"
 			},
 			{
 				"name":"WISeREP",
@@ -121,7 +126,7 @@
 				"reference":"Yaron & Gal-Yam (2012)",
 				"secondary":true,
 				"url":"http://wiserep.weizmann.ac.il/",
-				"alias":"19"
+				"alias":"20"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -129,7 +134,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"20"
+				"alias":"21"
 			},
 			{
 				"name":"NED-D v13.1.0",
@@ -137,7 +142,7 @@
 				"reference":"Helou et al. (1991)",
 				"secondary":true,
 				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
-				"alias":"21"
+				"alias":"22"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -145,19 +150,19 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"22"
+				"alias":"23"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2003kc",
-				"source":"5,6,7,14,15,16,17,19,20,21,22"
+				"source":"5,6,7,14,15,16,17,18,20,21,22,23"
 			}
 		],
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"5,7,11,14,16,20,22"
+				"source":"5,7,11,14,15,17,21,23"
 			},
 			{
 				"value":"Ia-HV",
@@ -168,36 +173,41 @@
 			{
 				"value":"102",
 				"u_value":"Mpc",
-				"source":"9,21"
+				"source":"9,22"
 			},
 			{
 				"value":"134",
 				"u_value":"Mpc",
-				"source":"2,21"
+				"source":"2,22"
 			},
 			{
 				"value":"137",
 				"u_value":"Mpc",
-				"source":"2,21"
+				"source":"2,22"
 			}
 		],
 		"dec":[
 			{
 				"value":"+30:39:19.0",
 				"u_value":"degrees",
-				"source":"7,13,14,16,20,22"
+				"source":"7,13,14,17,21,23"
+			},
+			{
+				"value":"+30:39:19.01",
+				"u_value":"degrees",
+				"source":"15"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2003/11/21",
-				"source":"5,7,14,16,22"
+				"source":"5,7,14,15,17,23"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOSS",
-				"source":"14,16,22"
+				"source":"14,17,23"
 			}
 		],
 		"ebv":[
@@ -205,13 +215,13 @@
 				"value":"0.0163",
 				"derived":true,
 				"e_value":"0.001",
-				"source":"8,18"
+				"source":"8,19"
 			}
 		],
 		"host":[
 			{
 				"value":"MCG +05-23-37",
-				"source":"5,14,16,22"
+				"source":"5,14,15,17,23"
 			},
 			{
 				"value":"PGC 28061",
@@ -219,21 +229,21 @@
 			},
 			{
 				"value":"CGCG 152-068",
-				"source":"2,3,4,9,21"
+				"source":"2,3,4,9,22"
 			}
 		],
 		"hostcomovingdist":[
 			{
 				"value":"140",
 				"derived":true,
-				"source":"1,7,18"
+				"source":"1,7,19"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"+30:39:10",
 				"u_value":"degrees",
-				"source":"22"
+				"source":"23"
 			},
 			{
 				"value":"+30:39:11.2",
@@ -245,7 +255,7 @@
 			{
 				"value":"150",
 				"derived":true,
-				"source":"1,7,18"
+				"source":"1,7,19"
 			}
 		],
 		"hostoffsetang":[
@@ -253,20 +263,20 @@
 				"value":"12.57",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"7,13,14,16,18,20,22"
+				"source":"7,13,14,17,19,21,23"
 			}
 		],
 		"hostoffsetdist":[
 			{
 				"value":"6.015",
-				"source":"5,7,9,13,14,16,18,20,21,22"
+				"source":"5,7,9,13,14,17,19,21,22,23"
 			}
 		],
 		"hostra":[
 			{
 				"value":"09:46:35",
 				"u_value":"hours",
-				"source":"22"
+				"source":"23"
 			},
 			{
 				"value":"09:46:34.73",
@@ -284,7 +294,7 @@
 			{
 				"value":"9943",
 				"kind":"host",
-				"source":"22"
+				"source":"23"
 			}
 		],
 		"lumdist":[
@@ -292,70 +302,75 @@
 				"value":"151.42",
 				"derived":true,
 				"u_value":"Mpc",
-				"source":"1,5,18"
+				"source":"1,5,19"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-18.865",
 				"derived":true,
-				"source":"1,5,18"
+				"source":"1,5,19"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17",
 				"derived":true,
-				"source":"10,17,18"
+				"source":"10,18,19"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"10,17,18"
+				"source":"10,18,19"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2003/12/09",
 				"derived":true,
-				"source":"10,17,18"
+				"source":"10,18,19"
 			}
 		],
 		"maxvisualabsmag":[
 			{
 				"value":"-18.391",
 				"derived":true,
-				"source":"1,5,18"
+				"source":"1,5,19"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"17.51",
 				"derived":true,
-				"source":"10,17,18"
+				"source":"10,18,19"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"B",
 				"derived":true,
-				"source":"10,17,18"
+				"source":"10,18,19"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2003/12/11",
 				"derived":true,
-				"source":"10,17,18"
+				"source":"10,18,19"
 			}
 		],
 		"ra":[
 			{
 				"value":"09:46:34.32",
 				"u_value":"hours",
-				"source":"7,13,14,16,20,22"
+				"source":"7,13,14,17,21,23"
+			},
+			{
+				"value":"09:46:34.320",
+				"u_value":"hours",
+				"source":"15"
 			}
 		],
 		"redshift":[
@@ -370,7 +385,7 @@
 				"value":"9943",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"22"
+				"source":"23"
 			}
 		],
 		"photometry":[
@@ -378,7 +393,7 @@
 				"time":"52963.5",
 				"magnitude":"18.1",
 				"u_time":"MJD",
-				"source":"14,16"
+				"source":"14,17"
 			},
 			{
 				"time":"52974.96459",
@@ -386,7 +401,7 @@
 				"e_magnitude":"0.059",
 				"magnitude":"17.173",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52978.96902",
@@ -394,7 +409,7 @@
 				"e_magnitude":"0.057",
 				"magnitude":"17.374",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52982.93146",
@@ -402,7 +417,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"17.103",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52982.93394",
@@ -410,7 +425,7 @@
 				"e_magnitude":"0.02",
 				"magnitude":"17.003",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52983.99728",
@@ -418,7 +433,7 @@
 				"e_magnitude":"0.018",
 				"magnitude":"17.154",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52984.00155",
@@ -426,7 +441,7 @@
 				"e_magnitude":"0.039",
 				"magnitude":"17.483",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52984.0034",
@@ -434,7 +449,7 @@
 				"e_magnitude":"0.041",
 				"magnitude":"17.514",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52988.93069",
@@ -442,7 +457,7 @@
 				"e_magnitude":"0.029",
 				"magnitude":"17.296",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52988.93316",
@@ -450,7 +465,7 @@
 				"e_magnitude":"0.035",
 				"magnitude":"17.414",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52988.93681",
@@ -458,7 +473,7 @@
 				"e_magnitude":"0.077",
 				"magnitude":"17.894",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52992.00568",
@@ -466,7 +481,7 @@
 				"e_magnitude":"0.023",
 				"magnitude":"17.633",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52992.00818",
@@ -474,7 +489,7 @@
 				"e_magnitude":"0.021",
 				"magnitude":"17.565",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52992.01183",
@@ -482,7 +497,7 @@
 				"e_magnitude":"0.032",
 				"magnitude":"18.388",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52992.01503",
@@ -490,7 +505,7 @@
 				"e_magnitude":"0.103",
 				"magnitude":"18.654",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52996.00512",
@@ -498,7 +513,7 @@
 				"e_magnitude":"0.058",
 				"magnitude":"18.109",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52996.00759",
@@ -506,7 +521,7 @@
 				"e_magnitude":"0.031",
 				"magnitude":"17.548",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52998.91365",
@@ -514,7 +529,7 @@
 				"e_magnitude":"0.021",
 				"magnitude":"17.654",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52998.91543",
@@ -522,7 +537,7 @@
 				"e_magnitude":"0.047",
 				"magnitude":"17.769",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"52998.9173",
@@ -530,7 +545,7 @@
 				"e_magnitude":"0.034",
 				"magnitude":"19.178",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53019.0113",
@@ -538,7 +553,7 @@
 				"e_magnitude":"0.063",
 				"magnitude":"19.081",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53019.01378",
@@ -546,7 +561,7 @@
 				"e_magnitude":"0.057",
 				"magnitude":"18.618",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53022.89626",
@@ -554,7 +569,7 @@
 				"e_magnitude":"0.043",
 				"magnitude":"18.84",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53030.92686",
@@ -562,7 +577,7 @@
 				"e_magnitude":"0.051",
 				"magnitude":"19.13",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53034.92591",
@@ -570,7 +585,7 @@
 				"e_magnitude":"0.114",
 				"magnitude":"19.32",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53034.93098",
@@ -578,7 +593,7 @@
 				"e_magnitude":"0.241",
 				"magnitude":"20.199",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53043.85762",
@@ -586,7 +601,7 @@
 				"e_magnitude":"0.121",
 				"magnitude":"19.537",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53043.85948",
@@ -594,7 +609,7 @@
 				"e_magnitude":"0.263",
 				"magnitude":"20.458",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53043.91816",
@@ -602,7 +617,7 @@
 				"e_magnitude":"0.123",
 				"magnitude":"19.566",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53047.84615",
@@ -610,7 +625,7 @@
 				"e_magnitude":"0.082",
 				"magnitude":"19.725",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53047.84862",
@@ -618,7 +633,7 @@
 				"e_magnitude":"0.096",
 				"magnitude":"19.705",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53047.85225",
@@ -626,7 +641,7 @@
 				"e_magnitude":"0.204",
 				"magnitude":"20.66",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53047.85545",
@@ -634,7 +649,7 @@
 				"e_magnitude":"0.284",
 				"magnitude":"20.284",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53052.77133",
@@ -642,7 +657,7 @@
 				"e_magnitude":"0.091",
 				"magnitude":"19.864",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53052.77311",
@@ -650,7 +665,7 @@
 				"e_magnitude":"0.174",
 				"magnitude":"20.132",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53052.77816",
@@ -658,7 +673,7 @@
 				"e_magnitude":"0.198",
 				"magnitude":"20.112",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53084.64269",
@@ -666,7 +681,7 @@
 				"e_magnitude":"0.17",
 				"magnitude":"20.423",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53111.6606",
@@ -674,7 +689,7 @@
 				"e_magnitude":"0.409",
 				"magnitude":"20.69",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53145.68403",
@@ -682,7 +697,7 @@
 				"e_magnitude":"0.353",
 				"magnitude":"21.33",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53145.69331",
@@ -690,7 +705,7 @@
 				"e_magnitude":"0.328",
 				"magnitude":"20.5",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			},
 			{
 				"time":"53174.65683",
@@ -698,7 +713,7 @@
 				"e_magnitude":"0.376",
 				"magnitude":"21.264",
 				"u_time":"MJD",
-				"source":"10,17"
+				"source":"10,18"
 			}
 		],
 		"spectra":[
@@ -27671,7 +27686,7 @@
 						"3.6667408e-17"
 					]
 				],
-				"source":"6,12,15"
+				"source":"6,12,16"
 			},
 			{
 				"time":"52971.53",
@@ -40423,7 +40438,7 @@
 						"2.1054132e-17"
 					]
 				],
-				"source":"6,12,15"
+				"source":"6,12,16"
 			},
 			{
 				"time":"52976.49",
@@ -53175,7 +53190,7 @@
 						"1.8501854e-17"
 					]
 				],
-				"source":"6,12,15"
+				"source":"6,12,16"
 			},
 			{
 				"time":"52992.49",
@@ -65732,7 +65747,7 @@
 						"1.9562898e-17"
 					]
 				],
-				"source":"6,12,15"
+				"source":"6,12,16"
 			},
 			{
 				"time":"52998.51",
@@ -78484,7 +78499,7 @@
 						"1.5201738e-17"
 					]
 				],
-				"source":"6,12,15"
+				"source":"6,12,16"
 			},
 			{
 				"time":"53002.44",
@@ -91236,7 +91251,7 @@
 						"1.2295099e-17"
 					]
 				],
-				"source":"6,12,15"
+				"source":"6,12,16"
 			},
 			{
 				"time":"53022.43",
@@ -104228,7 +104243,7 @@
 						"5.3330278e-18"
 					]
 				],
-				"source":"6,12,15"
+				"source":"6,12,16"
 			}
 		]
 	}

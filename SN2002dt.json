@@ -33,16 +33,21 @@
 				"alias":"5"
 			},
 			{
+				"name":"Transient Name Server",
+				"url":"https://www.wis-tns.org/",
+				"alias":"6"
+			},
+			{
 				"name":"Latest Supernovae",
 				"secondary":true,
 				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
 				"secondary":true,
 				"url":"http://dau.itep.ru/sn/node/72",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -50,7 +55,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"8"
+				"alias":"9"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -58,7 +63,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"9"
+				"alias":"10"
 			},
 			{
 				"name":"Asiago Supernova Catalogue",
@@ -66,17 +71,17 @@
 				"reference":"Barbon, Cappellaro, & Turatto (1989)",
 				"secondary":true,
 				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-				"alias":"10"
+				"alias":"11"
 			}
 		],
 		"alias":[
 			{
 				"value":"SN2002dt",
-				"source":"1,4,6,7,9,10"
+				"source":"1,4,6,7,8,10,11"
 			},
 			{
 				"value":"2MASS J16034730-2244194",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"claimedtype":[
@@ -89,24 +94,29 @@
 			{
 				"value":"-22:44:19.4",
 				"u_value":"degrees",
-				"source":"3,9"
+				"source":"3,10"
 			},
 			{
 				"value":"-22:44:19.5",
 				"u_value":"degrees",
-				"source":"1,4,6,10"
+				"source":"1,4,7,11"
+			},
+			{
+				"value":"-22:44:19.50",
+				"u_value":"degrees",
+				"source":"6"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2002/06/26",
-				"source":"1,4,6,10"
+				"source":"1,4,6,7,11"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"LOTOSS",
-				"source":"4,6,10"
+				"source":"4,7,11"
 			}
 		],
 		"ebv":[
@@ -114,20 +124,20 @@
 				"value":"0.1557",
 				"derived":true,
 				"e_value":"0.0028",
-				"source":"2,8"
+				"source":"2,9"
 			}
 		],
 		"host":[
 			{
 				"value":"ESO 516-G5",
-				"source":"1,4,6,10"
+				"source":"1,4,6,7,11"
 			}
 		],
 		"hostdec":[
 			{
 				"value":"-22:44:07",
 				"u_value":"degrees",
-				"source":"10"
+				"source":"11"
 			},
 			{
 				"value":"-22:44:09.0",
@@ -140,14 +150,14 @@
 				"value":"21.96",
 				"derived":true,
 				"u_value":"arcseconds",
-				"source":"3,8,9,10"
+				"source":"3,9,10,11"
 			}
 		],
 		"hostra":[
 			{
 				"value":"16:03:46",
 				"u_value":"hours",
-				"source":"10"
+				"source":"11"
 			},
 			{
 				"value":"16:03:46.69",
@@ -165,61 +175,66 @@
 			{
 				"value":"7487",
 				"kind":"host",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"17.1",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"5,8,9"
 			}
 		],
 		"maxband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"5,8,9"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2002/07/01",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"5,8,9"
 			}
 		],
 		"maxvisualappmag":[
 			{
 				"value":"17.1",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"5,8,9"
 			}
 		],
 		"maxvisualband":[
 			{
 				"value":"R",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"5,8,9"
 			}
 		],
 		"maxvisualdate":[
 			{
 				"value":"2002/07/01",
 				"derived":true,
-				"source":"5,7,8"
+				"source":"5,8,9"
 			}
 		],
 		"ra":[
 			{
 				"value":"16:03:47.31",
 				"u_value":"hours",
-				"source":"3,9"
+				"source":"3,10"
 			},
 			{
 				"value":"16:03:47.30",
 				"u_value":"hours",
-				"source":"1,4,6,10"
+				"source":"1,4,7,11"
+			},
+			{
+				"value":"16:03:47.299",
+				"u_value":"hours",
+				"source":"6"
 			}
 		],
 		"redshift":[
@@ -234,7 +249,7 @@
 				"value":"7487",
 				"kind":"host",
 				"u_value":"km/s",
-				"source":"10"
+				"source":"11"
 			}
 		],
 		"photometry":[
@@ -243,21 +258,21 @@
 				"band":"C",
 				"magnitude":"18.5",
 				"u_time":"MJD",
-				"source":"5,7"
+				"source":"5,8"
 			},
 			{
 				"time":"52452.3",
 				"band":"C",
 				"magnitude":"18.5",
 				"u_time":"MJD",
-				"source":"5,7"
+				"source":"5,8"
 			},
 			{
 				"time":"52456.18",
 				"band":"R",
 				"magnitude":"17.1",
 				"u_time":"MJD",
-				"source":"5,7"
+				"source":"5,8"
 			}
 		]
 	}
